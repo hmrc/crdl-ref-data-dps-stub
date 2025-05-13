@@ -14,13 +14,23 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlrefdatadpsstub.config
+package uk.gov.hmrc.crdlrefdatadpsstub.controllers
 
-import javax.inject.{Inject, Singleton}
-import play.api.Configuration
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
+import play.api.http.Status
+import play.api.test.Helpers._
+import play.api.test.{FakeRequest, Helpers}
 
-@Singleton
-class AppConfig @Inject() (config: Configuration) {
+class CodeListsControllerSpec extends AnyWordSpec with Matchers {
 
-  val appName: String = config.get[String]("appName")
+  private val fakeRequest = FakeRequest("GET", "/")
+  private val controller  = new CodeListsController(Helpers.stubControllerComponents())
+
+  "GET /" should {
+    "return 200" in {
+      val result = controller.hello()(fakeRequest)
+      status(result) shouldBe Status.OK
+    }
+  }
 }
