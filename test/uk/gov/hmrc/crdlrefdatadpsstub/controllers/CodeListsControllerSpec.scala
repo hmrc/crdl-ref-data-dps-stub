@@ -34,7 +34,7 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
       status(result) shouldBe Status.OK
     }
 
-    "return 400 on an invalid codeListCode" in {
+    "return 400 for an invalid codeListCode" in {
       val result = controller.getCodeListData(Some("Test"))(fakeRequest)
       status(result) shouldBe Status.BAD_REQUEST
     }
@@ -57,7 +57,7 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
       )
     }
 
-    "throw and exception when JSON file is missing for a valid TESTONLY codeListCode" in {
+    "throw an exception when JSON file is missing for a valid TESTONLY codeListCode" in {
       an[RuntimeException] mustBe thrownBy(
         controller.getCodeListData(Some("TESTONLY"))(fakeRequest)
       )
