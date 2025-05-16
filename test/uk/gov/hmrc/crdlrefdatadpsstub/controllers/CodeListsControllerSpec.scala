@@ -19,7 +19,8 @@ package uk.gov.hmrc.crdlrefdatadpsstub.controllers
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 import play.api.http.Status
-import play.api.test.Helpers._
+import play.api.libs.json.JsValue
+import play.api.test.Helpers.*
 import play.api.test.{FakeRequest, Helpers}
 
 class CodeListsControllerSpec extends AnyWordSpec with Matchers {
@@ -28,9 +29,38 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
   private val controller  = new CodeListsController(Helpers.stubControllerComponents())
 
   "GET /" should {
-    "return 200" in {
-      val result = controller.hello()(fakeRequest)
+    "return 200 for a valid codeListCode" in {
+      val result = controller.getCodeListData(Some("BC08"))(fakeRequest)
       status(result) shouldBe Status.OK
+    }
+
+    "return 400 on an invalid codeListCode" in {
+      val result = controller.getCodeListData(Some("Test"))(fakeRequest)
+      status(result) shouldBe Status.BAD_REQUEST
+    }
+
+    "return 400 on missing codeListCode parameter" in {
+      val result = controller.getCodeListData(None)(fakeRequest)
+      status(result) shouldBe Status.BAD_REQUEST
+    }
+
+    "throw an exception when JSON file is missing for a valid codeListCode" in {
+      class FailingCodeListsController extends CodeListsController(stubControllerComponents()) {
+        override def fetchJsonResponse(path: String): JsValue = {
+          throw new RuntimeException(s"Simulated missing file: $path")
+        }
+      }
+      val failingController = new FailingCodeListsController
+
+      an[RuntimeException] mustBe thrownBy(
+        failingController.getCodeListData(Some("BC08"))(fakeRequest)
+      )
+    }
+
+    "throw and exception when JSON file is missing for a valid TESTONLY codeListCode" in {
+      an[RuntimeException] mustBe thrownBy(
+        controller.getCodeListData(Some("TESTONLY"))(fakeRequest)
+      )
     }
   }
 }

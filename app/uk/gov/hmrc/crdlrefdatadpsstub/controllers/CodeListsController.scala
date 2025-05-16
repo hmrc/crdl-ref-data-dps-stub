@@ -16,15 +16,49 @@
 
 package uk.gov.hmrc.crdlrefdatadpsstub.controllers
 
+import play.api.libs.json.{JsValue, Json}
 import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 import play.api.mvc.{Action, AnyContent, ControllerComponents}
+import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode
+
 import javax.inject.{Inject, Singleton}
 import scala.concurrent.Future
+import scala.io.Source
+import scala.util.{Try, Success, Failure}
 
 @Singleton()
 class CodeListsController @Inject() (cc: ControllerComponents) extends BackendController(cc) {
 
-  def hello(): Action[AnyContent] = Action.async { implicit request =>
-    Future.successful(Ok("Hello world"))
+  def getCodeListData(codeListCode: Option[String]): Action[AnyContent] = Action.async {
+    implicit request =>
+      codeListCode match {
+        case Some(codeListCode) =>
+          CodeListCode.fromString(codeListCode) match {
+            case Some(codeListCode) =>
+              val filePath = s"conf/resources/$codeListCode.json"
+              Future.successful(Ok(fetchJsonResponse(filePath)))
+            case None => Future.successful(BadRequest(s"Invalid code_list_code $codeListCode"))
+          }
+        case None => Future.successful(BadRequest(s"code_list_code parameter is missing"))
+      }
+
   }
+
+  private[controllers] def fetchJsonResponse(path: String): JsValue = {
+    val tryJsonCodelist = Try {
+      val sourcedFile = Source.fromFile(path)
+      try {
+        Json.parse(sourcedFile.mkString)
+      } finally {
+        sourcedFile.close()
+      }
+    }
+
+    tryJsonCodelist match {
+      case Success(jsonCodeList) => jsonCodeList
+      case Failure(exception) =>
+        throw new RuntimeException(s"Failed to read or parse JSON file at $path: $exception")
+    }
+  }
+
 }
