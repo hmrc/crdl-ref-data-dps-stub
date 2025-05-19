@@ -14,16 +14,18 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlrefdatadpsstub.config
+package uk.gov.hmrc.crdlrefdatadpsstub.service
 
-import com.google.inject.AbstractModule
-import uk.gov.hmrc.crdlrefdatadpsstub.service.{DefaultFileReader, FileReader}
+import scala.io.Source
 
-class Module extends AbstractModule {
+trait FileReader {
+  def read(path: String): String
+}
 
-  override def configure(): Unit = {
-
-    bind(classOf[AppConfig]).asEagerSingleton()
-    bind(classOf[FileReader]).to(classOf[DefaultFileReader])
+class DefaultFileReader extends FileReader {
+  override def read(path: String): String = {
+    val source = Source.fromFile(path)
+    try source.mkString
+    finally source.close()
   }
 }

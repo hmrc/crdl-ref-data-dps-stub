@@ -14,16 +14,21 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlrefdatadpsstub.config
+package uk.gov.hmrc.crdlrefdatadpsstub.service
 
-import com.google.inject.AbstractModule
-import uk.gov.hmrc.crdlrefdatadpsstub.service.{DefaultFileReader, FileReader}
+import play.api.libs.json.{JsValue, Json}
 
-class Module extends AbstractModule {
+import javax.inject.Inject
+import scala.util.{Failure, Success, Try}
 
-  override def configure(): Unit = {
+class JsonFileReaderService @Inject() (fileReader: FileReader) {
 
-    bind(classOf[AppConfig]).asEagerSingleton()
-    bind(classOf[FileReader]).to(classOf[DefaultFileReader])
+  def fetchJsonResponse(path: String): JsValue = {
+    Try(Json.parse(fileReader.read(path))) match {
+      case Success(jsonCodeList) => jsonCodeList
+      case Failure(exception) =>
+        throw new RuntimeException(s"Failed to read or parse JSON file at $path: $exception")
+    }
   }
+
 }

@@ -17,9 +17,8 @@
 package uk.gov.hmrc.crdlrefdatadpsstub.models
 
 enum CodeListCode(val codeListCode: String) {
-  case BC08     extends CodeListCode("BC08")
-  case BC36     extends CodeListCode("BC36")
-  case TESTONLY extends CodeListCode("TESTONLY")
+  case BC08 extends CodeListCode("BC08")
+  case BC36 extends CodeListCode("BC36")
 }
 
 object CodeListCode {

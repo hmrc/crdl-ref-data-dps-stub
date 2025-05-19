@@ -16,17 +16,24 @@
 
 package uk.gov.hmrc.crdlrefdatadpsstub.controllers
 
+import org.mockito.Mockito.when
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
+import org.scalatestplus.mockito.MockitoSugar.mock
 import play.api.http.Status
-import play.api.libs.json.JsValue
 import play.api.test.Helpers.*
 import play.api.test.{FakeRequest, Helpers}
+import uk.gov.hmrc.crdlrefdatadpsstub.service.{FileReader, JsonFileReaderService}
 
 class CodeListsControllerSpec extends AnyWordSpec with Matchers {
 
   private val fakeRequest = FakeRequest("GET", "/")
-  private val controller  = new CodeListsController(Helpers.stubControllerComponents())
+  val mockFileReader      = mock[FileReader]
+  val validJson           = """{ "countrycode": "United Kingdom"}"""
+  when(mockFileReader.read("conf/resources/BC08.json")).thenReturn(validJson)
+  val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
+  private val controller =
+    new CodeListsController(jsonFileReaderService, Helpers.stubControllerComponents())
 
   "GET /" should {
     "return 200 for a valid codeListCode" in {
@@ -42,25 +49,6 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
     "return 400 on missing codeListCode parameter" in {
       val result = controller.getCodeListData(None)(fakeRequest)
       status(result) shouldBe Status.BAD_REQUEST
-    }
-
-    "throw an exception when JSON file is missing for a valid codeListCode" in {
-      class FailingCodeListsController extends CodeListsController(stubControllerComponents()) {
-        override def fetchJsonResponse(path: String): JsValue = {
-          throw new RuntimeException(s"Simulated missing file: $path")
-        }
-      }
-      val failingController = new FailingCodeListsController
-
-      an[RuntimeException] mustBe thrownBy(
-        failingController.getCodeListData(Some("BC08"))(fakeRequest)
-      )
-    }
-
-    "throw an exception when JSON file is missing for a valid TESTONLY codeListCode" in {
-      an[RuntimeException] mustBe thrownBy(
-        controller.getCodeListData(Some("TESTONLY"))(fakeRequest)
-      )
     }
   }
 }
