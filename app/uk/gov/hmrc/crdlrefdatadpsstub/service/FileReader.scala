@@ -16,8 +16,11 @@
 
 package uk.gov.hmrc.crdlrefdatadpsstub.service
 
+import com.google.inject.ImplementedBy
+
 import scala.io.Source
 
+@ImplementedBy(classOf[DefaultFileReader])
 trait FileReader {
   def read(path: String): String
 }

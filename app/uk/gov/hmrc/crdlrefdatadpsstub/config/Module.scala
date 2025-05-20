@@ -17,13 +17,11 @@
 package uk.gov.hmrc.crdlrefdatadpsstub.config
 
 import com.google.inject.AbstractModule
-import uk.gov.hmrc.crdlrefdatadpsstub.service.{DefaultFileReader, FileReader}
 
 class Module extends AbstractModule {
 
   override def configure(): Unit = {
 
     bind(classOf[AppConfig]).asEagerSingleton()
-    bind(classOf[FileReader]).to(classOf[DefaultFileReader])
   }
 }
