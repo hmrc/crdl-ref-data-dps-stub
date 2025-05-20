@@ -21,16 +21,18 @@ import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatestplus.mockito.MockitoSugar.mock
 import play.api.libs.json.Json
+import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode.BC08
 
 class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
-  val path = "conf/resources/BC08.json"
+  val codeListCode = BC08
+  val path         = s"conf/resources/$codeListCode.json"
   "JsonFileReaderServiceSpec" should {
     "read and parse JSON" in {
       val validJson      = """{ "countrycode": "United Kingdom"}"""
       val mockFileReader = mock[FileReader]
       when(mockFileReader.read(path)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchJsonResponse(path)
+      val result  = service.fetchJsonResponse(codeListCode)
       result shouldBe Json.parse(validJson)
     }
 
@@ -39,7 +41,7 @@ class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
       when(mockFileReader.read(path)).thenThrow(new RuntimeException("Simulated missing file"))
       val service = new JsonFileReaderService(mockFileReader)
       an[RuntimeException] mustBe thrownBy(
-        service.fetchJsonResponse(path)
+        service.fetchJsonResponse(codeListCode)
       )
     }
   }

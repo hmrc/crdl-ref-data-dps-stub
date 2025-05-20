@@ -17,13 +17,15 @@
 package uk.gov.hmrc.crdlrefdatadpsstub.service
 
 import play.api.libs.json.{JsValue, Json}
+import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode
 
 import javax.inject.Inject
 import scala.util.{Failure, Success, Try}
 
 class JsonFileReaderService @Inject() (fileReader: FileReader) {
 
-  def fetchJsonResponse(path: String): JsValue = {
+  def fetchJsonResponse(codeListCode: CodeListCode): JsValue = {
+    val path = s"conf/resources/$codeListCode.json"
     Try(Json.parse(fileReader.read(path))) match {
       case Success(jsonCodeList) => jsonCodeList
       case Failure(exception) =>

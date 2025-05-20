@@ -36,8 +36,7 @@ class CodeListsController @Inject() (
         case Some(codeListCode) =>
           CodeListCode.fromString(codeListCode) match {
             case Some(codeListCode) =>
-              val filePath = s"conf/resources/$codeListCode.json"
-              Future.successful(Ok(jsonFileReaderService.fetchJsonResponse(filePath)))
+              Future.successful(Ok(jsonFileReaderService.fetchJsonResponse(codeListCode)))
             case None => Future.successful(BadRequest(s"Invalid code_list_code $codeListCode"))
           }
         case None => Future.successful(BadRequest(s"code_list_code parameter is missing"))
