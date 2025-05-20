@@ -1,3 +1,3 @@
 # microservice specific routes
 
-GET        /hello-world             uk.gov.hmrc.crdlrefdatadpsstub.controllers.CodeListsController.hello()
+GET        /iv_crdl_reference_data           uk.gov.hmrc.crdlrefdatadpsstub.controllers.CodeListsController.getCodeListData(code_list_code: Option[String])

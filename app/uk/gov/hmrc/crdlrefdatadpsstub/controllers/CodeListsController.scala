@@ -18,13 +18,30 @@ package uk.gov.hmrc.crdlrefdatadpsstub.controllers
 
 import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 import play.api.mvc.{Action, AnyContent, ControllerComponents}
+import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode
+import uk.gov.hmrc.crdlrefdatadpsstub.service.JsonFileReaderService
+
 import javax.inject.{Inject, Singleton}
 import scala.concurrent.Future
 
 @Singleton()
-class CodeListsController @Inject() (cc: ControllerComponents) extends BackendController(cc) {
+class CodeListsController @Inject() (
+  jsonFileReaderService: JsonFileReaderService,
+  cc: ControllerComponents
+) extends BackendController(cc) {
 
-  def hello(): Action[AnyContent] = Action.async { implicit request =>
-    Future.successful(Ok("Hello world"))
+  def getCodeListData(codeListCode: Option[String]): Action[AnyContent] = Action.async {
+    implicit request =>
+      codeListCode match {
+        case Some(codeListCode) =>
+          CodeListCode.fromString(codeListCode) match {
+            case Some(codeListCode) =>
+              Future.successful(Ok(jsonFileReaderService.fetchJsonResponse(codeListCode)))
+            case None => Future.successful(BadRequest(s"Invalid code_list_code $codeListCode"))
+          }
+        case None => Future.successful(BadRequest(s"code_list_code parameter is missing"))
+      }
+
   }
+
 }
