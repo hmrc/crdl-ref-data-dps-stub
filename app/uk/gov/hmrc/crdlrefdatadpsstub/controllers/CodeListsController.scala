@@ -30,17 +30,27 @@ class CodeListsController @Inject() (
   cc: ControllerComponents
 ) extends BackendController(cc) {
 
-  def getCodeListData(codeListCode: Option[String]): Action[AnyContent] = Action.async {
-    implicit request =>
-      codeListCode match {
-        case Some(codeListCode) =>
-          CodeListCode.fromString(codeListCode) match {
-            case Some(codeListCode) =>
-              Future.successful(Ok(jsonFileReaderService.fetchJsonResponse(codeListCode)))
-            case None => Future.successful(BadRequest(s"Invalid code_list_code $codeListCode"))
-          }
-        case None => Future.successful(BadRequest(s"code_list_code parameter is missing"))
-      }
+  def getCodeListData(
+    codeListCode: Option[CodeListCode],
+    lastUpdatedDate: Option[String],
+    startIndex: Option[Int],
+    count: Option[Int],
+    orderBy: Option[String]
+  ): Action[AnyContent] = Action.async { implicit request =>
+    codeListCode match {
+      case Some(codeListCode) =>
+        (lastUpdatedDate, startIndex) match {
+          case (None, None) =>
+            Future.successful(Ok(jsonFileReaderService.fetchJsonResponse(codeListCode)))
+          case (Some(_), Some(startIndex)) =>
+            Future.successful(
+              Ok(jsonFileReaderService.fetchPaginatedJsonResponse(codeListCode, startIndex))
+            )
+          case _ =>
+            Future.successful(BadRequest("Missing or invalid parameters"))
+        }
+      case None => Future.successful(BadRequest("Missing or invalid code_list_code"))
+    }
 
   }
 

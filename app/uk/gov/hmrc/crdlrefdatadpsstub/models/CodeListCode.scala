@@ -16,12 +16,22 @@
 
 package uk.gov.hmrc.crdlrefdatadpsstub.models
 
+import play.api.mvc.QueryStringBindable
+
 enum CodeListCode(val codeListCode: String) {
   case BC08 extends CodeListCode("BC08")
   case BC36 extends CodeListCode("BC36")
 }
 
 object CodeListCode {
-  def fromString(codeListCode: String): Option[CodeListCode] =
+  private def fromString(codeListCode: String): Option[CodeListCode] =
     CodeListCode.values.find(_.codeListCode == codeListCode)
+
+  given bindable: QueryStringBindable.Parsing[CodeListCode] =
+    new QueryStringBindable.Parsing[CodeListCode](
+      value =>
+        fromString(value).getOrElse(throw new IllegalArgumentException("Unknown code list code")),
+      _.codeListCode,
+      (code, e) => s"Cannot parse parameter $code as CodeListCode: ${e.getMessage}"
+    )
 }

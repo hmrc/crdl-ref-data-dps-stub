@@ -11,7 +11,8 @@ lazy val microservice = Project("crdl-ref-data-dps-stub", file("."))
     // https://www.scala-lang.org/2021/01/12/configuring-and-suppressing-warnings.html
     // suppress warnings in generated routes files
     scalacOptions ++= Seq("-Wconf:src=routes/.*:s", "-Wconf:msg=Flag.*repeatedly:s"),
-    PlayKeys.playDefaultPort := 7253
+    PlayKeys.playDefaultPort := 7253,
+    routesImport += "uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode"
   )
 
 lazy val it = project

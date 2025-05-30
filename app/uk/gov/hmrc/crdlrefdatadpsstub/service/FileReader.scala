@@ -18,10 +18,12 @@ package uk.gov.hmrc.crdlrefdatadpsstub.service
 
 import com.google.inject.ImplementedBy
 
+import java.io.FileNotFoundException
 import scala.io.Source
 
 @ImplementedBy(classOf[DefaultFileReader])
 trait FileReader {
+  @throws[FileNotFoundException]
   def read(path: String): String
 }
 
