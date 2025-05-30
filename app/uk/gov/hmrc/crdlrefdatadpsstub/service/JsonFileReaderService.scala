@@ -19,6 +19,7 @@ package uk.gov.hmrc.crdlrefdatadpsstub.service
 import play.api.libs.json.{JsValue, Json}
 import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode
 
+import java.io.FileNotFoundException
 import javax.inject.Inject
 import scala.util.{Failure, Success, Try}
 
@@ -28,6 +29,19 @@ class JsonFileReaderService @Inject() (fileReader: FileReader) {
     val path = s"conf/resources/$codeListCode.json"
     Try(Json.parse(fileReader.read(path))) match {
       case Success(jsonCodeList) => jsonCodeList
+      case Failure(exception) =>
+        throw new RuntimeException(s"Failed to read or parse JSON file at $path: $exception")
+    }
+  }
+
+  def fetchPaginatedJsonResponse(codeListCode: CodeListCode, startIndex: Int): JsValue = {
+    val pageNumber    = startIndex / 10
+    val path          = s"conf/resources/paginated/${codeListCode}_page$pageNumber.json"
+    val emptyPagePath = "conf/resources/paginated/EmptyPage.json"
+    Try(Json.parse(fileReader.read(path))) match {
+      case Success(jsonCodeList) => jsonCodeList
+      case Failure(notFoundException: FileNotFoundException) =>
+        Json.parse(fileReader.read(emptyPagePath))
       case Failure(exception) =>
         throw new RuntimeException(s"Failed to read or parse JSON file at $path: $exception")
     }
