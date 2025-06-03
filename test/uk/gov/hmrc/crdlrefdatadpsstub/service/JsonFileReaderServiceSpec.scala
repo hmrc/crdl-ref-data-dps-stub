@@ -53,7 +53,7 @@ class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
       val mockFileReader = mock[FileReader]
       when(mockFileReader.read(paginatedPath)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchPaginatedJsonResponse(codeListCode, 10)
+      val result  = service.fetchPaginatedJsonResponse(codeListCode, 0)
       result shouldBe Json.parse(validJson)
     }
 
@@ -63,7 +63,7 @@ class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
         .thenThrow(new RuntimeException("Simulated missing file"))
       val service = new JsonFileReaderService(mockFileReader)
       an[RuntimeException] mustBe thrownBy(
-        service.fetchPaginatedJsonResponse(codeListCode, 10)
+        service.fetchPaginatedJsonResponse(codeListCode, 0)
       )
     }
 
@@ -75,7 +75,7 @@ class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
         .thenThrow(new FileNotFoundException("Simulated missing file"))
       when(mockFileReader.read(emptyPagePath)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchPaginatedJsonResponse(codeListCode, 10)
+      val result  = service.fetchPaginatedJsonResponse(codeListCode, 0)
       result shouldBe Json.parse(validJson)
     }
   }

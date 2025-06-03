@@ -50,7 +50,7 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
       val result = controller.getCodeListData(
         Some(BC08),
         Some("2025-05-28T00:00:00Z"),
-        Some(10),
+        Some(0),
         None,
         None
       )(fakeRequest)
