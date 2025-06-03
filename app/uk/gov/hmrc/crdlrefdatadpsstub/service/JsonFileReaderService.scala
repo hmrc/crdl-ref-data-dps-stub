@@ -36,7 +36,7 @@ class JsonFileReaderService @Inject() (fileReader: FileReader) {
 
   def fetchPaginatedJsonResponse(codeListCode: CodeListCode, startIndex: Int): JsValue = {
     val pageNumber    = startIndex / 10
-    val path          = s"conf/resources/paginated/${codeListCode}_page$pageNumber.json"
+    val path          = s"conf/resources/paginated/${codeListCode}_page${pageNumber + 1}.json"
     val emptyPagePath = "conf/resources/paginated/EmptyPage.json"
     Try(Json.parse(fileReader.read(path))) match {
       case Success(jsonCodeList) => jsonCodeList
