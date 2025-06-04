@@ -23,6 +23,7 @@ import org.scalatestplus.mockito.MockitoSugar.mock
 import play.api.http.Status
 import play.api.test.Helpers.*
 import play.api.test.{FakeRequest, Helpers}
+import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode.BC08
 import uk.gov.hmrc.crdlrefdatadpsstub.service.{FileReader, JsonFileReaderService}
 
 class CodeListsControllerSpec extends AnyWordSpec with Matchers {
@@ -37,17 +38,33 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
 
   "GET /" should {
     "return 200 for a valid codeListCode" in {
-      val result = controller.getCodeListData(Some("BC08"))(fakeRequest)
+      val result = controller.getCodeListData(Some(BC08), None, None, None, None)(fakeRequest)
       status(result) shouldBe Status.OK
     }
 
-    "return 400 for an invalid codeListCode" in {
-      val result = controller.getCodeListData(Some("Test"))(fakeRequest)
-      status(result) shouldBe Status.BAD_REQUEST
+    "return 200 for a valid codeListCode snapshot request" in {
+      when(mockFileReader.read("conf/resources/paginated/BC08_page1.json")).thenReturn(validJson)
+      val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
+      val controller =
+        new CodeListsController(jsonFileReaderService, Helpers.stubControllerComponents())
+      val result = controller.getCodeListData(
+        Some(BC08),
+        Some("2025-05-28T00:00:00Z"),
+        Some(0),
+        None,
+        None
+      )(fakeRequest)
+      status(result) shouldBe Status.OK
     }
 
     "return 400 on missing codeListCode parameter" in {
-      val result = controller.getCodeListData(None)(fakeRequest)
+      val result = controller.getCodeListData(None, None, None, None, None)(fakeRequest)
+      status(result) shouldBe Status.BAD_REQUEST
+    }
+
+    "return 400 on having codeListCode but missing startIndex parameter" in {
+      val result =
+        controller.getCodeListData(Some(BC08), Some("TestDate"), None, None, None)(fakeRequest)
       status(result) shouldBe Status.BAD_REQUEST
     }
   }

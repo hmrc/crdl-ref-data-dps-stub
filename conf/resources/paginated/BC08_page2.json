@@ -1,0 +1,92 @@
+{
+  "name": "iv_crdl_reference_data",
+  "elements": [
+    {
+      "code_list_code": "BC08",
+      "code_list_name": "Country",
+      "rdentry": [
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CountryCode",
+              "dataitem_value": "CX"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "17-01-2024"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "848"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "17-01-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Christmas Island"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CountryCode",
+              "dataitem_value": "CY"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "17-01-2024"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "849"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "17-01-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Cyprus"
+            }
+          ]
+        }
+      ],
+      "languagecode": "EN",
+      "snapshotversion": 12
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://localhost:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=BC08&%24start_index=10&last_updated_date=2025-05-28T00%3A00%3A00Z&%24count=10"
+    },
+    {
+      "rel": "prev",
+      "title": "Previous interval",
+      "href": "?%24orderby=snapshotversion+ASC&code_list_code=BC08&last_updated_date=2025-05-28T00%3A00%3A00Z&%24count=10"
+    }
+  ]
+}
