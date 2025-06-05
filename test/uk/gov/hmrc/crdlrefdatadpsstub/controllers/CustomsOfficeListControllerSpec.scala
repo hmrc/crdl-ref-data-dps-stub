@@ -23,50 +23,34 @@ import org.scalatestplus.mockito.MockitoSugar.mock
 import play.api.http.Status
 import play.api.test.Helpers.*
 import play.api.test.{FakeRequest, Helpers}
-import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode.BC08
 import uk.gov.hmrc.crdlrefdatadpsstub.service.{FileReader, JsonFileReaderService}
 
-class CodeListsControllerSpec extends AnyWordSpec with Matchers {
-
+class CustomsOfficeListControllerSpec extends AnyWordSpec with Matchers {
   private val fakeRequest = FakeRequest("GET", "/")
   val mockFileReader      = mock[FileReader]
-  val validJson           = """{ "countrycode": "United Kingdom"}"""
-  when(mockFileReader.read("conf/resources/codeList/BC08.json")).thenReturn(validJson)
+  val validJson           = """{ "customsOffice": "Newcastle"}"""
+  when(mockFileReader.read("conf/resources/col/COL.json")).thenReturn(validJson)
   val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
   private val controller =
-    new CodeListsController(jsonFileReaderService, Helpers.stubControllerComponents())
+    new CustomsOfficeListController(jsonFileReaderService, Helpers.stubControllerComponents())
 
   "GET /" should {
-    "return 200 for a valid codeListCode" in {
-      val result = controller.getCodeListData(Some(BC08), None, None, None, None)(fakeRequest)
+    "return 200 for a valid request" in {
+      val result = controller.getCustomsOfficeList(None)(fakeRequest)
       status(result) shouldBe Status.OK
     }
 
-    "return 200 for a valid codeListCode snapshot request" in {
-      when(mockFileReader.read("conf/resources/paginated/codeList/BC08_page1.json"))
-        .thenReturn(validJson)
+    "return 200 for a valid request with startIndex" in {
+      when(mockFileReader.read("conf/resources/paginated/col/COL_page1.json")).thenReturn(validJson)
       val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
       val controller =
-        new CodeListsController(jsonFileReaderService, Helpers.stubControllerComponents())
-      val result = controller.getCodeListData(
-        Some(BC08),
-        Some("2025-05-28T00:00:00Z"),
-        Some(0),
-        None,
-        None
+        new CustomsOfficeListController(jsonFileReaderService, Helpers.stubControllerComponents())
+      val result = controller.getCustomsOfficeList(
+        Some(0)
       )(fakeRequest)
       status(result) shouldBe Status.OK
     }
 
-    "return 400 on missing codeListCode parameter" in {
-      val result = controller.getCodeListData(None, None, None, None, None)(fakeRequest)
-      status(result) shouldBe Status.BAD_REQUEST
-    }
-
-    "return 400 on having codeListCode but missing startIndex parameter" in {
-      val result =
-        controller.getCodeListData(Some(BC08), Some("TestDate"), None, None, None)(fakeRequest)
-      status(result) shouldBe Status.BAD_REQUEST
-    }
   }
+
 }

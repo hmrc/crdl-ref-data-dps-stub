@@ -1,0 +1,1386 @@
+{
+  "name": "iv_crdl_customs_office",
+  "elements": [
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "IT223100",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": "ITP00002",
+      "referencenumbercompetentauthorityofenquiry": null,
+      "referencenumbercompetentauthorityofrecovery": null,
+      "referencenumbertakeover": null,
+      "countrycode": "IT",
+      "emailaddress": "test1@test.it",
+      "unlocodeid": null,
+      "nctsentrydate": "20250501",
+      "nearestoffice": null,
+      "postalcode": "40121",
+      "phonenumber": "12345",
+      "faxnumber": "0039 0515283622",
+      "telexnumber": null,
+      "geoinfocode": "Q",
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": "IT",
+      "dedicatedtradername": "TIN",
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "EMILIA 1 BOLOGNA",
+          "languagecode": "IT",
+          "city": "BOLOGNA",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "VIALE PIETRAMELLARA, 1/2"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "ALL YEAR",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0800",
+            "openinghourstimefirstperiodto": "1800",
+            "dayintheweekendday": "6",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "EXC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "SCO",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "PLA",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "DIS",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "RFC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "IT223101",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": "ITP00002",
+      "referencenumbercompetentauthorityofenquiry": "IT223101",
+      "referencenumbercompetentauthorityofrecovery": "IT223101",
+      "referencenumbertakeover": null,
+      "countrycode": "IT",
+      "emailaddress": "test1@test.it",
+      "unlocodeid": null,
+      "nctsentrydate": "20250501",
+      "nearestoffice": null,
+      "postalcode": "40131",
+      "phonenumber": "12345",
+      "faxnumber": "0039 0516479868",
+      "telexnumber": null,
+      "geoinfocode": "Q",
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": "IT",
+      "dedicatedtradername": "TIN",
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "AEROPORTO DI BOLOGNA",
+          "languagecode": "IT",
+          "city": "BOLOGNA",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "VIA DELL'AEROPORTO, 1"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "ALL YEAR",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0000",
+            "openinghourstimefirstperiodto": "2359",
+            "dayintheweekendday": "6",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "DEP",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "TXT",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "ENQ",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "ENT",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "EXC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "REC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "PLA",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "DIS",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "RFC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "IT223102",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": "ITP00002",
+      "referencenumbercompetentauthorityofenquiry": "IT223102",
+      "referencenumbercompetentauthorityofrecovery": "IT223102",
+      "referencenumbertakeover": null,
+      "countrycode": "IT",
+      "emailaddress": "test1@test.it",
+      "unlocodeid": null,
+      "nctsentrydate": "20250501",
+      "nearestoffice": null,
+      "postalcode": "40010",
+      "phonenumber": "12345",
+      "faxnumber": "0039 0516650414",
+      "telexnumber": null,
+      "geoinfocode": "Q",
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": "IT",
+      "dedicatedtradername": "TIN",
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "INTERPORTO DI BOLOGNA",
+          "languagecode": "IT",
+          "city": "BENTIVOGLIO",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "INTERPORTO"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "ALL YEAR",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0800",
+            "openinghourstimefirstperiodto": "1800",
+            "dayintheweekendday": "5",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "DEP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "DEP",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "ENQ",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "REC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "PLA",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "DIS",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "RFC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "IT223199",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": "ITP00002",
+      "referencenumbercompetentauthorityofenquiry": null,
+      "referencenumbercompetentauthorityofrecovery": null,
+      "referencenumbertakeover": null,
+      "countrycode": "IT",
+      "emailaddress": "test1@test.it",
+      "unlocodeid": null,
+      "nctsentrydate": "20250501",
+      "nearestoffice": null,
+      "postalcode": "40121",
+      "phonenumber": "12345",
+      "faxnumber": "0039 0515283622",
+      "telexnumber": null,
+      "geoinfocode": "Q",
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "EMILIA 1 BOLOGNA",
+          "languagecode": "IT",
+          "city": "BOLOGNA",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "VIALE PIETRAMELLARA, 1/2"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "ALL YEAR",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0800",
+            "openinghourstimefirstperiodto": "1800",
+            "dayintheweekendday": "5",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "GUA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "V"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "AT430100",
+      "referencenumbermainoffice": "AT010300",
+      "referencenumberhigherauthority": "AT010000",
+      "referencenumbercompetentauthorityofenquiry": "AT430100",
+      "referencenumbercompetentauthorityofrecovery": "AT430100",
+      "referencenumbertakeover": null,
+      "countrycode": "AT",
+      "emailaddress": "test1@test.at",
+      "unlocodeid": null,
+      "nctsentrydate": "20030626",
+      "nearestoffice": null,
+      "postalcode": "9500",
+      "phonenumber": "12345",
+      "faxnumber": "+43 50 233 5964000",
+      "telexnumber": null,
+      "geoinfocode": "Q",
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Bahnhof Villach Süd",
+          "languagecode": "DE",
+          "city": "Villach",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "Ackerweg 19"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "All Year",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0700",
+            "openinghourstimefirstperiodto": "1500",
+            "dayintheweekendday": "5",
+            "openinghourstimesecondperiodfrom": "0000",
+            "openinghourstimesecondperiodto": "0000",
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "DEP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "DEP",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "ENL",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "ENQ",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXC",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "PLA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "PLA",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "DIS",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "DIS",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "RFC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "RFC",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "SCO",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "SCO",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "REC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "V"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "IT308101",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": "ITP00002",
+      "referencenumbercompetentauthorityofenquiry": "IT308101",
+      "referencenumbercompetentauthorityofrecovery": "IT308101",
+      "referencenumbertakeover": null,
+      "countrycode": "IT",
+      "emailaddress": "test1@test.it",
+      "unlocodeid": null,
+      "nctsentrydate": "20100701",
+      "nearestoffice": null,
+      "postalcode": "63039",
+      "phonenumber": "12345",
+      "faxnumber": "0039 0735592752",
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": "IT",
+      "dedicatedtradername": "TIN",
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "SAN BENEDETTO DEL TRONTO",
+          "languagecode": "IT",
+          "city": "SAN BENEDETTO DEL TRONTO",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "VIA A. MANIN, 13"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "ALL YEAR",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0800",
+            "openinghourstimefirstperiodto": "1800",
+            "dayintheweekendday": "5",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "DEP",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "DEP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "TXT",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "ENQ",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "ENT",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EXC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "REC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "PLA",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "DIS",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "RFC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "IT308100",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": "ITP00002",
+      "referencenumbercompetentauthorityofenquiry": "IT308100",
+      "referencenumbercompetentauthorityofrecovery": "IT308100",
+      "referencenumbertakeover": null,
+      "countrycode": "IT",
+      "emailaddress": "test1@test.it",
+      "unlocodeid": null,
+      "nctsentrydate": "20100701",
+      "nearestoffice": null,
+      "postalcode": "62012",
+      "phonenumber": "12345",
+      "faxnumber": "0039 0733803325",
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": "IT",
+      "dedicatedtradername": "TIN",
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "MARCHE 2 CIVITANOVA MARCHE",
+          "languagecode": "IT",
+          "city": "CIVITANOVA MARCHE",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "VIA PIRELLI, 4"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "ALL YEAR",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0800",
+            "openinghourstimefirstperiodto": "1800",
+            "dayintheweekendday": "5",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "DEP",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "DEP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "TXT",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "ENQ",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "ENT",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "ENT",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "REC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "SCO",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "PLA",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "DIS",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "RFC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              }
+            ]
+          },
+          {
+            "dayintheweekbeginday": "6",
+            "openinghourstimefirstperiodfrom": "0800",
+            "openinghourstimefirstperiodto": "1400",
+            "dayintheweekendday": "6",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "DEP",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "DEP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "TXT",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "ENQ",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "REC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "P"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "SCO",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "PLA",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "DIS",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "RFC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "IT028199",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": "ITP00002",
+      "referencenumbercompetentauthorityofenquiry": null,
+      "referencenumbercompetentauthorityofrecovery": null,
+      "referencenumbertakeover": null,
+      "countrycode": "IT",
+      "emailaddress": "test1@test.it",
+      "unlocodeid": null,
+      "nctsentrydate": "20010301",
+      "nearestoffice": null,
+      "postalcode": "43010",
+      "phonenumber": "12345",
+      "faxnumber": "0039 0521618406",
+      "telexnumber": null,
+      "geoinfocode": "Q",
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "EMILIA 3 PARMA",
+          "languagecode": "IT",
+          "city": "FONTEVIVO",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "P.LE EUROPA, 1"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "ALL YEAR",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0800",
+            "openinghourstimefirstperiodto": "1800",
+            "dayintheweekendday": "6",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "GUA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "IT225199",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": "ITP00002",
+      "referencenumbercompetentauthorityofenquiry": null,
+      "referencenumbercompetentauthorityofrecovery": null,
+      "referencenumbertakeover": null,
+      "countrycode": "IT",
+      "emailaddress": "test1@test.it",
+      "unlocodeid": null,
+      "nctsentrydate": "20250501",
+      "nearestoffice": null,
+      "postalcode": "47823",
+      "phonenumber": "12345",
+      "faxnumber": "0039 0541681468",
+      "telexnumber": null,
+      "geoinfocode": "Q",
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "ROMAGNA 2 RIMINI",
+          "languagecode": "IT",
+          "city": "RIMINI",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "VIA EMILIA VECCHIA, 75"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "ALL YEAR",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0800",
+            "openinghourstimefirstperiodto": "1800",
+            "dayintheweekendday": "5",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "GUA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "P"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-05-2025"
+      },
+      "referencenumber": "IT028100",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": "ITP00002",
+      "referencenumbercompetentauthorityofenquiry": "IT028100",
+      "referencenumbercompetentauthorityofrecovery": "IT028100",
+      "referencenumbertakeover": null,
+      "countrycode": "IT",
+      "emailaddress": "test1@test.it",
+      "unlocodeid": null,
+      "nctsentrydate": "20010301",
+      "nearestoffice": null,
+      "postalcode": "43010",
+      "phonenumber": "12345",
+      "faxnumber": "0039 0521618596",
+      "telexnumber": null,
+      "geoinfocode": "Q",
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": "IT",
+      "dedicatedtradername": "TIN",
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "EMILIA 3 PARMA",
+          "languagecode": "IT",
+          "city": "FONTEVIVO",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": "A",
+          "spacetoadd": "1",
+          "streetandnumber": "P.LE EUROPA, 1"
+        }
+      ],
+      "customsofficetimetable": {
+        "seasoncode": "1",
+        "seasonname": "ALL YEAR",
+        "seasonstartdate": "20180101",
+        "seasonenddate": "20991231",
+        "customsofficetimetableline": [
+          {
+            "dayintheweekbeginday": "1",
+            "openinghourstimefirstperiodfrom": "0800",
+            "openinghourstimefirstperiodto": "1800",
+            "dayintheweekendday": "6",
+            "openinghourstimesecondperiodfrom": null,
+            "openinghourstimesecondperiodto": null,
+            "customsofficeroletrafficcompetence": [
+              {
+                "rolename": "DEP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "DEP",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "ENQ",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "R"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "V"
+              },
+              {
+                "rolename": "REC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "SCO",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "PLA",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "DIS",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "RFC",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "IPR",
+                "traffictype": "N/A"
+              },
+              {
+                "rolename": "DEP",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "INC",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "TXT",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "DES",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "EIN",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "ENT",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "EXC",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "EXP",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "EXT",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "GUA",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "REC",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "REG",
+                "traffictype": "AIR"
+              },
+              {
+                "rolename": "TRA",
+                "traffictype": "AIR"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_customs_office/views/iv_crdl_customs_office"
+    },
+    {
+      "rel": "next",
+      "title": "Next interval",
+      "href": "?%24start_index=10&%24count=10"
+    }
+  ]
+}
