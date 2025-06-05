@@ -1,7 +1,7 @@
 
 # crdl-ref-data-dps-stub
 
-The Central Reference Data Data Platform Services(DPS) Stub responsibilities:
+The Central Reference Data Platform Services(DPS) Stub responsibilities:
 * Simulate the responses of DPS
 
 ## Prerequisites

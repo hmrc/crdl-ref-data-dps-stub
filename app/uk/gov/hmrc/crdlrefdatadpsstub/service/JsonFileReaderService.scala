@@ -25,8 +25,11 @@ import scala.util.{Failure, Success, Try}
 
 class JsonFileReaderService @Inject() (fileReader: FileReader) {
 
-  def fetchJsonResponse(codeListCode: CodeListCode): JsValue = {
-    val path = s"conf/resources/$codeListCode.json"
+  def fetchJsonResponse(codeListCode: Option[CodeListCode]): JsValue = {
+    val path = codeListCode match {
+      case Some(codeListCode) => s"conf/resources/codeList/$codeListCode.json"
+      case _                  => "conf/resources/col/COL.json"
+    }
     Try(Json.parse(fileReader.read(path))) match {
       case Success(jsonCodeList) => jsonCodeList
       case Failure(exception) =>
@@ -34,10 +37,20 @@ class JsonFileReaderService @Inject() (fileReader: FileReader) {
     }
   }
 
-  def fetchPaginatedJsonResponse(codeListCode: CodeListCode, startIndex: Int): JsValue = {
-    val pageNumber    = startIndex / 10
-    val path          = s"conf/resources/paginated/${codeListCode}_page${pageNumber + 1}.json"
-    val emptyPagePath = "conf/resources/paginated/EmptyPage.json"
+  def fetchPaginatedJsonResponse(codeListCode: Option[CodeListCode], startIndex: Int): JsValue = {
+    val pageNumber = startIndex / 10
+    val (path, emptyPagePath) = codeListCode match {
+      case Some(codeListCode) =>
+        (
+          s"conf/resources/paginated/codeList/${codeListCode}_page${pageNumber + 1}.json",
+          "conf/resources/paginated/codeList/EmptyPage.json"
+        )
+      case _ =>
+        (
+          s"conf/resources/paginated/col/COL_page${pageNumber + 1}.json",
+          "conf/resources/paginated/col/EmptyPage.json"
+        )
+    }
     Try(Json.parse(fileReader.read(path))) match {
       case Success(jsonCodeList) => jsonCodeList
       case Failure(notFoundException: FileNotFoundException) =>
