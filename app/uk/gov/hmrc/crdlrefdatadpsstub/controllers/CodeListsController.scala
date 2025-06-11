@@ -41,10 +41,10 @@ class CodeListsController @Inject() (
       case Some(codeListCode) =>
         (lastUpdatedDate, startIndex) match {
           case (None, None) =>
-            Future.successful(Ok(jsonFileReaderService.fetchJsonResponse(codeListCode)))
+            Future.successful(Ok(jsonFileReaderService.fetchJsonResponse(Some(codeListCode))))
           case (Some(_), Some(startIndex)) =>
             Future.successful(
-              Ok(jsonFileReaderService.fetchPaginatedJsonResponse(codeListCode, startIndex))
+              Ok(jsonFileReaderService.fetchPaginatedJsonResponse(Some(codeListCode), startIndex))
             )
           case _ =>
             Future.successful(BadRequest("Missing or invalid parameters"))
