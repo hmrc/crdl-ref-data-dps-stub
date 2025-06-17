@@ -21,6 +21,7 @@ import play.api.mvc.QueryStringBindable
 enum CodeListCode(val codeListCode: String) {
   case BC08 extends CodeListCode("BC08")
   case BC36 extends CodeListCode("BC36")
+  case BC66 extends CodeListCode("BC66")
 }
 
 object CodeListCode {
