@@ -1,0 +1,529 @@
+{
+  "name": "iv_crdl_reference_data",
+  "elements": [
+    {
+      "code_list_code": "BC43",
+      "code_list_name": "CancellationReason",
+      "rdentry": [
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "0"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "26-11-2020"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "6"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "25-11-2020"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "1"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "16-01-2018"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "7"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "15-01-2018"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Typing error"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "2"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "13-10-2016"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "8"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "12-10-2016"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Commercial transaction interrupted"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "3"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "9"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Duplicate e-AD"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "4"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "01-01-2022"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "10"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "21-12-2021"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The movement has not begun at the date of dispatch"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "0"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "26-11-2020"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "6"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "25-11-2020"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "1"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "16-01-2018"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "7"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "15-01-2018"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Typing error"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "2"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "13-10-2016"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "8"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "12-10-2016"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Commercial transaction interrupted"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "3"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "9"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Duplicate e-AD"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "4"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "01-01-2022"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "10"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "21-12-2021"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The movement has not begun at the date of dispatch"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "0"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "26-11-2020"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "6"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "25-11-2020"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "1"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "16-01-2018"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "7"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "15-01-2018"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Typing error"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "2"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "13-10-2016"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "8"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "12-10-2016"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Commercial transaction interrupted"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "3"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "9"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Duplicate e-AD"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CancellationReasonCode",
+              "dataitem_value": "4"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "01-01-2022"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "10"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "21-12-2021"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The movement has not begun at the date of dispatch"
+            }
+          ]
+        }
+      ],
+      "languagecode": "EN",
+      "snapshotversion": 6
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=code_list_code+ASC%2Csnapshotversion+ASC&code_list_code=BC43&%24count=10"
+    }
+  ]
+}
