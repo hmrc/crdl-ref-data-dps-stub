@@ -1,0 +1,1651 @@
+{
+  "name": "iv_crdl_reference_data",
+  "elements": [
+    {
+      "code_list_code": "BC107",
+      "code_list_name": "ManualClosureRequestReason",
+      "rdentry": [
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "0"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1746"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "1"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1747"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Export closed but no IE518 available"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "2"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1748"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Consignee no longer connected to EMCS"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "3"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1749"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exempted consignee"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "4"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1750"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exit confirmed but no IE829 submitted (IE818 out of sequence)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "5"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "18-12-2024"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1751"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "17-12-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "No movement but cancellation no longer possible"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "6"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1752"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Multiple issuances of e-ADs/e-SADs for a single movement"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "0"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1743"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "1"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1744"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Export closed but no IE518 available"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "2"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1745"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Consignee no longer connected to EMCS"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "7"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1753"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "e-AD/e-SAD does not cover actual movement"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "8"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1754"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Erroneous report of receipt"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "9"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1755"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Erroneous rejection of an e-AD/e-SAD"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "3"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1746"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exempted consignee"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "0"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1746"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "1"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1747"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Export closed but no IE518 available"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "2"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1748"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Consignee no longer connected to EMCS"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "3"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1749"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exempted consignee"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "0"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1743"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "1"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1744"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Export closed but no IE518 available"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "2"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1745"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Consignee no longer connected to EMCS"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "3"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1746"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exempted consignee"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "4"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1747"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exit confirmed but no IE829 submitted (IE818 out of sequence)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "5"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1748"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "No movement but cancellation no longer possible"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "6"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1749"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Multiple issuances of e-ADs/e-SADs for a single movement"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "7"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1750"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "e-AD/e-SAD does not cover actual movement"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "8"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1751"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Erroneous report of receipt"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "9"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1752"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Erroneous rejection of an e-AD/e-SAD"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "0"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1743"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "1"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1744"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Export closed but no IE518 available"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "2"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1745"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Consignee no longer connected to EMCS"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "3"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1746"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exempted consignee"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "4"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1747"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exit confirmed but no IE829 submitted (IE818 out of sequence)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "5"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1748"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "No movement but cancellation no longer possible"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "6"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1749"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Multiple issuances of e-ADs/e-SADs for a single movement"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "7"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1750"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "e-AD/e-SAD does not cover actual movement"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "8"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1751"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Erroneous report of receipt"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "9"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1752"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Erroneous rejection of an e-AD/e-SAD"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "0"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1743"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "1"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1744"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Export closed but no IE518 available"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "2"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1745"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Consignee no longer connected to EMCS"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "3"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1746"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exempted consignee"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "4"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1747"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exit confirmed but no IE829 submitted (IE818 out of sequence)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "5"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1748"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "No movement but cancellation no longer possible"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "6"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1749"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Multiple issuances of e-ADs/e-SADs for a single movement"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "7"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1750"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "e-AD/e-SAD does not cover actual movement"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "8"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1751"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Erroneous report of receipt"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ManualClosureRequestReasonCode",
+              "dataitem_value": "9"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "02-11-2023"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1752"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "01-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Erroneous rejection of an e-AD/e-SAD"
+            }
+          ]
+        }
+      ],
+      "languagecode": "EN",
+      "snapshotversion": 9
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=BC107&%24count=10"
+    }
+  ]
+}
