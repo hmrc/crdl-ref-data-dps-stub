@@ -1,0 +1,1977 @@
+{
+  "name": "iv_crdl_reference_data",
+  "elements": [
+    {
+      "code_list_code": "CL380",
+      "code_list_name": "AdditionalReference",
+      "rdentry": [
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "C651"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Electronic administrative document (e-AD), as referred to in Article 3 of Reg. (EU) 2022/1636"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "C658"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Fallback Document for movements of excise goods under suspension of excise duty, as referred to in Article 9(1) of Commission Delegated Regulation (EU) 2022/1636"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y015"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The rough diamonds are contained in tamper-resistant containers, and the seals applied at export by the participant (Kimberley process) are not broken"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y022"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Consignor / exporter (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y023"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Consignee (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y024"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Declarant (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y025"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Representative (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y027"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Warehousekeeper (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y028"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Carrier (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y029"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other authorised economic operator (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y032"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other goods than those seal products mentioned in Regulation (EU) 2015/1850 (OJ L 271)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y053"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not concerned by labelling requirements on fluorinated greenhouse gases as referred to Article 12, paragraph 1 of Regulation (EU) No 517/2014"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y057"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not requiring the presentation of a FLEGT import licence for timber"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y062"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Products which are not containing, consisting of or produced from rice (Commission Implementing Decision 2011/884/EU)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y066"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Products which are not containing or consisting of betel leaves (‘Piper betle’)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y070"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exemption from the requirement of presenting FLEGT licence by virtue of Article 4.3 of Council Regulation (EC) No 2173/2005"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y100"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Special entries on the import licence AGRIM"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y117"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Dangerous product — release for free circulation not authorised — Regulation (EU) 2019/1020, Art. 28(1)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y118"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Product not in conformity — release for free circulation not authorised — Regulation (EU) 2019/1020, Art. 28(2)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y121"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Tonnes of CO₂ equivalent of bulk gases and of gases contained in products or equipment, and parts thereof"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y903"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Declared goods are not included in the list of cultural goods"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y907"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods that will be used by military or civil personnel of a Member State, if such personnel is taking part in an EU or UN peace keeping or crisis management operation in the third country of destination, or in an operation based on agreements between Member States and third countries in the field of defence"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y909"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not concerned by Regulation (EC) No. 1984/2003"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y910"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Bigeye tuna caught by purse seiners and bait boats and destined principally for further processing by tuna canneries"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y916"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Product not subjected to the provisions of Regulation (EU) No 649/2012 on the export and import of dangerous chemicals, Annex I"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y917"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Product not subjected to the provisions of Regulation (EU) No 649/2012 on the export and import of dangerous chemicals, Annex V"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y919"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Reference Identification Number for chemicals subject to the provisions of Art. 2(3) of Regulation (EU) No 649/2012"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y922"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Other than cats and dogs fur as mentioned by Regulation (EC) No 1523/2007 (OJ L 343)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y923"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Product not subjected to the provisions of Regulation (EC) No 1013/2006 (OJ L 190)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y924"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not concerned by Regulation (EU) 2017/852"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y926"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods other than those falling under the import prohibitions defined in Article 11.1 of Regulation (EU) N° 517/2014"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y927"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The declared goods are not concerned by Council Regulation (EC) No. 1005/2008"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y928"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The declared goods are not concerned by Commission Implementing Regulation (EU) 2019/1787"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y929"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not concerned by Regulation (EU) 2018/848 (organic products)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y930"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "15-08-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The declared goods are not concerned by Commission Implementing Regulation (EU) 2021/632"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y931"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods benefitting from derogation to veterinary controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y932"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods benefitting from a derogation to CITES controls according to Article 7(3) of Council Regulation (EC) No 338/97"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y934"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Product not subjected to the provisions of Regulation (EU) No 258/2012 for export of firearms, their parts and components and ammunition"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y935"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "25-11-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not covered by the provisions of Regulation (EU) 1332/2013 (OJ L 335)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y937"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The declared goods are not concerned by Commission Implementing Regulation (EU) 2019/1793"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y942"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The declared goods are not concerned by Commission Implementing Regulation (EU) 2016/1141"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y950"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods other than pre-charged equipment with hydrofluorocarbons, as defined in article 14.1 of Regulation (EU) No 517/2014"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y951"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exemption from the reduction of the quantity of hydrofluorocarbons placed on the market by virtue of Article 16.2 (a), (b), (d), (e) of Regulation (EU) 2024/573"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y123"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Undertaking registered in the F-Gas Portal according to Article 20 of Regulation (EU) 2024/573"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y163"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Net mass of fluorinated greenhouse gases charged in products and equipment"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y170"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods with third country origin coming from Andorra, according to the relevant EU legislation."
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y171"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "13-08-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods with third country origin coming from Switzerland, according to the relevant EU legislation"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y172"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "13-08-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods with third country origin coming from Faroe Islands, according to the relevant EU legislation"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y173"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "13-08-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods with third country origin coming from Greenland, according to the relevant EU legislation"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y174"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods with third country origin coming from Iceland, according to the relevant EU legislation"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y175"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "13-08-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods with third country origin coming from Liechtenstein, according to the relevant EU legislation"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y176"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "13-08-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods with third country origin coming from Norway, according to the relevant EU legislation"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y177"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "13-08-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods with third country origin coming from San Marino, according to the relevant EU legislation"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y178"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "04-02-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Dental amalgam used for specific medical needs"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y227"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "27-12-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The contract prohibits re-exportation to Russia and re-exportation for use in Russia – Article 12g paragraph 1 of Regulation (EU) 833/2014"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y228"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "23-10-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 12g.1 of Council Regulation (EU) No 833/2014 do not apply (see contractual exemptions in article 12g.2 b)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y229"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "27-12-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Public contracts concluded with a public authority in a third country or with an international organisation - Article 12g paragraph 2a of Regulation (EU) 833/2014"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y230"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "23-10-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Contract prohibits re-exportation to Belarus and re-exportation for use in Belarus – Article 8g paragraph 1 of Council Regulation (EC) No 765/2006"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y231"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "23-10-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 8g.1 of Council Regulation (EC) No 765/2006 do not apply (see contractual exemptions in article 8g.2)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y232"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "23-10-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Public contracts concluded with a public authority in a third country or with an international organisation - Article 8g paragraph 3 of Council Regulation (EC) No 765/2006"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y698"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods exported from Russia before 22 July 2022 (Article 3o paragraph 1 of Regulation No 833/2014)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y699"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "29-10-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Products that had been physically located in a processed or manufactured state in a third country before the date of applicability of the respective prohibition (Article 3p paragraph 12 of Council Regulation (EU) No 833/2014)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y797"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Licensing system registration identification number as defined in Article 17.3 (a) of Regulation (EU) 2024/590"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y798"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Declaration of net mass of ozone -depleting substance(s), when included in products and equipment"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y799"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Net mass of the ozone-depleting substance multiplied by the ODP of the ozone-depleting substance(s), also when included in products and equipment"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y873"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not transited via the territory of Russia"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y897"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "27-12-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not containing gold originating in Russia listed in Annex XXVI to Regulation No 833/2014"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y900"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Declared goods do not belong to the Washington Convention (CITES)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y901"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Product not included in the dual use list"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y902"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "14-06-2023"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods other than those described in the OZ footnotes linked to the measure"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y031"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "This certificate code may be used to indicate that shipments are coming from or going to an Authorised Economic Operator (AEO) in a third country with which the European Union (EU) has concluded a mutual recognition agreement regarding AEO programmes. In addition to the certificate code (Y031) the identification code of this third country AEO must be filled in the relevant field."
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y054"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "21-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods labelled according to the provisions of Article 12 of Regulation (EU) 2024/573"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y026"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "21-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Holder of the transit procedure (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y751"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 3 1a of Council Regulation (EU) No 833/2014 do not apply (see contractual exemptions in article 3.3a)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y752"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 3k.1 of Council Regulation (EU) No 833/2014 do not apply (see contractual exemptions in article 3k.3ag)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y754"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The declared goods are not concerned by Council Regulation (EC) No. 765/2006, Annex XXXII"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y755"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 1gd.1 of Council Regulation (EU) No 765/2006 do not apply (see contractual exemptions in article 1gd.3)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y756"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 1ra.1 of Council Regulation (EU) No 765/2006 do not apply (see contractual exemptions in article 1ra.9a)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y766"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 5 paragraph 2b of Council Regulation (EU) No 2022/263 do not apply (see exemptions in article 5.6)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y767"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 3a paragraph 1 of Council Regulation (EU) No 2022/263 do not apply (see exemptions in article 3a paragraph 2)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y871"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "21-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 2c of Council Regulation (EU) No 692/2014 do not apply (see exemptions in article 2c paragraph 6)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y881"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "21-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The prohibitions defined in article 2aa paragraph 1 of Council Regulation (EU) No 692/2014 do not apply (see exemptions in article 2aa paragraph 2)"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y883"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not concerned by Regulation (EU) 692/2014"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y885"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "20-03-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not concerned by Regulation (EU) 2022/263"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y233"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "23-04-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not concerned by Regulation (EU) 224/2014"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y234"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "23-04-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods not concerned by Regulation (EU) 2022/2309"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y753"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "23-04-2025"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "The declared goods are not concerned by Council Regulation (EC) No. 2017/1509, Annex II"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y160"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Goods other than those falling under the applicable provisions of Regulation (EU) 2024/573"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "DocumentType",
+              "dataitem_value": "Y162"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_state",
+              "dataitem_value": "valid"
+            },
+            {
+              "dataitem_name": "RDEntryStatus_activeFrom",
+              "dataitem_value": "01-11-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Exemption from the presentation of a valid licence to the customs authorities for the import or exports of products and equipment that are personal effects (Article 22(1), second subparagraph of Regulation (UE) 2024/573)"
+            }
+          ]
+        }
+      ],
+      "languagecode": "EN",
+      "snapshotversion": 4
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL380&%24count=10"
+    }
+  ]
+}
