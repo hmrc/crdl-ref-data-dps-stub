@@ -25,20 +25,12 @@ import scala.util.{Failure, Success, Try}
 
 class JsonFileReaderService @Inject() (fileReader: FileReader) {
 
-  def fetchJsonResponse(codeListCode: Option[CodeListCode]): JsValue = {
-    val path = codeListCode match {
-      case Some(codeListCode) => s"conf/resources/codeList/$codeListCode.json"
-      case _                  => "conf/resources/col/COL.json"
-    }
-    Try(Json.parse(fileReader.read(path))) match {
-      case Success(jsonCodeList) => jsonCodeList
-      case Failure(exception) =>
-        throw new RuntimeException(s"Failed to read or parse JSON file at $path: $exception")
-    }
-  }
-
-  def fetchPaginatedJsonResponse(codeListCode: Option[CodeListCode], startIndex: Int): JsValue = {
-    val pageNumber = startIndex / 10
+  def fetchPaginatedJsonResponse(
+    codeListCode: Option[CodeListCode],
+    startIndex: Option[Int] = None
+  ): JsValue = {
+    val startingIndex = startIndex.getOrElse(0)
+    val pageNumber    = startingIndex / 10
     val (path, emptyPagePath) = codeListCode match {
       case Some(codeListCode) =>
         (

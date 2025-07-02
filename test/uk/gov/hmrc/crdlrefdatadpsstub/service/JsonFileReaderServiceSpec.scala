@@ -27,24 +27,23 @@ import java.io.FileNotFoundException
 
 class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
   val codeListCode  = BC08
-  val path          = s"conf/resources/codeList/$codeListCode.json"
   val paginatedPath = s"conf/resources/paginated/codeList/${codeListCode}_page1.json"
   "JsonFileReaderServiceSpec" should {
     "read and parse JSON" in {
       val validJson      = """{ "countrycode": "United Kingdom"}"""
       val mockFileReader = mock[FileReader]
-      when(mockFileReader.read(path)).thenReturn(validJson)
+      when(mockFileReader.read(paginatedPath)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchJsonResponse(Some(codeListCode))
+      val result  = service.fetchPaginatedJsonResponse(Some(codeListCode))
       result shouldBe Json.parse(validJson)
     }
 
     "throw exception when JSON file is missing for a valid codeListCode" in {
       val mockFileReader = mock[FileReader]
-      when(mockFileReader.read(path)).thenThrow(new RuntimeException("Simulated missing file"))
+      when(mockFileReader.read(paginatedPath)).thenThrow(new RuntimeException("Simulated missing file"))
       val service = new JsonFileReaderService(mockFileReader)
       an[RuntimeException] mustBe thrownBy(
-        service.fetchJsonResponse(Some(codeListCode))
+        service.fetchPaginatedJsonResponse(Some(codeListCode))
       )
     }
 
@@ -53,7 +52,7 @@ class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
       val mockFileReader = mock[FileReader]
       when(mockFileReader.read(paginatedPath)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchPaginatedJsonResponse(Some(codeListCode), 0)
+      val result  = service.fetchPaginatedJsonResponse(Some(codeListCode))
       result shouldBe Json.parse(validJson)
     }
 
@@ -63,7 +62,7 @@ class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
         .thenThrow(new RuntimeException("Simulated missing file"))
       val service = new JsonFileReaderService(mockFileReader)
       an[RuntimeException] mustBe thrownBy(
-        service.fetchPaginatedJsonResponse(Some(codeListCode), 0)
+        service.fetchPaginatedJsonResponse(Some(codeListCode))
       )
     }
 
@@ -75,7 +74,7 @@ class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
         .thenThrow(new FileNotFoundException("Simulated missing file"))
       when(mockFileReader.read(emptyPagePath)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchPaginatedJsonResponse(Some(codeListCode), 0)
+      val result  = service.fetchPaginatedJsonResponse(Some(codeListCode))
       result shouldBe Json.parse(validJson)
     }
   }
