@@ -29,7 +29,7 @@ class CustomsOfficeListControllerSpec extends AnyWordSpec with Matchers {
   private val fakeRequest = FakeRequest("GET", "/")
   val mockFileReader      = mock[FileReader]
   val validJson           = """{ "customsOffice": "Newcastle"}"""
-  when(mockFileReader.read("conf/resources/col/COL.json")).thenReturn(validJson)
+  when(mockFileReader.read("conf/resources/paginated/col/COL_page1.json")).thenReturn(validJson)
   val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
   private val controller =
     new CustomsOfficeListController(jsonFileReaderService, Helpers.stubControllerComponents())

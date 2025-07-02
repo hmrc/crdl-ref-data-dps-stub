@@ -32,9 +32,9 @@ class CustomsOfficeListController @Inject() (
   def getCustomsOfficeList(startIndex: Option[Int]): Action[AnyContent] = Action.async {
     implicit request =>
       startIndex match {
-        case None => Future.successful(Ok(jsonFileReaderService.fetchJsonResponse(None)))
+        case None => Future.successful(Ok(jsonFileReaderService.fetchPaginatedJsonResponse(None)))
         case Some(startIndex) =>
-          Future.successful(Ok(jsonFileReaderService.fetchPaginatedJsonResponse(None, startIndex)))
+          Future.successful(Ok(jsonFileReaderService.fetchPaginatedJsonResponse(None, Some(startIndex))))
       }
 
   }

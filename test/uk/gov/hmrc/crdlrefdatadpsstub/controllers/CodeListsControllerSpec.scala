@@ -31,7 +31,7 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
   private val fakeRequest = FakeRequest("GET", "/")
   val mockFileReader      = mock[FileReader]
   val validJson           = """{ "countrycode": "United Kingdom"}"""
-  when(mockFileReader.read("conf/resources/codeList/BC08.json")).thenReturn(validJson)
+  when(mockFileReader.read("conf/resources/paginated/codeList/BC08_page1.json")).thenReturn(validJson)
   val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
   private val controller =
     new CodeListsController(jsonFileReaderService, Helpers.stubControllerComponents())
