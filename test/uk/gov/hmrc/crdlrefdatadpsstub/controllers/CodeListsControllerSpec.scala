@@ -21,17 +21,19 @@ import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatestplus.mockito.MockitoSugar.mock
 import play.api.http.Status
+import play.api.test.FakeRequest
+import play.api.test.Helpers
 import play.api.test.Helpers.*
-import play.api.test.{FakeRequest, Helpers}
 import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode.BC08
-import uk.gov.hmrc.crdlrefdatadpsstub.service.{FileReader, JsonFileReaderService}
+import uk.gov.hmrc.crdlrefdatadpsstub.service.FileReader
+import uk.gov.hmrc.crdlrefdatadpsstub.service.JsonFileReaderService
 
 class CodeListsControllerSpec extends AnyWordSpec with Matchers {
 
   private val fakeRequest = FakeRequest("GET", "/")
   val mockFileReader      = mock[FileReader]
   val validJson           = """{ "countrycode": "United Kingdom"}"""
-  when(mockFileReader.read("conf/resources/paginated/codeList/BC08_page1.json")).thenReturn(validJson)
+  when(mockFileReader.read("resources/codeList/BC08_page1.json")).thenReturn(validJson)
   val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
   private val controller =
     new CodeListsController(jsonFileReaderService, Helpers.stubControllerComponents())
@@ -43,8 +45,6 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
     }
 
     "return 200 for a valid codeListCode snapshot request" in {
-      when(mockFileReader.read("conf/resources/paginated/codeList/BC08_page1.json"))
-        .thenReturn(validJson)
       val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
       val controller =
         new CodeListsController(jsonFileReaderService, Helpers.stubControllerComponents())
@@ -60,12 +60,6 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
 
     "return 400 on missing codeListCode parameter" in {
       val result = controller.getCodeListData(None, None, None, None, None)(fakeRequest)
-      status(result) shouldBe Status.BAD_REQUEST
-    }
-
-    "return 400 on having codeListCode but missing startIndex parameter" in {
-      val result =
-        controller.getCodeListData(Some(BC08), Some("TestDate"), None, None, None)(fakeRequest)
       status(result) shouldBe Status.BAD_REQUEST
     }
   }

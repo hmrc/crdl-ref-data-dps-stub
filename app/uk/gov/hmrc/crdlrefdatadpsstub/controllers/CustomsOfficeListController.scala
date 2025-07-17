@@ -16,12 +16,14 @@
 
 package uk.gov.hmrc.crdlrefdatadpsstub.controllers
 
-import play.api.mvc.{Action, AnyContent, ControllerComponents}
+import play.api.mvc.Action
+import play.api.mvc.AnyContent
+import play.api.mvc.ControllerComponents
 import uk.gov.hmrc.crdlrefdatadpsstub.service.JsonFileReaderService
 import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 
-import javax.inject.{Inject, Singleton}
-import scala.concurrent.Future
+import javax.inject.Inject
+import javax.inject.Singleton
 
 @Singleton()
 class CustomsOfficeListController @Inject() (
@@ -29,14 +31,8 @@ class CustomsOfficeListController @Inject() (
   cc: ControllerComponents
 ) extends BackendController(cc) {
 
-  def getCustomsOfficeList(startIndex: Option[Int]): Action[AnyContent] = Action.async {
+  def getCustomsOfficeList(startIndex: Option[Int]): Action[AnyContent] = Action {
     implicit request =>
-      startIndex match {
-        case None => Future.successful(Ok(jsonFileReaderService.fetchPaginatedJsonResponse(None)))
-        case Some(startIndex) =>
-          Future.successful(Ok(jsonFileReaderService.fetchPaginatedJsonResponse(None, Some(startIndex))))
-      }
-
+      Ok(jsonFileReaderService.fetchCustomsOfficeJson(startIndex.getOrElse(0)))
   }
-
 }

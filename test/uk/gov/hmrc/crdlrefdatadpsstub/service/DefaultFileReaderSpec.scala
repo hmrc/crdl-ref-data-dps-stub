@@ -18,20 +18,24 @@ package uk.gov.hmrc.crdlrefdatadpsstub.service
 
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
-import java.nio.file.{Files, Paths}
+import play.api.libs.json.JsValue
+import play.api.libs.json.Json
+import java.io.FileNotFoundException
+import play.api.libs.json.JsObject
 
 class DefaultFileReaderSpec extends AnyWordSpec with Matchers {
   "DefaultFileReader" should {
-    "read the contents of a file" in {
-      val expectedJson = """{ "countrycode": "United Kingdom"}"""
-      val tempFile     = java.io.File.createTempFile("test-file", ".json")
-      tempFile.deleteOnExit()
-
-      Files.write(Paths.get(tempFile.getAbsolutePath), expectedJson.getBytes)
-
+    "read the contents of a resource file" in {
       val reader = new DefaultFileReader
-      val result = reader.read(tempFile.getAbsolutePath)
-      result shouldBe expectedJson
+      val result = reader.read("resources/codeList/CL239_page1.json")
+      Json.parse(result) shouldBe a[JsObject]
+    }
+
+    "throw a FileNotFoundException when the file does not exist" in {
+      val reader = new DefaultFileReader
+      assertThrows[FileNotFoundException] {
+        reader.read("resources/codeList/CL289_page1.json")
+      }
     }
   }
 }
