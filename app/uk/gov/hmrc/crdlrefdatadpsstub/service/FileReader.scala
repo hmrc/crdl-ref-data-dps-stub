@@ -29,7 +29,7 @@ trait FileReader {
 
 class DefaultFileReader extends FileReader {
   override def read(path: String): String = {
-    val source = Source.fromFile(path)
+    val source = Source.fromResource(path)
     try source.mkString
     finally source.close()
   }

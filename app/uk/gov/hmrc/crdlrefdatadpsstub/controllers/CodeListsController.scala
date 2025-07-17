@@ -16,13 +16,15 @@
 
 package uk.gov.hmrc.crdlrefdatadpsstub.controllers
 
-import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
-import play.api.mvc.{Action, AnyContent, ControllerComponents}
+import play.api.mvc.Action
+import play.api.mvc.AnyContent
+import play.api.mvc.ControllerComponents
 import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode
 import uk.gov.hmrc.crdlrefdatadpsstub.service.JsonFileReaderService
+import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 
-import javax.inject.{Inject, Singleton}
-import scala.concurrent.Future
+import javax.inject.Inject
+import javax.inject.Singleton
 
 @Singleton()
 class CodeListsController @Inject() (
@@ -36,29 +38,11 @@ class CodeListsController @Inject() (
     startIndex: Option[Int],
     count: Option[Int],
     orderBy: Option[String]
-  ): Action[AnyContent] = Action.async { implicit request =>
-    codeListCode match {
-      case Some(codeListCode) =>
-        (lastUpdatedDate, startIndex) match {
-          case (None, None) =>
-            Future.successful(
-              Ok(jsonFileReaderService.fetchPaginatedJsonResponse(Some(codeListCode)))
-            )
-          case (Some(_), Some(startIndex)) =>
-            Future.successful(
-              Ok(
-                jsonFileReaderService.fetchPaginatedJsonResponse(
-                  Some(codeListCode),
-                  Some(startIndex)
-                )
-              )
-            )
-          case _ =>
-            Future.successful(BadRequest("Missing or invalid parameters"))
-        }
-      case None => Future.successful(BadRequest("Missing or invalid code_list_code"))
-    }
-
+  ): Action[AnyContent] = Action { implicit request =>
+    codeListCode
+      .map { code =>
+        Ok(jsonFileReaderService.fetchCodeListJson(code, startIndex.getOrElse(0)))
+      }
+      .getOrElse(BadRequest("Missing or invalid code_list_code"))
   }
-
 }

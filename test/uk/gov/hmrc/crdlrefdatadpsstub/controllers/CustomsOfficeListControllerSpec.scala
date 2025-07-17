@@ -21,15 +21,17 @@ import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatestplus.mockito.MockitoSugar.mock
 import play.api.http.Status
+import play.api.test.FakeRequest
+import play.api.test.Helpers
 import play.api.test.Helpers.*
-import play.api.test.{FakeRequest, Helpers}
-import uk.gov.hmrc.crdlrefdatadpsstub.service.{FileReader, JsonFileReaderService}
+import uk.gov.hmrc.crdlrefdatadpsstub.service.FileReader
+import uk.gov.hmrc.crdlrefdatadpsstub.service.JsonFileReaderService
 
 class CustomsOfficeListControllerSpec extends AnyWordSpec with Matchers {
   private val fakeRequest = FakeRequest("GET", "/")
   val mockFileReader      = mock[FileReader]
   val validJson           = """{ "customsOffice": "Newcastle"}"""
-  when(mockFileReader.read("conf/resources/paginated/col/COL_page1.json")).thenReturn(validJson)
+  when(mockFileReader.read("resources/col/COL_page1.json")).thenReturn(validJson)
   val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
   private val controller =
     new CustomsOfficeListController(jsonFileReaderService, Helpers.stubControllerComponents())
@@ -41,7 +43,6 @@ class CustomsOfficeListControllerSpec extends AnyWordSpec with Matchers {
     }
 
     "return 200 for a valid request with startIndex" in {
-      when(mockFileReader.read("conf/resources/paginated/col/COL_page1.json")).thenReturn(validJson)
       val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
       val controller =
         new CustomsOfficeListController(jsonFileReaderService, Helpers.stubControllerComponents())

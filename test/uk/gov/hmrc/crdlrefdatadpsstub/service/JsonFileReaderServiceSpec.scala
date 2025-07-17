@@ -16,7 +16,7 @@
 
 package uk.gov.hmrc.crdlrefdatadpsstub.service
 
-import org.mockito.Mockito.when
+import org.mockito.Mockito.{when, reset}
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatestplus.mockito.MockitoSugar.mock
@@ -24,57 +24,119 @@ import play.api.libs.json.Json
 import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode.BC08
 
 import java.io.FileNotFoundException
+import org.scalatest.BeforeAndAfterEach
 
-class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers {
-  val codeListCode  = BC08
-  val paginatedPath = s"conf/resources/paginated/codeList/${codeListCode}_page1.json"
-  "JsonFileReaderServiceSpec" should {
+class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers with BeforeAndAfterEach {
+  val codeListCode      = BC08
+  val codeListPath      = "resources/codeList/BC08_page1.json"
+  val emptyCodeListPath = "resources/codeList/EmptyPage.json"
+  val customsOfficePath = "resources/col/COL_page1.json"
+  val emptyOfficePath   = "resources/col/EmptyPage.json"
+  val validJson         = """{ "countrycode": "United Kingdom"}"""
+  val mockFileReader    = mock[FileReader]
+
+  override def beforeEach() = {
+    reset(mockFileReader)
+  }
+
+  "JsonFileReaderServiceSpec.fetchCodeListJson" should {
     "read and parse JSON" in {
-      val validJson      = """{ "countrycode": "United Kingdom"}"""
-      val mockFileReader = mock[FileReader]
-      when(mockFileReader.read(paginatedPath)).thenReturn(validJson)
+      when(mockFileReader.read(codeListPath)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchPaginatedJsonResponse(Some(codeListCode))
+      val result  = service.fetchCodeListJson(codeListCode, startIndex = 0)
+      result shouldBe Json.parse(validJson)
+    }
+
+    "calculate the correct page index" in {
+      val page3Path = "resources/codeList/BC08_page3.json"
+      when(mockFileReader.read(page3Path)).thenReturn(validJson)
+      val service = new JsonFileReaderService(mockFileReader)
+      val result  = service.fetchCodeListJson(codeListCode, startIndex = 20)
       result shouldBe Json.parse(validJson)
     }
 
     "throw exception when JSON file is missing for a valid codeListCode" in {
-      val mockFileReader = mock[FileReader]
-      when(mockFileReader.read(paginatedPath)).thenThrow(new RuntimeException("Simulated missing file"))
+      when(mockFileReader.read(codeListPath))
+        .thenThrow(new RuntimeException("Simulated missing file"))
       val service = new JsonFileReaderService(mockFileReader)
       an[RuntimeException] mustBe thrownBy(
-        service.fetchPaginatedJsonResponse(Some(codeListCode))
+        service.fetchCodeListJson(codeListCode, startIndex = 0)
       )
     }
 
     "read and parse a paginated JSON" in {
-      val validJson      = """{ "countrycode": "United Kingdom"}"""
-      val mockFileReader = mock[FileReader]
-      when(mockFileReader.read(paginatedPath)).thenReturn(validJson)
+      when(mockFileReader.read(codeListPath)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchPaginatedJsonResponse(Some(codeListCode))
+      val result  = service.fetchCodeListJson(codeListCode, startIndex = 0)
       result shouldBe Json.parse(validJson)
     }
 
     "throw exception when a paginated JSON file is missing for a valid codeListCode" in {
-      val mockFileReader = mock[FileReader]
-      when(mockFileReader.read(paginatedPath))
+      when(mockFileReader.read(codeListPath))
         .thenThrow(new RuntimeException("Simulated missing file"))
       val service = new JsonFileReaderService(mockFileReader)
       an[RuntimeException] mustBe thrownBy(
-        service.fetchPaginatedJsonResponse(Some(codeListCode))
+        service.fetchCodeListJson(codeListCode, startIndex = 0)
       )
     }
 
     "read and parse an Empty Page Json when there is no data available" in {
-      val validJson      = """{ "countrycode": "United Kingdom"}"""
-      val emptyPagePath  = "conf/resources/paginated/codeList/EmptyPage.json"
-      val mockFileReader = mock[FileReader]
-      when(mockFileReader.read(paginatedPath))
+      when(mockFileReader.read(codeListPath))
         .thenThrow(new FileNotFoundException("Simulated missing file"))
-      when(mockFileReader.read(emptyPagePath)).thenReturn(validJson)
+      when(mockFileReader.read(emptyCodeListPath)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchPaginatedJsonResponse(Some(codeListCode))
+      val result  = service.fetchCodeListJson(codeListCode, startIndex = 0)
+      result shouldBe Json.parse(validJson)
+    }
+  }
+
+  "JsonFileReaderServiceSpec.fetchCustomsOfficeJson" should {
+    "read and parse JSON" in {
+      when(mockFileReader.read(customsOfficePath)).thenReturn(validJson)
+      val service = new JsonFileReaderService(mockFileReader)
+      val result  = service.fetchCustomsOfficeJson(startIndex = 0)
+      result shouldBe Json.parse(validJson)
+    }
+
+    "calculate the correct page index" in {
+      val page3Path = "resources/col/COL_page3.json"
+      when(mockFileReader.read(page3Path)).thenReturn(validJson)
+      val service = new JsonFileReaderService(mockFileReader)
+      val result  = service.fetchCustomsOfficeJson(startIndex = 20)
+      result shouldBe Json.parse(validJson)
+    }
+
+    "throw exception when JSON file is missing for a valid codeListCode" in {
+      when(mockFileReader.read(customsOfficePath))
+        .thenThrow(new RuntimeException("Simulated missing file"))
+      val service = new JsonFileReaderService(mockFileReader)
+      an[RuntimeException] mustBe thrownBy(
+        service.fetchCustomsOfficeJson(startIndex = 0)
+      )
+    }
+
+    "read and parse a paginated JSON" in {
+      when(mockFileReader.read(customsOfficePath)).thenReturn(validJson)
+      val service = new JsonFileReaderService(mockFileReader)
+      val result  = service.fetchCustomsOfficeJson(startIndex = 0)
+      result shouldBe Json.parse(validJson)
+    }
+
+    "throw exception when a paginated JSON file is missing for a valid codeListCode" in {
+      when(mockFileReader.read(customsOfficePath))
+        .thenThrow(new RuntimeException("Simulated missing file"))
+      val service = new JsonFileReaderService(mockFileReader)
+      an[RuntimeException] mustBe thrownBy(
+        service.fetchCustomsOfficeJson(startIndex = 0)
+      )
+    }
+
+    "read and parse an Empty Page Json when there is no data available" in {
+      when(mockFileReader.read(customsOfficePath))
+        .thenThrow(new FileNotFoundException("Simulated missing file"))
+      when(mockFileReader.read(emptyOfficePath)).thenReturn(validJson)
+      val service = new JsonFileReaderService(mockFileReader)
+      val result  = service.fetchCustomsOfficeJson(startIndex = 0)
       result shouldBe Json.parse(validJson)
     }
   }
