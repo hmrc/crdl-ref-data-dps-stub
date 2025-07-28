@@ -5,6 +5,7 @@ ThisBuild / scalaVersion := "3.3.6"
 
 lazy val microservice = Project("crdl-ref-data-dps-stub", file("."))
   .enablePlugins(play.sbt.PlayScala, SbtDistributablesPlugin)
+  .disablePlugins(JUnitXmlReportPlugin)
   .settings(CodeCoverageSettings.settings *)
   .settings(
     libraryDependencies ++= AppDependencies.compile ++ AppDependencies.test,
@@ -17,6 +18,7 @@ lazy val microservice = Project("crdl-ref-data-dps-stub", file("."))
 
 lazy val it = project
   .enablePlugins(PlayScala)
+  .disablePlugins(JUnitXmlReportPlugin)
   .dependsOn(microservice % "test->test")
   .settings(DefaultBuildSettings.itSettings())
   .settings(libraryDependencies ++= AppDependencies.it)
