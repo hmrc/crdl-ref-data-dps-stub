@@ -19,7 +19,7 @@ This should ensure that you have the prerequisites for the service installed:
 
 ### Adding stub data
 
-Stub data should be added to this repository once a new code_list or correspondence code is added in crdl-cache.
+Stub data should be added to this repository once a new codelist or correspondence list is added in crdl-cache.
 
 This allows the tests to simulate the response of DPS, without having to call on DPS each time.
 
