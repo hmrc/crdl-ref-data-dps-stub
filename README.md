@@ -25,7 +25,9 @@ This allows the tests to simulate the response of DPS, without having to call on
 
 * To add stub data to this repository, we make a `GET` request to the ***DPS*** API.
 
-  The easiest way to do this is with an API client such as ***Bruno*** or ***Postman***, then it will be nicely formatted for easy copy-pasting.
+  The easiest way to do this is with an API client, then it will be nicely formatted for easy copy-pasting.
+  
+  At time of writing, the recommended API client for HMRC is Bruno.
 
   You will need to get your authorisation credentials from Integration Hub and set them up in the Auth tab selecting ***Basic Auth*** as the Authorisation type.
 
@@ -40,7 +42,11 @@ This allows the tests to simulate the response of DPS, without having to call on
   | codelist_code | BC03                                   |
 
   or if you prefer, you can just add the query to the url: https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_reference_data?codelist_code=BC03
-
+  or a curl request to:
+  
+  ```shell
+  curl -H "Authorization: Basic $(echo -n <client_id>:<client_secret> : base64 )" https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_reference_data?codelist_code=BC03
+  ```
 
 * The following parameter is optional, but is what has been used to make the existing stubs:
 
@@ -48,9 +54,21 @@ This allows the tests to simulate the response of DPS, without having to call on
   |---------------|----------------------------------|
   | $orderby      | code_list_code, snapshotversion  |
 
-  Here is the whole query url: https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_reference_data?codelist_code=BC03&$count=10&$orderby=code_list_code,snapshotversion
+  Here is the whole query url: https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_reference_data?codelist_code=BC03&$count=10&$orderby=code_list_code,snapshotversion  
 
-* Make a new file in `conf/resources/codeList` called `BC03_page1.json` and paste the results here.
+
+* To make a curl request, export the credentials as environment variables in .bashrc or .zshrc
+  ```shell
+  export CLIENT_ID="<client_id>"
+  export CLIENT_SECRET="<client_secret>"
+  ```
+  And then call them with `$` in the curl request header. In this example we are encoding the credentials to base64.
+  
+  ```shell
+  curl -H "Authorization: Basic $(echo -n $<CLIENT_ID>:$<CLIENT_SECRET> | base64 )" https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_reference_data?codelist_code=BC03&$count=10&$orderby=code_list_code,snapshotversion
+  ```
+
+* Make a new file in `conf/resources/codeList` called `BC03_page1.json`, paste the results here, and you are done!
 
 ---
 
