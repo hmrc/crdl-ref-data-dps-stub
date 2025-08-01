@@ -65,7 +65,7 @@ This allows the tests to simulate the response of DPS, without having to call on
   And then call them with `$` in the curl request header. In this example we are encoding the credentials to base64.
   
   ```shell
-  curl -H "Authorization: Basic $(echo -n $<CLIENT_ID>:$<CLIENT_SECRET> | base64 )" https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_reference_data?codelist_code=BC03&$count=10&$orderby=code_list_code,snapshotversion
+  curl -H "Authorization: Basic $(echo -n "$CLIENT_ID:$CLIENT_SECRET" | base64 )" https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_reference_data?codelist_code=BC03&$count=10&$orderby=code_list_code,snapshotversion
   ```
 
 * Make a new file in `conf/resources/codeList` called `BC03_page1.json`, paste the results here, and you are done!
