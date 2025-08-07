@@ -139,6 +139,108 @@
               "lang_desc": "Cyprus"
             }
           ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CountryCode",
+              "dataitem_value": "CZ"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "17-01-2024"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "850"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "17-01-2024"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Czech Republic"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CountryCode",
+              "dataitem_value": "CZ"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "{{TODAY_MINUS_29}}"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "850"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "{{TODAY_MINUS_29}}"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Czechia"
+            }
+          ]
+        },
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "CountryCode",
+              "dataitem_value": "QZ"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "18-01-9999"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "9999"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "18-01-9999"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Disputed Western Territories"
+            }
+          ]
         }
       ],
       "languagecode": "EN",

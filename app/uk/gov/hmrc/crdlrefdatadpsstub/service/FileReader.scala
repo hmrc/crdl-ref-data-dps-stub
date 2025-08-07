@@ -19,6 +19,8 @@ package uk.gov.hmrc.crdlrefdatadpsstub.service
 import com.google.inject.ImplementedBy
 
 import java.io.FileNotFoundException
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 import scala.io.Source
 
 @ImplementedBy(classOf[DefaultFileReader])
@@ -28,9 +30,12 @@ trait FileReader {
 }
 
 class DefaultFileReader extends FileReader {
+  private val formatter    = DateTimeFormatter.ofPattern("dd-MM-yyyy")
+  private val todayMinus29 = LocalDate.now.minusDays(29)
+
   override def read(path: String): String = {
     val source = Source.fromResource(path)
-    try source.mkString
+    try source.mkString.replace("{{TODAY_MINUS_29}}", todayMinus29.format(formatter))
     finally source.close()
   }
 }
