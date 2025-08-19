@@ -4,6 +4,13 @@
 The Central Reference Data Platform Services(DPS) Stub responsibilities:
 * Simulate the responses of DPS
 
+### Running the service
+
+```shell
+sbt run
+```
+The service runs on port 7253 by default.
+
 ## Prerequisites
 
 To ensure that you have all the prerequisites for running this service, follow the Developer setup instructions in the MDTP Handbook.
@@ -23,7 +30,7 @@ Stub data should be added to this repository once a new codelist or corresponden
 
 This allows the tests to simulate the response of DPS, without having to call on DPS each time.
 
-* To add stub data to this repository, we make a `GET` request to the ***DPS*** API.
+* To add stub data to this repository, we make a `GET` request to the [***DPS*** API](https://admin.tax.service.gov.uk/integration-hub/apis/view-specification/38a94f8f-e17f-41c3-863a-bc7b4a37c93d#tag/iv_crdl_reference_data).
 
   The easiest way to do this is with an API client, then it will be nicely formatted for easy copy-pasting.
   
@@ -31,7 +38,7 @@ This allows the tests to simulate the response of DPS, without having to call on
 
   You will need to get your authorisation credentials from Integration Hub and set them up in the Auth tab selecting ***Basic Auth*** as the Authorisation type.
 
-  As an example we can fetch the stub data for `BC03` 
+  As an example we can fetch the stub data for the code list code `BC03`
 
   Make a `GET` request to https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_reference_data
 
@@ -70,6 +77,11 @@ This allows the tests to simulate the response of DPS, without having to call on
 
 * Make a new file in `conf/resources/codeList` called `BC03_page1.json`, paste the results here, and you are done!
 
+* In a similar way, if you need to add any additional stub data to the customs office, you can do so following the above mentioned steps. The [***DPS*** API for customs office](https://admin.tax.service.gov.uk/integration-hub/apis/view-specification/312528d6-5c8b-45b4-b8a7-f9b12381f063) can be invoked via:
+
+  ```shell
+  curl -H "Authorization: Basic $(echo -n "$CLIENT_ID:$CLIENT_SECRET" | base64 )" https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_customs_office
+  ```
 ---
 
 ### All tests and checks
