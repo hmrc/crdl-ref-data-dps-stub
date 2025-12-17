@@ -47,6 +47,8 @@ enum CodeListCode(val codeListCode: String) {
   case BC107 extends CodeListCode("BC107")
   case BC108 extends CodeListCode("BC108")
   case BC109 extends CodeListCode("BC109")
+  case CL231 extends CodeListCode("CL231")
+  case CL234 extends CodeListCode("CL234")
   case CL239 extends CodeListCode("CL239")
   case CL380 extends CodeListCode("CL380")
   case E200  extends CodeListCode("E200")
