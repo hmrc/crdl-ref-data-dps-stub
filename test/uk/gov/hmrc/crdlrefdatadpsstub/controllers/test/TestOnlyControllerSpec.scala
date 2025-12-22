@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlrefdatadpsstub.controllers
+package uk.gov.hmrc.crdlrefdatadpsstub.controllers.test
 
 import org.mockito.Mockito.when
 import org.scalatest.concurrent.ScalaFutures
@@ -29,19 +29,19 @@ import uk.gov.hmrc.crdlrefdatadpsstub.script.RefDataToJsonConverter
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
-class StubDataGeneratorControllerSpec extends AnyWordSpec with Matchers with ScalaFutures {
+class TestOnlyControllerSpec extends AnyWordSpec with Matchers with ScalaFutures {
   private val fakeRequest                   = FakeRequest("GET", "/")
   val mockConverter: RefDataToJsonConverter = mock[RefDataToJsonConverter]
   private val controller =
-    new StubDataGeneratorController(Helpers.stubControllerComponents(), mockConverter)
+    new TestOnlyController(Helpers.stubControllerComponents(), mockConverter)
 
   "POST /generate-stub-data" should {
     "return 200 for a successful conversion" in {
-      when(mockConverter.convertXmlToJson()).thenReturn(Future.successful(()))
+      when(mockConverter.convertXmlToJson()).thenReturn(Future.successful("RefData is converted to stubs successfully"))
 
       val result = controller.generateStubData(fakeRequest)
       status(result) shouldBe Status.OK
-      contentAsString(result) shouldBe "RefDara is converted to stubs successfully"
+      contentAsString(result) shouldBe "RefData is converted to stubs successfully"
     }
 
     "return 500 when conversion fails" in {

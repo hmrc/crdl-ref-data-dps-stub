@@ -11,4 +11,4 @@
 
 # Add all the application routes to the prod.routes file
 ->         /                          prod.Routes
-POST        /generate-stub-data        uk.gov.hmrc.crdlrefdatadpsstub.controllers.StubDataGeneratorController.generateStubData
+POST       /test-only/generate-stub-data        uk.gov.hmrc.crdlrefdatadpsstub.controllers.test.TestOnlyController.generateStubData

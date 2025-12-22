@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlrefdatadpsstub.controllers
+package uk.gov.hmrc.crdlrefdatadpsstub.controllers.test
 
 import play.api.mvc.*
 import uk.gov.hmrc.crdlrefdatadpsstub.script.RefDataToJsonConverter
@@ -22,15 +22,13 @@ import uk.gov.hmrc.crdlrefdatadpsstub.script.RefDataToJsonConverter
 import javax.inject.Inject
 import scala.concurrent.ExecutionContext
 
-class StubDataGeneratorController @Inject() (
+class TestOnlyController @Inject() (
   cc: ControllerComponents,
   converter: RefDataToJsonConverter
 )(implicit ec: ExecutionContext)
   extends AbstractController(cc) {
 
   def generateStubData: Action[AnyContent] = Action.async {
-    converter.convertXmlToJson().map { _ =>
-      Ok("RefDara is converted to stubs successfully")
-    }
+    converter.convertXmlToJson().map { response => Ok(response) }
   }
 }

@@ -114,7 +114,7 @@ Run the application using testOnly routes
 sbt 'run -Dapplication.router=testOnlyDoNotUseInAppConf.Routes' 
 ```
 ```bash
-curl --location --request POST 'localhost:7253/generate-stub-data'
+curl --location --request POST 'localhost:7253/test-only/generate-stub-data'
 ```
 
 ### License
