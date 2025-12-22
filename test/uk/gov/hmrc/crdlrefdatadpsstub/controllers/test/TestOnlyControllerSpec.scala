@@ -35,11 +35,11 @@ class TestOnlyControllerSpec extends AnyWordSpec with Matchers with ScalaFutures
   private val controller =
     new TestOnlyController(Helpers.stubControllerComponents(), mockConverter)
 
-  "POST /generate-stub-data" should {
+  "POST /generate-code-list-data" should {
     "return 200 for a successful conversion" in {
       when(mockConverter.convertXmlToJson()).thenReturn(Future.successful("RefData is converted to stubs successfully"))
 
-      val result = controller.generateStubData(fakeRequest)
+      val result = controller.generateCodeListData(fakeRequest)
       status(result) shouldBe Status.OK
       contentAsString(result) shouldBe "RefData is converted to stubs successfully"
     }
@@ -48,7 +48,7 @@ class TestOnlyControllerSpec extends AnyWordSpec with Matchers with ScalaFutures
       when(mockConverter.convertXmlToJson())
         .thenReturn(Future.failed(new RuntimeException("Conversion failed")))
 
-      val result = controller.generateStubData(fakeRequest)
+      val result = controller.generateCodeListData(fakeRequest)
 
       whenReady(result.failed) { exception =>
         exception shouldBe a[RuntimeException]

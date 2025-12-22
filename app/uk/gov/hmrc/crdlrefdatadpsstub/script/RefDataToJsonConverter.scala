@@ -42,9 +42,8 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
   private val outputDateFormat = DateTimeFormatter.ofPattern("dd-MM-yyyy")
   private val rdEntriesXPath = xpath"//ns3:RDEntry"
   private val entriesPerPage = 10
-  private val recordMultiplier = 1  // Change this to multiply records (e.g., 5 for 5x)
+  private val recordMultiplier = 1  // Change this to generate multiple set of test files
 
-  // Get the base path for resources
   private val basePath: String = environment.rootPath.getAbsolutePath
 
   case class DataItem(
@@ -101,10 +100,6 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
     )
   implicit val rootJsonEncoder: Encoder[RootJson] = deriveEncoder[RootJson]
 
-  /**
-   * Main method to convert XML files to JSON
-   * Call this method explicitly when you want to run the conversion
-   */
   def convertXmlToJson(): Future[String] = {
     val io = for {
       files <- IO.pure(Files.forIO)
@@ -135,14 +130,12 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
     val outputPath = Path(s"$basePath/conf/resources/codeList/$codeListCode")
 
     for {
-      // Delete output directory if it exists, then create fresh
       outputExists <- files.exists(outputPath)
       _ <- if (outputExists) {
         files.deleteRecursively(outputPath)
       } else IO.unit
       _ <- files.createDirectories(outputPath)
 
-      // Find XML file in the folder
       xmlFiles <- files.list(inputPath)
         .filter(p => p.fileName.toString.endsWith(".xml"))
         .compile.toList
@@ -172,9 +165,7 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
     xmlFileName match {
       case pattern(phase, domain, codeListName) =>
         FileMetadata(phase, domain, codeListName)
-      case _ =>
-        // Fallback for non-matching filenames
-        FileMetadata("UNKNOWN", "0", xmlFileName.replace(".xml", ""))
+      case _ => FileMetadata("UNKNOWN", "0", xmlFileName.replace(".xml", ""))
     }
   }
 
@@ -245,9 +236,8 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
 
     entries.grouped(entriesPerPage).toList.zipWithIndex.traverse_ { case (pageEntries, idx) =>
       val pageNum = idx + 1
-      val startIndex = idx * entriesPerPage
 
-      val links = buildLinks(codeListCode, pageNum, totalPages, startIndex)
+      val links = buildLinks(codeListCode, pageNum, totalPages)
 
       val json = RootJson(
         name = "iv_crdl_reference_data",
@@ -278,8 +268,7 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
   private def buildLinks(
                           codeListCode: String,
                           currentPage: Int,
-                          totalPages: Int,
-                          startIndex: Int
+                          totalPages: Int
                         ): List[Link] = {
     val baseUrl = s"https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data"
 
@@ -289,7 +278,6 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
     )
 
     val prevLink = if (currentPage > 1) {
-      val prevStartIndex = (currentPage - 2) * entriesPerPage
       Some(Link(
         rel = "prev",
         href = s"?%24orderby=snapshotversion+ASC&code_list_code=$codeListCode&%24count=$entriesPerPage",

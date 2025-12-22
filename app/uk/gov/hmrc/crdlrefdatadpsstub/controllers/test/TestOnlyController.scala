@@ -28,7 +28,7 @@ class TestOnlyController @Inject() (
 )(implicit ec: ExecutionContext)
   extends AbstractController(cc) {
 
-  def generateStubData: Action[AnyContent] = Action.async {
+  def generateCodeListData: Action[AnyContent] = Action.async {
     converter.convertXmlToJson().map { response => Ok(response) }
   }
 }

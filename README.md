@@ -89,7 +89,7 @@ This is an sbt command alias specific to this project. It will run a scala forma
 check, run unit tests, run integration tests and produce a coverage report:
 > `sbt runAllChecks`
 
-## Steps to generate DPS stubs based on RD files
+## Steps to generate code list json files based on EU RD files
 
 ### input/output folder structure
 
@@ -114,7 +114,7 @@ Run the application using testOnly routes
 sbt 'run -Dapplication.router=testOnlyDoNotUseInAppConf.Routes' 
 ```
 ```bash
-curl --location --request POST 'localhost:7253/test-only/generate-stub-data'
+curl --location --request POST 'localhost:7253/test-only/generate-code-list-data'
 ```
 
 ### License
