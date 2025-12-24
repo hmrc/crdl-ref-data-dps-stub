@@ -89,6 +89,34 @@ This is an sbt command alias specific to this project. It will run a scala forma
 check, run unit tests, run integration tests and produce a coverage report:
 > `sbt runAllChecks`
 
+## Steps to generate code list json files based on EU RD files
+
+### input/output folder structure
+
+please input files in following structure.
+
+```
+crdl-ref-data-dps-stub/
+├── conf/
+│   └── resources/
+│       ├── input/              ← INPUT: Place your XML files here
+│       │   ├── CL231/
+│       │   │   └── RD_NCTS-P6_DeclarationType.xml
+│       └── codeList/           ← OUTPUT: JSON files generated here
+│           ├── CL231/
+│           │   ├── CL231_page1.json
+│           │   └── CL231_page2.json
+```
+### How to Run
+
+Run the application using testOnly routes
+```bash
+sbt 'run -Dapplication.router=testOnlyDoNotUseInAppConf.Routes' 
+```
+```bash
+curl --location --request POST 'localhost:7253/test-only/generate-code-list-data'
+```
+
 ### License
 
 This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
