@@ -1,0 +1,139 @@
+{
+  "name" : "iv_crdl_reference_data",
+  "elements" : [
+    {
+      "code_list_code" : "CL178",
+      "code_list_name" : "PreviousDocumentUnionGoods",
+      "rdentry" : [
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "C612"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Internal Community transit declaration, T2F"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "C620"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "T2LF document"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "N822"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Internal Community transit declaration T2"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "N825"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "T2L document"
+            }
+          ]
+        }
+      ],
+      "languagecode" : "EN",
+      "snapshotversion" : 2
+    }
+  ],
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL178&%24count=10"
+    }
+  ]
+}

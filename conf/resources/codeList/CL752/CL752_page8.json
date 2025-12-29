@@ -1,0 +1,329 @@
+{
+  "name" : "iv_crdl_reference_data",
+  "elements" : [
+    {
+      "code_list_code" : "CL752",
+      "code_list_name" : "AdditionalInformationCodeSubset",
+      "rdentry" : [
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F100"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "23-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Provide phone number and e-mail address(es) of consignor"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F101"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "23-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Confirm that declared consignor name is correct"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F102"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "23-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Confirm that declared consignor identification number is correct"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F103"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "23-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Confirm that declared consignor type of person (legal or natural person) is correct"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F104"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "23-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Confirm that declared consignor address is correct"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F105"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "25-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Provide EORI number of consignor"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F110"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "25-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Provide phone number and e-mail address(es) of seller"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F111"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "25-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Confirm that declared seller name is correct"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F112"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "25-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Confirm that declared seller identification number is correct"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "F113"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "25-10-2024"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Confirm that declared seller type of person (legal or natural person) is correct"
+            }
+          ]
+        }
+      ],
+      "languagecode" : "EN",
+      "snapshotversion" : 2
+    }
+  ],
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL752&%24count=10"
+    },
+    {
+      "title" : "Previous interval",
+      "rel" : "prev",
+      "href" : "?%24start_index=60&%24orderby=snapshotversion+ASC&code_list_code=CL752&%24count=10"
+    },
+    {
+      "title" : "Next interval",
+      "rel" : "next",
+      "href" : "?%24start_index=80&%24orderby=snapshotversion+ASC&code_list_code=CL752&%24count=10"
+    }
+  ]
+}

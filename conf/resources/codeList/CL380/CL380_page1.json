@@ -1,0 +1,324 @@
+{
+  "name" : "iv_crdl_reference_data",
+  "elements" : [
+    {
+      "code_list_code" : "CL380",
+      "code_list_name" : "AdditionalReference",
+      "rdentry" : [
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "C651"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Electronic administrative document (e-AD), as referred to in Article 3 of Reg. (EU) 2022/1636"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "C658"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Fallback Document for movements of excise goods under suspension of excise duty, as referred to in Article 9(1) of Commission Delegated Regulation (EU) 2022/1636"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "Y015"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "The rough diamonds are contained in tamper-resistant containers, and the seals applied at export by the participant (Kimberley process) are not broken"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "Y022"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Consignor / exporter (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "Y023"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Consignee (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "Y024"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Declarant (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "Y025"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Representative (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "Y026"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Holder of the transit procedure (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "Y027"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Warehousekeeper (AEO certificate number)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "Y028"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "03-12-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Carrier (AEO certificate number)"
+            }
+          ]
+        }
+      ],
+      "languagecode" : "EN",
+      "snapshotversion" : 2
+    }
+  ],
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL380&%24count=10"
+    },
+    {
+      "title" : "Next interval",
+      "rel" : "next",
+      "href" : "?%24start_index=10&%24orderby=snapshotversion+ASC&code_list_code=CL380&%24count=10"
+    }
+  ]
+}

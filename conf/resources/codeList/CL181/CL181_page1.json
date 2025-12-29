@@ -1,0 +1,229 @@
+{
+  "name" : "iv_crdl_reference_data",
+  "elements" : [
+    {
+      "code_list_code" : "CL181",
+      "code_list_name" : "KindOfPackagesBulk",
+      "rdentry" : [
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "VG"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Bulk, gas (at 1031 mbar and 15°C)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "VL"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Bulk, liquid"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "VO"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Bulk, solid, large particles (\"nodules\")"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "VQ"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Bulk, liquefied gas (at abnormal temperature/pressure)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "VR"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Bulk, solid, granular particles (\"grains\")"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "VS"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Bulk, scrap metal"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "VY"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Bulk, solid, fine particles (\"powders\")"
+            }
+          ]
+        }
+      ],
+      "languagecode" : "EN",
+      "snapshotversion" : 2
+    }
+  ],
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL181&%24count=10"
+    }
+  ]
+}

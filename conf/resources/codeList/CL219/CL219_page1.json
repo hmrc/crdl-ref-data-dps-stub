@@ -1,0 +1,259 @@
+{
+  "name" : "iv_crdl_reference_data",
+  "elements" : [
+    {
+      "code_list_code" : "CL219",
+      "code_list_name" : "TypeOfIdentificationofMeansOfTransportActive",
+      "rdentry" : [
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "10"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "IMO Ship Identification Number"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "11"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Name of the sea-going vessel"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "21"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Train Number"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "30"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Registration Number of the Road Vehicle"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "40"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "IATA flight number"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "41"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Registration Number of the Aircraft"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "80"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "European Vessel Identification Number (ENI Code)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_value" : "81"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "NCTS"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "6"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Name of the inland waterways vessel"
+            }
+          ]
+        }
+      ],
+      "languagecode" : "EN",
+      "snapshotversion" : 2
+    }
+  ],
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL219&%24count=10"
+    }
+  ]
+}

@@ -278,9 +278,10 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
     )
 
     val prevLink = if (currentPage > 1) {
+      val prevStartIndex = (currentPage - 2) * entriesPerPage
       Some(Link(
         rel = "prev",
-        href = s"?%24orderby=snapshotversion+ASC&code_list_code=$codeListCode&%24count=$entriesPerPage",
+        href = s"?%24start_index=$prevStartIndex&%24orderby=snapshotversion+ASC&code_list_code=$codeListCode&%24count=$entriesPerPage",
         title = Some("Previous interval")
       ))
     } else None
