@@ -31,7 +31,7 @@ class JsonFileReaderService @Inject() (fileReader: FileReader) {
     codeListCode: CodeListCode,
     startIndex: Int
   ) = fetchResponseJson(
-    s"resources/codeList/${codeListCode.codeListCode}_page${pageIndexFor(startIndex)}.json",
+    s"resources/codeList/${codeListCode.codeListCode}/${codeListCode.codeListCode}_page${pageIndexFor(startIndex)}.json",
     "resources/codeList/EmptyPage.json"
   )
 
