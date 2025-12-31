@@ -36,119 +36,135 @@ import scala.concurrent.Future
 import scala.xml.{Elem, NodeSeq}
 
 @Singleton
-class RefDataToJsonConverter @Inject()(environment: Environment) {
+class RefDataToJsonConverter @Inject() (environment: Environment) {
 
-  private val inputDateFormat = DateTimeFormatter.ISO_LOCAL_DATE
+  private val inputDateFormat  = DateTimeFormatter.ISO_LOCAL_DATE
   private val outputDateFormat = DateTimeFormatter.ofPattern("dd-MM-yyyy")
-  private val rdEntriesXPath = xpath"//ns3:RDEntry"
-  private val entriesPerPage = 10
-  private val recordMultiplier = 1  // Change this to generate multiple set of test files
+  private val rdEntriesXPath   = xpath"//ns3:RDEntry"
+  private val entriesPerPage   = 10
+  private val recordMultiplier = 1 // Change this to generate multiple set of test files
 
   private val basePath: String = environment.rootPath.getAbsolutePath
 
   case class DataItem(
-                       dataitem_name: String,
-                       dataitem_value: String
-                     )
+    dataitem_name: String,
+    dataitem_value: String
+  )
 
   case class Language(
-                       lang_code: String,
-                       lang_desc: String
-                     )
+    lang_code: String,
+    lang_desc: String
+  )
 
   case class RDEntry(
-                      dataitem: List[DataItem],
-                      language: List[Language]
-                    )
+    dataitem: List[DataItem],
+    language: List[Language]
+  )
 
   case class CodeListElement(
-                              code_list_code: String,
-                              code_list_name: String,
-                              rdentry: List[RDEntry],
-                              languagecode: String,
-                              snapshotversion: Int
-                            )
+    code_list_code: String,
+    code_list_name: String,
+    rdentry: List[RDEntry],
+    languagecode: String,
+    snapshotversion: Int
+  )
 
   case class Link(
-                   rel: String,
-                   href: String,
-                   title: Option[String] = None
-                 )
+    rel: String,
+    href: String,
+    title: Option[String] = None
+  )
 
   case class RootJson(
-                       name: String,
-                       elements: List[CodeListElement],
-                       links: List[Link]
-                     )
+    name: String,
+    elements: List[CodeListElement],
+    links: List[Link]
+  )
 
   case class FileMetadata(
-                           phase: String,
-                           domain: String,
-                           codeListName: String
-                         )
+    phase: String,
+    domain: String,
+    codeListName: String
+  )
 
-  implicit val dataItemEncoder: Encoder[DataItem] = deriveEncoder[DataItem]
-  implicit val languageEncoder: Encoder[Language] = deriveEncoder[Language]
-  implicit val rdEntryEncoder: Encoder[RDEntry] = deriveEncoder[RDEntry]
+  implicit val dataItemEncoder: Encoder[DataItem]               = deriveEncoder[DataItem]
+  implicit val languageEncoder: Encoder[Language]               = deriveEncoder[Language]
+  implicit val rdEntryEncoder: Encoder[RDEntry]                 = deriveEncoder[RDEntry]
   implicit val codeListElementEncoder: Encoder[CodeListElement] = deriveEncoder[CodeListElement]
   implicit val linkEncoder: Encoder[Link] = (link: Link) =>
-    Json.obj(
-      "rel" -> link.rel.asJson,
-      "href" -> link.href.asJson
-    ).deepMerge(
-      link.title.map(t => Json.obj("title" -> t.asJson)).getOrElse(Json.obj())
-    )
+    Json
+      .obj(
+        "rel"  -> link.rel.asJson,
+        "href" -> link.href.asJson
+      )
+      .deepMerge(
+        link.title.map(t => Json.obj("title" -> t.asJson)).getOrElse(Json.obj())
+      )
   implicit val rootJsonEncoder: Encoder[RootJson] = deriveEncoder[RootJson]
 
   def convertXmlToJson(): Future[String] = {
     val io = for {
-      files <- IO.pure(Files.forIO)
+      files     <- IO.pure(Files.forIO)
       inputPath <- IO.pure(Path(s"$basePath/conf/resources/input"))
 
       inputExists <- files.exists(inputPath)
-      result <- if (!inputExists) {
-        IO.pure("No input files to process")
-      } else {
-        for {
-          folders <- files.list(inputPath).compile.toList
-          folderNames <- folders.filterA(p => files.isDirectory(p)).map(_.map(_.fileName.toString))
-          result <- if (folderNames.isEmpty) {
-            IO.pure("No input files to process")
-          } else {
-            folderNames.traverse_(processFolder).map(_ => "RefData is converted to stubs successfully")
-          }
-        } yield result
-      }
+      result <-
+        if (!inputExists) {
+          IO.pure("No input files to process")
+        } else {
+          for {
+            folders <- files.list(inputPath).compile.toList
+            folderNames <- folders
+              .filterA(p => files.isDirectory(p))
+              .map(_.map(_.fileName.toString))
+            result <-
+              if (folderNames.isEmpty) {
+                IO.pure("No input files to process")
+              } else {
+                folderNames
+                  .traverse_(processFolder)
+                  .map(_ => "RefData is converted to stubs successfully")
+              }
+          } yield result
+        }
     } yield result
 
     io.unsafeToFuture()
   }
 
   private def processFolder(codeListCode: String): IO[Unit] = {
-    val files = Files.forIO
-    val inputPath = Path(s"$basePath/conf/resources/input/$codeListCode")
+    val files      = Files.forIO
+    val inputPath  = Path(s"$basePath/conf/resources/input/$codeListCode")
     val outputPath = Path(s"$basePath/conf/resources/codeList/$codeListCode")
 
     for {
       outputExists <- files.exists(outputPath)
-      _ <- if (outputExists) {
-        files.deleteRecursively(outputPath)
-      } else IO.unit
+      _ <-
+        if (outputExists) {
+          files.deleteRecursively(outputPath)
+        } else IO.unit
       _ <- files.createDirectories(outputPath)
 
-      xmlFiles <- files.list(inputPath)
+      xmlFiles <- files
+        .list(inputPath)
         .filter(p => p.fileName.toString.endsWith(".xml"))
-        .compile.toList
+        .compile
+        .toList
 
       _ <- xmlFiles.headOption match {
         case Some(xmlFile) =>
           val xmlFileName = xmlFile.fileName.toString
-          val metadata = extractFileMetadata(xmlFileName)
+          val metadata    = extractFileMetadata(xmlFileName)
 
           for {
             entries <- readAndParseXml(xmlFile, metadata)
             multipliedEntries = multiplyEntries(entries, recordMultiplier)
-            _ <- writePagedJsonFiles(codeListCode, metadata.codeListName, multipliedEntries, outputPath)
+            _ <- writePagedJsonFiles(
+              codeListCode,
+              metadata.codeListName,
+              multipliedEntries,
+              outputPath
+            )
           } yield ()
 
         case None =>
@@ -203,8 +219,8 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
 
   private def parseRDEntry(elem: Elem, metadata: FileMetadata): Option[RDEntry] = {
     for {
-      code <- parseString(elem \\ "dataItem")
-      state <- parseString(elem \ "RDEntryStatus" \ "state")
+      code          <- parseString(elem \\ "dataItem")
+      state         <- parseString(elem \ "RDEntryStatus" \ "state")
       activeFromRaw <- parseString(elem \ "RDEntryStatus" \ "activeFrom")
       activeFrom = parseDate(activeFromRaw)
       enDesc <- (elem \ "LsdList" \ "description")
@@ -226,12 +242,12 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
   }
 
   private def writePagedJsonFiles(
-                                   codeListCode: String,
-                                   codeListName: String,
-                                   entries: List[RDEntry],
-                                   outputPath: Path
-                                 ): IO[Unit] = {
-    val files = Files.forIO
+    codeListCode: String,
+    codeListName: String,
+    entries: List[RDEntry],
+    outputPath: Path
+  ): IO[Unit] = {
+    val files      = Files.forIO
     val totalPages = Math.ceil(entries.size.toDouble / entriesPerPage).toInt
 
     entries.grouped(entriesPerPage).toList.zipWithIndex.traverse_ { case (pageEntries, idx) =>
@@ -266,33 +282,41 @@ class RefDataToJsonConverter @Inject()(environment: Environment) {
   }
 
   private def buildLinks(
-                          codeListCode: String,
-                          currentPage: Int,
-                          totalPages: Int
-                        ): List[Link] = {
-    val baseUrl = s"https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data"
+    codeListCode: String,
+    currentPage: Int,
+    totalPages: Int
+  ): List[Link] = {
+    val baseUrl =
+      s"https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data"
 
     val selfLink = Link(
       rel = "self",
-      href = s"$baseUrl?%24orderby=snapshotversion+ASC&code_list_code=$codeListCode&%24count=$entriesPerPage"
+      href =
+        s"$baseUrl?%24orderby=snapshotversion+ASC&code_list_code=$codeListCode&%24count=$entriesPerPage"
     )
 
     val prevLink = if (currentPage > 1) {
       val prevStartIndex = (currentPage - 2) * entriesPerPage
-      Some(Link(
-        rel = "prev",
-        href = s"?%24start_index=$prevStartIndex&%24orderby=snapshotversion+ASC&code_list_code=$codeListCode&%24count=$entriesPerPage",
-        title = Some("Previous interval")
-      ))
+      Some(
+        Link(
+          rel = "prev",
+          href =
+            s"?%24start_index=$prevStartIndex&%24orderby=snapshotversion+ASC&code_list_code=$codeListCode&%24count=$entriesPerPage",
+          title = Some("Previous interval")
+        )
+      )
     } else None
 
     val nextLink = if (currentPage < totalPages) {
       val nextStartIndex = currentPage * entriesPerPage
-      Some(Link(
-        rel = "next",
-        href = s"?%24start_index=$nextStartIndex&%24orderby=snapshotversion+ASC&code_list_code=$codeListCode&%24count=$entriesPerPage",
-        title = Some("Next interval")
-      ))
+      Some(
+        Link(
+          rel = "next",
+          href =
+            s"?%24start_index=$nextStartIndex&%24orderby=snapshotversion+ASC&code_list_code=$codeListCode&%24count=$entriesPerPage",
+          title = Some("Next interval")
+        )
+      )
     } else None
 
     List(Some(selfLink), prevLink, nextLink).flatten
