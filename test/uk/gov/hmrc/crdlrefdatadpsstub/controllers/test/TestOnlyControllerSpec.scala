@@ -37,7 +37,8 @@ class TestOnlyControllerSpec extends AnyWordSpec with Matchers with ScalaFutures
 
   "POST /generate-code-list-data" should {
     "return 200 for a successful conversion" in {
-      when(mockConverter.convertXmlToJson()).thenReturn(Future.successful("RefData is converted to stubs successfully"))
+      when(mockConverter.convertXmlToJson())
+        .thenReturn(Future.successful("RefData is converted to stubs successfully"))
 
       val result = controller.generateCodeListData(fakeRequest)
       status(result) shouldBe Status.OK
