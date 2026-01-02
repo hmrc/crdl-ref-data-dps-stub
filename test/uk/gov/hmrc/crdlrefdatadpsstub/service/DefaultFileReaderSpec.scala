@@ -27,14 +27,14 @@ class DefaultFileReaderSpec extends AnyWordSpec with Matchers {
   "DefaultFileReader" should {
     "read the contents of a resource file" in {
       val reader = new DefaultFileReader
-      val result = reader.read("resources/codeList/CL239_page1.json")
+      val result = reader.read("resources/codeList/CL239/CL239_page1.json")
       Json.parse(result) shouldBe a[JsObject]
     }
 
     "throw a FileNotFoundException when the file does not exist" in {
       val reader = new DefaultFileReader
       assertThrows[FileNotFoundException] {
-        reader.read("resources/codeList/CL289_page1.json")
+        reader.read("resources/codeList/CL289/CL289_page1.json")
       }
     }
   }
