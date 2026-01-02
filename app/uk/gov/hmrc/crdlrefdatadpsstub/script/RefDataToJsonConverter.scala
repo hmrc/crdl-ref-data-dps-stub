@@ -205,9 +205,6 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
     else entries.flatMap(entry => List.fill(times)(entry))
   }
 
-  private def parseString(nodeSeq: NodeSeq): Option[String] =
-    nodeSeq.headOption.map(_.text.trim)
-
   private def parseDate(dateStr: String): String = {
     try {
       val date = LocalDate.parse(dateStr, inputDateFormat)
@@ -219,16 +216,18 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
 
   private def parseRDEntry(elem: Elem, metadata: FileMetadata): Option[RDEntry] = {
     for {
-      code          <- parseString(elem \\ "dataItem")
-      state         <- parseString(elem \ "RDEntryStatus" \ "state")
-      activeFromRaw <- parseString(elem \ "RDEntryStatus" \ "activeFrom")
+      dataItemElem <- (elem \\ "dataItem").headOption // This should work for local name
+      name <- dataItemElem.attribute("name").map(_.text) // Use attribute() instead of \ "@name"
+      code <- Some(dataItemElem.text.trim).filter(_.nonEmpty)
+      state <- (elem \ "RDEntryStatus" \ "state").headOption.map(_.text)
+      activeFromRaw <- (elem \ "RDEntryStatus" \ "activeFrom").headOption.map(_.text)
       activeFrom = parseDate(activeFromRaw)
       enDesc <- (elem \ "LsdList" \ "description")
-        .find(node => (node \ "@lang").text == "en")
-        .flatMap(n => Some(n.text.trim))
+        .find(node => node.attribute("lang").exists(_.text == "en"))
+        .map(_.text.trim)
     } yield {
       val dataItems = List(
-        DataItem("AdditionalInformationCode", code),
+        DataItem(name, code),
         DataItem("RDEntryStatus_state", state),
         DataItem("RDEntryStatus_activeFrom", activeFrom),
         DataItem("Phase", metadata.phase),
