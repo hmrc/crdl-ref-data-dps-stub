@@ -21,19 +21,17 @@ import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatestplus.mockito.MockitoSugar.mock
 import play.api.http.Status
-import play.api.test.FakeRequest
-import play.api.test.Helpers
+import play.api.test.{FakeRequest, Helpers}
 import play.api.test.Helpers.*
 import uk.gov.hmrc.crdlrefdatadpsstub.models.CodeListCode.BC08
-import uk.gov.hmrc.crdlrefdatadpsstub.service.FileReader
-import uk.gov.hmrc.crdlrefdatadpsstub.service.JsonFileReaderService
+import uk.gov.hmrc.crdlrefdatadpsstub.service.{FileReader, JsonFileReaderService}
 
 class CodeListsControllerSpec extends AnyWordSpec with Matchers {
 
   private val fakeRequest = FakeRequest("GET", "/")
   val mockFileReader      = mock[FileReader]
   val validJson           = """{ "countrycode": "United Kingdom"}"""
-  when(mockFileReader.read("resources/codeList/BC08_page1.json")).thenReturn(validJson)
+  when(mockFileReader.read("resources/codeList/BC08/BC08_page1.json")).thenReturn(validJson)
   val jsonFileReaderService = new JsonFileReaderService(mockFileReader)
   private val controller =
     new CodeListsController(jsonFileReaderService, Helpers.stubControllerComponents())

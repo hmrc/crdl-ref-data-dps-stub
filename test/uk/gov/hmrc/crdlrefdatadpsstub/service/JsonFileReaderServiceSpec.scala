@@ -28,7 +28,7 @@ import org.scalatest.BeforeAndAfterEach
 
 class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers with BeforeAndAfterEach {
   val codeListCode      = BC08
-  val codeListPath      = "resources/codeList/BC08_page1.json"
+  val codeListPath      = "resources/codeList/BC08/BC08_page1.json"
   val emptyCodeListPath = "resources/codeList/EmptyPage.json"
   val customsOfficePath = "resources/col/COL_page1.json"
   val emptyOfficePath   = "resources/col/EmptyPage.json"
@@ -48,7 +48,7 @@ class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers with BeforeAnd
     }
 
     "calculate the correct page index" in {
-      val page3Path = "resources/codeList/BC08_page3.json"
+      val page3Path = "resources/codeList/BC08/BC08_page3.json"
       when(mockFileReader.read(page3Path)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
       val result  = service.fetchCodeListJson(codeListCode, startIndex = 20)
