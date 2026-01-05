@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>c8b278b1-5661-4fa1-983f-730ba9976c5a</ns1:messageID>
+         <ns1:relatesTo>df27b677-cc38-43fd-aa67-419f39c332be</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>df27b677-cc38-43fd-aa67-419f39c332be</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="KindOfPackagesBulk"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="KindOfPackagesBulk">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">VG</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Насипно, газ (при 1031 mbar и 15 С)</ns7:description>
+               <ns7:description lang="cs">Volně loženo, plyn (při tlaku 1 031mbar a teplotě 15°C</ns7:description>
+               <ns7:description lang="da">tankgas (ved 1 031 mbar og 15°)</ns7:description>
+               <ns7:description lang="de">Massengut, Gas (bei 1 031 mbar und 15 °C)</ns7:description>
+               <ns7:description lang="el">Αέριο (υπό πίεση 1 031 mbar και θερμοκρασία 15 °C), χύμα</ns7:description>
+               <ns7:description lang="en">Bulk, gas (at 1031 mbar and 15°C)</ns7:description>
+               <ns7:description lang="es">Gas a granel a 1031 mbar 15 c</ns7:description>
+               <ns7:description lang="et">Gaas (1031 mbar ja 15 °C)</ns7:description>
+               <ns7:description lang="fi">Bulk-tav. kaasu (1031mbar ja 15 C)</ns7:description>
+               <ns7:description lang="fr">Vrac, gaz (à 1 031 mbar et 15 degré C)</ns7:description>
+               <ns7:description lang="hr">Rasuto, plin (pri 1031 mbar i 15 °C)</ns7:description>
+               <ns7:description lang="hu">Tömegáru, gáz (1031 mbar-on, 15 °C-on)</ns7:description>
+               <ns7:description lang="is">Vara í lausu (við 1031mbar og 15°C)</ns7:description>
+               <ns7:description lang="it">Gas alla rinfusa (1031mbar e 15°C)</ns7:description>
+               <ns7:description lang="lt">Ne talpyklose pateikiamos dujos (1 031 mbar ir 15°C)</ns7:description>
+               <ns7:description lang="lv">Nefasēti produkti, gāze (1 031 mbar un 15° C)</ns7:description>
+               <ns7:description lang="me">Rasuti gas (na 1031 mbar i 15°C)</ns7:description>
+               <ns7:description lang="mk">Рефус, гас (при 1031 mbar и 15 oC)</ns7:description>
+               <ns7:description lang="nl">Bulk, gas (1031 mbar en 15C)</ns7:description>
+               <ns7:description lang="no">Bulk, gass (ved 1031 mbar og 15C)</ns7:description>
+               <ns7:description lang="pl">Towar masowy,gaz (o1031mbar i 15°C)</ns7:description>
+               <ns7:description lang="pt">Granel, gás (a 1 031 mbar e 15 °C)</ns7:description>
+               <ns7:description lang="ro">gaz vrac (la 1031mbari si 15gradeC)</ns7:description>
+               <ns7:description lang="sk">Voľne ložené, plyn (pri 1 031 mbar a 15°C</ns7:description>
+               <ns7:description lang="sl">Razsuto, plin (pri 1031 mbar in 15 °C)</ns7:description>
+               <ns7:description lang="sr">Rinfuza, gas (pri 1031 mbar i 15 °C)</ns7:description>
+               <ns7:description lang="sv">Bulk, gas (1031mbar och 15°C)</ns7:description>
+               <ns7:description lang="tr">Dökme, gaz (1031 mbar ve 15oC'de)</ns7:description>
+               <ns7:description lang="uk">Об'ємні перевезення, газ (при 1031 мбар та 15 C)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">VL</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Насипно, течности</ns7:description>
+               <ns7:description lang="cs">Volně loženo, kapalina</ns7:description>
+               <ns7:description lang="da">massegods, flydende</ns7:description>
+               <ns7:description lang="de">Massengut, flüssig</ns7:description>
+               <ns7:description lang="el">Υγρό, χύμα</ns7:description>
+               <ns7:description lang="en">Bulk, liquid</ns7:description>
+               <ns7:description lang="es">Líquido a granel</ns7:description>
+               <ns7:description lang="et">Vedelik mahtkaubana</ns7:description>
+               <ns7:description lang="fi">Bulk-tavara, nestemäinen</ns7:description>
+               <ns7:description lang="fr">Vrac, liquide</ns7:description>
+               <ns7:description lang="hr">Rasuto, tekućina</ns7:description>
+               <ns7:description lang="hu">Folyékony tömegáru</ns7:description>
+               <ns7:description lang="is">Vara í lausu, fljótandi</ns7:description>
+               <ns7:description lang="it">Liquidi alla rinfusa</ns7:description>
+               <ns7:description lang="lt">Nesupilstytas į talpyklas skystis</ns7:description>
+               <ns7:description lang="lv">Nefasēti produkti, šķidrums</ns7:description>
+               <ns7:description lang="me">Rasuta tečnost</ns7:description>
+               <ns7:description lang="mk">Рефус, течна состојба</ns7:description>
+               <ns7:description lang="nl">Bulk, vloeistof</ns7:description>
+               <ns7:description lang="no">Bulk, væske</ns7:description>
+               <ns7:description lang="pl">Towar masowy, płynny</ns7:description>
+               <ns7:description lang="pt">Granel, líquido</ns7:description>
+               <ns7:description lang="ro">lichid in vrac</ns7:description>
+               <ns7:description lang="sk">Voľne ložené, tekutý</ns7:description>
+               <ns7:description lang="sl">Razsuto, tekočina</ns7:description>
+               <ns7:description lang="sr">Rinfuza, tečnost</ns7:description>
+               <ns7:description lang="sv">Bulk, flytande</ns7:description>
+               <ns7:description lang="tr">Dökme, sıvı</ns7:description>
+               <ns7:description lang="uk">Об'ємні перевезення, рідина</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">VO</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Насипно, твърди, едри парчета (бучки)</ns7:description>
+               <ns7:description lang="cs">Volně loženo, tuhá konzistence, velké kusy (&quot;hroudy&quot;)</ns7:description>
+               <ns7:description lang="da">massegods, fast, store partikler (knolde, moduler)</ns7:description>
+               <ns7:description lang="de">Massengut, fest, große Teilchen (&quot;Knollen&quot;)</ns7:description>
+               <ns7:description lang="el">Στερεά, μεγαλύτερα σωματίδια (οζίδια), χύμα</ns7:description>
+               <ns7:description lang="en">Bulk, solid, large particles (&quot;nodules&quot;)</ns7:description>
+               <ns7:description lang="es">Sólido granel partículas grandes</ns7:description>
+               <ns7:description lang="et">Tahked, suured osakesed («tombuke&quot;)</ns7:description>
+               <ns7:description lang="fi">Bulk-tavara, kiinteät, karkea</ns7:description>
+               <ns7:description lang="fr">Vrac, solide, particules grosses (nodules)</ns7:description>
+               <ns7:description lang="hr">Rasuto, krute tvari, krupne čestice (grumeni)</ns7:description>
+               <ns7:description lang="hu">Szilárd tömegáru (&quot;darabos&quot;)</ns7:description>
+               <ns7:description lang="is">Vara í lausu, stórir hlutir</ns7:description>
+               <ns7:description lang="it">Particelle rinfusa,solide,grandi</ns7:description>
+               <ns7:description lang="lt">Birios, kietos, stambios dalelės (&quot;gumuliukai&quot;)</ns7:description>
+               <ns7:description lang="lv">Nefasēti produkti, cieti, lielas daļiņas (gabali)</ns7:description>
+               <ns7:description lang="me">Rasut materijal, krupne čestice (&quot;nodule&quot;)</ns7:description>
+               <ns7:description lang="mk">Рефус, тврда состојба, големи делови (&quot;грутки&quot;)</ns7:description>
+               <ns7:description lang="nl">Bulk, vaste stof, grove deeltjes (knolletjes)</ns7:description>
+               <ns7:description lang="no">Bulk, fast stoff, store partikler (&quot;klumper&quot;)</ns7:description>
+               <ns7:description lang="pl">Tow. mas.,stałe,duże cząst(&quot;guzki&quot;)</ns7:description>
+               <ns7:description lang="pt">Granel, sólido, partículas grossas (&quot;nódulos&quot;)</ns7:description>
+               <ns7:description lang="ro">materii solide, vrac, in particule</ns7:description>
+               <ns7:description lang="sk">Voľne ložené, tuhý, veľké častice(&quot;hrudky&quot;)</ns7:description>
+               <ns7:description lang="sl">Razsuto, trdna snov, večji delci ('grude')</ns7:description>
+               <ns7:description lang="sr">Rinfuza, čvrste krupne čestice (grumeni, komadi)</ns7:description>
+               <ns7:description lang="sv">Bulk, fasta, stora partiklar</ns7:description>
+               <ns7:description lang="tr">Dökme, katı, büyük parçacıklar (yumrular)</ns7:description>
+               <ns7:description lang="uk">Об'ємні перевезення, великі частки (&quot;кульки&quot;)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">VQ</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Насипно, втечнен газ (при голяма температура/налягане)</ns7:description>
+               <ns7:description lang="cs">Volně loženo, zkapalněný plyn (na vysokou teplotu/tlak)</ns7:description>
+               <ns7:description lang="da">tankgas, flydende (LPG) (ved temperatur/tryk uden for normalområdet)</ns7:description>
+               <ns7:description lang="de">Massengut, Flüssiggas (bei anormaler Temperatur/anormalem Druck)</ns7:description>
+               <ns7:description lang="el">Υγροποιημένο αέριο (σε μη κανονική θερμοκρασία/πίεση), χύμα</ns7:description>
+               <ns7:description lang="en">Bulk, liquefied gas (at abnormal temperature/pressure)</ns7:description>
+               <ns7:description lang="es">Gas licua granel temp presión norm</ns7:description>
+               <ns7:description lang="et">Veeldatud gaas (anormaalsel temperatuuril/survel</ns7:description>
+               <ns7:description lang="fi">Bulk,nestekaasu,poikk.lämpöt./paine</ns7:description>
+               <ns7:description lang="fr">Vrac, gaz liquéfié (à température et pression anormales)</ns7:description>
+               <ns7:description lang="hr">Rasuto, ukapljeni plin (pri abnormalnoj temperaturi/tlaku)</ns7:description>
+               <ns7:description lang="hu">Tömegáru, folyékony gáz (nem normális nyomáson/hőmérsékleten)</ns7:description>
+               <ns7:description lang="is">Vara í lausu flj. gas afbrigðilegt</ns7:description>
+               <ns7:description lang="it">Gas liq. rinfusa(temp./press.anorm)</ns7:description>
+               <ns7:description lang="lt">Ne talpyklose pateikiamos dujos (nenormaliosios temperatūros/ slėgio)</ns7:description>
+               <ns7:description lang="lv">Nefasēti produkti, sašķidrināta gāze (ar anormālu temperatūru/spiedienu)</ns7:description>
+               <ns7:description lang="me">Rasuti ukapljeni gas (pri nenormalnoj temperaturi/pritisaku)</ns7:description>
+               <ns7:description lang="mk">Рефус, течен гас (при невообичаени температури/притисок)</ns7:description>
+               <ns7:description lang="nl">Bulk, vloeibaar gas (abnormale temperatuur/druk)</ns7:description>
+               <ns7:description lang="no">Bulk, flytende gass (under abnorm temperatur/trykk)</ns7:description>
+               <ns7:description lang="pl">Tow.mas.,gaz płynny (o nietyp. t/ć)</ns7:description>
+               <ns7:description lang="pt">Granel, gás líquido (temperatura e pressão anormais)</ns7:description>
+               <ns7:description lang="ro">gaz lichefiat in vrac(la temp si pr</ns7:description>
+               <ns7:description lang="sk">Voľne ložené, skvapalnený plyn (pri extrémnej teplote/tlaku)</ns7:description>
+               <ns7:description lang="sl">Razsuto, utekočinjeni plin (pri neobičajni temperaturi/tlaku)</ns7:description>
+               <ns7:description lang="sr">Rinfuza, tečni gas (pri velikoj temperaturi/pritisku)</ns7:description>
+               <ns7:description lang="sv">Bulk, till vätska förtätad gas</ns7:description>
+               <ns7:description lang="tr">Dökme, sıvılaştırılmış gaz (normal olmayan ısı/basınçta)</ns7:description>
+               <ns7:description lang="uk">Об'ємні перевезення, зріджений газ (особливий режим температури та тиску)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">VR</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Насипно, твърди, гранулирани частици (гранули)</ns7:description>
+               <ns7:description lang="cs">Volně loženo, tuhá konzistence, granule (&quot;zrní&quot;)</ns7:description>
+               <ns7:description lang="da">massegods, fast, kornede partikler (granulat)</ns7:description>
+               <ns7:description lang="de">Massengut, fest, körnige Teilchen (&quot;Körner&quot;)</ns7:description>
+               <ns7:description lang="el">Στερεά, κοκκώδη σωματίδια (κόκκοι), χύμα</ns7:description>
+               <ns7:description lang="en">Bulk, solid, granular particles (&quot;grains&quot;)</ns7:description>
+               <ns7:description lang="es">Sólido granel partículas granular</ns7:description>
+               <ns7:description lang="et">Tahked, teralised osakesed</ns7:description>
+               <ns7:description lang="fi">Irtotavara, kiinteä, raemainen</ns7:description>
+               <ns7:description lang="fr">Vrac, solide, particules granuleuses (grains)</ns7:description>
+               <ns7:description lang="hr">Rasuto, krute tvari, zrnaste čestice (&quot;zrna&quot;)</ns7:description>
+               <ns7:description lang="hu">Szilárd tömegáru (&quot;granulátum&quot;)</ns7:description>
+               <ns7:description lang="is">Vara í lausu, föst kornkennd</ns7:description>
+               <ns7:description lang="it">Particelle rinfusa,solide,granulari</ns7:description>
+               <ns7:description lang="lt">Birios, kietos, granulių pavidalo dalelės (&quot;grūdeliai&quot;)</ns7:description>
+               <ns7:description lang="lv">Nefasēti produkti, cieti, granulētas daļiņas (graudiņi)</ns7:description>
+               <ns7:description lang="me">Rasut materijal, zrnaste čestice (&quot;zrna&quot;)</ns7:description>
+               <ns7:description lang="mk">Рефус, тврда состојба, зрнаста состојба (&quot;зрна&quot;)</ns7:description>
+               <ns7:description lang="nl">Bulk, vaste stof, granulaire deeltjes (korrels)</ns7:description>
+               <ns7:description lang="no">Bulk, fast stoff, granulat (&quot;korn&quot;)</ns7:description>
+               <ns7:description lang="pl">Tow.mas.,st.,gran.cząst.(&quot;ziarno&quot;)</ns7:description>
+               <ns7:description lang="pt">Granel, sólido, partículas granulosas (&quot;grãos&quot;)</ns7:description>
+               <ns7:description lang="ro">materii solide, vrac, in particule</ns7:description>
+               <ns7:description lang="sk">Voľne ložené, tuhý, zrnité častice (&quot;zrnká&quot;)</ns7:description>
+               <ns7:description lang="sl">Razsuto, trdna snov, zrnati delci ('zrna')</ns7:description>
+               <ns7:description lang="sr">Rinfuza, čvrste , zrnaste čestice (granulat)</ns7:description>
+               <ns7:description lang="sv">Bulk, fasta, granulära partiklar</ns7:description>
+               <ns7:description lang="tr">Dökme, katı, granüllü parçacıklar (tahıllar)</ns7:description>
+               <ns7:description lang="uk">Об'ємні перевезення, гранульовані частки (&quot;зерно&quot;)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">VS</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Насипно, метален скрап</ns7:description>
+               <ns7:description lang="cs">Volně loženo, kovový odpad</ns7:description>
+               <ns7:description lang="da">massegods, metalskrot (bulk, scrap metal)</ns7:description>
+               <ns7:description lang="de">Massengut, Metallschrott</ns7:description>
+               <ns7:description lang="el">Θραύσματα μετάλλων, χύμα</ns7:description>
+               <ns7:description lang="en">Bulk, scrap metal</ns7:description>
+               <ns7:description lang="es">Chatarra a granel</ns7:description>
+               <ns7:description lang="et">Lahtine vanametall</ns7:description>
+               <ns7:description lang="fi">Irtotavara, romumetalli (Bulk, scrap metal)</ns7:description>
+               <ns7:description lang="fr">Vrac, ferraille</ns7:description>
+               <ns7:description lang="hu">Szilárd tömegáru: fémtörmelék</ns7:description>
+               <ns7:description lang="it">Rottami metallici alla rinfusa</ns7:description>
+               <ns7:description lang="lt">Nesupakuota, metalo laužas</ns7:description>
+               <ns7:description lang="lv">Nefasēti metāllūžņi (Bulk, scrap metal)</ns7:description>
+               <ns7:description lang="me">Rasuti otpadni metal</ns7:description>
+               <ns7:description lang="mk">Рефус, метален отпад</ns7:description>
+               <ns7:description lang="mt">Oġġetti mhux ippakkjati, metall skreppjat</ns7:description>
+               <ns7:description lang="nl">Los gestort, schroot</ns7:description>
+               <ns7:description lang="pl">Towar masowy, złom</ns7:description>
+               <ns7:description lang="pt">Granel, sucata</ns7:description>
+               <ns7:description lang="ro">Vrac, deşeuri metalice</ns7:description>
+               <ns7:description lang="sk">Voľne ložené, odpadový kov</ns7:description>
+               <ns7:description lang="sl">Razsuto, odpadna kovina</ns7:description>
+               <ns7:description lang="sr">Rinfuza, metalni otpad</ns7:description>
+               <ns7:description lang="sv">Bulk, metallskrot (bulk, scrap metal)</ns7:description>
+               <ns7:description lang="uk">Навалом металобрухт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">VY</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Насипно, твърди, фини частици (прахове)</ns7:description>
+               <ns7:description lang="cs">Volně loženo, tuhá konzistence, jemné zrnění (&quot;prášek&quot;)</ns7:description>
+               <ns7:description lang="da">massegods, fast, små partikler (pulver)</ns7:description>
+               <ns7:description lang="de">Massengut, fest, feine Teilchen (&quot;Pulver&quot;)</ns7:description>
+               <ns7:description lang="el">Στερεά, λεπτά σωματίδια (σκόνες), χύμα</ns7:description>
+               <ns7:description lang="en">Bulk, solid, fine particles (&quot;powders&quot;)</ns7:description>
+               <ns7:description lang="es">Sólido granel partículas finas</ns7:description>
+               <ns7:description lang="et">Tahked peenosakesed («pulbrid»)</ns7:description>
+               <ns7:description lang="fi">Bulk-tav., kiinteä, hieno (jauhem.)</ns7:description>
+               <ns7:description lang="fr">Vrac, solide, particules fines (poudres)</ns7:description>
+               <ns7:description lang="hr">Rasuto, kruta tvar, fine čestice (fine čestice)</ns7:description>
+               <ns7:description lang="hu">Szilárd tömegáru, apró szemcsés (&quot;por&quot;)</ns7:description>
+               <ns7:description lang="is">Vara í lausu, föst fíngerð</ns7:description>
+               <ns7:description lang="it">Particelle alla rinfusa,solide,fini</ns7:description>
+               <ns7:description lang="lt">Birios, kietos, smulkios dalelės (&quot;milteliai&quot;)</ns7:description>
+               <ns7:description lang="lv">Nefasēti produkti, cieti, sīkas daļiņas (pulverī)</ns7:description>
+               <ns7:description lang="me">Rasut materijal, sitne čestice (&quot;prahovi&quot;)</ns7:description>
+               <ns7:description lang="mk">Рефус, тврда состојба, ситни честички (&quot;прав&quot;)</ns7:description>
+               <ns7:description lang="nl">Bulk, vaste stof, fijne deeltjes (poeders)</ns7:description>
+               <ns7:description lang="no">Bulk, fast stoff, små partikler (&quot;pulver&quot;)</ns7:description>
+               <ns7:description lang="pl">Tow.mas.,st.,gran.cząst.(&quot;guzki&quot;)</ns7:description>
+               <ns7:description lang="pt">Granel, sólido, partículas finas (&quot;pós&quot;)</ns7:description>
+               <ns7:description lang="ro">materii solide, vrac, in particule</ns7:description>
+               <ns7:description lang="sk">Voľne ložené, tuhý, jemné častice (&quot;prášok&quot;)</ns7:description>
+               <ns7:description lang="sl">Razsuto, trdna snov, drobni delci ('prah')</ns7:description>
+               <ns7:description lang="sr">Rinfuza, čvrste, fine čestice, puderi, praškovi</ns7:description>
+               <ns7:description lang="sv">Bulk, fasta, små partiklar</ns7:description>
+               <ns7:description lang="tr">Dökme, katı, ince parçacıklar (toz)</ns7:description>
+               <ns7:description lang="uk">Об'ємні перевезення, дрібні частки (&quot;порошок&quot;)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

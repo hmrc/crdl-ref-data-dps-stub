@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>7fc85564-d1a8-47a3-b883-82207b31d473</ns1:messageID>
+         <ns1:relatesTo>2be5b92f-de0e-4137-8e42-c127bc07bdc6</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>2be5b92f-de0e-4137-8e42-c127bc07bdc6</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-23"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="ControlType"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="ControlType">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">10</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Документен контрол</ns7:description>
+               <ns7:description lang="cs">Dokumentační kontrola</ns7:description>
+               <ns7:description lang="da">Dokumentkontrol</ns7:description>
+               <ns7:description lang="de">Dokumentenkontrollen</ns7:description>
+               <ns7:description lang="el">Έλεγχοι εγγράφων</ns7:description>
+               <ns7:description lang="en">Documentary controls</ns7:description>
+               <ns7:description lang="es">Controles documentales</ns7:description>
+               <ns7:description lang="et">Dokumentide kontroll</ns7:description>
+               <ns7:description lang="fi">Asiakirjatarkastus</ns7:description>
+               <ns7:description lang="fr">Contrôles documentaires</ns7:description>
+               <ns7:description lang="hr">Dokumentarna kontrola</ns7:description>
+               <ns7:description lang="hu">Okmány ellenőrés</ns7:description>
+               <ns7:description lang="lt">Dokumentų tikrinimas</ns7:description>
+               <ns7:description lang="lv">Dokumentu kontrole</ns7:description>
+               <ns7:description lang="me">Dokumentarne kontrole</ns7:description>
+               <ns7:description lang="nl">Documentcontrole</ns7:description>
+               <ns7:description lang="no">Dokumentkontroll</ns7:description>
+               <ns7:description lang="pl">Kontrola dokumentacji</ns7:description>
+               <ns7:description lang="pt">Controlos documentais</ns7:description>
+               <ns7:description lang="ro">Controale documentare</ns7:description>
+               <ns7:description lang="sk">Kontroly dokladov</ns7:description>
+               <ns7:description lang="sl">Pregled dokumentov</ns7:description>
+               <ns7:description lang="sr">Kontrole dokumentacije</ns7:description>
+               <ns7:description lang="sv">Dokumentkontroll</ns7:description>
+               <ns7:description lang="uk">Документальний контроль</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">20</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Проверка на ядрени/радиоактивен материали</ns7:description>
+               <ns7:description lang="cs">Kontrola jaderného / radioaktivního materiálu</ns7:description>
+               <ns7:description lang="da">Kontrol af nukleart/radioaktivt materiale</ns7:description>
+               <ns7:description lang="de">Prüfung auf nukleares/radioaktives Material</ns7:description>
+               <ns7:description lang="el">Έλεγχοι πυρηνικών/ραδιενεργών υλικών.</ns7:description>
+               <ns7:description lang="en">Nuclear/radioactive material check</ns7:description>
+               <ns7:description lang="es">Comprobación de material nuclear/radioactivo</ns7:description>
+               <ns7:description lang="et">Tuuma- / radioaktiivsete materjalide kontroll</ns7:description>
+               <ns7:description lang="fi">Säteily- ja radioaktiivisuusmittaus</ns7:description>
+               <ns7:description lang="fr">Vérification spécifique au matériel nucléaire ou radioactif</ns7:description>
+               <ns7:description lang="hr">Kontrola nuklearnog/radioaktivnog materijala</ns7:description>
+               <ns7:description lang="hu">Nukleáris / radioaktív anyagok ellenőrzése</ns7:description>
+               <ns7:description lang="lt">Branduolinių ir (arba) radioaktyviųjų medžiagų patikrinimas</ns7:description>
+               <ns7:description lang="lv">Radioaktīvo/kodolmateriālu parbaude</ns7:description>
+               <ns7:description lang="me">Provjera nuklearnog/radioaktivnog materijala</ns7:description>
+               <ns7:description lang="nl">Nucleair/radioactief materiaalcontrole</ns7:description>
+               <ns7:description lang="no">Kontroll av kjernefysisk/radioaktivt materiale</ns7:description>
+               <ns7:description lang="pl">Kontrola materiałów nuklearnych / radioaktywnych</ns7:description>
+               <ns7:description lang="pt">Verificação de material nuclear / radioativo</ns7:description>
+               <ns7:description lang="ro">Control material nuclear/radioactiv</ns7:description>
+               <ns7:description lang="sk">Kontrola jadrového/rádioaktívneho materiálu</ns7:description>
+               <ns7:description lang="sl">Pregled jedrskih/radioaktivnih snovi</ns7:description>
+               <ns7:description lang="sr">Provera nuklearnog/radioaktivnog materijala</ns7:description>
+               <ns7:description lang="sv">Kontroll av nukleärt/radioaktivt material</ns7:description>
+               <ns7:description lang="uk">Перевірка на наявність ядерних/радіоактивних матеріалів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">30</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Проверка без съприкосновение със субекта</ns7:description>
+               <ns7:description lang="cs">Neinvazivní kontrola</ns7:description>
+               <ns7:description lang="da">Ikke indgribende kontrol</ns7:description>
+               <ns7:description lang="de">Berührungsfreie (die physische Integrität der Ware wird gewahrt) Untersuchung (Ultraschall/ Röntgen etc.)</ns7:description>
+               <ns7:description lang="el">Μη παρεμβατική επιθεώρηση</ns7:description>
+               <ns7:description lang="en">Non-intrusive inspection</ns7:description>
+               <ns7:description lang="es">Inspección no intrusiva</ns7:description>
+               <ns7:description lang="et">Läbivalgustus</ns7:description>
+               <ns7:description lang="fi">Läpivalaisu / kajoamaton tarkastus</ns7:description>
+               <ns7:description lang="fr">Inspection non-intrusive</ns7:description>
+               <ns7:description lang="hr">Neintruzivna kontrola</ns7:description>
+               <ns7:description lang="hu">Nem behatoló ellenőrzés***</ns7:description>
+               <ns7:description lang="lt">Neinvazinis tikrinimas</ns7:description>
+               <ns7:description lang="lv">Neintruzīvā kontrole</ns7:description>
+               <ns7:description lang="me">Neinvazivni pregled</ns7:description>
+               <ns7:description lang="nl">Scancontrole</ns7:description>
+               <ns7:description lang="no">Ikke inngripende kontroll</ns7:description>
+               <ns7:description lang="pl">Kontrola nieinwazyjna</ns7:description>
+               <ns7:description lang="pt">Inspeção não intrusiva</ns7:description>
+               <ns7:description lang="ro">Control nedistructiv</ns7:description>
+               <ns7:description lang="sk">Nerušivé kontroly</ns7:description>
+               <ns7:description lang="sl">Pregled blaga z nadzornimi sistemi</ns7:description>
+               <ns7:description lang="sr">Neinvazivni pregledx</ns7:description>
+               <ns7:description lang="sv">Icke-inträngande inspektion</ns7:description>
+               <ns7:description lang="uk">Неінтрузивна інспекція</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">40</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Физически контрол</ns7:description>
+               <ns7:description lang="cs">Fyzická kontrola</ns7:description>
+               <ns7:description lang="da">Fysisk kontrol</ns7:description>
+               <ns7:description lang="de">Physische Kontrolle</ns7:description>
+               <ns7:description lang="el">Φυσικοί Έλεγχοι</ns7:description>
+               <ns7:description lang="en">Physical controls</ns7:description>
+               <ns7:description lang="es">Controles físicos</ns7:description>
+               <ns7:description lang="et">Füüsiline kontroll</ns7:description>
+               <ns7:description lang="fi">Tavarantarkastus</ns7:description>
+               <ns7:description lang="fr">Contrôles physiques</ns7:description>
+               <ns7:description lang="hr">Fizička kontrola</ns7:description>
+               <ns7:description lang="hu">Fizikai ellenőrzés</ns7:description>
+               <ns7:description lang="lt">Prekių tikrinimas</ns7:description>
+               <ns7:description lang="lv">Fiziskā kontrole</ns7:description>
+               <ns7:description lang="me">Fizičke kontrole</ns7:description>
+               <ns7:description lang="nl">Fysieke controle</ns7:description>
+               <ns7:description lang="no">Fysisk kontroll</ns7:description>
+               <ns7:description lang="pl">Kontrola fizyczna</ns7:description>
+               <ns7:description lang="pt">Controlos físicos</ns7:description>
+               <ns7:description lang="ro">Controale fizice</ns7:description>
+               <ns7:description lang="sk">Fyzické kontroly</ns7:description>
+               <ns7:description lang="sl">Pregled blaga/Fizična kontrola</ns7:description>
+               <ns7:description lang="sr">Pregled robe</ns7:description>
+               <ns7:description lang="sv">Fysisk kontroll</ns7:description>
+               <ns7:description lang="uk">Фізичний контроль</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">41</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Идентификация на пратката и пломбите</ns7:description>
+               <ns7:description lang="cs">Identifikace zásilky a závěry</ns7:description>
+               <ns7:description lang="da">Identifikation af forsendelse og segl</ns7:description>
+               <ns7:description lang="de">Identifikation von Sendung und Verschlüssen</ns7:description>
+               <ns7:description lang="el">Εξακρίβωση αποστολών και σφραγίδων</ns7:description>
+               <ns7:description lang="en">Identification of consignment and seals</ns7:description>
+               <ns7:description lang="es">Identificación del envío y precintos</ns7:description>
+               <ns7:description lang="et">Saadetise ja plommide identifitseerimine</ns7:description>
+               <ns7:description lang="fi">Sinettitarkastus</ns7:description>
+               <ns7:description lang="fr">Identification de l’envoi et des scellés</ns7:description>
+               <ns7:description lang="hr">Identifikacija pošiljke i carinskih plombi</ns7:description>
+               <ns7:description lang="hu">A szállítmány és a zárak azonosítása</ns7:description>
+               <ns7:description lang="lt">Siuntos identifikavimas ir plombos</ns7:description>
+               <ns7:description lang="lv">Sūtījuma un plombu identifikācija</ns7:description>
+               <ns7:description lang="me">Identifikacija pošiljke i plombi</ns7:description>
+               <ns7:description lang="nl">Identificatie van zending en zegel</ns7:description>
+               <ns7:description lang="no">Identifikasjon av forsendelse og forsegling</ns7:description>
+               <ns7:description lang="pl">Sprawdzenie przesyłki oraz plomb</ns7:description>
+               <ns7:description lang="pt">Identificação da remessa e dos selos</ns7:description>
+               <ns7:description lang="ro">Identificarea transportului si sigilii</ns7:description>
+               <ns7:description lang="sk">Identifikácia zásielky a uzáver</ns7:description>
+               <ns7:description lang="sl">Identifikacija pošiljke in carinskih oznak</ns7:description>
+               <ns7:description lang="sr">Identifikacija pošiljke i plombe</ns7:description>
+               <ns7:description lang="sv">Kontroll av sändning och förseglingar</ns7:description>
+               <ns7:description lang="uk">Ідентифікація вантажу та пломб</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">42</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Проверка със съприкосновение със субекта</ns7:description>
+               <ns7:description lang="cs">Invazivní kontrola</ns7:description>
+               <ns7:description lang="da">Indgribende kontrol</ns7:description>
+               <ns7:description lang="de">Umfassende Untersuchung (etwas Material der Ware wird zur Bestimmung verwendet)</ns7:description>
+               <ns7:description lang="el">Παρεμβατική επιθεώρηση</ns7:description>
+               <ns7:description lang="en">Intrusive inspection</ns7:description>
+               <ns7:description lang="es">Inspección intrusiva</ns7:description>
+               <ns7:description lang="et">Kontroll</ns7:description>
+               <ns7:description lang="fi">Kajoava tarkastus</ns7:description>
+               <ns7:description lang="fr">Inspection intrusive</ns7:description>
+               <ns7:description lang="hr">Intruzivna inspekcija</ns7:description>
+               <ns7:description lang="hu">Behatoló ellenőrzés</ns7:description>
+               <ns7:description lang="lt">Invazinis tikrinimas</ns7:description>
+               <ns7:description lang="lv">Intruzīvā kontrole</ns7:description>
+               <ns7:description lang="me">Intruzivni pregled</ns7:description>
+               <ns7:description lang="nl">Grondige controle</ns7:description>
+               <ns7:description lang="no">Inngripende kontroll</ns7:description>
+               <ns7:description lang="pl">Kontrola inwazyjna</ns7:description>
+               <ns7:description lang="pt">Inspeção intrusiva</ns7:description>
+               <ns7:description lang="ro">Control invaziv</ns7:description>
+               <ns7:description lang="sk">Hĺbková kontrola (hrubá) – zbežný (hrubý) odhad prítomnosti/typu tovaru v zásielke</ns7:description>
+               <ns7:description lang="sl">Pregled blaga (od znotraj)</ns7:description>
+               <ns7:description lang="sr">Intruzivni pregled</ns7:description>
+               <ns7:description lang="sv">Inträngande inspektion</ns7:description>
+               <ns7:description lang="uk">Інтрузивна інспекція</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">43</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Контрол на качеството / Частичен или пълен</ns7:description>
+               <ns7:description lang="cs">Kontrola kvality / částečna nebo celková</ns7:description>
+               <ns7:description lang="da">Mængdekontrol - delvis eller fuldstændig</ns7:description>
+               <ns7:description lang="de">Mengenkontrolle/ Teilweise oder vollständig</ns7:description>
+               <ns7:description lang="el">Έλεγχος ποιότητας (μερικός ή ολικός)</ns7:description>
+               <ns7:description lang="en">Quantity control / Partial or total</ns7:description>
+               <ns7:description lang="es">Control de calidad / Parcial o total</ns7:description>
+               <ns7:description lang="et">Kvaliteedi kontroll / Osaline või täielik</ns7:description>
+               <ns7:description lang="fi">Laatuun liittyvä tarkastus / Osittain tai kokonaan</ns7:description>
+               <ns7:description lang="fr">Contrôle de quantity/ Partiel ou total</ns7:description>
+               <ns7:description lang="hr">Kontrola kvalitete / Djelomična ili potpuna</ns7:description>
+               <ns7:description lang="hu">Minőség-ellenőrzés / részleges vagy teljes</ns7:description>
+               <ns7:description lang="lt">Kiekio tikrinimas / Dalies arba viso</ns7:description>
+               <ns7:description lang="lv">Kvalitātes kontrole / Daļēja vai pilnīga</ns7:description>
+               <ns7:description lang="me">Kontrola količine / Djelimična ili potpuna</ns7:description>
+               <ns7:description lang="nl">Kwaliteitscontrole / Gedeeltelijk of geheel</ns7:description>
+               <ns7:description lang="no">Kvalitetskontroll / delvis eller hele</ns7:description>
+               <ns7:description lang="pl">Kontrola jakości/częściowa lub całkowita</ns7:description>
+               <ns7:description lang="pt">Controlo de Qualidade/ Parcial ou total</ns7:description>
+               <ns7:description lang="ro">Control calitate / Partial sau total</ns7:description>
+               <ns7:description lang="sk">Kontrola množstva / čiastočná alebo úplná</ns7:description>
+               <ns7:description lang="sl">Pregled kvalitete / delni ali popolni</ns7:description>
+               <ns7:description lang="sr">Kvantitativna kontrola / delimična ili potpuna</ns7:description>
+               <ns7:description lang="sv">Kontroll av mängd / Delvis eller hel</ns7:description>
+               <ns7:description lang="uk">Контроль кількості / Частковий або повний</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">44</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Същност и характеристики на стоките</ns7:description>
+               <ns7:description lang="cs">Povaha a vlastnosti zboží</ns7:description>
+               <ns7:description lang="da">Kontrol af varernes art og egenskaber</ns7:description>
+               <ns7:description lang="de">Beschaffenheit und Eigenschaften der Waren</ns7:description>
+               <ns7:description lang="el">Φύση και Χαρακτηριστικά των εμπορευμάτων</ns7:description>
+               <ns7:description lang="en">Nature and characteristics of the goods</ns7:description>
+               <ns7:description lang="es">Naturaleza y características de los bienes</ns7:description>
+               <ns7:description lang="et">Kauba olemus ja omadused</ns7:description>
+               <ns7:description lang="fi">Tavaroiden luonne ja ominaisuudet</ns7:description>
+               <ns7:description lang="fr">Nature et caractéristiques des marchandises</ns7:description>
+               <ns7:description lang="hr">Narav i karakteristike robe</ns7:description>
+               <ns7:description lang="hu">Az áruk jellege és jellemzői</ns7:description>
+               <ns7:description lang="lt">Prekių pobūdžio ir charakteristikų tikrinimas</ns7:description>
+               <ns7:description lang="lv">Preču veids un īpašības</ns7:description>
+               <ns7:description lang="me">Priroda i karakteristike robe</ns7:description>
+               <ns7:description lang="nl">Aard en kenmerken van de goederen</ns7:description>
+               <ns7:description lang="no">Varenes art og egenskaper</ns7:description>
+               <ns7:description lang="pl">Charakter oraz właściwości towarów</ns7:description>
+               <ns7:description lang="pt">Natureza e características das mercadorias</ns7:description>
+               <ns7:description lang="ro">Natura si caracterisiticile marfurilor</ns7:description>
+               <ns7:description lang="sk">Kontrola povahy a vlastností tovaru</ns7:description>
+               <ns7:description lang="sl">Pregled narave in značilnosti blaga</ns7:description>
+               <ns7:description lang="sr">Svojstvo i karakteristike robe</ns7:description>
+               <ns7:description lang="sv">Kontroll av varornas art och beskaffenhet</ns7:description>
+               <ns7:description lang="uk">Характер та особливості товарів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">45</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Вземане на проби</ns7:description>
+               <ns7:description lang="cs">Odběr vzorků</ns7:description>
+               <ns7:description lang="da">Prøveudtagning</ns7:description>
+               <ns7:description lang="de">Probenentnahme</ns7:description>
+               <ns7:description lang="el">Δειγματοληψία</ns7:description>
+               <ns7:description lang="en">Sampling</ns7:description>
+               <ns7:description lang="es">Extracción de muestras</ns7:description>
+               <ns7:description lang="et">Proovide võtmine</ns7:description>
+               <ns7:description lang="fi">Tavaroiden luonne ja ominaisuudet</ns7:description>
+               <ns7:description lang="fr">Prélèvement</ns7:description>
+               <ns7:description lang="hr">Uzorkovanje</ns7:description>
+               <ns7:description lang="hu">Mintavétel</ns7:description>
+               <ns7:description lang="lt">Pavyzdžių ėmimas</ns7:description>
+               <ns7:description lang="lv">Paraugu ņemšana</ns7:description>
+               <ns7:description lang="me">Uzorkovanje</ns7:description>
+               <ns7:description lang="nl">Monstername</ns7:description>
+               <ns7:description lang="no">Prøvetaking</ns7:description>
+               <ns7:description lang="pl">Pobranie próbek</ns7:description>
+               <ns7:description lang="pt">Amostragem</ns7:description>
+               <ns7:description lang="ro">Prelevare esantioane</ns7:description>
+               <ns7:description lang="sk">Odber vzoriek</ns7:description>
+               <ns7:description lang="sl">Vzorčenje</ns7:description>
+               <ns7:description lang="sr">Uzorkovanje</ns7:description>
+               <ns7:description lang="sv">Provtagning</ns7:description>
+               <ns7:description lang="uk">Відбір зразків</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">50</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Друго</ns7:description>
+               <ns7:description lang="cs">Jiné</ns7:description>
+               <ns7:description lang="da">Andet</ns7:description>
+               <ns7:description lang="de">Andere</ns7:description>
+               <ns7:description lang="el">Άλλο</ns7:description>
+               <ns7:description lang="en">Other</ns7:description>
+               <ns7:description lang="es">Otros</ns7:description>
+               <ns7:description lang="et">Muu</ns7:description>
+               <ns7:description lang="fi">Muu</ns7:description>
+               <ns7:description lang="fr">Autre</ns7:description>
+               <ns7:description lang="hr">Ostalo</ns7:description>
+               <ns7:description lang="hu">Egyéb</ns7:description>
+               <ns7:description lang="lt">Kitas tikrinimas</ns7:description>
+               <ns7:description lang="lv">Cits</ns7:description>
+               <ns7:description lang="me">Ostalo</ns7:description>
+               <ns7:description lang="nl">Overige</ns7:description>
+               <ns7:description lang="no">Annet</ns7:description>
+               <ns7:description lang="pl">Inne</ns7:description>
+               <ns7:description lang="pt">Outro</ns7:description>
+               <ns7:description lang="ro">Altele</ns7:description>
+               <ns7:description lang="sk">Iné</ns7:description>
+               <ns7:description lang="sl">Drugo</ns7:description>
+               <ns7:description lang="sr">Ostalo</ns7:description>
+               <ns7:description lang="sv">Annan</ns7:description>
+               <ns7:description lang="uk">Інше</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

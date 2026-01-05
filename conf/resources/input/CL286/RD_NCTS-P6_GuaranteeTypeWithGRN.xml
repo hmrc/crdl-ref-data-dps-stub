@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>c7477935-8eee-4b92-9140-9b4acd2e9ab2</ns1:messageID>
+         <ns1:relatesTo>d698bddb-8d97-4605-86c4-d739ae41f5a6</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>d698bddb-8d97-4605-86c4-d739ae41f5a6</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="GuaranteeTypeWithGRN"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="GuaranteeTypeWithGRN">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-19</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="GuaranteeTypeCode">0</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Zproštění povinnosti poskytnout jistotu</ns7:description>
+               <ns7:description lang="da">Fritagelse for sikkerhedsstillelse</ns7:description>
+               <ns7:description lang="de">Befreiung</ns7:description>
+               <ns7:description lang="en">Guarantee waiver</ns7:description>
+               <ns7:description lang="es">Dispensa de garantía.</ns7:description>
+               <ns7:description lang="et">Tagatise esitamisest vabastamine</ns7:description>
+               <ns7:description lang="fr">Exonération de garantie</ns7:description>
+               <ns7:description lang="hu">Garancia alóli mentesség</ns7:description>
+               <ns7:description lang="lt">Atleidimas nuo pareigos pateikti garantiją (Kodekso 95 straipsnio 2 dalis)</ns7:description>
+               <ns7:description lang="lv">Atbrīvojums no galvojuma</ns7:description>
+               <ns7:description lang="me">Oslobadjanje od garancije</ns7:description>
+               <ns7:description lang="nl">Ontheffing zekerheidstelling</ns7:description>
+               <ns7:description lang="pl">Zwolnienie z zabezpieczenia</ns7:description>
+               <ns7:description lang="ro">Renunțarea la garanție</ns7:description>
+               <ns7:description lang="sk">Upustenie od poskytnutia záruky</ns7:description>
+               <ns7:description lang="sl">Opustitev zavarovanja</ns7:description>
+               <ns7:description lang="sr">Oslobođenje od podnošenja obezbeđenja</ns7:description>
+               <ns7:description lang="uk">Звільнення від гарантії</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-19</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="GuaranteeTypeCode">1</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Souborná jistota</ns7:description>
+               <ns7:description lang="da">Samlet sikkerhedsstillelse</ns7:description>
+               <ns7:description lang="de">Gesamtsicherheit</ns7:description>
+               <ns7:description lang="en">Comprehensive guarantee</ns7:description>
+               <ns7:description lang="es">Garantía global.</ns7:description>
+               <ns7:description lang="et">Üldtagatis</ns7:description>
+               <ns7:description lang="fr">Garantie globale</ns7:description>
+               <ns7:description lang="hu">Teljes körű garancia</ns7:description>
+               <ns7:description lang="lt">Bendroji garantija (Kodekso 89 straipsnio 5 dalis)</ns7:description>
+               <ns7:description lang="lv">Vispārējais galvojums</ns7:description>
+               <ns7:description lang="me">Zajedničko obezbjeđenje</ns7:description>
+               <ns7:description lang="nl">Doorlopende zekerheidstelling</ns7:description>
+               <ns7:description lang="pl">Zabezpieczenie generalne</ns7:description>
+               <ns7:description lang="ro">Garanție completă</ns7:description>
+               <ns7:description lang="sk">Celková záruka</ns7:description>
+               <ns7:description lang="sl">Splošno zavarovanje</ns7:description>
+               <ns7:description lang="sr">Zajedničko obezbeđenje</ns7:description>
+               <ns7:description lang="uk">Загальна гарантія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-19</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="GuaranteeTypeCode">2</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Jednotlivá jistota ve formě závazku ručitele</ns7:description>
+               <ns7:description lang="da">Enkelt sikkerhedsstillelse i form af et tilsagn fra en kautionist (kodeksens artikel 92, stk. 1, litra b))</ns7:description>
+               <ns7:description lang="de">Einzelsicherheit durch Bürgschaft</ns7:description>
+               <ns7:description lang="en">Individual guarantee in the form of an undertaking by a guarantor</ns7:description>
+               <ns7:description lang="es">Garantía individual.</ns7:description>
+               <ns7:description lang="et">Käendaja kohustuse vormis üksiktagatis</ns7:description>
+               <ns7:description lang="fr">Garantie individuelle sous forme d'engagement d'un garant</ns7:description>
+               <ns7:description lang="hu">Egyéni kezességvállalás a kezes kötelezettségvállalása formájában</ns7:description>
+               <ns7:description lang="lt">Garanto įsipareigojimo formos vienkartinė garantija (Kodekso 92 straipsnio 1 dalies b punktas)</ns7:description>
+               <ns7:description lang="lv">Vienreizējais galvojums</ns7:description>
+               <ns7:description lang="me">Pojedinačno obezbjeđenje u obliku obaveze garanta</ns7:description>
+               <ns7:description lang="nl">Zekerheidsstelling per aangifte</ns7:description>
+               <ns7:description lang="pl">Zabezpieczenie pojedyncze w formie zobowiazania gwaranta</ns7:description>
+               <ns7:description lang="ro">Garanție individuală sub forma unui angajament al unui garant</ns7:description>
+               <ns7:description lang="sk">Jednotlivá záruka vo forme záväzku ručiteľa</ns7:description>
+               <ns7:description lang="sl">Posamezno zavarovanje - izjava garanta</ns7:description>
+               <ns7:description lang="sr">Pojedinačno obezbeđenje u obliku preuzete obaveze garanta</ns7:description>
+               <ns7:description lang="uk">Індивідуальна гарантія у формі зобов'язання, наданого гарантом</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="GuaranteeTypeCode">4</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Jednotlivá jistota ve forme záručních dokladů</ns7:description>
+               <ns7:description lang="da">Enkelt sikkerhedsstillelse i form af sikkerhedsdokumenter (artikel 92, stk. 1, litra b), i kodeksen og artikel 160)</ns7:description>
+               <ns7:description lang="de">Einzelsicherheit in Form von Sicherheitstiteln</ns7:description>
+               <ns7:description lang="en">Individual guarantee in the form of vouchers</ns7:description>
+               <ns7:description lang="es">Garantía individual mediante títulos.</ns7:description>
+               <ns7:description lang="et">Maksekviitungina esitatav üksiktagatis</ns7:description>
+               <ns7:description lang="fr">Garantie individuelle sous forme de bons</ns7:description>
+               <ns7:description lang="hu">Egyedi biztosíték utalvány formájában</ns7:description>
+               <ns7:description lang="lt">Vienkartinė lakštų formos garantija (Kodekso 92 straipsnio 1 dalies b punktas ir 160 straipsnis)</ns7:description>
+               <ns7:description lang="lv">Vienreizējais galvojums kvīts veidā</ns7:description>
+               <ns7:description lang="me">Pojedinačno obezbjeđenje u obliku vaučera</ns7:description>
+               <ns7:description lang="nl">Zekerheidstelling per aangifte door bewijzen van zekerheidstelling (vouchers)</ns7:description>
+               <ns7:description lang="pl">Zabezpieczenie pojedyncze w formie karnetów</ns7:description>
+               <ns7:description lang="sk">Jednotlivá záruka vo forme záručných dokladov</ns7:description>
+               <ns7:description lang="sl">Posamezno zavarovanje v obliki kuponov</ns7:description>
+               <ns7:description lang="sr">Pojedinačno obezbeđenje u obliku kupona</ns7:description>
+               <ns7:description lang="uk">Індивідуальна гарантія у формі ваучерів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="GuaranteeTypeCode">9</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Jednotlivá jistota s vícenásobným použitím (pouze pro země společného tranzitního režimu)</ns7:description>
+               <ns7:description lang="da">Enkelt sikkerhedsstillelse med flere anvendelser (kun for CTC)</ns7:description>
+               <ns7:description lang="de">Einzelsicherheit mit mehrfacher Nutzungsmöglichkeit (nur für CTC-Staaten)</ns7:description>
+               <ns7:description lang="en">Individual guarantee with multiple usage (for CTC only)</ns7:description>
+               <ns7:description lang="es">Garantía individual de de uso sucesivo(sólo para paises de tránsito común).</ns7:description>
+               <ns7:description lang="et">Üksiktagatis mitme kasutuskorraga (ainult ühistransiidiprotseduuri riigi puhul)</ns7:description>
+               <ns7:description lang="fr">Garantie individuelle à usage multiple (pour CTC uniquement)</ns7:description>
+               <ns7:description lang="hu">Egyedi garancia többszöri felhasználásra (csak CTC esetében)</ns7:description>
+               <ns7:description lang="lv">Vienreizējais galvojums ar vairākkārtēju izmantošanu</ns7:description>
+               <ns7:description lang="me">Pojedinačno obezbjeđenje s višestrukom upotrebom (samo za CTC)</ns7:description>
+               <ns7:description lang="nl">Zekerheidsstelling per aangifte bij meervoudig gebruik (alleen voor CTC)</ns7:description>
+               <ns7:description lang="pl">Zabezpieczenie pojedyncze wielokrotnego stosowania (tylko kraje wspólnego tranzytu)</ns7:description>
+               <ns7:description lang="sk">Jednotlivá záruka s viacnásobným použitím (iba pre STR)</ns7:description>
+               <ns7:description lang="sl">Posamezno zavarovanje za večkratno uporabo (samo CTC države)</ns7:description>
+               <ns7:description lang="sr">Pojedinačno obezbeđenje za višestruku upotrebu (samo za zemlje zajedničkog tranzita)</ns7:description>
+               <ns7:description lang="uk">Індивідуальна гарантія при багаторазовому використанні (тільки для CTC)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

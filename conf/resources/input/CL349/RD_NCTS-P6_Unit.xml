@@ -1,0 +1,2158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>9a11b50a-9b62-433c-9a30-2e88c79820a4</ns1:messageID>
+         <ns1:relatesTo>2b468656-6b9b-443e-993f-c685609aae19</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>2b468656-6b9b-443e-993f-c685609aae19</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="Unit"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="Unit">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">ASV</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">%obj</ns7:description>
+               <ns7:description lang="da">%vol</ns7:description>
+               <ns7:description lang="en">%vol</ns7:description>
+               <ns7:description lang="es">vol %.</ns7:description>
+               <ns7:description lang="et">% mahust</ns7:description>
+               <ns7:description lang="fi">tilavuusprosenttia</ns7:description>
+               <ns7:description lang="fr">%vol</ns7:description>
+               <ns7:description lang="lt">% vol (alkoholio koncentracija, išreikšta tūrio procentais)</ns7:description>
+               <ns7:description lang="me">% vol</ns7:description>
+               <ns7:description lang="nl">%vol</ns7:description>
+               <ns7:description lang="pl">% obj</ns7:description>
+               <ns7:description lang="ro">%vol</ns7:description>
+               <ns7:description lang="sl">%vol</ns7:description>
+               <ns7:description lang="uk">%об'єму</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">ASVX</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">%obj. na hektolitr</ns7:description>
+               <ns7:description lang="da">%vol pr. hectoliter</ns7:description>
+               <ns7:description lang="en">%vol per hectolitre</ns7:description>
+               <ns7:description lang="es">vol % por hectólitro.</ns7:description>
+               <ns7:description lang="et">% mahust/hektoliitri kohta</ns7:description>
+               <ns7:description lang="fi">Tilavuusprosentti(a) hehtolitra</ns7:description>
+               <ns7:description lang="fr">%vol par hectolitre</ns7:description>
+               <ns7:description lang="lt">% vol hektolitre (alkoholio koncentracija, išreikšta tūrio procentais, hektolitre)</ns7:description>
+               <ns7:description lang="lv">%vol par hektolitru</ns7:description>
+               <ns7:description lang="me">% vol po hektolitru</ns7:description>
+               <ns7:description lang="nl">%vol per hectoliter</ns7:description>
+               <ns7:description lang="pl">% obj na hektolitr</ns7:description>
+               <ns7:description lang="ro">%vol pe hectolitru</ns7:description>
+               <ns7:description lang="sk">% vol, na hektoliter</ns7:description>
+               <ns7:description lang="sl">%vol na hektoliter</ns7:description>
+               <ns7:description lang="uk">% об’єму на гектолітр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">CCT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Nosnost v metrických tunách</ns7:description>
+               <ns7:description lang="da">Lastekapacitet i metriske tons</ns7:description>
+               <ns7:description lang="en">Carrying capacity in metric tonnes</ns7:description>
+               <ns7:description lang="es">Capacidad de carga en toneladas métricas.</ns7:description>
+               <ns7:description lang="et">Kandejõud tonnides</ns7:description>
+               <ns7:description lang="fi">kantokykyky tonneina</ns7:description>
+               <ns7:description lang="fr">Capacité de charge en tonnes métriques</ns7:description>
+               <ns7:description lang="lt">Talpa metrinėmis tonomis</ns7:description>
+               <ns7:description lang="lv">Kravnesība metriskajās tonnās</ns7:description>
+               <ns7:description lang="me">Nosivost u metričkim tonama</ns7:description>
+               <ns7:description lang="nl">Draagvermogen in metrische ton</ns7:description>
+               <ns7:description lang="pl">nośność w tonach metrycznych</ns7:description>
+               <ns7:description lang="ro">Capacitatea de incarcare in tone metrice</ns7:description>
+               <ns7:description lang="sk">Nosná kapacita v metrických tonách</ns7:description>
+               <ns7:description lang="sl">Nosilnost v metričnih tonah</ns7:description>
+               <ns7:description lang="uk">Вантажопідйомність у метричних тоннах</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">CEN</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Stovky položek</ns7:description>
+               <ns7:description lang="da">100 stykker</ns7:description>
+               <ns7:description lang="en">Hundred items</ns7:description>
+               <ns7:description lang="es">Miles de partidas.</ns7:description>
+               <ns7:description lang="et">Sada tükki</ns7:description>
+               <ns7:description lang="fi">100 kappaletta</ns7:description>
+               <ns7:description lang="fr">Cent articles</ns7:description>
+               <ns7:description lang="lt">Šimtas vienetų</ns7:description>
+               <ns7:description lang="lv">Simts gabali</ns7:description>
+               <ns7:description lang="me">Stotinu predmeta</ns7:description>
+               <ns7:description lang="nl">Honderd artikelen</ns7:description>
+               <ns7:description lang="pl">Sto sztuk</ns7:description>
+               <ns7:description lang="ro">Sută articole</ns7:description>
+               <ns7:description lang="sk">100 kusov</ns7:description>
+               <ns7:description lang="sl">Stotinka</ns7:description>
+               <ns7:description lang="uk">Сто елементів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">CMQ</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Centimetr krychlový</ns7:description>
+               <ns7:description lang="da">Kubikcentimeter</ns7:description>
+               <ns7:description lang="en">Cubic centimeter</ns7:description>
+               <ns7:description lang="et">Kuupsentimeeter</ns7:description>
+               <ns7:description lang="fr">Centimètre cube</ns7:description>
+               <ns7:description lang="me">Kubni centimetar</ns7:description>
+               <ns7:description lang="nl">Kubieke centimeter</ns7:description>
+               <ns7:description lang="pl">centymetr sześcienny</ns7:description>
+               <ns7:description lang="ro">Centimetru cub</ns7:description>
+               <ns7:description lang="sk">Centimeter kubický</ns7:description>
+               <ns7:description lang="sl">Kubični centimeter</ns7:description>
+               <ns7:description lang="uk">Кубічний сантиметр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">CTM</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Carats (one metric carat = 2 x 10-4kg) .{en}.</ns7:description>
+               <ns7:description lang="cs">Karáty (jeden metrický karát = 2x10-4kg)</ns7:description>
+               <ns7:description lang="da">Karat (1 metrisk Karat = 2 x 10-4kg)</ns7:description>
+               <ns7:description lang="de">Anzahl Karat (1 metrisches Karat = 2x10-4 kg)</ns7:description>
+               <ns7:description lang="el">Καράτια (ένα μετρικό καράτι = 2 x 10-4κιλά)</ns7:description>
+               <ns7:description lang="en">Carats (one metric carat = 2 x 10-4kg)</ns7:description>
+               <ns7:description lang="es">Quilate (un quilate métrico = 2 x 10-4 kg)</ns7:description>
+               <ns7:description lang="et">Karaat (meetermõõdustiku karaat = 2 x 10-4kg)</ns7:description>
+               <ns7:description lang="fi">karaattia</ns7:description>
+               <ns7:description lang="fr">Carats (un carat métrique = 2 x 10-4 kg)</ns7:description>
+               <ns7:description lang="hr">Carats (one metric carat = 2 x 10-4kg) .{en}.</ns7:description>
+               <ns7:description lang="hu">Karát (egy metrikus karát = 2 x 10-4kg).</ns7:description>
+               <ns7:description lang="is">Carats (one metric carat = 2 x 10-4kg) .{en}.</ns7:description>
+               <ns7:description lang="it">Numero dei carati (1 carato metrico = 2 x 10-4 kg)</ns7:description>
+               <ns7:description lang="lt">Metrinis karatas (1 metrinis karatas = 2 x 10-4kg)</ns7:description>
+               <ns7:description lang="lv">Karāts ( 1 metriskais karāts = 2 X 10 -4 kg)</ns7:description>
+               <ns7:description lang="me">Karati (jedan metrički karat = 2 x 10⁻⁴ kg)</ns7:description>
+               <ns7:description lang="mk">Carats (one metric carat = 2 x 10-4kg) .{en}.</ns7:description>
+               <ns7:description lang="mt">Carats (one metric carat = 2 x 10-4kg) .{en}.</ns7:description>
+               <ns7:description lang="nl">Aantal karaat (1 metriek karaat = 2 x 10-4 KG)</ns7:description>
+               <ns7:description lang="no">Carats (one metric carat = 2 x 10-4kg) .{en}.</ns7:description>
+               <ns7:description lang="pl">Carats (one metric carat = 2 x 10-4kg) .{en}.</ns7:description>
+               <ns7:description lang="pt">Karaty (jeden karat metryczny = 2 x 10-4kg)</ns7:description>
+               <ns7:description lang="ro">Carate (1 carata metrica 2 x 10 -4kg)</ns7:description>
+               <ns7:description lang="sk">Karát (jeden metrický karát = 2 x 10-4kg)</ns7:description>
+               <ns7:description lang="sl">Karati (en metirčni karat = 2 x 10-4kg)</ns7:description>
+               <ns7:description lang="sr">Carats (one metric carat = 2 x 10-4kg) .{en}.</ns7:description>
+               <ns7:description lang="sv">karat (en metrisk karat = 2 x 10-4 kg)</ns7:description>
+               <ns7:description lang="tr">Carats (one metric carat = 2 x 10-4kg) .{en}.</ns7:description>
+               <ns7:description lang="uk">Карати (один метричний карат = 2 x 10-4 кг)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DAP</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Dekaton, korigovaný podle polarizace</ns7:description>
+               <ns7:description lang="da">10 000kg, som er korrigeret I henhold til polariseringen</ns7:description>
+               <ns7:description lang="en">Decatonne, corrected according to polarisation</ns7:description>
+               <ns7:description lang="es">Decatonelada, corregida según la polarización.</ns7:description>
+               <ns7:description lang="et">10 tonni, mida on korrigeeritud polarisatsiooni järgi</ns7:description>
+               <ns7:description lang="fi">dekatonni</ns7:description>
+               <ns7:description lang="fr">Décatonne, corrigée selon la polarisation</ns7:description>
+               <ns7:description lang="lt">10 000 kg, pakoreguoti atsižvelgiant į poliarizaciją</ns7:description>
+               <ns7:description lang="lv">10 000kg, koriģē, lai ņemtu vērā polarizāciju</ns7:description>
+               <ns7:description lang="me">Dekaton, korigovan prema polarizaciji</ns7:description>
+               <ns7:description lang="nl">Decatonne, gecorrigeerd voor polarisatie</ns7:description>
+               <ns7:description lang="pl">Dekatona (10 ton), skorygowane zgodnie z polaryzacją</ns7:description>
+               <ns7:description lang="ro">Decatonă, ajustată pentru a ține cont de polarizare</ns7:description>
+               <ns7:description lang="sk">Dekatony, opravené podľa polarizácii</ns7:description>
+               <ns7:description lang="sl">Dekatlon, korigiran glede na polarizacijo</ns7:description>
+               <ns7:description lang="uk">Декатон, скоригований відповідно до поляризації</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DHS</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram dihydrostreptomycinu</ns7:description>
+               <ns7:description lang="da">Kilogram dihydrostreptomycin</ns7:description>
+               <ns7:description lang="en">Kilogram of dihydrostreptomycin</ns7:description>
+               <ns7:description lang="es">Kilogramo de dihidroestreptomicina.</ns7:description>
+               <ns7:description lang="et">Kilogramm dihüdrostreptomütsiini</ns7:description>
+               <ns7:description lang="fi">Kilogramma(a) dihydrostreptomysiinia</ns7:description>
+               <ns7:description lang="fr">Kilogramme de dihydrostreptomycine</ns7:description>
+               <ns7:description lang="lt">Kilogramas dihidrostreptomicino</ns7:description>
+               <ns7:description lang="lv">Dihidrostreptomicīna kilograms</ns7:description>
+               <ns7:description lang="me">Kilogram dihidrostreptomicina</ns7:description>
+               <ns7:description lang="nl">Kilogram dihydrostreptomycin</ns7:description>
+               <ns7:description lang="pl">Kilogram dihydrostreptomycyny</ns7:description>
+               <ns7:description lang="ro">Kilogram dihidrostreptomicina</ns7:description>
+               <ns7:description lang="sk">Kilogram dihydrostreptomycínu</ns7:description>
+               <ns7:description lang="sl">Kilogram hidrostreptomicina</ns7:description>
+               <ns7:description lang="uk">Кілограм дигідрострептоміцину</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DTN</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Hectokilogram .{en}.</ns7:description>
+               <ns7:description lang="cs">Hektokilogram</ns7:description>
+               <ns7:description lang="da">Hektokilogram</ns7:description>
+               <ns7:description lang="de">100 Kilogramm</ns7:description>
+               <ns7:description lang="el">Εκατοχιλιόγραμμο</ns7:description>
+               <ns7:description lang="en">Hectokilogram</ns7:description>
+               <ns7:description lang="es">Hectokilogramo</ns7:description>
+               <ns7:description lang="et">Hektokilogramm</ns7:description>
+               <ns7:description lang="fi">hehtokilogramma</ns7:description>
+               <ns7:description lang="fr">Hectokilogramme</ns7:description>
+               <ns7:description lang="hr">Hectokilogram .{en}.</ns7:description>
+               <ns7:description lang="hu">100 kilogramm</ns7:description>
+               <ns7:description lang="is">Hectokilogram .{en}.</ns7:description>
+               <ns7:description lang="it">Quintale</ns7:description>
+               <ns7:description lang="lt">Centneris, metrinis (100 kg)</ns7:description>
+               <ns7:description lang="lv">Hektokilograms</ns7:description>
+               <ns7:description lang="me">Hektokilogram</ns7:description>
+               <ns7:description lang="mk">Hectokilogram .{en}.</ns7:description>
+               <ns7:description lang="mt">Hectokilogram .{en}.</ns7:description>
+               <ns7:description lang="nl">Hectokilogram</ns7:description>
+               <ns7:description lang="no">Hectokilogram .{en}.</ns7:description>
+               <ns7:description lang="pl">Sto kilogramów</ns7:description>
+               <ns7:description lang="pt">Hectoquilograma</ns7:description>
+               <ns7:description lang="ro">Hectokilogram</ns7:description>
+               <ns7:description lang="sk">Hektokilogram</ns7:description>
+               <ns7:description lang="sl">Hektokilogram</ns7:description>
+               <ns7:description lang="sr">Hectokilogram .{en}.</ns7:description>
+               <ns7:description lang="sv">100 kilo (kg)</ns7:description>
+               <ns7:description lang="tr">Hectokilogram .{en}.</ns7:description>
+               <ns7:description lang="uk">Гектокілограм</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DTNE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Odčerpaná čistá hmotnost v hektokilogramech</ns7:description>
+               <ns7:description lang="da">Hectokilogram af drænet nettovægt</ns7:description>
+               <ns7:description lang="en">Hectokilogram of drained net weight</ns7:description>
+               <ns7:description lang="es">Hectokilogramo de peso neto escurrido.</ns7:description>
+               <ns7:description lang="et">Hektokilogramm/— kuivaine netomassi</ns7:description>
+               <ns7:description lang="fi">100 kg valutettu nettopaino</ns7:description>
+               <ns7:description lang="fr">Hectokilogramme de poids net égoutté</ns7:description>
+               <ns7:description lang="lt">Centneris, metrinis (100 kg) grynosios (neto) sausosios masės</ns7:description>
+               <ns7:description lang="lv">Hektokilograms sausā tīrsvara</ns7:description>
+               <ns7:description lang="me">Hektokilogram ocijeđene neto težine</ns7:description>
+               <ns7:description lang="nl">Hectokilogram uitgelekt nettogewicht</ns7:description>
+               <ns7:description lang="pl">Sto kilogramów masy netto po odsączeniu</ns7:description>
+               <ns7:description lang="ro">Hectokilogram de greutate netă drenată</ns7:description>
+               <ns7:description lang="sk">Hektokilogram čistej hmotnosti bez nálevu</ns7:description>
+               <ns7:description lang="sl">Hektkilogram čiste neto mase</ns7:description>
+               <ns7:description lang="uk">Гектокілограм осушеної маси нетто</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DTNF</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Hektokilogram pšenice obecné</ns7:description>
+               <ns7:description lang="da">Hectokilogram af almindelig hvede</ns7:description>
+               <ns7:description lang="en">Hectokilogram of common wheat</ns7:description>
+               <ns7:description lang="es">Hectokilogramo de trigo blando.</ns7:description>
+               <ns7:description lang="et">Hektokilogramm/Harilik nisu</ns7:description>
+               <ns7:description lang="fr">Hectokilogramme de blé tendre</ns7:description>
+               <ns7:description lang="lt">Centneris, metrinis (100 kg) paprastųjų kviečių</ns7:description>
+               <ns7:description lang="lv">Hektokilograms parasto kviešu</ns7:description>
+               <ns7:description lang="me">Hektokilogram obične pšenice</ns7:description>
+               <ns7:description lang="nl">Hectokilogram zachte tarwe</ns7:description>
+               <ns7:description lang="pl">Sto kilogramów przenicy zwyczajnej</ns7:description>
+               <ns7:description lang="ro">Hectokilogram de grâu comun</ns7:description>
+               <ns7:description lang="sk">Hektokilogram, Obyčajná pšenica</ns7:description>
+               <ns7:description lang="sl">Hektokilogram navadne pšenice</ns7:description>
+               <ns7:description lang="uk">Гектокілограм пшениці м'якої</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DTNG</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Hektokilogram, brutto</ns7:description>
+               <ns7:description lang="da">Hectokilogram, brutto</ns7:description>
+               <ns7:description lang="en">Hectokilogram , gross</ns7:description>
+               <ns7:description lang="es">Hectokilogramo, bruto .</ns7:description>
+               <ns7:description lang="et">Hektokilogramm/brutomassi</ns7:description>
+               <ns7:description lang="fr">Hectokilogramme , brut</ns7:description>
+               <ns7:description lang="lt">Centneris, metrinis (100 kg) bendrojo (bruto) svorio</ns7:description>
+               <ns7:description lang="lv">Hektokilograms bruto</ns7:description>
+               <ns7:description lang="me">Hektokilogram, bruto</ns7:description>
+               <ns7:description lang="nl">Hectokilogram, bruto</ns7:description>
+               <ns7:description lang="pl">Sto kilogramów, brutto</ns7:description>
+               <ns7:description lang="ro">Hectokilogram, brut</ns7:description>
+               <ns7:description lang="sk">Hektokilogram, hrubej hmotnosti (brutto)</ns7:description>
+               <ns7:description lang="sl">Hektokilogram, bruto</ns7:description>
+               <ns7:description lang="uk">Гектокілограм, брутто</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DTNL</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Hektokilogram živé hmotnosti</ns7:description>
+               <ns7:description lang="da">Hectokilogram af levende vægt</ns7:description>
+               <ns7:description lang="en">Hectokilogram of live weight</ns7:description>
+               <ns7:description lang="es">Hectokilogramo de peso vivo.</ns7:description>
+               <ns7:description lang="et">Hektokilogramm eluskaal</ns7:description>
+               <ns7:description lang="fr">Hectokilogramme de poids vif</ns7:description>
+               <ns7:description lang="lt">Centneris, metrinis (100 kg) gyvojo svorio</ns7:description>
+               <ns7:description lang="lv">Hektokilograms dzīvsvara</ns7:description>
+               <ns7:description lang="me">Hektokilogram žive vage</ns7:description>
+               <ns7:description lang="nl">Hectokilogram levend gewicht</ns7:description>
+               <ns7:description lang="pl">Sto kilogramów żywej wagi</ns7:description>
+               <ns7:description lang="ro">Hectokilogram de greutate în viu</ns7:description>
+               <ns7:description lang="sk">Hektokilogram, Živá váha</ns7:description>
+               <ns7:description lang="sl">Hektokilogram čiste mase</ns7:description>
+               <ns7:description lang="uk">Гектокілограм живої маси</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DTNM</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Hektokilogram netto sušiny</ns7:description>
+               <ns7:description lang="da">Hektokilogram af tørstof nettovægt</ns7:description>
+               <ns7:description lang="en">Hectokilogram net of dry matter</ns7:description>
+               <ns7:description lang="es">Hectokilogramo neto de materia seca.</ns7:description>
+               <ns7:description lang="et">Hektokilogramm/Kuivaine netomass</ns7:description>
+               <ns7:description lang="fi">100 kg netto kuiva-ainepaino</ns7:description>
+               <ns7:description lang="fr">Hectokilogramme net de matière sèche</ns7:description>
+               <ns7:description lang="lt">Centneris, metrinis (100 kg) grynosios (neto) sausosios medžiagos</ns7:description>
+               <ns7:description lang="lv">Hektokilograms sausnas neto</ns7:description>
+               <ns7:description lang="me">Hektokilogram neto suve stvari</ns7:description>
+               <ns7:description lang="nl">Hectokilogram netto droge stof</ns7:description>
+               <ns7:description lang="pl">Sto kilogramów netto suchej masy</ns7:description>
+               <ns7:description lang="ro">Rețea de hectokilograme de substanță uscată</ns7:description>
+               <ns7:description lang="sk">Hektokilogram, Čistá sušina</ns7:description>
+               <ns7:description lang="sl">Hektokilogram neto čiste stvari</ns7:description>
+               <ns7:description lang="uk">Гектокілограм без сухої речовини</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DTNR</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Hektokilogram - standardní jakost</ns7:description>
+               <ns7:description lang="da">Hektokilogram af standard kvalitet</ns7:description>
+               <ns7:description lang="en">Hectokilogram of the standard quality</ns7:description>
+               <ns7:description lang="es">Hectokilogramo de calidad estandar.</ns7:description>
+               <ns7:description lang="et">Hektokilogramm standardkvaliteediga</ns7:description>
+               <ns7:description lang="fi">Hehtokilogrammaa vakiolaatua</ns7:description>
+               <ns7:description lang="fr">Hectokilogramme de la qualité standard</ns7:description>
+               <ns7:description lang="lt">Centneris, metrinis (100 kg) standartinės kokybės</ns7:description>
+               <ns7:description lang="lv">Hektokilograms standarta kvalitātes</ns7:description>
+               <ns7:description lang="me">Hektokilogram standardnog kvaliteta</ns7:description>
+               <ns7:description lang="nl">Hectokilogram van de standaardkwaliteit</ns7:description>
+               <ns7:description lang="pl">Sto kilogramów standardowej jakości</ns7:description>
+               <ns7:description lang="ro">Hectokilogram de calitate standard</ns7:description>
+               <ns7:description lang="sk">Hektokilogram, štandardnej kvality</ns7:description>
+               <ns7:description lang="sl">Hektokilogram standardne kvalitete</ns7:description>
+               <ns7:description lang="uk">Гектокілограм стандартної якості</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DTNS</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Hektokilogram cukru s výtěžností bílého cukru 92 %.</ns7:description>
+               <ns7:description lang="da">Hektokilogram sukker med et udbytte i hvidt sukker på 92 %</ns7:description>
+               <ns7:description lang="en">Hectokilogram of sugar with a yield in white sugar of 92%</ns7:description>
+               <ns7:description lang="es">Hectokilogramo de azúcar con un rendimiento en azúcar blanco del 92%.</ns7:description>
+               <ns7:description lang="et">Hektokilogramm/suhkur, mille saagis valges suhkrus väljendatuna on 92 %</ns7:description>
+               <ns7:description lang="fr">Hectokilogramme de sucre avec un rendement en sucre blanc de 92%</ns7:description>
+               <ns7:description lang="lt">Centneris, metrinis (100 kg) cukraus, kurio baltojo cukraus išeiga – 92%</ns7:description>
+               <ns7:description lang="lv">Hektokilograms cukura ar baltā cukura produktivitāti 92%</ns7:description>
+               <ns7:description lang="me">Hektokilogram šećera sa prinosom od 92% bijelog šećera</ns7:description>
+               <ns7:description lang="nl">Hectokilogram suiker met een rendement aan witte suiker van 92%</ns7:description>
+               <ns7:description lang="pl">Sto kilogramów cukru z uzyskiem w cukrze białym 92%</ns7:description>
+               <ns7:description lang="ro">Hectokilogram de zahăr cu un randament în zahăr alb de 92%</ns7:description>
+               <ns7:description lang="sk">Hektokilogram, cukor s výťažnosťou 92% vyjadrenou v bielom cukre</ns7:description>
+               <ns7:description lang="sl">Hektokilogram sladkorja z 92 % donosom v belem sladkorju</ns7:description>
+               <ns7:description lang="uk">Гектокілограм цукру з виходом білого цукру 92%</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">DTNZ</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Hektokilogram na 1 % hmotnosti sacharózy</ns7:description>
+               <ns7:description lang="da">Hektokilogram pr. 1 vægt% saccharose</ns7:description>
+               <ns7:description lang="en">Hectokilogram per 1% by weight of sucrose</ns7:description>
+               <ns7:description lang="es">Hectokilogramo por 1% en peso de sacarosa.</ns7:description>
+               <ns7:description lang="et">Hektokilogramm/sahharoosisisaldusega 1% massist</ns7:description>
+               <ns7:description lang="fi">100 kg per 1 painoprosenttia sakkaroosia kohden</ns7:description>
+               <ns7:description lang="fr">Hectokilogramme pour 1% en poids de saccharose</ns7:description>
+               <ns7:description lang="lt">Centneris (100 kg) / sacharozės masės procentas</ns7:description>
+               <ns7:description lang="lv">Hektokilograms 1% no saharozes svara (ievadiet tikai saharozes %)</ns7:description>
+               <ns7:description lang="me">Hektokilogram na 1% težine saharoze</ns7:description>
+               <ns7:description lang="nl">Hectokilogram per 1% per gewicht sucrose</ns7:description>
+               <ns7:description lang="pl">Sto kilogramów na 1% masy sacharozy</ns7:description>
+               <ns7:description lang="ro">Hectokilogram la 1% din greutate zaharoză</ns7:description>
+               <ns7:description lang="sk">Hektokilogram, Na 1% hmotnosti sacharózy</ns7:description>
+               <ns7:description lang="sl">Hektokilogramna 1% mase saharoze</ns7:description>
+               <ns7:description lang="uk">Гектокілограм на 1% маси сахарози</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">ENP</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">За всяко евро или национална валута на държавата членка от нетната цена франко границата на Съюза преди обмитяване на разглеждания продукт</ns7:description>
+               <ns7:description lang="cs">za každé euro nebo národní měnovou jednotku členského státu z čisté ceny dotčeného produktu s dodáním na hranice Unie před proclením</ns7:description>
+               <ns7:description lang="da">For hver euro eller hver enhed af medlemsstatens nationale valuta af nettoprisen, frit Unionens grænse, ufortoldet, for den pågældende vare</ns7:description>
+               <ns7:description lang="de">je Euro/nationale Währungseinheit eines Mitgliedstaats des Nettopreises der betroffenen Ware frei Grenze der Union, unverzollt</ns7:description>
+               <ns7:description lang="el">Για κάθε ευρώ ή εθνικό νόμισμα κράτους μέλους της καθαρής, «ελεύθερης στα σύνορα της Ένωσης» τιμής, πριν από την καταβολή δασμού για το υπό εξέταση προϊόν</ns7:description>
+               <ns7:description lang="en">For each Euro or Member State national currency of the net, free-at-Union-frontier price, before duty of the product concerned</ns7:description>
+               <ns7:description lang="es">Por cada euro o moneda nacional del Estado miembro del precio neto franco en la frontera de la Unión, derechos no pagados, del producto en cuestión</ns7:description>
+               <ns7:description lang="et">Asjaomase toote netohinna (liidu piiril enne tollimaksu tasumist) iga euro või liikmesriigi omavääringu kohta</ns7:description>
+               <ns7:description lang="fi">Kyseisen tuotteen vapaasti unionin rajalla tullaamattomana –nettohinnan jokaista euroa tai jäsenvaltion kansallisen valuutan yksikköä kohden</ns7:description>
+               <ns7:description lang="fr">Pour chaque euro ou monnaie nationale de l’État membre du prix net franco frontière de l’Union, avant dédouanement du produit concerné</ns7:description>
+               <ns7:description lang="hr">Az érintett termék vámfizetés előtti, uniós határparitáson számított nettó árának minden egyes eurójára vagy a tagállam nemzeti pénznemére</ns7:description>
+               <ns7:description lang="hu">Za svaki euro ili jedinicu nacionalne valute države članice od neto cijene franko granica Unije, neocarinjeno, za predmetni proizvod</ns7:description>
+               <ns7:description lang="it">Per ciascun euro o unità di valuta nazionale dello Stato membro del prezzo netto, franco frontiera dell'Unione, dazio non corrisposto, del prodotto interessato</ns7:description>
+               <ns7:description lang="lt">Už kiekvieną nagrinėjamojo produkto neto kainos Sąjungos pasienyje prieš sumokant muitą eurą arba valstybės narės nacionalinės valiutos vienetą</ns7:description>
+               <ns7:description lang="lv">Katrai euro vai dalībvalsts valūtai, kurā izteikta attiecīgā ražojuma neto cena ar piegādi līdz Savienības robežai pirms nodokļu nomaksas</ns7:description>
+               <ns7:description lang="me">Za svaki euro ili nacionalnu valutu države članice neto cijene franko granica Unije, prije plaćanja dažbina za dati proizvod</ns7:description>
+               <ns7:description lang="nl">Voor elke euro of elke nationale valuta van de lidstaat van de nettoprijs, franco grens Unie, vóór inklaring, van het betrokken product</ns7:description>
+               <ns7:description lang="pl">W odniesieniu do każdego euro lub waluty krajowej państwa członkowskiego ceny netto na granicy Unii, przed ocleniem, produktu objętego postępowaniem</ns7:description>
+               <ns7:description lang="pt">Para cada Euro ou moeda nacional de um Estado-Membro do preço líquido, franco-fronteira da União do produto não desalfandegado</ns7:description>
+               <ns7:description lang="ro">Pentru fiecare euro sau monedă națională a statului membru din prețul net franco-frontiera Uniunii, înainte de vămuirea produsului în cauză</ns7:description>
+               <ns7:description lang="sk">Za každé euro alebo národnú menu členského štátu čistej frankoceny dotknutého výrobku na hranici Únie pred preclením</ns7:description>
+               <ns7:description lang="sl">Za vsak euro ali enoto nacionalne valute države članice od neto cene franko meja Unije pred plačilom dajatve za zadevni izdelek</ns7:description>
+               <ns7:description lang="sv">För varje euro eller medlemsstatens nationella valutaenhet av nettopriset fritt unionens gräns, före tull, för den berörda produkten</ns7:description>
+               <ns7:description lang="uk">Для кожного євро або національної валюти країни-члена чистої ціни франко-Союзний кордон без мита на відповідний продукт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">EUR</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Euro (používá se pro statistický dohled)</ns7:description>
+               <ns7:description lang="da">Euro (foranstaltningstype 468 og 469)</ns7:description>
+               <ns7:description lang="en">Euro (used for statistical surveillance)</ns7:description>
+               <ns7:description lang="es">Euro (utilizado para la vigilancia estadística).</ns7:description>
+               <ns7:description lang="et">Euro (kasutatakse statistilise seire jaoks)</ns7:description>
+               <ns7:description lang="fi">euro(a)</ns7:description>
+               <ns7:description lang="fr">Euro (utilisé pour la surveillance statistique)</ns7:description>
+               <ns7:description lang="lt">Euras (naudojamas statistinei priežiūrai)</ns7:description>
+               <ns7:description lang="lv">Eiro (lietots statistikas uzraudzībai)</ns7:description>
+               <ns7:description lang="me">Euro (koristi se za statistički nadzor)</ns7:description>
+               <ns7:description lang="nl">Euro (gebruikt voor statistisch toezicht)</ns7:description>
+               <ns7:description lang="pl">Euro (stosowane do nadzoru statystycznego)</ns7:description>
+               <ns7:description lang="ro">Euro (folosit pentru supravegheri statistice)</ns7:description>
+               <ns7:description lang="sk">Euro, pre štatistické účely</ns7:description>
+               <ns7:description lang="sl">Evro (za statistični nadzor)</ns7:description>
+               <ns7:description lang="uk">Євро (використовується для статистичного спостереження)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">GFI</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Gram štěpných izotopů</ns7:description>
+               <ns7:description lang="da">Gram spaltelige isotoper</ns7:description>
+               <ns7:description lang="en">Gram of fissile isotopes</ns7:description>
+               <ns7:description lang="es">Gramo de isótopos fisionables.</ns7:description>
+               <ns7:description lang="et">Gramm lõhustuvat isotoopi</ns7:description>
+               <ns7:description lang="fi">grammaa halkeamiskelpoisia isotooppeja</ns7:description>
+               <ns7:description lang="fr">Gramme d'isotopes fissiles</ns7:description>
+               <ns7:description lang="lt">Gramas skylančiųjų izotopų</ns7:description>
+               <ns7:description lang="lv">Sabrūkošo izotopu grams</ns7:description>
+               <ns7:description lang="me">Gram fisibilnih izotopa</ns7:description>
+               <ns7:description lang="nl">Gram splijtbare isotopen</ns7:description>
+               <ns7:description lang="pl">Gram izotopów rozszczepialnych</ns7:description>
+               <ns7:description lang="ro">Gram de izotopi fisionali</ns7:description>
+               <ns7:description lang="sk">Gram štiepnych izotopov</ns7:description>
+               <ns7:description lang="sl">Gram celpljivih izotopov</ns7:description>
+               <ns7:description lang="uk">Грам ізотопів, що діляться</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">GRM</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Gram .{en}.</ns7:description>
+               <ns7:description lang="cs">Gram</ns7:description>
+               <ns7:description lang="da">Gram</ns7:description>
+               <ns7:description lang="de">Gramm</ns7:description>
+               <ns7:description lang="el">Γραμ</ns7:description>
+               <ns7:description lang="en">Gram</ns7:description>
+               <ns7:description lang="es">Gramo</ns7:description>
+               <ns7:description lang="et">Gramm</ns7:description>
+               <ns7:description lang="fi">grammaa</ns7:description>
+               <ns7:description lang="fr">Gramme</ns7:description>
+               <ns7:description lang="hr">Gram .{en}.</ns7:description>
+               <ns7:description lang="hu">Gramm</ns7:description>
+               <ns7:description lang="is">Gram .{en}.</ns7:description>
+               <ns7:description lang="it">Grammo</ns7:description>
+               <ns7:description lang="lt">Gramas</ns7:description>
+               <ns7:description lang="lv">Grams</ns7:description>
+               <ns7:description lang="me">Gram</ns7:description>
+               <ns7:description lang="mk">Gram .{en}.</ns7:description>
+               <ns7:description lang="mt">Gram .{en}.</ns7:description>
+               <ns7:description lang="nl">Gram</ns7:description>
+               <ns7:description lang="no">Gram .{en}.</ns7:description>
+               <ns7:description lang="pl">Gram</ns7:description>
+               <ns7:description lang="pt">Grama</ns7:description>
+               <ns7:description lang="ro">Gram</ns7:description>
+               <ns7:description lang="sk">Gram</ns7:description>
+               <ns7:description lang="sl">Gram</ns7:description>
+               <ns7:description lang="sr">Gram .{en}.</ns7:description>
+               <ns7:description lang="sv">gram</ns7:description>
+               <ns7:description lang="tr">Gram .{en}.</ns7:description>
+               <ns7:description lang="uk">Грам</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">GRT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Hrubá tonáž</ns7:description>
+               <ns7:description lang="da">Bruttotonnage</ns7:description>
+               <ns7:description lang="en">Gross tonnage</ns7:description>
+               <ns7:description lang="es">Tonelaje bruto.</ns7:description>
+               <ns7:description lang="et">Kogumahutavus</ns7:description>
+               <ns7:description lang="fi">aluksen bruttovetoisuus</ns7:description>
+               <ns7:description lang="fr">Tonnage brut</ns7:description>
+               <ns7:description lang="lt">Bendrasis laivo tonažas</ns7:description>
+               <ns7:description lang="lv">Bruto tonnāža</ns7:description>
+               <ns7:description lang="me">Bruto tonaža</ns7:description>
+               <ns7:description lang="nl">Bruto tonnage</ns7:description>
+               <ns7:description lang="pl">Pojemność brutto</ns7:description>
+               <ns7:description lang="ro">Tonajul brut</ns7:description>
+               <ns7:description lang="sk">Hrubá nosnosť</ns7:description>
+               <ns7:description lang="sl">Bruto tonaža</ns7:description>
+               <ns7:description lang="uk">Валовий тоннаж</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">HLT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Hectolitre .{en}.</ns7:description>
+               <ns7:description lang="cs">Hektolitr</ns7:description>
+               <ns7:description lang="da">Hektoliter</ns7:description>
+               <ns7:description lang="de">Hektoliter</ns7:description>
+               <ns7:description lang="el">Εκατόλιτρο</ns7:description>
+               <ns7:description lang="en">Hectolitre</ns7:description>
+               <ns7:description lang="es">Hectólitro</ns7:description>
+               <ns7:description lang="et">Hektoliiter</ns7:description>
+               <ns7:description lang="fi">hehtolitra</ns7:description>
+               <ns7:description lang="fr">Hectolitre</ns7:description>
+               <ns7:description lang="hr">Hectolitre .{en}.</ns7:description>
+               <ns7:description lang="hu">Hektoliter</ns7:description>
+               <ns7:description lang="is">Hectolitre .{en}.</ns7:description>
+               <ns7:description lang="it">Ettolitro</ns7:description>
+               <ns7:description lang="lt">Hektolitras</ns7:description>
+               <ns7:description lang="lv">Hektolitrs</ns7:description>
+               <ns7:description lang="me">Hektolitar</ns7:description>
+               <ns7:description lang="mk">Hectolitre .{en}.</ns7:description>
+               <ns7:description lang="mt">Hectolitre .{en}.</ns7:description>
+               <ns7:description lang="nl">Hectoliter</ns7:description>
+               <ns7:description lang="no">Hectolitre .{en}.</ns7:description>
+               <ns7:description lang="pl">Hektolitr</ns7:description>
+               <ns7:description lang="pt">Hectolitro</ns7:description>
+               <ns7:description lang="ro">Hectolitru</ns7:description>
+               <ns7:description lang="sk">Hektoliter</ns7:description>
+               <ns7:description lang="sl">Hektoliter</ns7:description>
+               <ns7:description lang="sr">Hectolitre .{en}.</ns7:description>
+               <ns7:description lang="sv">100 liter</ns7:description>
+               <ns7:description lang="tr">Hectolitre .{en}.</ns7:description>
+               <ns7:description lang="uk">Гектолітр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-10-25</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">HMT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Hektometr</ns7:description>
+               <ns7:description lang="da">100 meter</ns7:description>
+               <ns7:description lang="en">Hectometre</ns7:description>
+               <ns7:description lang="es">Hectómetro.</ns7:description>
+               <ns7:description lang="et">Hektomeeter</ns7:description>
+               <ns7:description lang="fi">100 m</ns7:description>
+               <ns7:description lang="fr">Hectomètre</ns7:description>
+               <ns7:description lang="lt">Šimtas metrų</ns7:description>
+               <ns7:description lang="lv">Hektometrs</ns7:description>
+               <ns7:description lang="nl">Hectometer</ns7:description>
+               <ns7:description lang="pl">Sto metrów</ns7:description>
+               <ns7:description lang="ro">Hectometru</ns7:description>
+               <ns7:description lang="sk">Hektometer</ns7:description>
+               <ns7:description lang="sl">Hektometer</ns7:description>
+               <ns7:description lang="uk">Гектометр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KAC</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram čistého acesulfamu draselného</ns7:description>
+               <ns7:description lang="da">Kilogram nettovægt acesulfamkalium</ns7:description>
+               <ns7:description lang="en">Kilogram net of acesulfame potassium</ns7:description>
+               <ns7:description lang="es">Kilogramo neto de acesulfamo de potasio.</ns7:description>
+               <ns7:description lang="et">Kaaliumatsesulfaami netomassi kilogramm</ns7:description>
+               <ns7:description lang="fi">kilogrammaa asesulfaamikaliumia</ns7:description>
+               <ns7:description lang="fr">Kilogramme net d'acésulfame potassique</ns7:description>
+               <ns7:description lang="lt">Grynosios acesulfamo kalio masės kilogramas</ns7:description>
+               <ns7:description lang="lv">Acesulfāmkālija neto kilograms</ns7:description>
+               <ns7:description lang="me">Neto kilogram kalijum acesulfama</ns7:description>
+               <ns7:description lang="nl">Kilogram netto acesulfaam-kalium</ns7:description>
+               <ns7:description lang="pl">Kilogram netto acesulfamu potasu</ns7:description>
+               <ns7:description lang="ro">Kilogram net de acesulfam de potasiu</ns7:description>
+               <ns7:description lang="sk">Kilogram čistej hmotnosti (netto) acesulfámu draselného</ns7:description>
+               <ns7:description lang="sl">Kilogram neto kalijevega acesulfama</ns7:description>
+               <ns7:description lang="uk">Кілограм нетто ацесульфаму калію</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-05-23</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KBL</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Килограм обезкостено тегло</ns7:description>
+               <ns7:description lang="cs">Kilogram vykostěné hmotnosti</ns7:description>
+               <ns7:description lang="da">Kilogram udbenet vægt</ns7:description>
+               <ns7:description lang="de">Kilogramm ohne Knochen</ns7:description>
+               <ns7:description lang="el">Χιλιόγραμμο βάρους χωρίς κόκαλα</ns7:description>
+               <ns7:description lang="en">Kilogram of boneless weight</ns7:description>
+               <ns7:description lang="es">Kilogramo de peso deshuesado</ns7:description>
+               <ns7:description lang="et">Kilogrammi kondita kaal</ns7:description>
+               <ns7:description lang="fi">Kg luutonta painoa</ns7:description>
+               <ns7:description lang="fr">Kilogramme de poids désossé</ns7:description>
+               <ns7:description lang="hr">Kilogram mase bez kostiju</ns7:description>
+               <ns7:description lang="hu">Kicsontozott tömeg kilogramm</ns7:description>
+               <ns7:description lang="it">Chilogrammo di peso disossato</ns7:description>
+               <ns7:description lang="lt">Masės be kaulų kilogramas</ns7:description>
+               <ns7:description lang="lv">Atkaulota svara kilograms</ns7:description>
+               <ns7:description lang="nl">Kilogram gewicht zonder been</ns7:description>
+               <ns7:description lang="pl">Kilogram masy bez kości</ns7:description>
+               <ns7:description lang="pt">Quilograma de peso desossado</ns7:description>
+               <ns7:description lang="ro">Kilogram de greutate dezosată</ns7:description>
+               <ns7:description lang="sk">Kilogram vykostenej hmotnosti</ns7:description>
+               <ns7:description lang="sl">Kilogram mase brez kosti</ns7:description>
+               <ns7:description lang="sv">Kilogram benfri vikt</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KCC</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram cholinchloridu</ns7:description>
+               <ns7:description lang="da">Kilogram cholinchlorid</ns7:description>
+               <ns7:description lang="en">Kilogram of choline chloride</ns7:description>
+               <ns7:description lang="es">Kilogramo de cloruro de colina.</ns7:description>
+               <ns7:description lang="et">Kilogramm koliinkloriidi</ns7:description>
+               <ns7:description lang="fi">kilogrammaa koliinikloridi(a)</ns7:description>
+               <ns7:description lang="fr">Kilogramme de chlorure de choline</ns7:description>
+               <ns7:description lang="lt">Kilogramas cholino chlorido</ns7:description>
+               <ns7:description lang="lv">Kilograms holīna hlorīda</ns7:description>
+               <ns7:description lang="me">Kilogram holin hlorida</ns7:description>
+               <ns7:description lang="nl">Kilogram cholinechloride</ns7:description>
+               <ns7:description lang="pl">Kilogram chlorku choliny</ns7:description>
+               <ns7:description lang="ro">Kilogram de clorură de colină</ns7:description>
+               <ns7:description lang="sk">Kilogram cholín chloridu</ns7:description>
+               <ns7:description lang="sl">Kilogram holin klorida</ns7:description>
+               <ns7:description lang="uk">Кілограм холін хлориду</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KCL</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Tuna chloridu draselného</ns7:description>
+               <ns7:description lang="da">Ton af kaliumchlorid</ns7:description>
+               <ns7:description lang="en">Tonne of potassium chloride</ns7:description>
+               <ns7:description lang="es">Toneladas de cloruro de potasio.</ns7:description>
+               <ns7:description lang="et">Tonn kaaliumkloriidi</ns7:description>
+               <ns7:description lang="fi">1000 kg kaliumcloridia</ns7:description>
+               <ns7:description lang="fr">Tonne de chlorure de potassium</ns7:description>
+               <ns7:description lang="lt">Tona kalio chlorido</ns7:description>
+               <ns7:description lang="lv">Kālija hlorīda tonna</ns7:description>
+               <ns7:description lang="me">Tona kalijum hlorida</ns7:description>
+               <ns7:description lang="nl">Ton kaliumchloride</ns7:description>
+               <ns7:description lang="pl">Tona chlorku potasu</ns7:description>
+               <ns7:description lang="ro">Tonă de clorură de potasiu</ns7:description>
+               <ns7:description lang="sk">Tona chloridu draselného</ns7:description>
+               <ns7:description lang="sl">Tona kalijevega klorida</ns7:description>
+               <ns7:description lang="uk">Тонна хлористого калію</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-05-23</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KCW</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Килограм кланично тегло</ns7:description>
+               <ns7:description lang="cs">Kilogram hmotnost jatečně upraveného těla</ns7:description>
+               <ns7:description lang="da">Kilogram slagtekroppenes vægt</ns7:description>
+               <ns7:description lang="de">Kilogramm Schlachtkörpergewicht</ns7:description>
+               <ns7:description lang="el">Χιλιόγραμμο βάρους σφαγίου</ns7:description>
+               <ns7:description lang="en">Kilogram of carcass weight</ns7:description>
+               <ns7:description lang="es">Kilogramo de peso en canal</ns7:description>
+               <ns7:description lang="et">Rümba mass kilogramm</ns7:description>
+               <ns7:description lang="fi">Teuraspainoa (kg)</ns7:description>
+               <ns7:description lang="fr">Kilogramme de poids carcasse</ns7:description>
+               <ns7:description lang="hr">Kilogram mase trupa</ns7:description>
+               <ns7:description lang="hu">Hasított test súlya kilogramm</ns7:description>
+               <ns7:description lang="it">Chilogrammo di peso della carcassa</ns7:description>
+               <ns7:description lang="lt">Skerdenos svorio kilogramas</ns7:description>
+               <ns7:description lang="lv">Liemeņa svara kilograms</ns7:description>
+               <ns7:description lang="nl">Kilogram karkasgewicht</ns7:description>
+               <ns7:description lang="pl">Kilogram masy tuszy</ns7:description>
+               <ns7:description lang="pt">Quilograma de peso-carcaça</ns7:description>
+               <ns7:description lang="ro">Kilogram de greutate a carcasei</ns7:description>
+               <ns7:description lang="sk">Kilogram jatočnej hmotnosti</ns7:description>
+               <ns7:description lang="sl">Kilogram mase trupa</ns7:description>
+               <ns7:description lang="sv">Kilogram slaktkroppsvikt</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KGM</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Kilogram .{en}.</ns7:description>
+               <ns7:description lang="cs">Kilogram</ns7:description>
+               <ns7:description lang="da">Kilogram</ns7:description>
+               <ns7:description lang="de">Kilogramm</ns7:description>
+               <ns7:description lang="el">Χιλιόγραμμο</ns7:description>
+               <ns7:description lang="en">Kilogram</ns7:description>
+               <ns7:description lang="es">Kilogramo</ns7:description>
+               <ns7:description lang="et">Kilogramm</ns7:description>
+               <ns7:description lang="fi">kilogrammaa</ns7:description>
+               <ns7:description lang="fr">Kilogramme</ns7:description>
+               <ns7:description lang="hr">Kilogram .{en}.</ns7:description>
+               <ns7:description lang="hu">Kilogramm</ns7:description>
+               <ns7:description lang="is">Kilogram .{en}.</ns7:description>
+               <ns7:description lang="it">Chilogrammo</ns7:description>
+               <ns7:description lang="lt">Kilogramas</ns7:description>
+               <ns7:description lang="lv">Kilograms</ns7:description>
+               <ns7:description lang="me">Kilogram</ns7:description>
+               <ns7:description lang="mk">Kilogram .{en}.</ns7:description>
+               <ns7:description lang="mt">Kilogram .{en}.</ns7:description>
+               <ns7:description lang="nl">Kilogram</ns7:description>
+               <ns7:description lang="no">Kilogram .{en}.</ns7:description>
+               <ns7:description lang="pl">Kilogram</ns7:description>
+               <ns7:description lang="pt">Quilograma</ns7:description>
+               <ns7:description lang="ro">Kilogram</ns7:description>
+               <ns7:description lang="sk">Kilogram</ns7:description>
+               <ns7:description lang="sl">Kilogram</ns7:description>
+               <ns7:description lang="sr">Kilogram .{en}.</ns7:description>
+               <ns7:description lang="sv">kilo (kg)</ns7:description>
+               <ns7:description lang="tr">Kilogram .{en}.</ns7:description>
+               <ns7:description lang="uk">Кілограм</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KGMA</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Celkové množství alkoholu v kilogramech</ns7:description>
+               <ns7:description lang="da">Kilogram total alkohol</ns7:description>
+               <ns7:description lang="en">Kilogram total alcohol</ns7:description>
+               <ns7:description lang="es">Kilogramo total de alcohol.</ns7:description>
+               <ns7:description lang="et">Kilogramm/üldalkoholisisaldus</ns7:description>
+               <ns7:description lang="fr">Kilogramme d'alcool total</ns7:description>
+               <ns7:description lang="lt">Kilogramas absoliutaus alkoholio</ns7:description>
+               <ns7:description lang="lv">Kilograms tīra alkohola</ns7:description>
+               <ns7:description lang="me">Kilogram ukupnog alkohola</ns7:description>
+               <ns7:description lang="nl">Kilo totale alcohol</ns7:description>
+               <ns7:description lang="pl">Kilogram alkoholu całkowitego</ns7:description>
+               <ns7:description lang="ro">Kilograme de alcool total</ns7:description>
+               <ns7:description lang="sk">Kilogram celkového alkoholu</ns7:description>
+               <ns7:description lang="sl">Kilogram skupnega alkohola</ns7:description>
+               <ns7:description lang="uk">Загальна кількість кілограм алкоголю</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KGME</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Odkapaná čistá hmotnost v kilogramech</ns7:description>
+               <ns7:description lang="da">Kilogram af drænet nettovægt</ns7:description>
+               <ns7:description lang="en">Kilogram of drained net weight</ns7:description>
+               <ns7:description lang="es">Kilogramo de peso neto escurrido.</ns7:description>
+               <ns7:description lang="et">Kilogramm/— kuivaine netomassi</ns7:description>
+               <ns7:description lang="fi">kilogramma valutettu nettopaino</ns7:description>
+               <ns7:description lang="fr">Kilogramme de poids net égoutté</ns7:description>
+               <ns7:description lang="lt">Kilogramas grynosios (neto) sausosios masės</ns7:description>
+               <ns7:description lang="lv">Kilograms sausā tīrsvara</ns7:description>
+               <ns7:description lang="me">Kilogram ocijeđene neto težine</ns7:description>
+               <ns7:description lang="nl">Kilogram uitgelekt nettogewicht</ns7:description>
+               <ns7:description lang="pl">Kilogram masy netto po odsączeniu</ns7:description>
+               <ns7:description lang="ro">Kilogram de greutate netă drenată</ns7:description>
+               <ns7:description lang="sk">Kilogram, čistej hmotnosti bez nálevu</ns7:description>
+               <ns7:description lang="sl">Kilogram čiste neto mase</ns7:description>
+               <ns7:description lang="uk">Кілограм відцідженої маси нетто</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KGMG</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram, hrubá hmotnost</ns7:description>
+               <ns7:description lang="da">Kilogram, brutto</ns7:description>
+               <ns7:description lang="en">Kilogram , gross</ns7:description>
+               <ns7:description lang="es">Kilogramo, bruto.</ns7:description>
+               <ns7:description lang="et">Kilogramm brutomassi</ns7:description>
+               <ns7:description lang="fr">Kilogramme , brut</ns7:description>
+               <ns7:description lang="lt">Kilogramas bendrojo (bruto) svorio</ns7:description>
+               <ns7:description lang="lv">Kilograms bruto</ns7:description>
+               <ns7:description lang="me">Kilogram, bruto</ns7:description>
+               <ns7:description lang="nl">Kilogram, bruto</ns7:description>
+               <ns7:description lang="pl">Kilogram, brutto</ns7:description>
+               <ns7:description lang="ro">Kilogram, brut</ns7:description>
+               <ns7:description lang="sk">Kilogram, hrubej hmotnosti (brutto)</ns7:description>
+               <ns7:description lang="sl">Kilogram, bruto</ns7:description>
+               <ns7:description lang="uk">Кілограм, брутто</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KGMP</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Mléčná hmota v kilogramech</ns7:description>
+               <ns7:description lang="da">Kilogram mælkesyre</ns7:description>
+               <ns7:description lang="en">Kilogram of lactic matter</ns7:description>
+               <ns7:description lang="es">Kilogramo de materia láctica.</ns7:description>
+               <ns7:description lang="et">Kilogramm/piima koostisosa</ns7:description>
+               <ns7:description lang="fr">Kilogramme de matière lactique</ns7:description>
+               <ns7:description lang="lt">Kilogramas pieno medžiagos</ns7:description>
+               <ns7:description lang="lv">Kilograms pienskābes materiāla</ns7:description>
+               <ns7:description lang="me">Kilogram mliječne materije</ns7:description>
+               <ns7:description lang="nl">Kilogram melkstof</ns7:description>
+               <ns7:description lang="pl">Kilogram masy mlecznej</ns7:description>
+               <ns7:description lang="ro">Kilogram de materie lactică</ns7:description>
+               <ns7:description lang="sk">Kilogram, mliečnej hmoty</ns7:description>
+               <ns7:description lang="sl">Kilogram mlečne snovi</ns7:description>
+               <ns7:description lang="uk">Кілограм молочної речовини</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KGMS</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram cukru s výtěžností 92 % bílého cukru</ns7:description>
+               <ns7:description lang="da">Kilogram sukker med et udbytte i hvidt sukker på 92 %</ns7:description>
+               <ns7:description lang="en">Kilogram of sugar with a yield in white sugar of 92%</ns7:description>
+               <ns7:description lang="es">Kilogramo de azúcar con un rendimiento en azúcar blanco del 92%.</ns7:description>
+               <ns7:description lang="et">Kilogramm suhkrut, mille saagis valges suhkrus väljendatuna on 92 %</ns7:description>
+               <ns7:description lang="fr">Kilogramme de sucre avec un rendement en sucre blanc de 92%</ns7:description>
+               <ns7:description lang="lt">Kilogramas cukraus, kurio baltojo cukraus išeiga – 92%</ns7:description>
+               <ns7:description lang="lv">Kilograms cukura ar baltā cukura produktivitāti 92%</ns7:description>
+               <ns7:description lang="me">Kilogram šećera s prinosom bijelog šećera od 92%</ns7:description>
+               <ns7:description lang="nl">Kilogram suiker met een rendement aan witte suiker van 92%</ns7:description>
+               <ns7:description lang="pl">Kilogram cukru z uzyskiem 92% w cukrze białym</ns7:description>
+               <ns7:description lang="ro">Kilogram de zahăr cu un randament în zahăr alb de 92%</ns7:description>
+               <ns7:description lang="sk">Kilogram, cukor s výťažnosťou 92% vyjadrenou v bielom cukre</ns7:description>
+               <ns7:description lang="sl">Kilogram sladkorja z 92 % donosom v belem sladkorju</ns7:description>
+               <ns7:description lang="uk">Кілограм цукру з виходом білого цукру 92%</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-10-25</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KGMT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Mléčná sušina v kilogramech</ns7:description>
+               <ns7:description lang="da">Kilogram tør mælkesyre</ns7:description>
+               <ns7:description lang="en">Kilogram of dry lactic matter</ns7:description>
+               <ns7:description lang="es">Kilogramo de materia seca láctica.</ns7:description>
+               <ns7:description lang="et">Kilogramm/piima kuivaine</ns7:description>
+               <ns7:description lang="fr">Kilogramme de matière lactique sèche</ns7:description>
+               <ns7:description lang="lt">Kilogramas sausosios pieno medžiagos</ns7:description>
+               <ns7:description lang="lv">Kilograms piena sausnas</ns7:description>
+               <ns7:description lang="nl">Kilogram droge melkstof</ns7:description>
+               <ns7:description lang="pl">Kilogram suchej masy mlecznej</ns7:description>
+               <ns7:description lang="ro">Kilogram de substanță lactică uscată</ns7:description>
+               <ns7:description lang="sk">Kilogram, Mliečna sušina</ns7:description>
+               <ns7:description lang="sl">Kilogram suhe mlečne snovi</ns7:description>
+               <ns7:description lang="uk">Кілограм сухої молочної речовини</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KLT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">1000 litres .{en}.</ns7:description>
+               <ns7:description lang="cs">1000 litrů</ns7:description>
+               <ns7:description lang="da">1000 liter</ns7:description>
+               <ns7:description lang="de">1000 Liter</ns7:description>
+               <ns7:description lang="el">1000 λίτρα</ns7:description>
+               <ns7:description lang="en">1000 litres</ns7:description>
+               <ns7:description lang="es">1000 litros</ns7:description>
+               <ns7:description lang="et">1000 liitrit</ns7:description>
+               <ns7:description lang="fi">1000 litraa</ns7:description>
+               <ns7:description lang="fr">1000 litres</ns7:description>
+               <ns7:description lang="hr">1000 litres .{en}.</ns7:description>
+               <ns7:description lang="hu">1000 liter</ns7:description>
+               <ns7:description lang="is">1000 litres .{en}.</ns7:description>
+               <ns7:description lang="it">1000 litri</ns7:description>
+               <ns7:description lang="lt">Tūkstantis litrų</ns7:description>
+               <ns7:description lang="lv">1000 litri</ns7:description>
+               <ns7:description lang="me">1000 litara</ns7:description>
+               <ns7:description lang="mk">1000 litres .{en}.</ns7:description>
+               <ns7:description lang="mt">1000 litres .{en}.</ns7:description>
+               <ns7:description lang="nl">1000 liter</ns7:description>
+               <ns7:description lang="no">1000 litres .{en}.</ns7:description>
+               <ns7:description lang="pl">1000 litrów</ns7:description>
+               <ns7:description lang="pt">1000 litros</ns7:description>
+               <ns7:description lang="ro">1000 litrii</ns7:description>
+               <ns7:description lang="sk">1000 litrov</ns7:description>
+               <ns7:description lang="sl">1000 litrov.</ns7:description>
+               <ns7:description lang="sr">1000 litres .{en}.</ns7:description>
+               <ns7:description lang="sv">1000 liter</ns7:description>
+               <ns7:description lang="tr">1000 litres .{en}.</ns7:description>
+               <ns7:description lang="uk">1000 літрів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KMA</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram methylaminů</ns7:description>
+               <ns7:description lang="da">Kilogram methylaminer</ns7:description>
+               <ns7:description lang="en">Kilogram of methylamines</ns7:description>
+               <ns7:description lang="es">Kilogramo de metilaminas.</ns7:description>
+               <ns7:description lang="et">Kilomeeter metüülamiine</ns7:description>
+               <ns7:description lang="fi">kilogrammaa metyydiamideja</ns7:description>
+               <ns7:description lang="fr">Kilogramme de méthylamines</ns7:description>
+               <ns7:description lang="lt">Kilogramas metilaminų</ns7:description>
+               <ns7:description lang="lv">Metilamīna kilograms</ns7:description>
+               <ns7:description lang="me">Kilogram metilamina</ns7:description>
+               <ns7:description lang="nl">Kilogram methylaminen</ns7:description>
+               <ns7:description lang="pl">Kilogram metyloamin</ns7:description>
+               <ns7:description lang="ro">Kilogram de metilamine</ns7:description>
+               <ns7:description lang="sk">Kilogram metylamínu</ns7:description>
+               <ns7:description lang="sl">Kilogram metilaminov</ns7:description>
+               <ns7:description lang="uk">Кілограм метиламінів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-10-25</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KMT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilometr</ns7:description>
+               <ns7:description lang="da">Kilometer</ns7:description>
+               <ns7:description lang="en">Kilometre</ns7:description>
+               <ns7:description lang="es">Kilómetro.</ns7:description>
+               <ns7:description lang="et">Kilomeeter</ns7:description>
+               <ns7:description lang="fi">kilometriä</ns7:description>
+               <ns7:description lang="fr">Kilomètre</ns7:description>
+               <ns7:description lang="lt">Kilometras</ns7:description>
+               <ns7:description lang="lv">Kilometrs</ns7:description>
+               <ns7:description lang="nl">Kilometer</ns7:description>
+               <ns7:description lang="pl">Kilometr</ns7:description>
+               <ns7:description lang="ro">Kilometru</ns7:description>
+               <ns7:description lang="sk">Kilometer</ns7:description>
+               <ns7:description lang="sl">Kilometer</ns7:description>
+               <ns7:description lang="uk">Кілометр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KNI</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram dusíku</ns7:description>
+               <ns7:description lang="da">Kilogram kvaelstof</ns7:description>
+               <ns7:description lang="en">Kilogram of nitrogen</ns7:description>
+               <ns7:description lang="es">Kilogramo de nitrógeno.</ns7:description>
+               <ns7:description lang="et">Kilogramm lämmastikku</ns7:description>
+               <ns7:description lang="fi">kilogrammaa typpeä</ns7:description>
+               <ns7:description lang="fr">Kilogramme d'azote</ns7:description>
+               <ns7:description lang="lt">Kilogramas azoto</ns7:description>
+               <ns7:description lang="lv">Slāpekļa kilograms</ns7:description>
+               <ns7:description lang="me">Kilogram azota</ns7:description>
+               <ns7:description lang="nl">Kilogram stikstof</ns7:description>
+               <ns7:description lang="pl">Kilogram azotu</ns7:description>
+               <ns7:description lang="ro">Kilogram de azot</ns7:description>
+               <ns7:description lang="sk">Kilogram dusíka</ns7:description>
+               <ns7:description lang="sl">Kilogram nitrogena</ns7:description>
+               <ns7:description lang="uk">Кілограм азоту</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KNS</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram peroxidu vodíku</ns7:description>
+               <ns7:description lang="da">Kilogram hydrogenperoxid</ns7:description>
+               <ns7:description lang="en">Kilogram of hydrogen peroxide</ns7:description>
+               <ns7:description lang="es">Kilogramo de peróxido de hidrógeno.</ns7:description>
+               <ns7:description lang="et">Kilogramm vesinikperoksiidi</ns7:description>
+               <ns7:description lang="fi">kilogrammaa vetyperoksidia</ns7:description>
+               <ns7:description lang="fr">Kilogramme de peroxyde d'hydrogène</ns7:description>
+               <ns7:description lang="lt">Kilogramas vandenilio peroksido</ns7:description>
+               <ns7:description lang="lv">Kilograms ūdeņraža peroksīda</ns7:description>
+               <ns7:description lang="me">Kilogram vodonikovog peroksida</ns7:description>
+               <ns7:description lang="nl">Kilogram waterstofperoxide</ns7:description>
+               <ns7:description lang="pl">Kilogram nadtlenku wodoru</ns7:description>
+               <ns7:description lang="ro">Kilogram de peroxid de hidrogen</ns7:description>
+               <ns7:description lang="sk">Kilogram peroxidu vodíka</ns7:description>
+               <ns7:description lang="sl">Kilogram vodikovega peroksida</ns7:description>
+               <ns7:description lang="uk">Кілограм перекису водню</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KPH</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram hydroxidu draselného (žíravina)</ns7:description>
+               <ns7:description lang="da">Kilogram kaliumhydroxid</ns7:description>
+               <ns7:description lang="en">Kilogram of potassium hydroxide (caustic potash)</ns7:description>
+               <ns7:description lang="es">Kilogramo de hidróxido de potasio (potasa cáustica).</ns7:description>
+               <ns7:description lang="et">Kilogramm kaaliumhüdroksiidi (kaustilist kaaliumi)</ns7:description>
+               <ns7:description lang="fi">kilogrammaa kaliumhydroksidia(kaustista kaliumia)</ns7:description>
+               <ns7:description lang="fr">Kilogramme d'hydroxyde de potassium (potasse caustique)</ns7:description>
+               <ns7:description lang="lt">Kilogramas kalio hidroksido (kaustinio potašo)</ns7:description>
+               <ns7:description lang="lv">Kilograms kālija hidroksīda (kaustiskā potaša)</ns7:description>
+               <ns7:description lang="me">Kilogram kalijum hidroksida (kaustične potaše)</ns7:description>
+               <ns7:description lang="nl">Kilogram kaliumhydroxide (bijtende potas)</ns7:description>
+               <ns7:description lang="pl">Kilogram wodorotlenku potasu (potas żrący)</ns7:description>
+               <ns7:description lang="ro">Kilogram de hidroxid de potasiu (potasiu caustic)</ns7:description>
+               <ns7:description lang="sk">Kilogram hydroxidu draselného (žieravého draslíka)</ns7:description>
+               <ns7:description lang="sl">Kilogram kalijevega hidroksida (kavstična pepelika)</ns7:description>
+               <ns7:description lang="uk">Кілограм гідроксиду калію (їдкого калію)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KPO</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram oxidu draselného</ns7:description>
+               <ns7:description lang="da">Kilogram kaliumoxid</ns7:description>
+               <ns7:description lang="en">Kilogram of potassium oxide</ns7:description>
+               <ns7:description lang="es">Kilogramo de óxido de potasio.</ns7:description>
+               <ns7:description lang="et">Kilogramm kaaliumoksiidi</ns7:description>
+               <ns7:description lang="fi">kilogrammaa kaliumoksidia</ns7:description>
+               <ns7:description lang="fr">Kilogramme d'oxyde de potassium</ns7:description>
+               <ns7:description lang="lt">Kilogramas kalio oksido</ns7:description>
+               <ns7:description lang="lv">Kilograms kālija oksīda</ns7:description>
+               <ns7:description lang="me">Kilogram kalijum oksida</ns7:description>
+               <ns7:description lang="nl">Kilogram kaliumoxide</ns7:description>
+               <ns7:description lang="pl">Kilogram tlenku potasu</ns7:description>
+               <ns7:description lang="ro">Kilogram de oxid de potasiu</ns7:description>
+               <ns7:description lang="sk">Kilogram oxidu draselného</ns7:description>
+               <ns7:description lang="sl">Kilogram kalijevega oksida</ns7:description>
+               <ns7:description lang="uk">Кілограм оксиду калію</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KPP</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram pentaoxidu difosforečného</ns7:description>
+               <ns7:description lang="da">Kilogram phosphorsyreanhydrid</ns7:description>
+               <ns7:description lang="en">Kilogram of diphosphorus pentaoxide</ns7:description>
+               <ns7:description lang="es">Kilogramo de pentaóxido de difósforo.</ns7:description>
+               <ns7:description lang="et">Kilogramm difosforpentaoksiidi</ns7:description>
+               <ns7:description lang="fi">kilogrammaa fosforipentoksidia (fosforianhydridia)</ns7:description>
+               <ns7:description lang="fr">Kilogramme de pentaoxyde de diphosphore</ns7:description>
+               <ns7:description lang="lt">Kilogramas difosforo pentoksido</ns7:description>
+               <ns7:description lang="lv">Kilograms fosfora (V) oksīda</ns7:description>
+               <ns7:description lang="me">Kilogram difosfor pentaoksida</ns7:description>
+               <ns7:description lang="nl">Kilogram difosforpentaoxide</ns7:description>
+               <ns7:description lang="pl">Kilogram pięciotlenku difosforu</ns7:description>
+               <ns7:description lang="ro">Kilogram de pentaoxid de difosfor</ns7:description>
+               <ns7:description lang="sk">Kilogram oxidu fosforečného</ns7:description>
+               <ns7:description lang="sl">Kilogram difosforjevega pentoksida</ns7:description>
+               <ns7:description lang="uk">Кілограм пентаоксиду фосфору</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KSD</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram látky 90 % v sušině</ns7:description>
+               <ns7:description lang="da">Kilogram toervaegt 90 %</ns7:description>
+               <ns7:description lang="en">Kilogram of substance 90 % dry</ns7:description>
+               <ns7:description lang="es">Kilogramo de sustancia 90 % seca.</ns7:description>
+               <ns7:description lang="et">Kilogramm 90% kuivaine sisaldusega</ns7:description>
+               <ns7:description lang="fi">kilogrammaa 90 % :sti kuivatusta aineesta</ns7:description>
+               <ns7:description lang="fr">Kilogramme de matière sèche à 90 %</ns7:description>
+               <ns7:description lang="lt">Kilogramas iki 90% išdžiovintos medžiagos</ns7:description>
+               <ns7:description lang="lv">Kilograms 90% sausas vielas</ns7:description>
+               <ns7:description lang="me">Kilogram supstance 90% suhe</ns7:description>
+               <ns7:description lang="nl">Kilogram stof 90% droog</ns7:description>
+               <ns7:description lang="pl">Kilogram substancji 90 % suchej</ns7:description>
+               <ns7:description lang="ro">Kilogram de substanță 90 % uscată</ns7:description>
+               <ns7:description lang="sk">Kilogram prepočítaný v 90 % sušine</ns7:description>
+               <ns7:description lang="sl">Kilogram snovi 90% suhe</ns7:description>
+               <ns7:description lang="uk">Кілограм речовини 90% сухості</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-05-23</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KSE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Килограм тегло на яйцата с черупки</ns7:description>
+               <ns7:description lang="cs">Kilogram hmotnosti vajec ve skořápce</ns7:description>
+               <ns7:description lang="da">Kilogram æg med skal</ns7:description>
+               <ns7:description lang="de">Kilogramm Schaleneigewicht</ns7:description>
+               <ns7:description lang="el">Χιλιόγραμμο βάρους αυγών με κέλυφος</ns7:description>
+               <ns7:description lang="en">Kilogram of shell egg weight</ns7:description>
+               <ns7:description lang="es">Kilogramo de peso del huevo con cáscara</ns7:description>
+               <ns7:description lang="et">Koorega muna kaal kilogrammides</ns7:description>
+               <ns7:description lang="fi">Kilogram kuorellisia munia</ns7:description>
+               <ns7:description lang="fr">Kilogramme de poids de l’œuf en coquille</ns7:description>
+               <ns7:description lang="hr">Kilogram mase jaja u ljusci</ns7:description>
+               <ns7:description lang="hu">Kilogramm héjastojás-tömeg</ns7:description>
+               <ns7:description lang="it">Chilogrammo di peso delle uova in guscio</ns7:description>
+               <ns7:description lang="lt">Kiaušinių su lukštais svorio kilogramas</ns7:description>
+               <ns7:description lang="lv">Olas čaumalās svara kilograms</ns7:description>
+               <ns7:description lang="nl">Kilogram gewicht eieren in de schaal</ns7:description>
+               <ns7:description lang="pl">Kilogram masy jaj w skorupkach</ns7:description>
+               <ns7:description lang="pt">Quilograma de peso dos ovos com casca</ns7:description>
+               <ns7:description lang="ro">Kilogram de ouă în coajă</ns7:description>
+               <ns7:description lang="sk">Kilogram hmotnosti vajec v škrupine</ns7:description>
+               <ns7:description lang="sl">Kilogram teže jajc v lupini</ns7:description>
+               <ns7:description lang="sv">Kilogram ägg med skal</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KSH</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kilogram hydroxidu sodného (žíraviny)</ns7:description>
+               <ns7:description lang="da">Kilogram natriumhydroxid</ns7:description>
+               <ns7:description lang="en">Kilogram of sodium hydroxide (caustic soda)</ns7:description>
+               <ns7:description lang="es">Kilogramo de hidróxido de sodio (sosa cáustica).</ns7:description>
+               <ns7:description lang="et">Kilogramm naatriumhüdroksiidi (kaustilist soodat)</ns7:description>
+               <ns7:description lang="fi">kilogrammaa natriumhydroksidia (kaustista soodaa)</ns7:description>
+               <ns7:description lang="fr">Kilogramme d'hydroxyde de sodium (soude caustique)</ns7:description>
+               <ns7:description lang="lt">Kilogramas natrio hidroksido (kaustinė soda)</ns7:description>
+               <ns7:description lang="lv">Kilograms nātrija hidroksīda (kaustiskās sodas)</ns7:description>
+               <ns7:description lang="me">Kilogram natrijum hidroksida (kaustične sode)</ns7:description>
+               <ns7:description lang="nl">Kilogram natriumhydroxide (bijtende soda)</ns7:description>
+               <ns7:description lang="pl">Kilogram wodorotlenku sodu (sody kaustycznej)</ns7:description>
+               <ns7:description lang="ro">Kilogram de hidroxid de sodiu (sodă caustică)</ns7:description>
+               <ns7:description lang="sk">Kilogram hydroxidu sodného</ns7:description>
+               <ns7:description lang="sl">Kilogram natrijevega hidroksida (kavstična soda)</ns7:description>
+               <ns7:description lang="uk">Кілограм гідроксиду натрію (каустичної соди)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">KUR</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Kilogram of uranium .{en}.</ns7:description>
+               <ns7:description lang="cs">Kilogram uranu</ns7:description>
+               <ns7:description lang="da">Kilogram uran</ns7:description>
+               <ns7:description lang="de">Kilogramm Uran</ns7:description>
+               <ns7:description lang="el">Χιλιόγραμμο ουρανίου</ns7:description>
+               <ns7:description lang="en">Kilogram of uranium</ns7:description>
+               <ns7:description lang="es">Kilogramo de uranio</ns7:description>
+               <ns7:description lang="et">Kilogramm uraani</ns7:description>
+               <ns7:description lang="fi">kilogrammaa uraania</ns7:description>
+               <ns7:description lang="fr">Kilogramme d’uranium</ns7:description>
+               <ns7:description lang="hr">Kilogram of uranium .{en}.</ns7:description>
+               <ns7:description lang="hu">Kilogramm urán</ns7:description>
+               <ns7:description lang="is">Kilogram of uranium .{en}.</ns7:description>
+               <ns7:description lang="it">Chilogrammo di uranio</ns7:description>
+               <ns7:description lang="lt">Kilogramas urano</ns7:description>
+               <ns7:description lang="lv">Kilograms urāna</ns7:description>
+               <ns7:description lang="me">Kilogram urana</ns7:description>
+               <ns7:description lang="mk">Kilogram of uranium .{en}.</ns7:description>
+               <ns7:description lang="mt">Kilogram of uranium .{en}.</ns7:description>
+               <ns7:description lang="nl">Kilogram uranium</ns7:description>
+               <ns7:description lang="no">Kilogram of uranium .{en}.</ns7:description>
+               <ns7:description lang="pl">Kilogram uranu</ns7:description>
+               <ns7:description lang="pt">Quilograma de urânio</ns7:description>
+               <ns7:description lang="ro">Kilogram de uraniu</ns7:description>
+               <ns7:description lang="sk">Kilogram uránia</ns7:description>
+               <ns7:description lang="sl">Kilogram urana</ns7:description>
+               <ns7:description lang="sr">Kilogram of uranium .{en}.</ns7:description>
+               <ns7:description lang="sv">kilo (kg) uran</ns7:description>
+               <ns7:description lang="tr">Kilogram of uranium .{en}.</ns7:description>
+               <ns7:description lang="uk">Кілограм урану</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">LEF</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">List</ns7:description>
+               <ns7:description lang="da">Blad</ns7:description>
+               <ns7:description lang="en">Leaf</ns7:description>
+               <ns7:description lang="et">Leht</ns7:description>
+               <ns7:description lang="fr">Feuille</ns7:description>
+               <ns7:description lang="me">List</ns7:description>
+               <ns7:description lang="nl">Blad</ns7:description>
+               <ns7:description lang="pl">Arkusz</ns7:description>
+               <ns7:description lang="ro">Foaie</ns7:description>
+               <ns7:description lang="sk">List</ns7:description>
+               <ns7:description lang="sl">List</ns7:description>
+               <ns7:description lang="uk">Листя</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">LPA</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Litr čistého (100%) alkoholu</ns7:description>
+               <ns7:description lang="da">Liter ren alkohol (100%)</ns7:description>
+               <ns7:description lang="en">Litre pure (100%) alcohol</ns7:description>
+               <ns7:description lang="es">Litro de alcohol puro al 100%.</ns7:description>
+               <ns7:description lang="et">Liiter puhast (100%) alkoholi</ns7:description>
+               <ns7:description lang="fi">litraa puhdasta (100%) alkoholia</ns7:description>
+               <ns7:description lang="fr">Litre d'alcool pur (100%)</ns7:description>
+               <ns7:description lang="lt">Litras grynojo (100 proc.) alkoholio</ns7:description>
+               <ns7:description lang="lv">Litrs tīra (100%) spirta</ns7:description>
+               <ns7:description lang="me">Litar čistog (100%) alkohola</ns7:description>
+               <ns7:description lang="nl">Liter pure (100%) alcohol</ns7:description>
+               <ns7:description lang="pl">Litr czystego (100%) alkoholu</ns7:description>
+               <ns7:description lang="ro">Litru de alcool pur (100%)</ns7:description>
+               <ns7:description lang="sk">Liter čistého (100%) alkoholu</ns7:description>
+               <ns7:description lang="sl">Liter čistega (100%) alkohola</ns7:description>
+               <ns7:description lang="uk">Літр чистого (100%) алкоголю</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">LTR</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Litre .{en}.</ns7:description>
+               <ns7:description lang="cs">Litr</ns7:description>
+               <ns7:description lang="da">Liter</ns7:description>
+               <ns7:description lang="de">Liter</ns7:description>
+               <ns7:description lang="el">Λίτρο</ns7:description>
+               <ns7:description lang="en">Litre</ns7:description>
+               <ns7:description lang="es">Litro</ns7:description>
+               <ns7:description lang="et">Liiter</ns7:description>
+               <ns7:description lang="fi">litraa</ns7:description>
+               <ns7:description lang="fr">Litre</ns7:description>
+               <ns7:description lang="hr">Litre .{en}.</ns7:description>
+               <ns7:description lang="hu">Liter</ns7:description>
+               <ns7:description lang="is">Litre .{en}.</ns7:description>
+               <ns7:description lang="it">Litro</ns7:description>
+               <ns7:description lang="lt">Litras</ns7:description>
+               <ns7:description lang="lv">Litrs</ns7:description>
+               <ns7:description lang="me">Litar</ns7:description>
+               <ns7:description lang="mk">Litre .{en}.</ns7:description>
+               <ns7:description lang="mt">Litre .{en}.</ns7:description>
+               <ns7:description lang="nl">Liter</ns7:description>
+               <ns7:description lang="no">Litre .{en}.</ns7:description>
+               <ns7:description lang="pl">Litr</ns7:description>
+               <ns7:description lang="pt">Litro</ns7:description>
+               <ns7:description lang="ro">Litru</ns7:description>
+               <ns7:description lang="sk">Liter</ns7:description>
+               <ns7:description lang="sl">Liter</ns7:description>
+               <ns7:description lang="sr">Litre .{en}.</ns7:description>
+               <ns7:description lang="sv">liter (l)</ns7:description>
+               <ns7:description lang="tr">Litre .{en}.</ns7:description>
+               <ns7:description lang="uk">Літр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">LTRA</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Litr celkového alkoholu</ns7:description>
+               <ns7:description lang="da">Liter total alkohol</ns7:description>
+               <ns7:description lang="en">Litre total alcohol</ns7:description>
+               <ns7:description lang="es">Litro total de alcohol.</ns7:description>
+               <ns7:description lang="et">Liiter/üldalkoholisisaldus</ns7:description>
+               <ns7:description lang="fi">litraa alkoholia</ns7:description>
+               <ns7:description lang="fr">Litre d'alcool total</ns7:description>
+               <ns7:description lang="lt">Litras absoliutaus alkoholio</ns7:description>
+               <ns7:description lang="lv">1000 litri tīra alkohola</ns7:description>
+               <ns7:description lang="me">Litar ukupnog alkohola</ns7:description>
+               <ns7:description lang="nl">Liter totale alcohol</ns7:description>
+               <ns7:description lang="pl">Litr alkoholu całkowitego</ns7:description>
+               <ns7:description lang="ro">Litru de alcool total</ns7:description>
+               <ns7:description lang="sk">Liter, Alkohol celkom</ns7:description>
+               <ns7:description lang="sl">Liter skupnega alkohola</ns7:description>
+               <ns7:description lang="uk">Загальна кількість літрів алкоголю</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">MIL</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">1000 items .{en}.</ns7:description>
+               <ns7:description lang="cs">1000 položek</ns7:description>
+               <ns7:description lang="da">1000 stykker</ns7:description>
+               <ns7:description lang="de">1000 Stück</ns7:description>
+               <ns7:description lang="el">1000 τεμάχια</ns7:description>
+               <ns7:description lang="en">1000 items</ns7:description>
+               <ns7:description lang="es">1000 unidades</ns7:description>
+               <ns7:description lang="et">1000 ühikut</ns7:description>
+               <ns7:description lang="fi">1000 kappaletta</ns7:description>
+               <ns7:description lang="fr">1000 articles</ns7:description>
+               <ns7:description lang="hr">1000 items .{en}.</ns7:description>
+               <ns7:description lang="hu">1000 darab</ns7:description>
+               <ns7:description lang="is">1000 items .{en}.</ns7:description>
+               <ns7:description lang="it">1000 pezzi</ns7:description>
+               <ns7:description lang="lt">Tūkstantis vienetų</ns7:description>
+               <ns7:description lang="lv">1000 gabali</ns7:description>
+               <ns7:description lang="me">1000 artikala</ns7:description>
+               <ns7:description lang="mk">1000 items .{en}.</ns7:description>
+               <ns7:description lang="mt">1000 items .{en}.</ns7:description>
+               <ns7:description lang="nl">1000 stuks</ns7:description>
+               <ns7:description lang="no">1000 items .{en}.</ns7:description>
+               <ns7:description lang="pl">1000 sztuk</ns7:description>
+               <ns7:description lang="pt">1000 itens</ns7:description>
+               <ns7:description lang="ro">1000 articole</ns7:description>
+               <ns7:description lang="sk">1000 položiek</ns7:description>
+               <ns7:description lang="sl">1000 elementov</ns7:description>
+               <ns7:description lang="sr">1000 items .{en}.</ns7:description>
+               <ns7:description lang="sv">1000 stycken (st)</ns7:description>
+               <ns7:description lang="tr">1000 items .{en}.</ns7:description>
+               <ns7:description lang="uk">1000 предметів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">MLT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Mililitr</ns7:description>
+               <ns7:description lang="da">Milliliter</ns7:description>
+               <ns7:description lang="en">Milliliter</ns7:description>
+               <ns7:description lang="fr">Millilitre</ns7:description>
+               <ns7:description lang="me">Mililitar</ns7:description>
+               <ns7:description lang="nl">Milliliter</ns7:description>
+               <ns7:description lang="pl">Mililitr</ns7:description>
+               <ns7:description lang="ro">Mililitru</ns7:description>
+               <ns7:description lang="sk">Mililiter</ns7:description>
+               <ns7:description lang="sl">Mililiter</ns7:description>
+               <ns7:description lang="uk">Мілілітр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">MPR</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">1000 párů (používá se pro statistické sledování)</ns7:description>
+               <ns7:description lang="da">1000 par (foranstaltningstype 468 og 469)</ns7:description>
+               <ns7:description lang="en">1000 pairs (used for statistical surveillance)</ns7:description>
+               <ns7:description lang="es">1000 pares.</ns7:description>
+               <ns7:description lang="et">1000 paari (kasutatakse statistilise seire jaoks)</ns7:description>
+               <ns7:description lang="fi">100 paria</ns7:description>
+               <ns7:description lang="fr">1000 paires (utilisées pour la surveillance statistique)</ns7:description>
+               <ns7:description lang="lt">1000 porų (naudojamas statistinei priežiūrai)</ns7:description>
+               <ns7:description lang="lv">1000 pāri (lietots statistikas uzraudzībai)</ns7:description>
+               <ns7:description lang="me">1000 parova (koristi se za statistički nadzor)</ns7:description>
+               <ns7:description lang="nl">1000 paren (gebruikt voor statistische surveillance)</ns7:description>
+               <ns7:description lang="pl">1000 par (używane do nadzoru statystycznego)</ns7:description>
+               <ns7:description lang="ro">1000 de perechi (utilizate pentru supravegherea statistică)</ns7:description>
+               <ns7:description lang="sk">1000 párov (pre štatistické účely)</ns7:description>
+               <ns7:description lang="sl">1000 parov (za statistični nadzor)</ns7:description>
+               <ns7:description lang="uk">1000 пар (використовується для статистичного спостереження)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-07-09</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">MTK</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Square metre .{en}.</ns7:description>
+               <ns7:description lang="cs">Metr čtvereční</ns7:description>
+               <ns7:description lang="da">Kvadratmeter</ns7:description>
+               <ns7:description lang="de">Quadratmeter</ns7:description>
+               <ns7:description lang="el">Τετραγωνικό μέτρο</ns7:description>
+               <ns7:description lang="en">Square metre</ns7:description>
+               <ns7:description lang="es">Metro cuadrado</ns7:description>
+               <ns7:description lang="et">Ruutmeeter</ns7:description>
+               <ns7:description lang="fi">neliömetriä</ns7:description>
+               <ns7:description lang="fr">Mètre carré</ns7:description>
+               <ns7:description lang="hr">Square metre .{en}.</ns7:description>
+               <ns7:description lang="hu">Négyzetméter</ns7:description>
+               <ns7:description lang="is">Square metre .{en}.</ns7:description>
+               <ns7:description lang="it">Metro quadrato</ns7:description>
+               <ns7:description lang="lt">Kvadratinis metras</ns7:description>
+               <ns7:description lang="lv">Kvadrātmetrs</ns7:description>
+               <ns7:description lang="mk">Square metre .{en}.</ns7:description>
+               <ns7:description lang="mt">Square metre .{en}.</ns7:description>
+               <ns7:description lang="nl">Vierkante meter</ns7:description>
+               <ns7:description lang="no">Square metre .{en}.</ns7:description>
+               <ns7:description lang="pl">Metr kwadratowy</ns7:description>
+               <ns7:description lang="pt">Metro quadrado</ns7:description>
+               <ns7:description lang="ro">Metru pătrat</ns7:description>
+               <ns7:description lang="sk">Štvorcový meter</ns7:description>
+               <ns7:description lang="sl">Kvadratni meter</ns7:description>
+               <ns7:description lang="sr">Square metre .{en}.</ns7:description>
+               <ns7:description lang="sv">kvadratmeter</ns7:description>
+               <ns7:description lang="tr">Square metre .{en}.</ns7:description>
+               <ns7:description lang="uk">Квадратний метр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-10-25</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">MTQ</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="cs">Kubický metr (m³)</ns7:description>
+               <ns7:description lang="da">Kubikmeter (m³)</ns7:description>
+               <ns7:description lang="de">Kubikmeter (m³)</ns7:description>
+               <ns7:description lang="el">Κυβικό μέτρο</ns7:description>
+               <ns7:description lang="en">Cubic metre (m³)</ns7:description>
+               <ns7:description lang="es">Metro cúbico</ns7:description>
+               <ns7:description lang="et">Kuupmeeter (m³)</ns7:description>
+               <ns7:description lang="fi">kuutiometriä</ns7:description>
+               <ns7:description lang="fr">Mètre cube (m³)</ns7:description>
+               <ns7:description lang="hr">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="hu">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="is">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="it">Metro cubo (m³)</ns7:description>
+               <ns7:description lang="lt">Kubinis metras</ns7:description>
+               <ns7:description lang="lv">Kubikmetrs (m³)</ns7:description>
+               <ns7:description lang="mk">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="mt">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="nl">Kubieke meter (m3)</ns7:description>
+               <ns7:description lang="no">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="pl">Metr sześcienny (m³)</ns7:description>
+               <ns7:description lang="pt">Metro cúbico (m³)</ns7:description>
+               <ns7:description lang="ro">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="sk">Kubický meter (m³)</ns7:description>
+               <ns7:description lang="sl">Kubični meter (m³)</ns7:description>
+               <ns7:description lang="sr">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="sv">kubikmeter (m³)</ns7:description>
+               <ns7:description lang="tr">Cubic meter .{en}.</ns7:description>
+               <ns7:description lang="uk">Кубічний метр (м³)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-10-25</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">MTQC</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Kubický metr 1 000</ns7:description>
+               <ns7:description lang="da">Kubikmeter 1000</ns7:description>
+               <ns7:description lang="en">Cubic metre 1 000</ns7:description>
+               <ns7:description lang="es">1000 metros cúbicos.</ns7:description>
+               <ns7:description lang="et">1 000 Kuupmeeter</ns7:description>
+               <ns7:description lang="fi">1000 kuutiometriä</ns7:description>
+               <ns7:description lang="fr">Mètre cube 1 000</ns7:description>
+               <ns7:description lang="lt">Tūkstantis kubinių metrų</ns7:description>
+               <ns7:description lang="nl">Kubieke meter 1000</ns7:description>
+               <ns7:description lang="pl">1000 metrów sześciennych</ns7:description>
+               <ns7:description lang="ro">1000 metri cubi</ns7:description>
+               <ns7:description lang="sk">Meter kubický, 1 000</ns7:description>
+               <ns7:description lang="sl">Kubični meter 1 000</ns7:description>
+               <ns7:description lang="uk">Кубічний метр 1000</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-07-09</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">MTR</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Metre .{en}.</ns7:description>
+               <ns7:description lang="cs">Metr</ns7:description>
+               <ns7:description lang="da">Meter</ns7:description>
+               <ns7:description lang="de">Meter</ns7:description>
+               <ns7:description lang="el">Μέτρο</ns7:description>
+               <ns7:description lang="en">Metre</ns7:description>
+               <ns7:description lang="es">Metro</ns7:description>
+               <ns7:description lang="et">Meeter</ns7:description>
+               <ns7:description lang="fi">metri(ä)</ns7:description>
+               <ns7:description lang="fr">Mètre</ns7:description>
+               <ns7:description lang="hr">Metre .{en}.</ns7:description>
+               <ns7:description lang="hu">Méter</ns7:description>
+               <ns7:description lang="is">Metre .{en}.</ns7:description>
+               <ns7:description lang="it">Metro</ns7:description>
+               <ns7:description lang="lt">Metras</ns7:description>
+               <ns7:description lang="lv">Metrs</ns7:description>
+               <ns7:description lang="mk">Metre .{en}.</ns7:description>
+               <ns7:description lang="mt">Metre .{en}.</ns7:description>
+               <ns7:description lang="nl">Meter</ns7:description>
+               <ns7:description lang="no">Metre .{en}.</ns7:description>
+               <ns7:description lang="pl">Metr</ns7:description>
+               <ns7:description lang="pt">Metro</ns7:description>
+               <ns7:description lang="ro">Metru</ns7:description>
+               <ns7:description lang="sk">Meter</ns7:description>
+               <ns7:description lang="sl">Meter</ns7:description>
+               <ns7:description lang="sr">Metre .{en}.</ns7:description>
+               <ns7:description lang="sv">meter</ns7:description>
+               <ns7:description lang="tr">Metre .{en}.</ns7:description>
+               <ns7:description lang="uk">Метр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">MWH</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">1000 kilowatthodin</ns7:description>
+               <ns7:description lang="da">1000 Kilowatt-timer</ns7:description>
+               <ns7:description lang="en">1000 kilowatt hours</ns7:description>
+               <ns7:description lang="es">1000 kilovatios hora.</ns7:description>
+               <ns7:description lang="et">1000 kilovatt-tundi</ns7:description>
+               <ns7:description lang="fi">1000 kilowattituntia</ns7:description>
+               <ns7:description lang="fr">1000 kilowattheures</ns7:description>
+               <ns7:description lang="lt">Tūkstantis kilovatvalandžių</ns7:description>
+               <ns7:description lang="lv">Tūkstoš kilovatstundu</ns7:description>
+               <ns7:description lang="me">1000 kilovat sati</ns7:description>
+               <ns7:description lang="nl">1000 kilowattuur</ns7:description>
+               <ns7:description lang="pl">1000 kWh</ns7:description>
+               <ns7:description lang="ro">1000 de kilowați oră</ns7:description>
+               <ns7:description lang="sk">1000 kilowatt hodín</ns7:description>
+               <ns7:description lang="sl">1000 kilovatnih ur</ns7:description>
+               <ns7:description lang="uk">1000 кіловат-годин</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">NAR</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Number of items .{en}.</ns7:description>
+               <ns7:description lang="cs">Počet položek</ns7:description>
+               <ns7:description lang="da">Antal stykker</ns7:description>
+               <ns7:description lang="de">Anzahl Stück</ns7:description>
+               <ns7:description lang="el">Αριθμός τεμαχίων</ns7:description>
+               <ns7:description lang="en">Number of items</ns7:description>
+               <ns7:description lang="es">Número de unidades</ns7:description>
+               <ns7:description lang="et">Kaubaartiklite arv</ns7:description>
+               <ns7:description lang="fi">kappaletta</ns7:description>
+               <ns7:description lang="fr">Nombre d'articles</ns7:description>
+               <ns7:description lang="hr">Number of items .{en}.</ns7:description>
+               <ns7:description lang="hu">Darabszám</ns7:description>
+               <ns7:description lang="is">Number of items .{en}.</ns7:description>
+               <ns7:description lang="it">Numero di pezzi</ns7:description>
+               <ns7:description lang="lt">Vienetų skaičius</ns7:description>
+               <ns7:description lang="lv">Vienību skaits</ns7:description>
+               <ns7:description lang="me">Broj artikala</ns7:description>
+               <ns7:description lang="mk">Number of items .{en}.</ns7:description>
+               <ns7:description lang="mt">Number of items .{en}.</ns7:description>
+               <ns7:description lang="nl">Aantal stuks</ns7:description>
+               <ns7:description lang="no">Number of items .{en}.</ns7:description>
+               <ns7:description lang="pl">Ilość sztuk</ns7:description>
+               <ns7:description lang="pt">Número de itens</ns7:description>
+               <ns7:description lang="ro">Număr de articole</ns7:description>
+               <ns7:description lang="sk">Počet položiek</ns7:description>
+               <ns7:description lang="sl">Število elementov</ns7:description>
+               <ns7:description lang="sr">Number of items .{en}.</ns7:description>
+               <ns7:description lang="sv">antal</ns7:description>
+               <ns7:description lang="tr">Number of items .{en}.</ns7:description>
+               <ns7:description lang="uk">Кількість предметів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">NARB</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Počet kusů v jedné baňce</ns7:description>
+               <ns7:description lang="da">Antal stykker pr. kolbe</ns7:description>
+               <ns7:description lang="en">Number of items per flask</ns7:description>
+               <ns7:description lang="es">Número de elementos por frasco.</ns7:description>
+               <ns7:description lang="et">tükiarv/pudeli kohta</ns7:description>
+               <ns7:description lang="fi">kappaletta pullossa</ns7:description>
+               <ns7:description lang="fr">Nombre d'articles par flacon</ns7:description>
+               <ns7:description lang="lt">Vienetų skaičius flakone</ns7:description>
+               <ns7:description lang="lv">Vienību skaits par pudeli</ns7:description>
+               <ns7:description lang="me">Broj predmeta po tikvici</ns7:description>
+               <ns7:description lang="nl">Aantal stuks per fles</ns7:description>
+               <ns7:description lang="pl">Liczba sztuk na kolbę</ns7:description>
+               <ns7:description lang="ro">Numărul de articole per flacon</ns7:description>
+               <ns7:description lang="sk">Počet kusov, na fľašu</ns7:description>
+               <ns7:description lang="sl">Število predmetov na bučko</ns7:description>
+               <ns7:description lang="uk">Кількість предметів у колбі</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">NCL</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Number of cells .{en}.</ns7:description>
+               <ns7:description lang="cs">Počet polí</ns7:description>
+               <ns7:description lang="da">Antal celler</ns7:description>
+               <ns7:description lang="de">Anzahl Zellen</ns7:description>
+               <ns7:description lang="el">Αριθμός κελιών</ns7:description>
+               <ns7:description lang="en">Number of cells</ns7:description>
+               <ns7:description lang="es">Número de células</ns7:description>
+               <ns7:description lang="et">Lahtrite arv</ns7:description>
+               <ns7:description lang="fi">Kennojen lukumäärä</ns7:description>
+               <ns7:description lang="fr">Nombre d’éléments</ns7:description>
+               <ns7:description lang="hr">Number of cells .{en}.</ns7:description>
+               <ns7:description lang="hu">Rekeszek száma</ns7:description>
+               <ns7:description lang="is">Number of cells .{en}.</ns7:description>
+               <ns7:description lang="it">Numero di elementi</ns7:description>
+               <ns7:description lang="lt">Elementų (ląstelių) skaičius</ns7:description>
+               <ns7:description lang="lv">Elementu skaits</ns7:description>
+               <ns7:description lang="me">Broj ćelija</ns7:description>
+               <ns7:description lang="mk">Number of cells .{en}.</ns7:description>
+               <ns7:description lang="mt">Number of cells .{en}.</ns7:description>
+               <ns7:description lang="nl">Aantal cellen</ns7:description>
+               <ns7:description lang="no">Number of cells .{en}.</ns7:description>
+               <ns7:description lang="pl">Ilość ogniw</ns7:description>
+               <ns7:description lang="pt">Número de células</ns7:description>
+               <ns7:description lang="ro">Numar de celule</ns7:description>
+               <ns7:description lang="sk">Počet buniek</ns7:description>
+               <ns7:description lang="sl">Število celic</ns7:description>
+               <ns7:description lang="sr">Number of cells .{en}.</ns7:description>
+               <ns7:description lang="sv">antal celler</ns7:description>
+               <ns7:description lang="tr">Number of cells .{en}.</ns7:description>
+               <ns7:description lang="uk">Кількість клітин</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">NPR</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Number of pairs .{en}.</ns7:description>
+               <ns7:description lang="cs">Počet párů</ns7:description>
+               <ns7:description lang="da">Antal par</ns7:description>
+               <ns7:description lang="de">Anzahl Paar</ns7:description>
+               <ns7:description lang="el">Αριθμός ζευγών</ns7:description>
+               <ns7:description lang="en">Number of pairs</ns7:description>
+               <ns7:description lang="es">Número de pares</ns7:description>
+               <ns7:description lang="et">Paaride arv</ns7:description>
+               <ns7:description lang="fi">pari</ns7:description>
+               <ns7:description lang="fr">Nombre de paires</ns7:description>
+               <ns7:description lang="hr">Number of pairs .{en}.</ns7:description>
+               <ns7:description lang="hu">Párok száma</ns7:description>
+               <ns7:description lang="is">Number of pairs .{en}.</ns7:description>
+               <ns7:description lang="it">Numero delle paia</ns7:description>
+               <ns7:description lang="lt">Porų skaičius</ns7:description>
+               <ns7:description lang="lv">Pāru skaits</ns7:description>
+               <ns7:description lang="me">Broj parova</ns7:description>
+               <ns7:description lang="mk">Number of pairs .{en}.</ns7:description>
+               <ns7:description lang="mt">Number of pairs .{en}.</ns7:description>
+               <ns7:description lang="nl">Aantal paren</ns7:description>
+               <ns7:description lang="no">Number of pairs .{en}.</ns7:description>
+               <ns7:description lang="pl">Ilość par</ns7:description>
+               <ns7:description lang="pt">Número de pares</ns7:description>
+               <ns7:description lang="ro">Numar de perechi</ns7:description>
+               <ns7:description lang="sk">Počet párov</ns7:description>
+               <ns7:description lang="sl">Število parov</ns7:description>
+               <ns7:description lang="sr">Number of pairs .{en}.</ns7:description>
+               <ns7:description lang="sv">antal par</ns7:description>
+               <ns7:description lang="tr">Number of pairs .{en}.</ns7:description>
+               <ns7:description lang="uk">Кількість пар</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">STW</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Slaměný blok</ns7:description>
+               <ns7:description lang="da">Strå</ns7:description>
+               <ns7:description lang="en">Straw</ns7:description>
+               <ns7:description lang="et">Põhk</ns7:description>
+               <ns7:description lang="fr">Paille</ns7:description>
+               <ns7:description lang="me">Slama</ns7:description>
+               <ns7:description lang="nl">Rietje</ns7:description>
+               <ns7:description lang="pl">Blok słomy</ns7:description>
+               <ns7:description lang="ro">Paie</ns7:description>
+               <ns7:description lang="sk">Slamený blok</ns7:description>
+               <ns7:description lang="sl">Slamica</ns7:description>
+               <ns7:description lang="uk">Солома</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TCE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Тон еквивалент на СО2 флуоровъглеводороди (HFC)</ns7:description>
+               <ns7:description lang="cs">Tuna ekvivalentu CO2 částečně fluorovaných uhlovodíků (HFC)</ns7:description>
+               <ns7:description lang="da">Ton CO2-ækvivalenter af hydrofluorcarboner</ns7:description>
+               <ns7:description lang="de">Tonne CO2-Äquivalent an Fluorkohlenwasserstoffen (FKW)</ns7:description>
+               <ns7:description lang="el">Τόνος ισοδυνάμου CO2 σε υδροφθοράνθρακες (HFCs)</ns7:description>
+               <ns7:description lang="en">Tonne of CO₂ equivalent of hydrofluorocarbons (HFCs)</ns7:description>
+               <ns7:description lang="es">Tonelada equivalente de CO2 de hidrofluorocarburos (HFC)</ns7:description>
+               <ns7:description lang="et">Fluorosüsivesinike CO2 ekvivalenttonn</ns7:description>
+               <ns7:description lang="fi">hiilidioksidiekvivalenttitonnia</ns7:description>
+               <ns7:description lang="fr">Tonne d'équivalent CO2 d'hydrofluorocarbures (HFC)</ns7:description>
+               <ns7:description lang="hr">Fluorougljikovodici (HFC-i) u tonama ekvivalenta CO2</ns7:description>
+               <ns7:description lang="hu">Hidro-fluor-szénhidrogének (HFC-k), tonna CO2-egyenértékben</ns7:description>
+               <ns7:description lang="it">Tonnellata di CO2 equivalente di idrofluorocarburi (HFC)</ns7:description>
+               <ns7:description lang="lt">Hidrofluorangliavandenilių (HFC) kiekis CO2 ekvivalento tonomis</ns7:description>
+               <ns7:description lang="lv">Tonna CO2 ekvivalenta fluorogļūdeņražu (HFC)</ns7:description>
+               <ns7:description lang="me">Tona ekvivalenta CO₂ hidrofluorougljika (HFC)</ns7:description>
+               <ns7:description lang="nl">Ton CO2-equivalent van fluorkoolwaterstoffen (HFK)</ns7:description>
+               <ns7:description lang="pl">Tona ekwiwalentu CO2 fluorowęglowodorów (HFC)</ns7:description>
+               <ns7:description lang="pt">Toneladas de equivalente de CO2 de hidrofluorocarbonetos (HFC)</ns7:description>
+               <ns7:description lang="ro">Tonă de echivalent CO2 de hidrofluorocarburi (HFC)</ns7:description>
+               <ns7:description lang="sk">Tona ekvivalentu CO2 neúplne fluórovaných uhľovodíkov (HFC)</ns7:description>
+               <ns7:description lang="sl">Tona ekvivalenta CO2 delno halogeniranih fluoroogljikovodikov (HFC)</ns7:description>
+               <ns7:description lang="sv">Ton koldioxidekvivalenter avseende fluorkolväten (HFC)</ns7:description>
+               <ns7:description lang="uk">Тонна CO₂ еквіваленту гідрофторвуглецю (HFCs)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TJO</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Terajoule (hrubá výhřevnost)</ns7:description>
+               <ns7:description lang="da">Terajoule (kalorimetrisk (øvre) brændværdi)</ns7:description>
+               <ns7:description lang="en">Terajoule (gross calorific value)</ns7:description>
+               <ns7:description lang="es">Terajulios (valor calorífico bruto).</ns7:description>
+               <ns7:description lang="et">Teradžauli (ülemine kütteväärtus)</ns7:description>
+               <ns7:description lang="fi">terajoule(a) (bruttolämpöarvo)</ns7:description>
+               <ns7:description lang="fr">Térajoule (pouvoir calorifique supérieur)</ns7:description>
+               <ns7:description lang="lt">Teradžaulis (bendroji (bruto) šiluminė vertė)</ns7:description>
+               <ns7:description lang="lv">Teradžouls (bruto siltumietilpība)</ns7:description>
+               <ns7:description lang="me">Teradžul (bruto kalorijska vrijednost)</ns7:description>
+               <ns7:description lang="nl">Terajoule (bruto calorische waarde)</ns7:description>
+               <ns7:description lang="pl">Teradżul (wartość opałowa brutto)</ns7:description>
+               <ns7:description lang="ro">Terajoule (putere calorică brută)</ns7:description>
+               <ns7:description lang="sk">Terajoule (horná výhrevnosť)</ns7:description>
+               <ns7:description lang="sl">Terajoul</ns7:description>
+               <ns7:description lang="uk">Тераджоуль (вища теплотворна здатність)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TNE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Tonne .{en}.</ns7:description>
+               <ns7:description lang="cs">Tuna</ns7:description>
+               <ns7:description lang="da">Ton</ns7:description>
+               <ns7:description lang="de">Tonne</ns7:description>
+               <ns7:description lang="el">Τόνος</ns7:description>
+               <ns7:description lang="en">Tonne</ns7:description>
+               <ns7:description lang="es">Tonelada</ns7:description>
+               <ns7:description lang="et">Tonn</ns7:description>
+               <ns7:description lang="fi">tonni (1000 kg netto)</ns7:description>
+               <ns7:description lang="fr">Tonne</ns7:description>
+               <ns7:description lang="hr">Tonne .{en}.</ns7:description>
+               <ns7:description lang="hu">Tonna</ns7:description>
+               <ns7:description lang="is">Tonne .{en}.</ns7:description>
+               <ns7:description lang="it">Tonnellata</ns7:description>
+               <ns7:description lang="lt">Tona</ns7:description>
+               <ns7:description lang="lv">Tonna</ns7:description>
+               <ns7:description lang="me">Tona</ns7:description>
+               <ns7:description lang="mk">Tonne .{en}.</ns7:description>
+               <ns7:description lang="mt">Tonne .{en}.</ns7:description>
+               <ns7:description lang="nl">Ton</ns7:description>
+               <ns7:description lang="no">Tonne .{en}.</ns7:description>
+               <ns7:description lang="pl">Tona</ns7:description>
+               <ns7:description lang="pt">Tonelada</ns7:description>
+               <ns7:description lang="ro">Tonă</ns7:description>
+               <ns7:description lang="sk">Tona</ns7:description>
+               <ns7:description lang="sl">Tona</ns7:description>
+               <ns7:description lang="sr">Tonne .{en}.</ns7:description>
+               <ns7:description lang="sv">ton</ns7:description>
+               <ns7:description lang="tr">Tonne .{en}.</ns7:description>
+               <ns7:description lang="uk">Тонна</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TNEE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Odkapaná čistá hmotnost v tunách</ns7:description>
+               <ns7:description lang="da">Ton af drænet nettovægt</ns7:description>
+               <ns7:description lang="en">Tonne of drained net weight</ns7:description>
+               <ns7:description lang="es">Toneladas de peso neto escurrido.</ns7:description>
+               <ns7:description lang="et">Tonn/— kuivaine netomassi</ns7:description>
+               <ns7:description lang="fi">tonni (1000 kg netto) valutettu</ns7:description>
+               <ns7:description lang="fr">Tonne de poids net égoutté</ns7:description>
+               <ns7:description lang="lt">Tona grynosios (neto) sausosios masės</ns7:description>
+               <ns7:description lang="lv">Tonna sausā tīrsvara</ns7:description>
+               <ns7:description lang="me">Tona ocijeđene neto težine</ns7:description>
+               <ns7:description lang="nl">Ton uitgelekt nettogewicht</ns7:description>
+               <ns7:description lang="pl">Tona masy netto po odsączeniu</ns7:description>
+               <ns7:description lang="ro">Tonă de greutate netă drenată</ns7:description>
+               <ns7:description lang="sk">Tona, čistej hmotnosti bez nálevu</ns7:description>
+               <ns7:description lang="sl">Tona suhe neto teže</ns7:description>
+               <ns7:description lang="uk">Тонна нетто чистої маси</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TNEI</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Obsah bionafty v tunách</ns7:description>
+               <ns7:description lang="da">Tons biodieselindhold</ns7:description>
+               <ns7:description lang="en">Tonne of biodiesel content</ns7:description>
+               <ns7:description lang="es">Tonelada de contenido de biodiésel.</ns7:description>
+               <ns7:description lang="et">Tonn biodiisli osakaal</ns7:description>
+               <ns7:description lang="fi">biodiselpitoisuus=I</ns7:description>
+               <ns7:description lang="fr">Tonne de contenu de biodiesel</ns7:description>
+               <ns7:description lang="lt">Tona biodyzelino kiekio produkte</ns7:description>
+               <ns7:description lang="lv">Tonna biodīzeļdegvielas saturam</ns7:description>
+               <ns7:description lang="me">Tona sadržaja biodizela</ns7:description>
+               <ns7:description lang="nl">Ton biodieselinhoud</ns7:description>
+               <ns7:description lang="pl">Tona zawartości biodiesla</ns7:description>
+               <ns7:description lang="ro">Tonă de conținut de biodiesel</ns7:description>
+               <ns7:description lang="sk">Tona, obsah bionafty</ns7:description>
+               <ns7:description lang="sl">Tona vsebnosti biodizla</ns7:description>
+               <ns7:description lang="uk">Тонна вмісту біодизеля</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TNEJ</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Obsah paliva v tunách (obvykle ve formě loje, stearinu, parafínu nebo jiných vosků, včetně knotu)</ns7:description>
+               <ns7:description lang="da">Tons brændstofindhold (normalt i form af talg, stearin, paraffinvoks eller anden voks, inklusive vægen)</ns7:description>
+               <ns7:description lang="en">Tonne of fuel content (usually in form of tallow, stearin, paraffin wax or other waxes, including the wick)</ns7:description>
+               <ns7:description lang="es">Tonelada de contenido de combustible (normalmente en forma de sebo, estearina, parafina u otras ceras, incluida la mecha).</ns7:description>
+               <ns7:description lang="et">Tonn Kütusesisaldus (tavaliselt sulatatud rasv, steariin, parafiin või muu vaha, kaasa arvatud taht)</ns7:description>
+               <ns7:description lang="fi">1000 kg (fuel)</ns7:description>
+               <ns7:description lang="fr">Tonne de carburant contenu (généralement sous forme de suif, de stéarine, de cire de paraffine ou d'autres cires, y compris la mèche)</ns7:description>
+               <ns7:description lang="lt">Tona kuro (dažniausiai lajaus, stearino, parafino ar kitų vaškų, įskaitant dagtį) kiekio produkte</ns7:description>
+               <ns7:description lang="lv">Tonna degvielas satura (tauku, stearīna, parafīna vaska vai citu vasku formā, ieskaitot dakti)</ns7:description>
+               <ns7:description lang="me">Tona sadržaja goriva (obično u obliku loja, stearina, parafina ili drugih voskova, uključujući fitilj)</ns7:description>
+               <ns7:description lang="nl">Ton brandstofinhoud (meestal in de vorm van talg, stearine, paraffinewas of andere was, inclusief de lont)</ns7:description>
+               <ns7:description lang="pl">Tona zawartości paliwa (zwykle w postaci łoju, stearyny, parafiny lub innych wosków, łącznie z knotem)</ns7:description>
+               <ns7:description lang="ro">Tonă de combustibil (de obicei sub formă de seu, stearina, ceară de parafină sau alte ceară, inclusiv fitilul)</ns7:description>
+               <ns7:description lang="sk">Tona, Obsah paliva (zvyčajne vo forme loja, stearínu, parafínového alebo iných voskov, vrátane knôtu)</ns7:description>
+               <ns7:description lang="sl">Tona vsebnosti goriva (običajno v obliki loja, stearina, parafinskega voska ali drugih voskov, vključno s stenjem)</ns7:description>
+               <ns7:description lang="uk">Тонна вмісту палива (зазвичай у формі жиру, стеарину, парафінового воску або інших восків, включаючи гніт)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TNEK</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Obsah bioetanolu v tunách</ns7:description>
+               <ns7:description lang="da">Tons bioethanolindhold</ns7:description>
+               <ns7:description lang="en">Tonne of bioethanol content</ns7:description>
+               <ns7:description lang="es">Tonelada de contenido de bioetanol.</ns7:description>
+               <ns7:description lang="et">Tonn bioetanooli osakaal</ns7:description>
+               <ns7:description lang="fr">Tonne de bioéthanol contenu</ns7:description>
+               <ns7:description lang="lt">Tona bioetanolio kiekio</ns7:description>
+               <ns7:description lang="lv">Tonna bioetanola saturam</ns7:description>
+               <ns7:description lang="me">Sadržaj bioetanola u toni</ns7:description>
+               <ns7:description lang="nl">Ton bio-ethanolinhoud</ns7:description>
+               <ns7:description lang="pl">Tona zawartości bioetanolu</ns7:description>
+               <ns7:description lang="ro">Tonă de conținut bioetanol</ns7:description>
+               <ns7:description lang="sk">Tona obsahu bioetanolu</ns7:description>
+               <ns7:description lang="sl">Tona vsebnosti bioetanola</ns7:description>
+               <ns7:description lang="uk">Тонна вмісту біоетанолу</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TNEM</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Čistá sušina v tunách</ns7:description>
+               <ns7:description lang="da">Tons netto af tørstof</ns7:description>
+               <ns7:description lang="en">Tonne net of dry matter</ns7:description>
+               <ns7:description lang="es">Tonelada neta de materia seca.</ns7:description>
+               <ns7:description lang="et">Tonn/Kuivaine netomass</ns7:description>
+               <ns7:description lang="fi">tonni (1000 kg netto) kuiva-ainepotoisuus</ns7:description>
+               <ns7:description lang="fr">Tonne nette de matière sèche</ns7:description>
+               <ns7:description lang="lt">Tona grynosios (neto) sausosios medžiagos</ns7:description>
+               <ns7:description lang="lv">Tonna sausnas neto</ns7:description>
+               <ns7:description lang="me">Neto tona suve stvari</ns7:description>
+               <ns7:description lang="nl">Ton netto droge stof</ns7:description>
+               <ns7:description lang="pl">Tona netto suchej masy</ns7:description>
+               <ns7:description lang="ro">Tonă netă de substanță uscată</ns7:description>
+               <ns7:description lang="sk">Tona, Čistá sušina</ns7:description>
+               <ns7:description lang="sl">Tona neto suhe teže</ns7:description>
+               <ns7:description lang="uk">Тонна нетто сухої речовини нетто</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TNER</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Standardní jakost v tunách</ns7:description>
+               <ns7:description lang="da">Tons af standard kvalitet</ns7:description>
+               <ns7:description lang="en">Tonne of the standard quality</ns7:description>
+               <ns7:description lang="es">Tonelada de calidad estandar.</ns7:description>
+               <ns7:description lang="et">Tonn standardkvaliteediga</ns7:description>
+               <ns7:description lang="fi">tonnia (1000 kg) raakasokeria</ns7:description>
+               <ns7:description lang="fr">Tonne de la qualité standard</ns7:description>
+               <ns7:description lang="lt">Tona standartinės kokybės</ns7:description>
+               <ns7:description lang="lv">Tonna standarta kvalitātes</ns7:description>
+               <ns7:description lang="me">Tona standardnog kvaliteta</ns7:description>
+               <ns7:description lang="nl">Ton van de standaardkwaliteit</ns7:description>
+               <ns7:description lang="pl">Tona standardowej jakości</ns7:description>
+               <ns7:description lang="ro">Tonă de calitate standard</ns7:description>
+               <ns7:description lang="sk">Tona, štandardná kvalita</ns7:description>
+               <ns7:description lang="sl">Tona standardne kvalitete</ns7:description>
+               <ns7:description lang="uk">Тонна стандартної якості</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">TNEZ</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Tuna na 1 % hmotnosti sacharózy</ns7:description>
+               <ns7:description lang="da">Ton pr. 1 vægt% saccharose</ns7:description>
+               <ns7:description lang="en">Tonne per 1% by weight of sucrose</ns7:description>
+               <ns7:description lang="es">Tonelada por 1% en peso de sacarosa.</ns7:description>
+               <ns7:description lang="et">Tonn/sahharoosisisaldusega 1% massist</ns7:description>
+               <ns7:description lang="fi">tonnia per 1 painoprosenttia sakkaroosia kohden</ns7:description>
+               <ns7:description lang="fr">Tonne pour 1% en poids de saccharose</ns7:description>
+               <ns7:description lang="lt">Tona / sacharozės masės procentas</ns7:description>
+               <ns7:description lang="lv">Tonna 1% no saharozes svara (ievadiet tikai saharozes %)</ns7:description>
+               <ns7:description lang="me">Tona po 1% težine saharoze</ns7:description>
+               <ns7:description lang="nl">Ton per 1% per gewicht sucrose</ns7:description>
+               <ns7:description lang="pl">Tona na 1 % masy sacharozy</ns7:description>
+               <ns7:description lang="ro">Tonă la 1% din greutate zaharoză</ns7:description>
+               <ns7:description lang="sk">Tona, Na 1% hmotnosti sacharózy</ns7:description>
+               <ns7:description lang="sl">Tona na 1 % teže saharoze</ns7:description>
+               <ns7:description lang="uk">Тонна на 1% від маси сахарози</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Unit">WAT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Počet wattů</ns7:description>
+               <ns7:description lang="da">Antallet af watt</ns7:description>
+               <ns7:description lang="en">Number of Watt</ns7:description>
+               <ns7:description lang="es">Número de vatios.</ns7:description>
+               <ns7:description lang="et">Vattide arv</ns7:description>
+               <ns7:description lang="fi">wattimäärä</ns7:description>
+               <ns7:description lang="fr">Nombre de watts</ns7:description>
+               <ns7:description lang="lt">Vatų skaičius</ns7:description>
+               <ns7:description lang="lv">Vatu skaits</ns7:description>
+               <ns7:description lang="me">Broj Watta</ns7:description>
+               <ns7:description lang="nl">Aantal Watt</ns7:description>
+               <ns7:description lang="pl">Ilość Wattów</ns7:description>
+               <ns7:description lang="ro">Numărul de Wați</ns7:description>
+               <ns7:description lang="sk">Počet wattov</ns7:description>
+               <ns7:description lang="sl">Število vatov</ns7:description>
+               <ns7:description lang="uk">Кількість Ватт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

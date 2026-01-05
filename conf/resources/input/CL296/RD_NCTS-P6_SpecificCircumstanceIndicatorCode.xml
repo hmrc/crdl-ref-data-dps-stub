@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>d4db3d01-0f8e-460f-96f0-1f5c51b0b421</ns1:messageID>
+         <ns1:relatesTo>1ed7bb2f-8365-477e-955d-21e99441170d</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>1ed7bb2f-8365-477e-955d-21e99441170d</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="SpecificCircumstanceIndicatorCode"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="SpecificCircumstanceIndicatorCode">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">A20</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Expresní zásilky v rámci výstupních celních prohlášení</ns7:description>
+               <ns7:description lang="da">Ekspresforsendelser i forbindelse med summarisk udpassageangivelser</ns7:description>
+               <ns7:description lang="de">Express-Sendungen im Kontext der summarischen Ausgangsanmeldung</ns7:description>
+               <ns7:description lang="en">Express consignments in the context of exit summary declarations</ns7:description>
+               <ns7:description lang="es">Envío urgente en el contexto de las declaraciones sumaria de salida.</ns7:description>
+               <ns7:description lang="et">Kullersaadetised väljumise ülddeklaratsioonide kontekstis</ns7:description>
+               <ns7:description lang="fr">Envois express dans le cadre des déclarations sommaires de sortie</ns7:description>
+               <ns7:description lang="hr">Ekspresne pošiljke u kontekstu izlaznih skraćenih deklaracija</ns7:description>
+               <ns7:description lang="hu">Gyorspostai küldemények a kilépési gyűjtő árunyilatkozatokkal összefüggésben</ns7:description>
+               <ns7:description lang="lt">Išvežimo bendroji deklaracija – skubios siuntos</ns7:description>
+               <ns7:description lang="lv">Ekspressūtījumi saistībā ar izvešanas kopsavilkuma deklarācijām</ns7:description>
+               <ns7:description lang="me">Ekspresne pošiljke u kontekstu izlaznih sažetih deklaracija</ns7:description>
+               <ns7:description lang="nl">Expresszendingen in het kader van summiere aangiften bij uitgaan</ns7:description>
+               <ns7:description lang="pl">Przesyłki ekspresowe w kontekście WDS</ns7:description>
+               <ns7:description lang="ro">Declarația sumară de ieșire - Trimiteri expres</ns7:description>
+               <ns7:description lang="sk">Expresné zásielky v rámci predbežných colných vyhlásení o výstupe</ns7:description>
+               <ns7:description lang="sl">Hitre pošiljke v okviru izstopnih skupnih deklaracij</ns7:description>
+               <ns7:description lang="sr">Ekspresne pošiljke u kontekstu izlaznih sažetih deklaracija</ns7:description>
+               <ns7:description lang="uk">Експрес-відправлення в контексті виїзних спрощених декларацій</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-19</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">F34</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Express consignments – Complete dataset – Road mode of transport</ns7:description>
+               <ns7:description lang="lv">Ievešanas kopsavilkuma deklarācija – Ekspress sūtījumi, autokravas – pilnīga datu kopa, ko iesniedz pirms ierašanās</ns7:description>
+               <ns7:description lang="me">Ekspresne pošiljke – Kompletan skup podataka – Drumskim prevozom</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-19</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">F50</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Road mode of transport</ns7:description>
+               <ns7:description lang="lv">Ievešanas kopsavilkuma deklarācija – Autotransports</ns7:description>
+               <ns7:description lang="me">Drumski prevoz</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-19</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">F51</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Rail mode of transport</ns7:description>
+               <ns7:description lang="lv">Ievešanas kopsavilkuma deklarācija – Dzelzceļa transports</ns7:description>
+               <ns7:description lang="me">Željeznički prevoz</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

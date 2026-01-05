@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>44bba80a-b44b-40e6-9a21-6da93673c836</ns1:messageID>
+         <ns1:relatesTo>ac8047ef-81ec-4f20-a988-f17da8fe87dc</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>ac8047ef-81ec-4f20-a988-f17da8fe87dc</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="DeclarationTypeItemLevel"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="DeclarationTypeItemLevel">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="DeclarationTypeCode">T1</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Zboží, které nemá celní status zboží Unie a je propuštěno do tranzitního režimu</ns7:description>
+               <ns7:description lang="da">T1 - Varer henført under proceduren for ekstern EU forsendelse</ns7:description>
+               <ns7:description lang="de">Waren mit einem Status als Nicht-Unionsware, die in ein externes Unionsversandverfahren überführt wurden.</ns7:description>
+               <ns7:description lang="en">Goods not having the customs status of Union goods, which are placed under the common transit procedure.</ns7:description>
+               <ns7:description lang="et">Kaup, millel ei ole liidu kauba tollistaatust ja mis suunatakse ühistransiidiprotseduurile</ns7:description>
+               <ns7:description lang="fr">Marchandises n'ayant pas le statut douanier de marchandises de l'Union, qui sont placées sous le régime du transit commun.</ns7:description>
+               <ns7:description lang="hr">Roba koja nema carinski status robe Unije, a koja se stavlja u zajednički provozni postupak.</ns7:description>
+               <ns7:description lang="hu">Az uniós vámjogi státusszal nem rendelkező áruk, amelyeket az egységes árutovábbítási eljárás alá vonnak.</ns7:description>
+               <ns7:description lang="lv">Preces, kurām piemērota Savienības ārējā tranzīta procedūra</ns7:description>
+               <ns7:description lang="me">Roba koja nema carinski status robe Unije, a koja je stavljena u zajednički tranzitni postupak.</ns7:description>
+               <ns7:description lang="nl">Goederen die onder de regeling extern Uniedouanevervoer dienen te worden vervoerd</ns7:description>
+               <ns7:description lang="pl">Towary nie posiadające unijnego statusu, obejmowane wspólną procedurą tranzytową</ns7:description>
+               <ns7:description lang="sk">Tovar, ktorý nemá colný status tovaru Únie a ktorý je umiestnený do spoločného tranzitného režimu.</ns7:description>
+               <ns7:description lang="sl">Blago nima carinskega statusa unijskega blaga, ki je dano v skupni tranzitni postopek</ns7:description>
+               <ns7:description lang="sr">Roba koja nema carinski status robe Unije, koja se stavlja u zajednički tranzitni postupak.</ns7:description>
+               <ns7:description lang="uk">Товари, що не мають митного статусу товарів Союзу, які розміщені під процедурою спільного транзиту.</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="DeclarationTypeCode">T2</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Zboží s celním statusem zboží Unie, které je propuštěno do tranzitního režimu</ns7:description>
+               <ns7:description lang="da">T2 - Varer henført under proceduren for intern EU forsendelse</ns7:description>
+               <ns7:description lang="de">Waren mit einem Status als Unionsware, die in ein internes Unionsversandverfahren überführt wurden.</ns7:description>
+               <ns7:description lang="en">Goods having the customs status of Union goods, which are placed under the common transit procedure</ns7:description>
+               <ns7:description lang="et">Liidu kauba tollistaatusega kaup, mis suunatakse ühistransiidiprotseduurile</ns7:description>
+               <ns7:description lang="fr">Marchandises ayant le statut douanier de marchandises de l'Union, qui sont placées sous le régime du transit commun</ns7:description>
+               <ns7:description lang="hr">Roba koja ima carinski status robe Unije, a koja se stavlja u zajednički provozni postupak</ns7:description>
+               <ns7:description lang="hu">Uniós vámjogi státusszal rendelkező áruk, amelyeket az egységes árutovábbítási eljárás alá vonnak</ns7:description>
+               <ns7:description lang="lv">Preces, kurām piemērota Savienības iekšējā tranzīta procedūra saskaņā ar Kodeksa 227. pantu, ja vien nav piemērojams 293. panta 2. punkts</ns7:description>
+               <ns7:description lang="me">Roba koja ima carinski status robe Unije, a koja je stavljena u zajednički tranzitni postupak</ns7:description>
+               <ns7:description lang="nl">Goederen die onder de regeling intern Uniedouanevervoer dienen te worden vervoerd</ns7:description>
+               <ns7:description lang="pl">Towary posiadające unijny status, obejmowane wspólną procedurą tranzytową</ns7:description>
+               <ns7:description lang="sk">Tovar, ktorý má colný status tovaru Únie a ktorý je umiestnený do spoločného tranzitného režimu.</ns7:description>
+               <ns7:description lang="sl">Blago ima carinski status unijskega blaga, ki je dano v skupni tranzini postopek</ns7:description>
+               <ns7:description lang="sr">Roba koja ima carinski status robe Unije, koja se stavlja u zajednički tranzitni postupak</ns7:description>
+               <ns7:description lang="uk">Товари, що мають митного статусу товарів Союзу, які розміщені під процедурою спільного транзиту.</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="DeclarationTypeCode">T2F</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Zboží, které musí být přepravováno v režimu vnitřního tranzitu Unie v souladu s článkem 188 nařízení v přenesené pravomoci (EU) 2015/2446</ns7:description>
+               <ns7:description lang="da">T2F - Varer henført under proceduren for intern EU forsendelse, jf. artikel 188 i delegeret forordning (EU) 2015/2446</ns7:description>
+               <ns7:description lang="de">Waren, die in Übereinstimmung mit Artikel 188 der delegierten Verordnung (EU) Nr. 2015/2446 in ein internes Unionsversandverfahren überführt wurden.</ns7:description>
+               <ns7:description lang="en">Goods required to move under the internal Union transit procedure, in accordance with Article 188 of Delegated Regulation (EU) 2015/2446</ns7:description>
+               <ns7:description lang="et">Kaup, mida tuleb vedada liidu sisetransiidiprotseduuri alusel vastavalt delegeeritud määruse (EL) 2015/2446 artiklile 188</ns7:description>
+               <ns7:description lang="fr">Marchandises devant circuler sous le régime du transit interne de l'Union, conformément à l'article 188 du règlement délégué (UE) 2015/2446</ns7:description>
+               <ns7:description lang="hr">Roba koja se mora kretati u okviru postupka unutarnjeg provoza Unije, u skladu s člankom 188. Delegirane uredbe (EU) 2015/2446</ns7:description>
+               <ns7:description lang="hu">A 2015/2446/EU felhatalmazáson alapuló rendelet 188. cikkével összhangban az uniós belső árutovábbítási eljárás alá tartozó áruk.</ns7:description>
+               <ns7:description lang="lv">Preces, kurām piemērota Savienības iekšējā tranzīta procedūra saskaņā ar Deleģētās regulas (ES) 2015/2446 188. pantu</ns7:description>
+               <ns7:description lang="me">Roba koja se mora prevoziti u okviru postupka unutrašnjeg tranzita Unije, u skladu s članom 188. Delegirane uredbe (EU) 2015/2446</ns7:description>
+               <ns7:description lang="nl">Goederen die onder de regeling intern Uniedouanevervoer dienen te worden vervoerd in overeenstemming met artikel 188 van Gedelegeerde Verordening (EU) 2015/2446</ns7:description>
+               <ns7:description lang="pl">Towary, które muszą się przemieszczać w procedurze tranzytu wewnętrznego, zgodnie z art. 188 rozp. delegowanego (UE) 2015/2446</ns7:description>
+               <ns7:description lang="sk">Tovar, ktorý sa má prepravovať v rámci vnútorného tranzitného režimu Únie v súlade s článkom 188 delegovaného nariadenia (EÚ) 2015/2446</ns7:description>
+               <ns7:description lang="sl">Blago, za katerega se zahteva gibanje znotraj notranjega tranzitnega postopka v skladu s čl. 188 delegirane uredbe (EU) 2015/2446</ns7:description>
+               <ns7:description lang="sr">Roba potrebna za kretanje u okviru unutrašnjeg tranzitnog postupka Unije, u skladu sa članom 188. Delegirane uredbe (EU) 2015/2446</ns7:description>
+               <ns7:description lang="uk">Товари, що необхідно переміщувати згідно з процедурою внутрішнього транзиту Союзу, відповідно до статті 188 Делегованого Регламенту (ЄС) 2015/2446</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="DeclarationTypeCode">T2SM</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Zboží propouštěné do režimu vnitřního tranzitu Unie za použití článku 2 rozhodnutí Výboru pro spolupráci EHS-San Marino č. 4/92 ze dne 22. prosince 1992</ns7:description>
+               <ns7:description lang="da">T2SM - Varer der er henført under proceduren for intern EU forsendelse i henhold til artikel 2 i afgørelse nr. 4/92 truffet af Samarbejdsudvalget EØF San Marino den 22. december 1992</ns7:description>
+               <ns7:description lang="de">Waren, die in Anwendung des Artikel 2 der Entscheidung 4/92/EC vom 22.12.1992 ins interne Unionsversandverfahren überführt wurden.</ns7:description>
+               <ns7:description lang="en">Goods placed under the internal Union transit procedure, in application of Article 2 of Decision 4/92/EC of the EEC-San Marino Cooperation Committee of 22 December 1992</ns7:description>
+               <ns7:description lang="et">Kaup, mis on suunatud liidu sisetransiidiprotseduurile vastavalt EMÜ-San Marino koostöökomitee 22. detsembri 1992. aasta otsuse 4/92/EÜ artiklile 2</ns7:description>
+               <ns7:description lang="fr">Marchandises placées sous le régime du transit interne de l'Union, en application de l'article 2 de la décision 4/92/CE du comité de coopération CEE-Saint-Marin du 22 décembre 1992</ns7:description>
+               <ns7:description lang="hr">Roba stavljena u postupak unutarnjeg provoza Unije, u primjeni članka 2. Odluke 4/92/EZ Odbora za suradnju EEZ-a i San Marina od 22. prosinca 1992.</ns7:description>
+               <ns7:description lang="hu">Uniós belső árutovábbítási eljárás alá vont áruk, az EGK-San Marino Együttműködési Bizottság 1992. december 22-i 4/92/EK határozata 2. cikkének alkalmazásában</ns7:description>
+               <ns7:description lang="lv">Preces, kurām piemēro Savienības iekšējā tranzīta procedūru, piemērojot 2. pantu EEK un Sanmarīno Sadarbības komitejas 1992. gada 22. decembra Lēmumā 4/92</ns7:description>
+               <ns7:description lang="me">Roba stavljena u postupak unutrašnjeg tranzita Unije, u skladu s članom 2. Odluke 4/92/EZ Odbora za saradnju EEZ-San Marino od 22. decembra 1992. godine</ns7:description>
+               <ns7:description lang="nl">Goederen die onder de regeling intern Uniedouanevervoer zijn geplaatst met toepassing van artikel 2 van Besluit nr. 4/92 van het Samenwerkingscomite EEG-San Marino van 22 december 1992</ns7:description>
+               <ns7:description lang="pl">Towary objęte unijnym tranzytem wewnętrznym, z stosowaniem art. 2 decyzji 4/92/EC EEC-San Marino Cooperation Committee z 22.12.1992</ns7:description>
+               <ns7:description lang="sk">Tovar prepustený do režimu vnútorný tranzit Únie podľa článku 2 rozhodnutia 4/92/ES Výboru pre spoluprácu EHS – San Maríno z 22. decembra 1992</ns7:description>
+               <ns7:description lang="sl">Blago, dano v notranji unijski tranzitni postopek, ob uporabi čl. 2 Odločbe 4/92 EEC - San Marino koordinacijskega komiteja 22. decembra 1992</ns7:description>
+               <ns7:description lang="sr">Roba stavljena u proceduru unutrašnjeg tranzita Unije, u skladu sa članom 2. Odluke 4/92/EZ Komiteta za saradnju EEZ-San Marino od 22. decembra 1992</ns7:description>
+               <ns7:description lang="uk">Товари, поміщені під процедуру внутрішнього транзиту Союзу, відповідно до статті 2 Рішення 4/92/ЄС Комітету з питань співробітництва ЄЕС-Сан-Марино від 22 грудня 1992 року</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

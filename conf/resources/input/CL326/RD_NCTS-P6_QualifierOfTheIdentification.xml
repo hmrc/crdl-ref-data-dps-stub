@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>4c7269e9-8c3e-40df-87df-7dc9de4721dc</ns1:messageID>
+         <ns1:relatesTo>fcc79f26-07d6-48f5-9fdc-5779cb35de68</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>fcc79f26-07d6-48f5-9fdc-5779cb35de68</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="QualifierOfTheIdentification"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="QualifierOfTheIdentification">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="QualifierOfTheIdentification">T</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Пощенски код</ns7:description>
+               <ns7:description lang="cs">Poštovní směrovací číslo</ns7:description>
+               <ns7:description lang="da">Postnummer</ns7:description>
+               <ns7:description lang="de">Postleitzahl</ns7:description>
+               <ns7:description lang="el">Ταχυδρομικός Κώδικας</ns7:description>
+               <ns7:description lang="en">Postal code</ns7:description>
+               <ns7:description lang="es">Postal code .{en}.</ns7:description>
+               <ns7:description lang="et">Sihtnumber</ns7:description>
+               <ns7:description lang="fi">Postinumero</ns7:description>
+               <ns7:description lang="fr">Code postal</ns7:description>
+               <ns7:description lang="hr">Poštanski broj</ns7:description>
+               <ns7:description lang="hu">Postai irányítószám</ns7:description>
+               <ns7:description lang="it">Codice postale</ns7:description>
+               <ns7:description lang="lt">Pašto kodo adresas</ns7:description>
+               <ns7:description lang="lv">Pasta indekss</ns7:description>
+               <ns7:description lang="me">Poštanski broj</ns7:description>
+               <ns7:description lang="mt">Postal code .{en}.</ns7:description>
+               <ns7:description lang="nl">Postcode</ns7:description>
+               <ns7:description lang="pl">Kod pocztowy</ns7:description>
+               <ns7:description lang="pt">Código postal</ns7:description>
+               <ns7:description lang="ro">Cod poştal</ns7:description>
+               <ns7:description lang="sk">Poštové smerovacie číslo</ns7:description>
+               <ns7:description lang="sl">Poštna številka</ns7:description>
+               <ns7:description lang="sr">Poštanski broj</ns7:description>
+               <ns7:description lang="sv">Postnummer</ns7:description>
+               <ns7:description lang="uk">Поштовий індекс</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="QualifierOfTheIdentification">U</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">UN/LOCODE</ns7:description>
+               <ns7:description lang="cs">UN / LOCODE</ns7:description>
+               <ns7:description lang="da">UN/LOCODE</ns7:description>
+               <ns7:description lang="de">UN/LOCODE</ns7:description>
+               <ns7:description lang="el">UN/LOCODE</ns7:description>
+               <ns7:description lang="en">UN/LOCODE</ns7:description>
+               <ns7:description lang="es">UN/LOCODE .{en}.</ns7:description>
+               <ns7:description lang="et">UN/LOCODE</ns7:description>
+               <ns7:description lang="fi">UN/LOCODE</ns7:description>
+               <ns7:description lang="fr">LOCODE/ONU</ns7:description>
+               <ns7:description lang="hr">UN/LOCODE</ns7:description>
+               <ns7:description lang="hu">UN/LOCODE</ns7:description>
+               <ns7:description lang="it">UN/LOCODE</ns7:description>
+               <ns7:description lang="lt">UN/LOCODE</ns7:description>
+               <ns7:description lang="lv">ANO/LOCODE kods</ns7:description>
+               <ns7:description lang="me">UN/LOCODE</ns7:description>
+               <ns7:description lang="mt">UN/LOCODE .{en}.</ns7:description>
+               <ns7:description lang="nl">UN/LOCODE</ns7:description>
+               <ns7:description lang="pl">UN/LOCODE (system geokodowania zarządzany przez Europejską Komisję Gospodarczą, stworzony przez Organizację Narodów Zjednoczonych)</ns7:description>
+               <ns7:description lang="pt">UN/LOCODE</ns7:description>
+               <ns7:description lang="ro">UN/LOCODE</ns7:description>
+               <ns7:description lang="sk">UN/LOCODE</ns7:description>
+               <ns7:description lang="sl">UN/LOCODE</ns7:description>
+               <ns7:description lang="sr">UN/LOCODE</ns7:description>
+               <ns7:description lang="sv">UN/LOCODE</ns7:description>
+               <ns7:description lang="uk">UN/LOCODE</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="QualifierOfTheIdentification">V</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Идентификатор на митническото учреждение</ns7:description>
+               <ns7:description lang="cs">Identifikátor celního úřadu</ns7:description>
+               <ns7:description lang="da">Toldstedskode</ns7:description>
+               <ns7:description lang="de">Zollstelle - Kennung</ns7:description>
+               <ns7:description lang="el">Αναγνωριστικός κωδικός τελωνείου</ns7:description>
+               <ns7:description lang="en">Customs office identifier</ns7:description>
+               <ns7:description lang="es">Customs office identifier .{en}.</ns7:description>
+               <ns7:description lang="et">Tolliasutuse tunnus</ns7:description>
+               <ns7:description lang="fi">Tullitoimipaikan tunniste</ns7:description>
+               <ns7:description lang="fr">Identifiant du bureau de douane – Code EUROPA</ns7:description>
+               <ns7:description lang="hr">Šifra carinskog ureda</ns7:description>
+               <ns7:description lang="hu">Vámhivatal azonosító</ns7:description>
+               <ns7:description lang="it">Identificativo dell'Ufficio doganale</ns7:description>
+               <ns7:description lang="lt">Muitinės įstaigos identifikatorius</ns7:description>
+               <ns7:description lang="lv">Muitas iestādes identifikators</ns7:description>
+               <ns7:description lang="me">Identifikator carinske ispostave</ns7:description>
+               <ns7:description lang="mt">Customs office identifier .{en}.</ns7:description>
+               <ns7:description lang="nl">Identificatienummer douanekantoor</ns7:description>
+               <ns7:description lang="pl">Identyfikator urzędu celnego</ns7:description>
+               <ns7:description lang="pt">Identificador da estância aduaneira</ns7:description>
+               <ns7:description lang="ro">Codul de Identificare al biroului vamal</ns7:description>
+               <ns7:description lang="sk">Identifikátor colného úradu</ns7:description>
+               <ns7:description lang="sl">Identifikacija carinskega urada</ns7:description>
+               <ns7:description lang="sr">Šifra carinske ispostave</ns7:description>
+               <ns7:description lang="sv">Tullkontor</ns7:description>
+               <ns7:description lang="uk">Ідентифікатор митниці</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="QualifierOfTheIdentification">W</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">GPS координати</ns7:description>
+               <ns7:description lang="cs">GPS souřadnice</ns7:description>
+               <ns7:description lang="da">GPS-koordinater</ns7:description>
+               <ns7:description lang="de">GPS Koordinaten</ns7:description>
+               <ns7:description lang="el">Συντεταγμένες GPS</ns7:description>
+               <ns7:description lang="en">GPS coordinates</ns7:description>
+               <ns7:description lang="es">GPS coordinates .{en}.</ns7:description>
+               <ns7:description lang="et">GPS-koordinaadid</ns7:description>
+               <ns7:description lang="fi">GPS-koordinaatit</ns7:description>
+               <ns7:description lang="fr">Coordonnées de géolocalisation – GALILEO / GPS</ns7:description>
+               <ns7:description lang="hr">GPS koordinate</ns7:description>
+               <ns7:description lang="hu">GNSS koordináták</ns7:description>
+               <ns7:description lang="it">Coordinate GPS</ns7:description>
+               <ns7:description lang="lt">GNSS koordinatės</ns7:description>
+               <ns7:description lang="lv">GPS koordinātes</ns7:description>
+               <ns7:description lang="me">GPS koordinate</ns7:description>
+               <ns7:description lang="mt">GPS coordinates .{en}.</ns7:description>
+               <ns7:description lang="nl">GPS-coördinaten</ns7:description>
+               <ns7:description lang="pl">współrzędne GPS</ns7:description>
+               <ns7:description lang="pt">Coordenadas GPS</ns7:description>
+               <ns7:description lang="ro">Coordonate GPS</ns7:description>
+               <ns7:description lang="sk">Súradnice GPS</ns7:description>
+               <ns7:description lang="sl">Koordinate GPS</ns7:description>
+               <ns7:description lang="sr">GPS koordinate</ns7:description>
+               <ns7:description lang="sv">GPS-koordinater</ns7:description>
+               <ns7:description lang="uk">GPS координати</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="QualifierOfTheIdentification">X</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">ЕОРИ номер</ns7:description>
+               <ns7:description lang="cs">Číslo EORI</ns7:description>
+               <ns7:description lang="da">EORI nummer</ns7:description>
+               <ns7:description lang="de">EORI-Nummer</ns7:description>
+               <ns7:description lang="el">αριθμός καταχώρισης και αναγνώρισης οικονομικού φορέα</ns7:description>
+               <ns7:description lang="en">EORI number</ns7:description>
+               <ns7:description lang="es">EORI Number .{en}.</ns7:description>
+               <ns7:description lang="et">EORI number</ns7:description>
+               <ns7:description lang="fi">Eori-numero</ns7:description>
+               <ns7:description lang="fr">Numéro EORI</ns7:description>
+               <ns7:description lang="hr">EORI broj</ns7:description>
+               <ns7:description lang="hu">EORI azonosítószám</ns7:description>
+               <ns7:description lang="it">Codice EORI</ns7:description>
+               <ns7:description lang="lt">EORI kodas</ns7:description>
+               <ns7:description lang="lv">EORI numurs</ns7:description>
+               <ns7:description lang="me">EORI broj</ns7:description>
+               <ns7:description lang="mt">EORI Number .{en}.</ns7:description>
+               <ns7:description lang="nl">EORI nummer</ns7:description>
+               <ns7:description lang="pl">Numer EORI</ns7:description>
+               <ns7:description lang="pt">Número EORI</ns7:description>
+               <ns7:description lang="ro">Numărul EORI</ns7:description>
+               <ns7:description lang="sk">Číslo EORI</ns7:description>
+               <ns7:description lang="sl">EORI številka</ns7:description>
+               <ns7:description lang="sr">EORI broj</ns7:description>
+               <ns7:description lang="sv">Eori-nummer</ns7:description>
+               <ns7:description lang="uk">Номер EORI</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="QualifierOfTheIdentification">Y</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Номер на разрешението</ns7:description>
+               <ns7:description lang="cs">Číslo povolení</ns7:description>
+               <ns7:description lang="da">Bevillingsnummer</ns7:description>
+               <ns7:description lang="de">Bewilligungsnummer</ns7:description>
+               <ns7:description lang="el">Αριθμός εξουσιοδότησης</ns7:description>
+               <ns7:description lang="en">Authorisation number</ns7:description>
+               <ns7:description lang="es">Authorisation number .{en}.</ns7:description>
+               <ns7:description lang="et">Loa number</ns7:description>
+               <ns7:description lang="fi">Lupanumero</ns7:description>
+               <ns7:description lang="fr">Numéro d’autorisation</ns7:description>
+               <ns7:description lang="hr">Broj autorizacije</ns7:description>
+               <ns7:description lang="hu">Engedélyszám</ns7:description>
+               <ns7:description lang="it">Numero dell'autorizzazione</ns7:description>
+               <ns7:description lang="lt">Leidimo numeris</ns7:description>
+               <ns7:description lang="lv">Atļaujas numurs</ns7:description>
+               <ns7:description lang="me">Broj autorizacije</ns7:description>
+               <ns7:description lang="mt">Authorisation number .{en}.</ns7:description>
+               <ns7:description lang="nl">Vergunningnummer</ns7:description>
+               <ns7:description lang="pl">Numer pozwolenia</ns7:description>
+               <ns7:description lang="pt">Número da Autorização</ns7:description>
+               <ns7:description lang="ro">Numărul autorizaţiei</ns7:description>
+               <ns7:description lang="sk">Číslo povolenia</ns7:description>
+               <ns7:description lang="sl">Številka dovoljenja</ns7:description>
+               <ns7:description lang="sr">Broj odobrenja</ns7:description>
+               <ns7:description lang="sv">Tillståndsnummer</ns7:description>
+               <ns7:description lang="uk">Номер авторизації</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="QualifierOfTheIdentification">Z</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Свободен текст</ns7:description>
+               <ns7:description lang="cs">Volný text</ns7:description>
+               <ns7:description lang="da">Fritekst</ns7:description>
+               <ns7:description lang="de">Freitext</ns7:description>
+               <ns7:description lang="el">Ελεύθερο πεδίο</ns7:description>
+               <ns7:description lang="en">Free text</ns7:description>
+               <ns7:description lang="es">Free text .{en}.</ns7:description>
+               <ns7:description lang="et">Vaba tekst</ns7:description>
+               <ns7:description lang="fi">Vapaamuotoinen teksti</ns7:description>
+               <ns7:description lang="fr">Texte libre</ns7:description>
+               <ns7:description lang="hr">Slobodan tekst</ns7:description>
+               <ns7:description lang="hu">Szabad szöveg</ns7:description>
+               <ns7:description lang="it">Testo libero</ns7:description>
+               <ns7:description lang="lt">Laisvo pobūdžio tekstas</ns7:description>
+               <ns7:description lang="lv">Apraksts brīvā tekstā</ns7:description>
+               <ns7:description lang="me">Slobodan tekst</ns7:description>
+               <ns7:description lang="mt">Free text .{en}.</ns7:description>
+               <ns7:description lang="nl">Vrije tekst</ns7:description>
+               <ns7:description lang="pl">Otwarte pole tekstowe</ns7:description>
+               <ns7:description lang="pt">Texto livre</ns7:description>
+               <ns7:description lang="ro">Text liber</ns7:description>
+               <ns7:description lang="sk">Voľný text</ns7:description>
+               <ns7:description lang="sl">Prosti tekst</ns7:description>
+               <ns7:description lang="sr">Slobodan tekst</ns7:description>
+               <ns7:description lang="sv">Fritext</ns7:description>
+               <ns7:description lang="uk">Текст в довільній формі</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

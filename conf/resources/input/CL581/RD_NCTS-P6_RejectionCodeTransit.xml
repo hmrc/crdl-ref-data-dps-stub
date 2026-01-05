@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>f66b36c6-8470-4542-a063-6c652f4a99f9</ns1:messageID>
+         <ns1:relatesTo>01b3f076-a32c-482a-a9b3-88e035e4b28f</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>01b3f076-a32c-482a-a9b3-88e035e4b28f</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="RejectionCodeTransit"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="RejectionCodeTransit">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionCodeTransitCode">1</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">MRN unknown</ns7:description>
+               <ns7:description lang="fr">MRN inconnu</ns7:description>
+               <ns7:description lang="me">MRN broj nepoznat</ns7:description>
+               <ns7:description lang="pl">MRN nieznany</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionCodeTransitCode">12</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Message with functional error(s) - Violation of Rules &amp; Conditions</ns7:description>
+               <ns7:description lang="fr">Message avec erreur(s) fonctionnelle(s) - Violation des règles et conditions</ns7:description>
+               <ns7:description lang="me">Poruka sa funkcionalnom greškom – Povreda pravila i uslova</ns7:description>
+               <ns7:description lang="pl">Komunikat z błędami funkcjonalnymi - naruszenie reguł i warunków</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionCodeTransitCode">13</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Customs Office does not have the role 'EXIT'</ns7:description>
+               <ns7:description lang="fr">Le bureau de douane n'a pas le rôle 'EXIT'</ns7:description>
+               <ns7:description lang="me">Carinska ispostava nema ulogu ‘IZLAZ’</ns7:description>
+               <ns7:description lang="pl">Urząd celny nie ma roli &quot;EXIT&quot;</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionCodeTransitCode">2</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Declaration invalidated</ns7:description>
+               <ns7:description lang="fr">Déclaration invalidée</ns7:description>
+               <ns7:description lang="me">Deklaracija poništena</ns7:description>
+               <ns7:description lang="pl">Zgłoszenie unieważnione</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionCodeTransitCode">3</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">No diversion: binding itinerary and no incident notified</ns7:description>
+               <ns7:description lang="fr">Pas de détournement : itinéraire contraignant et aucun incident notifié</ns7:description>
+               <ns7:description lang="me">Nema preusmjeravanja: obavezujuća ruta i nijedan incident nije prijavljen</ns7:description>
+               <ns7:description lang="pl">Zmiana trasy niedozwolona: ustalona wiążaca trasa przewozu i brak informacji o zdarzeniach</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionCodeTransitCode">4</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Other reasons</ns7:description>
+               <ns7:description lang="fr">Autres raisons</ns7:description>
+               <ns7:description lang="me">Drugi razlozi</ns7:description>
+               <ns7:description lang="pl">Inne przyczyny</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionCodeTransitCode">6</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Not applicable (NCTS/TIR, AD, SM)</ns7:description>
+               <ns7:description lang="fr">Sans objet (NCTS/TIR, AD, SM)</ns7:description>
+               <ns7:description lang="me">Nije primjenjivo (NCTS/TIR, AD, SM)</ns7:description>
+               <ns7:description lang="pl">Nie dotyczy (NCTS/TIR, AD, SM)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionCodeTransitCode">7</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Guarantee not valid for this customs territory</ns7:description>
+               <ns7:description lang="fr">Garantie non valable pour ce territoire douanier</ns7:description>
+               <ns7:description lang="me">Garancija nije važeća za ovu carinsku teritoriju</ns7:description>
+               <ns7:description lang="pl">Zabezpieczenie nieważne na ten obszar celny</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>040991d7-e14c-4859-a419-225e4c24c599</ns1:messageID>
+         <ns1:relatesTo>7d77aec0-9b0e-414f-ba23-98ab154cb023</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>7d77aec0-9b0e-414f-ba23-98ab154cb023</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-23"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="BusinessRejectionTypeDepExp"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="BusinessRejectionTypeDepExp">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">013</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Změna zamítnuta</ns7:description>
+               <ns7:description lang="da">Afvisning af ændringsanmodning</ns7:description>
+               <ns7:description lang="de">Änderungsantrag zurückgewiesen</ns7:description>
+               <ns7:description lang="en">Amendment rejection</ns7:description>
+               <ns7:description lang="fr">Rejet de la rectification</ns7:description>
+               <ns7:description lang="lt">Prašymas taisyti nepriimtas</ns7:description>
+               <ns7:description lang="lv">Labojums noraidīts</ns7:description>
+               <ns7:description lang="me">Odbijanje izmjena</ns7:description>
+               <ns7:description lang="nl">Afwijzen wijzigen aangifte</ns7:description>
+               <ns7:description lang="pl">Odrzucenie sprostowania</ns7:description>
+               <ns7:description lang="sk">Zamietnutie opravy</ns7:description>
+               <ns7:description lang="sl">Dopolnitev zavrnjena</ns7:description>
+               <ns7:description lang="sr">Odbijanje zahteva za izmenom</ns7:description>
+               <ns7:description lang="uk">У виправленні відмовлено</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">014</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Zneplatnění zamítnuto</ns7:description>
+               <ns7:description lang="da">Ugyldiggørelse afvist</ns7:description>
+               <ns7:description lang="en">Invalidation rejection</ns7:description>
+               <ns7:description lang="fr">Rejet de l'invalidation</ns7:description>
+               <ns7:description lang="lt">Prašymas pripažinti deklaraciją negaliojančia nepriimtas</ns7:description>
+               <ns7:description lang="me">Odbijanje poništavanja</ns7:description>
+               <ns7:description lang="nl">Afwijzen ongeldig maken aangifte</ns7:description>
+               <ns7:description lang="pl">Odrzucenie unieważnienia</ns7:description>
+               <ns7:description lang="sk">Zamietnutie zneplatnenia</ns7:description>
+               <ns7:description lang="sl">Zavrnitev razveljavitve</ns7:description>
+               <ns7:description lang="sr">Odbijanje zahteva za ponišrenjem</ns7:description>
+               <ns7:description lang="uk">Відмова у визнанні недійсною</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">015</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Prohlášení zamítnuto</ns7:description>
+               <ns7:description lang="da">Afvisning af angivelsen</ns7:description>
+               <ns7:description lang="de">Versandanmeldung zurückgewiesen</ns7:description>
+               <ns7:description lang="en">Declaration rejection</ns7:description>
+               <ns7:description lang="fr">Rejet de la déclaration</ns7:description>
+               <ns7:description lang="lt">Deklaracija nepriimta</ns7:description>
+               <ns7:description lang="lv">Deklarācija noraidīta</ns7:description>
+               <ns7:description lang="me">Odbijanje deklaracije</ns7:description>
+               <ns7:description lang="nl">Afwijzen van de aangifte</ns7:description>
+               <ns7:description lang="pl">Odrzucenie zgłoszenia</ns7:description>
+               <ns7:description lang="sk">Zamietnutie vyhlásenia</ns7:description>
+               <ns7:description lang="sl">Deklaracija zavrnjena</ns7:description>
+               <ns7:description lang="sr">Odbijanje deklaracije</ns7:description>
+               <ns7:description lang="uk">Декларація визнано недійсною</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">054</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Žádost o propuštění zamítnuta</ns7:description>
+               <ns7:description lang="da">Afvisning af frigivelsesanmodning</ns7:description>
+               <ns7:description lang="de">Überlassungsanfrage zurückgewiesen</ns7:description>
+               <ns7:description lang="en">Release request rejection</ns7:description>
+               <ns7:description lang="fr">Rejet de la demande de libération</ns7:description>
+               <ns7:description lang="lt">Prašymas išleisti nepriimtas</ns7:description>
+               <ns7:description lang="lv">Izlaišanas pieprasījums noraidīts</ns7:description>
+               <ns7:description lang="me">Odbijanje zahtjeva za objavu</ns7:description>
+               <ns7:description lang="nl">Afwijzen vrijgaveverzoek</ns7:description>
+               <ns7:description lang="pl">Odrzucenie wniosku o zwolnienie</ns7:description>
+               <ns7:description lang="sk">Zamietnutie žiadosti o prepustenie</ns7:description>
+               <ns7:description lang="sl">Zahtevek za prepustitev zavrnjen</ns7:description>
+               <ns7:description lang="sr">Odbijanje zahteva za puštanje</ns7:description>
+               <ns7:description lang="uk">Відхилення запиту на випуск</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">117</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Presentation notification at Office of Transit rejection</ns7:description>
+               <ns7:description lang="me">Odbijanje obavještenja o podnošenju u ispostavi tranzita</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">141</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Zamítnutí informací o neukončeném tranzitu</ns7:description>
+               <ns7:description lang="da">Afvisning af oplysninger om ikke-ankomne forsendelser</ns7:description>
+               <ns7:description lang="en">Rejection of Information about non-arrived movement</ns7:description>
+               <ns7:description lang="et">Järelepäringu vastuse tagasilükkamine</ns7:description>
+               <ns7:description lang="fr">Rejet de l'information sur un mouvement non-arrivé</ns7:description>
+               <ns7:description lang="lt">Nepriimta informacija apie neatvykusį krovinį</ns7:description>
+               <ns7:description lang="me">Odbijanje informacije o nepristiglom kretanju</ns7:description>
+               <ns7:description lang="nl">Afwijzen van informatie over niet-aangekomen zendingen</ns7:description>
+               <ns7:description lang="pl">Odrzucenie informacji o przesyłce, która nie dotarła do celu</ns7:description>
+               <ns7:description lang="sk">Zamietnutie informácií o nedodanej zásielke</ns7:description>
+               <ns7:description lang="sl">Zavrnitev informacij o neprispelem gibanju</ns7:description>
+               <ns7:description lang="sr">Odbijanje informacije o nepristigloj pošiljci</ns7:description>
+               <ns7:description lang="uk">Відмова у інформації про недоставу товарів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">170</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Zamítnutí oznámení o předložení zboží u předem podaného tranzitního prohlášení</ns7:description>
+               <ns7:description lang="da">Afvisning af frembydelsesmeddelelse for en forudindgivet angivelse</ns7:description>
+               <ns7:description lang="de">Gestellungsmitteilung für vorzeitig übermittelte Versandanmeldung zurückgewiesen</ns7:description>
+               <ns7:description lang="en">Presentation notification for the pre-lodged declaration rejection</ns7:description>
+               <ns7:description lang="et">Etteesitatud deklaratsiooni esitamisteate tagasilükkamine</ns7:description>
+               <ns7:description lang="fr">Rejet de la notification de présentation pour la déclaration anticipée</ns7:description>
+               <ns7:description lang="lt">Nepriimtas prekių pateikimo pranešimas išanksto pateiktai deklaracijai</ns7:description>
+               <ns7:description lang="lv">Pirmsierašanās paziņojums noraidīts</ns7:description>
+               <ns7:description lang="me">Obavještenje o podnošenju zahtjeva za odbijanje prethodno podnesene deklaracije</ns7:description>
+               <ns7:description lang="nl">Afwijzen bericht Kennisgeving goederen aangebracht</ns7:description>
+               <ns7:description lang="pl">Odrzucenie powiadomienia o przedstawieniu dla zgłoszenia wyprzedzającego</ns7:description>
+               <ns7:description lang="sk">Zamietnutie oznámenie o predložení vopred podaného vyhlásenia</ns7:description>
+               <ns7:description lang="sl">Obvestilo o predhodno vloženi deklaraciji zavrnjeno</ns7:description>
+               <ns7:description lang="sr">Obaveštenje o predaji za unapred podnetu deklaraciju</ns7:description>
+               <ns7:description lang="uk">Повідомлення про визнання недійсною попередньо поданої декларації</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">A13</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Combined amendment rejection</ns7:description>
+               <ns7:description lang="me">Odbijanje kombinovane izmjene</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">A15</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Combined declaration rejection</ns7:description>
+               <ns7:description lang="me">Odbijanje kombinovane deklaracije</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="BusinessRejectionTypeDepExpCode">A71</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Referral response rejection</ns7:description>
+               <ns7:description lang="me">Odbijanje odgovora na zahtjev za upućivanje</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

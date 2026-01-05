@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>0a66951a-c9d1-4dea-9e2a-2b95b150bd2c</ns1:messageID>
+         <ns1:relatesTo>bd38c2f4-dba7-4ab7-91f1-8641ea2a420a</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>bd38c2f4-dba7-4ab7-91f1-8641ea2a420a</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-23"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="AdditionalInformation"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="AdditionalInformation">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">00200</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="da">Flere forekomster af dokumenter og parter</ns7:description>
+               <ns7:description lang="en">Several occurrences of documents and parties</ns7:description>
+               <ns7:description lang="fr">Plusieurs occurrences de documents et de parties</ns7:description>
+               <ns7:description lang="me">Nekoliko pojavljivanja dokumenata i stranaka</ns7:description>
+               <ns7:description lang="nl">Diverse documenten en partijen</ns7:description>
+               <ns7:description lang="pl">Wiele dokumentów i stron</ns7:description>
+               <ns7:description lang="sk">Niekoľko výskytov dokumentov a strán</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">00700</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Vyřízení aktivního zušlechťovacího styku. &quot;IP&quot; a příslušné číslo povolení nebo číslo INF</ns7:description>
+               <ns7:description lang="da">Afslutning af proceduren for aktiv forædling og det relevante godkendelsesnummer eller INF- nummer</ns7:description>
+               <ns7:description lang="de">&quot;AV&quot; und einschlägige &quot;Bewilligungs- oder INF-Nummer&quot;</ns7:description>
+               <ns7:description lang="en">Discharge of inward processing. IP’ and the relevant authorisation number or INF number</ns7:description>
+               <ns7:description lang="et">Seestöötlemise lõpetamine</ns7:description>
+               <ns7:description lang="fi">IP / Sisäisen jalostuksen päättäminen / Delegoidun asetuksen (EU) 2015/2446 241(1) artiklan ensimmäinen alakohta</ns7:description>
+               <ns7:description lang="fr">Apurement du perfectionnement actif. &quot;PA&quot; et référence d'autorisation ou numéro INF</ns7:description>
+               <ns7:description lang="hr">Zaključenje unutarnje proizvodnje</ns7:description>
+               <ns7:description lang="lt">Laikinojo įvežimo perdirbti pripažinimas įvykdytu. &quot;IP&quot; ir atinkamo leidimo numeris arba INF numeris</ns7:description>
+               <ns7:description lang="lv">Ievešanas pārstrādei pabeigšana un attiecīgais atļaujas numurs vai INF numurs</ns7:description>
+               <ns7:description lang="me">Završetak aktivnog oplemenjivanja. IP' i relevantni broj odobrenja ili INF broj</ns7:description>
+               <ns7:description lang="nl">Aanzuivering actieve veredeling 'AV’ en het betreffende autorisatienummer of INF-nummer</ns7:description>
+               <ns7:description lang="pl">Zamknięcie procedury uszlachetniania czynnego. &quot;Ucz&quot; i odpowiedni numer pozwolenia lub numer INF</ns7:description>
+               <ns7:description lang="ro">Descărcarea regimului de perfecționare activă. IP” și numărul autorizației relevante sau numărul INF</ns7:description>
+               <ns7:description lang="sk">Prepustenie z aktívneho zušľachťovacieho styku. Aktívny zušľachťovací styk a príslušné číslo povolenia alebo číslo INF</ns7:description>
+               <ns7:description lang="sl">Zaključek aktivnega oplemenitenja. Aktivno oplemenitenje in ustrezna številka dovoljenja ali številka INF</ns7:description>
+               <ns7:description lang="sv">Avslutande av förfarandet för aktiv förädling. &quot;IP&quot; och relevant tillståndsnummer eller INF-nummer.</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">00800</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Vyřízení aktivního zušlechťovacího styku (zvláštní obchodně-politická opatření)</ns7:description>
+               <ns7:description lang="da">Afslutning af proceduren for aktiv forædling (særlige handelspolitiske foranstaltninger (CPM))</ns7:description>
+               <ns7:description lang="de">&quot;AV HPM&quot;</ns7:description>
+               <ns7:description lang="en">Discharge of inward processing (specific commercial policy measures)</ns7:description>
+               <ns7:description lang="et">Seestöötlemise lõpetamine (kaubanduspoliitilised meetmed)</ns7:description>
+               <ns7:description lang="fi">IP CPM / Sisäisen jalostuksen päättäminen (kauppapoliittiset erityistoimenpiteet) / Delegoidun asetuksen (EU) 2015/2446 241(1) artiklan toinen alakohta</ns7:description>
+               <ns7:description lang="fr">Apurement du perfectionnement passif (mesures de politique commerciale spécifique)</ns7:description>
+               <ns7:description lang="hr">Zaključenje unutarnje proizvodnje (posebne mjere trgovinske politike)</ns7:description>
+               <ns7:description lang="lt">Laikinojo įvežimo perdirbti pripažinimas įvykdytu (specialios prekybos politikos priemonės)</ns7:description>
+               <ns7:description lang="lv">Ievešanas pārstrādei pabeigšana (īpaši tirdzniecības politikas pasākumi)</ns7:description>
+               <ns7:description lang="me">Završetak aktivnog oplemenjivanja (posebne mjere trgovinske politike)</ns7:description>
+               <ns7:description lang="nl">Aanzuivering actieve veredeling 'AV' (specifieke handelspolitieke maatregelen)</ns7:description>
+               <ns7:description lang="pl">Zamknięcie procedury uszlachetniania czynnego (szczególne środki polityki handlowej)</ns7:description>
+               <ns7:description lang="ro">Descărcarea regimului de perfecționare activă (măsuri specifice de politică comercială)</ns7:description>
+               <ns7:description lang="sk">Prepustenie z aktívneho zušľachťovacieho styku (osobitné opatrenia obchodnej politiky)</ns7:description>
+               <ns7:description lang="sl">Zaključek aktivnega oplemenitenja (posebni ukrepi trgovinske politike )</ns7:description>
+               <ns7:description lang="sv">Avslutande av förfarandet för aktiv förädling (särskilda handelspolitiska åtgärder). &quot;IP CPM&quot;</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">00900</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Vyřízení dočasného použití. &quot;TA&quot; a příslušné číslo povolení</ns7:description>
+               <ns7:description lang="da">Afslutning af proceduren for midlertidig indførsel og det relevante godkendelsesnummer</ns7:description>
+               <ns7:description lang="de">&quot;VV&quot; und einschlägige Bewilligungsnummer</ns7:description>
+               <ns7:description lang="en">Discharge of temporary admission. ‘TA’ and the relevant authorisation number</ns7:description>
+               <ns7:description lang="et">Ajutise impordi lõpetamine</ns7:description>
+               <ns7:description lang="fi">TA / Väliaikaisen maahantuonnin päättäminen / Delegoidun asetuksen (EU) 2015/2446 238 artikla</ns7:description>
+               <ns7:description lang="fr">Apurement de l'admission temporaire. &quot;TA&quot; et référence d'autorisation</ns7:description>
+               <ns7:description lang="hr">Zaključenje privremenog uvoza</ns7:description>
+               <ns7:description lang="lt">Laikinojo įvežimo pripažinimas įvykdytu. &quot;TA&quot; ir atinkamo leidimo numeris</ns7:description>
+               <ns7:description lang="lv">Atbrīvojums no pagaidu ievešanas un attiecīgais atļaujas numurs</ns7:description>
+               <ns7:description lang="me">Završetak privremenog uvoza. 'TA' i odgovarajući broj autorizacije</ns7:description>
+               <ns7:description lang="nl">Aanzuivering tijdelijke toelating 'TT' en het betreffende machtigingsnummer</ns7:description>
+               <ns7:description lang="pl">Zamknięcie procedury odprawy czasowej. &quot;OCz&quot; i odpowiedni numer pozwolenia</ns7:description>
+               <ns7:description lang="ro">Descarcarea regimului de admitere temporară. „TA” și numărul autorizației relevante</ns7:description>
+               <ns7:description lang="sk">Uvoľnenie dočasného prijatia. Dočasné prijatie a číslo príslušného povolenia</ns7:description>
+               <ns7:description lang="sl">Zaključek začasnega uvoza. Začasni uvoz in ustrezna številka dovoljenja</ns7:description>
+               <ns7:description lang="sv">Avslutande av förfarandet för tillfällig införsel. &quot;TA&quot; och relevant tillståndsnummer.</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">10600</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Ситуации, които се отнасят за прехвърляеми коносаменти, които са под формата на „непопълнен индосамент“, при обобщени декларации за въвеждане, в случай че данните за получателя не са известни. Неизвестен получател</ns7:description>
+               <ns7:description lang="cs">Situace týkající se obchodovatelných konosamentů, které jsou „objednávka v podobě blankoindosamentu“, v případě vstupního souhrnného celního prohlášení, kdy jsou údaje příjemce neznámé. Příjemce neznámý</ns7:description>
+               <ns7:description lang="da">Situationer, hvor der er tale om negotiable konnossementer, dvs. ordrekonnossementer uden påtegning, i tilfælde af summariske indpassageangivelser, hvor der ikke foreligger oplysninger om modtageren. Modtager ukendt</ns7:description>
+               <ns7:description lang="de">Fälle, in denen Waren mit begebbarem Konnossement befördert werden, das „an Order und blanko indossiert“ ist, bei summarischen Eingangsanmeldungen, wenn der Empfänger unbekannt ist. Empfänger unbekannt</ns7:description>
+               <ns7:description lang="el">Περιπτώσεις που αφορούν μεταβιβάσιμες φορτωτικές «εις διαταγήν με οπισθογράφηση», για τις συνοπτικές διασαφήσεις εισόδου, όταν είναι άγνωστα τα στοιχεία του παραλήπτη. Άγνωστος παραλήπτης</ns7:description>
+               <ns7:description lang="en">Situations where negotiable bills of lading that are &quot;to order blank endorsed&quot; are concerned, in the case of entry summary declarations, where the consignee details are unknown. Consignee unknown</ns7:description>
+               <ns7:description lang="es">Situaciones que afectan a conocimientos de embarque negociables del tipo «a la orden con endoso en blanco», en los casos de declaraciones sumarias de entrada y en las que no se conocen los datos del destinatario. Destinatario desconocido</ns7:description>
+               <ns7:description lang="et">Olukorrad, kus on tegemist tingimusveokirjaga, millega „tellitakse blankoindosso“, sisenemise ülddeklaratsiooni puhul, kui kaubasaaja andmed ei ole teada. Kaubasaaja ei ole teada</ns7:description>
+               <ns7:description lang="fi">Kuljetettaessa tavaroita siirrettävällä konossementilla, jossa ei eritellä kenelle konossementti siirretään, saapumisen yleisilmoituksessa, kun ei tiedetä vastaanottajan tietoja.</ns7:description>
+               <ns7:description lang="fr">Situations dans lesquelles des connaissements négociables «à ordre endossés en blanc» sont concernés, en cas de déclaration sommaire d’entrée, lorsque les données du destinataire sont inconnues. Destinataire inconnu</ns7:description>
+               <ns7:description lang="hr">Slučajevi kada se roba prevozi pod prenosivom teretnicom „po nalogu s bjanko indosamentom”, za ulazne skraćene deklaracije, u kojima nisu poznati podaci o primatelju. Primatelj nepoznat</ns7:description>
+               <ns7:description lang="hu">Olyan esetek, amelyekben „üresen forgatott, rendeletre szóló” átruházható hajóraklevelek érintettek, a belépési gyűjtő árunyilatkozatok esetében, ha a címzett adatai ismeretlenek. Címzett ismeretlen</ns7:description>
+               <ns7:description lang="it">Situazioni relative a polizze di carico vendibili «con girata in bianco», in caso di dichiarazioni sommarie di entrata per le quali non siano note le informazioni concernenti il destinatario. Destinatario sconosciuto</ns7:description>
+               <ns7:description lang="lt">Situacijos, kai įvežimo bendrosios deklaracijos pateikiamos gabenant prekes su orderiniais laivo važtaraščiais (konosamentais), t. y. „pagal nurodymą, įforminus neužpildytą blanką“, ir kai gavėjo duomenys nežinomi. Nežinomas gavėjas</ns7:description>
+               <ns7:description lang="lv">Situācijas, kurās ir iesaistīti pārvedu konosamenti, kur kravas saņēmējs ir jebkurš konosamenta indosētājs, ievešanas kopsavilkuma deklarāciju gadījumā, ja saņēmēja dati nav zināmi. Saņēmējs nezināms</ns7:description>
+               <ns7:description lang="me">Situacije koje se odnose na prenosive tovarne listove „po nalogu, bez naznačenog primaoca“ u slučajevima kada su detalji primaoca nepoznati, kod ulaznih sažetih deklaracija. Primalac nepoznat</ns7:description>
+               <ns7:description lang="mt">Is-sitwazzjonijiet li jikkonċernaw il-poloz tat-tagħbija negozjabbli li jkunu “skont l-ordni, b’ġirata inbjank”, fil-każ ta’ dikjarazzjonijiet fil-qosor tad-dħul, fejn id-dettalji tal-konsenjatarju mhumiex magħrufa. Konsenjatarju mhux magħruf</ns7:description>
+               <ns7:description lang="nl">Situatie van verhandelbare cognossementen “aan order blanco geëndosseerd”, in het geval van summiere aangiften bij binnenbrengen waarbij de gegevens van de geadresseerde onbekend zijn. Geadresseerde onbekend</ns7:description>
+               <ns7:description lang="pl">W przypadku konosamentów zbywalnych, z których prawa mogą być przenoszone na inną osobę poprzez indos, dla przywozowych deklaracji skróconych, gdy szczegółowe dane odbiorcy nie są znane. Odbiorca nieznany</ns7:description>
+               <ns7:description lang="pt">Nos casos de declarações sumárias de entrada referentes a conhecimentos de embarque negociáveis «com endosso em branco» em que os dados do destinatário são desconhecidos. Destinatário desconhecido</ns7:description>
+               <ns7:description lang="ro">Situații în care sunt vizate conosamentele la ordin andosate în alb, în cazul declarațiilor sumare de intrare, atunci când datele destinatarului nu sunt cunoscute. Destinatar necunoscut</ns7:description>
+               <ns7:description lang="sk">Prípady, ktoré sa týkajú obchodovateľných nákladných listov, t. j. „objednávok formou bianko rubopisu“ v prípade predbežných vyhlásení o vstupe, keď sú údaje o príjemcovi zásielky neznáme. Príjemca neznámy</ns7:description>
+               <ns7:description lang="sl">Situacije v primeru vstopne skupne deklaracije, ko se blago prevaža na podlagi prenosljive nakladnice po odredbi z zaznamkom „z bianko indosamentom“, pri kateri prejemnik ni znan. Neznan prejemnik</ns7:description>
+               <ns7:description lang="sv">Vid användning av blankoöverlåtet konossement i samband med summariska införseldeklarationer då uppgifter om mottagaren saknas. Mottagare okänd</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">10900</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">ENS podané spolu s celním prohlášením pro zásilku nízké hodnoty</ns7:description>
+               <ns7:description lang="en">ENS lodged together with customs declaration for low value consignment</ns7:description>
+               <ns7:description lang="et">ENS esitatakse koos väikese väärtusega saadetise tollideklaratsiooniga</ns7:description>
+               <ns7:description lang="fr">ENS déposé avec la déclaration en douane pour un envoi de faible valeur</ns7:description>
+               <ns7:description lang="me">ENS podnesen zajedno sa carinskom deklaracijom za pošiljke male vrijednosti</ns7:description>
+               <ns7:description lang="pl">PDS złożone wraz ze zgłoszeniem celnym dotyczącym przesyłki o niskiej wartości</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">20100</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Vývoz z jedné země ESVO podléhající omezení nebo vývoz z Unie podléhající omezení</ns7:description>
+               <ns7:description lang="da">Restriktionsbelagt eksport fra et fælles transitland eller restriktionsbelagt eksport fra et EU-land</ns7:description>
+               <ns7:description lang="de">Ausfuhr aus EU oder EFTA-Staat unterliegt Beschränkungen</ns7:description>
+               <ns7:description lang="en">Export from one EFTA country subject to restriction or export from the Union subject to restriction</ns7:description>
+               <ns7:description lang="et">Eksport ühest EFTA riigist, mille suhtes kohaldatakse piiranguid, või liidust eksportimine, mille suhtes kohaldatakse piiranguid</ns7:description>
+               <ns7:description lang="fi">Vienti yhdestä EFTA-maasta, johon sovelletaan rajoituksia tai vienti unionista, johon sovelletaan rajoituksia</ns7:description>
+               <ns7:description lang="fr">Exportation depuis un pays de l'AELE soumise à restriction ou exportation depuis l'Union soumise à restriction</ns7:description>
+               <ns7:description lang="hr">Izvoz iz jedne zemlje EFTA-e podliježe ograničenju ili izvoz iz Unije podliježe ograničenju</ns7:description>
+               <ns7:description lang="hu">Korlátozás alá eső kivitel egy EFTA-országból vagy korlátozás alá eső kivitel az Unióból.</ns7:description>
+               <ns7:description lang="lv">Eksports no vienas EBTA valsts, piemērojot ierobežojumu, vai eksports no Savienības, piemērojot ierobežojumu</ns7:description>
+               <ns7:description lang="me">Izvoz iz jedne države EFTA-e podložan ograničenjima ili izvoz iz Unije podložan ograničenjima</ns7:description>
+               <ns7:description lang="nl">Export uit een EVA-land onderworpen aan beperkingen, of export uit de Unie onderworpen aan beperkingen</ns7:description>
+               <ns7:description lang="pl">Wywóz z kraju EFTA podlega ograniczeniom lub wywóz z UE podlega ograniczeniom</ns7:description>
+               <ns7:description lang="sk">Vývoz z jednej krajiny EZVO podlieha obmedzeniu alebo vývoz z Únie podlieha obmedzeniu</ns7:description>
+               <ns7:description lang="sl">Izvoz iz ene EFTA države je predmet omejitve ali izvoz iz Unije je predmet omejitve</ns7:description>
+               <ns7:description lang="sr">Izvoz iz jedne od zemalja EFTA koji podleže ograničenju ili izvoz iz Unije koji podleže ograničenju</ns7:description>
+               <ns7:description lang="uk">Експорт з однієї з країн ЄАВТ підлягає обмеженню або експорт із Союзу підлягає обмеженню</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">20200</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Vývoz z jedné země ESVO podléhající clu nebo vývoz z Unie podléhající clu</ns7:description>
+               <ns7:description lang="da">Eksportafgiftbelagt eksport fra et fælles transitland eller eksportafgiftbelagt eksport fra et EU-land</ns7:description>
+               <ns7:description lang="de">Ausfuhr aus EU oder EFTA-Staat unterliegt Ausfuhrabgaben</ns7:description>
+               <ns7:description lang="en">Export from one EFTA country subject to duties or export from the Union subject to duties</ns7:description>
+               <ns7:description lang="et">Ühistransiidiprotseduuri riigist eksportimine, mille suhtes kehtivad tollimaksud, või liidust eksportimine, mille suhtes kehtivad tollimaksud</ns7:description>
+               <ns7:description lang="fi">Vienti yhdestä EFTA-maasta tai unionista on tullin alaista</ns7:description>
+               <ns7:description lang="fr">Exportation d'un pays de l'AELE soumise à droits ou exportation de l'Union soumise à droits</ns7:description>
+               <ns7:description lang="hr">Izvoz iz jedne zemlje EFTA-e podliježe carinama ili izvoz iz Unije podliježe carinama</ns7:description>
+               <ns7:description lang="hu">Vámköteles kivitel egy EFTA-országból vagy vámköteles kivitel az Unióból.</ns7:description>
+               <ns7:description lang="lv">Eksports no vienas EBTA valsts, piemērojot nodokļus, vai eksports no Savienības, piemērojot nodokļus</ns7:description>
+               <ns7:description lang="me">Izvoz iz jedne države EFTA-e podložan carinskim dažbinama ili izvoz iz Unije podložan dažbinama</ns7:description>
+               <ns7:description lang="nl">Export uit één EVA-land onderworpen aan rechten of export uit de Unie onderworpen aan rechten</ns7:description>
+               <ns7:description lang="pl">Wywóz z kraju EFTA podlega należnościom lub wywóz z UE podlega należnościom</ns7:description>
+               <ns7:description lang="sk">Vývoz z jednej krajiny EZVO podliehajúci clám alebo vývoz z Únie podliehajúci clám</ns7:description>
+               <ns7:description lang="sl">Izvoz iz ene EFTA države je predmet dajatev ali izvoz iz Unije je predmet dajatev</ns7:description>
+               <ns7:description lang="sr">Izvoz iz jedne od zemalja EFTA koji podleže dažbinama ili izvoz iz Unije koji podleže dažbinama</ns7:description>
+               <ns7:description lang="uk">Експорт з однієї з країн ЄАВТ, що обкладається митом, або експорт із Союзу, що обкладається митом</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">20300</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Vývoz</ns7:description>
+               <ns7:description lang="da">Eksport</ns7:description>
+               <ns7:description lang="de">Export</ns7:description>
+               <ns7:description lang="en">Export</ns7:description>
+               <ns7:description lang="et">Eksport</ns7:description>
+               <ns7:description lang="fi">Vienti</ns7:description>
+               <ns7:description lang="fr">Export</ns7:description>
+               <ns7:description lang="hr">Izvoz</ns7:description>
+               <ns7:description lang="hu">Kivitel</ns7:description>
+               <ns7:description lang="lv">Eksports</ns7:description>
+               <ns7:description lang="me">Izvoz</ns7:description>
+               <ns7:description lang="nl">Export</ns7:description>
+               <ns7:description lang="pl">Wywóz</ns7:description>
+               <ns7:description lang="sk">Vývoz</ns7:description>
+               <ns7:description lang="sl">Izvoz</ns7:description>
+               <ns7:description lang="sr">Izvoz</ns7:description>
+               <ns7:description lang="uk">Експорт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="AdditionalInformationCode">30600</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Situace týkající se obchodovatelných konosamentů, které jsou „objednávka v podobě blankoindosamentu“, v případě výstupního souhrnného celního prohlášení, kdy jsou údaje příjemce neznámé</ns7:description>
+               <ns7:description lang="da">Situationer, hvor der er tale om negotiable konnossementer, dvs. ordrekonnossementer uden påtegning, i tilfælde af summariske udpassageangivelser, hvor der ikke foreligger oplysninger om modtageren.</ns7:description>
+               <ns7:description lang="de">Empfänger für ASumA unbekannt, da &quot;an Order blanko indossiertes, begebbares Konnossement&quot;</ns7:description>
+               <ns7:description lang="en">In EXS, where negotiable bills of lading 'to order blank endorsed' are concerned and the consignee particulars are unknown.</ns7:description>
+               <ns7:description lang="et">„To order“ tingimusveokiri, saaja andmed on teadmata</ns7:description>
+               <ns7:description lang="fi">Tavarat kuljetetaan siirrettävällä konossementilla, jossa ei eritellä, kenelle konossementti siirretään, ja vastaanottaja on tuntematon. Koodia käytetään poistumisen yleisilmoituksella.</ns7:description>
+               <ns7:description lang="fr">Dans un EXS, lorsqu'il s'agit de connaissements négociables « à ordre endossés en blanc » et que les détails du destinataire sont inconnues.</ns7:description>
+               <ns7:description lang="hr">U EXS-u, gdje se radi o prenosivim teretnicama 'po nalogu s bjanko indosiranim', a podaci o primatelju nisu poznati.</ns7:description>
+               <ns7:description lang="hu">EXS-ben, ahol az „üresen forgatott, rendeletre szóló” átruházható hajóraklevelek érintettek és a címzett adatai ismeretlenek</ns7:description>
+               <ns7:description lang="lt">Kai EXS pateikiamos gabenant prekes su orderiniais laivo važtaraščiais (konosamentais), t. y. „pagal nurodymą, įforminus neužpildytą blanką“, ir kai gavėjo duomenys nežinomi</ns7:description>
+               <ns7:description lang="lv">Situācijas, kurās ir iesaistīti pārvedu konosamenti, kur kravas saņēmējs ir jebkurš konosamenta indosētājs, izvešanas kopsavilkuma deklarāciju gadījumā, ja saņēmēja dati nav zināmi.</ns7:description>
+               <ns7:description lang="me">U EXS, kada su u pitanju prenosivi tovarni listovi 'po narudžbi s bjanko indosamentom' i podaci o primaocu su nepoznati.</ns7:description>
+               <ns7:description lang="nl">Bij EXS, als het gaat om verhandelbare vrachtbrieven 'blanco goedgekeurd te bestellen' en de gegevens van de geadresseerde onbekend zijn.</ns7:description>
+               <ns7:description lang="pl">Dla wywozowych deklaracji skróconych, w przypadku konosamentów zbywalnych, z których prawa mogą być przenoszone na inną osobę poprzez indos, gdy szczegółowe dane odbiorcy nie są znane.</ns7:description>
+               <ns7:description lang="ro">În EXS, în cazul în care sunt vizate conosamente ”la ordin andosate în alb” și datele destinatarului nu sunt cunoscute.</ns7:description>
+               <ns7:description lang="sk">Prípady, ktoré sa týkajú obchodovateľných nákladných listov, t.j. „objednávok formou bianko rubopisu“ v prípade predbežných vyhlásení o výstupe, keď sú údaje o príjemcovi zásielky neznáme.</ns7:description>
+               <ns7:description lang="sl">Situacije v primeru ISD, ko se blago prevaža s prenosljivo nakladnico, po odredbi z zaznamkom »z bianko indosamentom«, prejemnik ni znan.</ns7:description>
+               <ns7:description lang="sr">U deklaraciji sa izlaznom sažetom deklaracijom, kada se radi o prenosivoj &quot;blanko&quot; teretnici, gde su podaci o primaocu nepoznati</ns7:description>
+               <ns7:description lang="sv">Vid användning av blankoöverlåtet konossement i samband med summariska utförseldeklarationer då uppgifter om mottagaren saknas. &quot;Mottagare okänd&quot;</ns7:description>
+               <ns7:description lang="uk">У EXS, де йдеться про оборотні коносаменти «на замовлення з бланковим індосаментом», а відомості про вантажоодержувача невідомі.</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

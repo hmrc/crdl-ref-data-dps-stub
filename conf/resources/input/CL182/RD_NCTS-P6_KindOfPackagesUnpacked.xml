@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>2586793a-3bca-45f3-9538-60f3f90d2463</ns1:messageID>
+         <ns1:relatesTo>654a8922-b109-4eb6-a57b-315bfd44e319</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>654a8922-b109-4eb6-a57b-315bfd44e319</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="KindOfPackagesUnpacked"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="KindOfPackagesUnpacked">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">NE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Неопаковано или непакетирано</ns7:description>
+               <ns7:description lang="cs">Bez jakéhokoli obalu</ns7:description>
+               <ns7:description lang="da">upakket</ns7:description>
+               <ns7:description lang="de">Nicht verpackt oder nicht abgepackt</ns7:description>
+               <ns7:description lang="el">Μη συσκευασμένο ούτε περιτυλιγμένο εμπόρευμα</ns7:description>
+               <ns7:description lang="en">Unpacked or unpackaged</ns7:description>
+               <ns7:description lang="es">Sin envasar o sin empaquetar</ns7:description>
+               <ns7:description lang="et">Pakkimata või pakendamata</ns7:description>
+               <ns7:description lang="fi">Pakkaamaton</ns7:description>
+               <ns7:description lang="fr">Marchandises non emballées</ns7:description>
+               <ns7:description lang="hr">Nezapakirano</ns7:description>
+               <ns7:description lang="hu">Kicsomagolt vagy csomagolatlan</ns7:description>
+               <ns7:description lang="is">Ópakkað eða ópakkanlegt</ns7:description>
+               <ns7:description lang="it">Merce disimballata o non imballata</ns7:description>
+               <ns7:description lang="lt">Nesupakuota</ns7:description>
+               <ns7:description lang="lv">Neiepakots vai nefasēts</ns7:description>
+               <ns7:description lang="me">Otpakovano ili bez pakovanja</ns7:description>
+               <ns7:description lang="mk">Неспакувано или распакувано</ns7:description>
+               <ns7:description lang="nl">Niet verpakt</ns7:description>
+               <ns7:description lang="no">Uemballert eller uinnpakket</ns7:description>
+               <ns7:description lang="pl">Nieopakowane</ns7:description>
+               <ns7:description lang="pt">Desempacotado ou desembalado</ns7:description>
+               <ns7:description lang="ro">marfuri neambalate</ns7:description>
+               <ns7:description lang="sk">Nebalené v obale alebo balíku</ns7:description>
+               <ns7:description lang="sl">Nepakirano ali razpakirano</ns7:description>
+               <ns7:description lang="sr">Neupakovano</ns7:description>
+               <ns7:description lang="sv">Oförpackat</ns7:description>
+               <ns7:description lang="tr">Kapsız veya ambalajlanmamış</ns7:description>
+               <ns7:description lang="uk">Не пакований чи не розфасований</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">NF</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Неопаковано или непакетирано, еднородни</ns7:description>
+               <ns7:description lang="cs">Bez jakéhokoli obalu, jedna jednotka</ns7:description>
+               <ns7:description lang="da">upakket, enkelt enhed</ns7:description>
+               <ns7:description lang="de">Nicht verpackt oder nicht abgepackt, eine Einheit</ns7:description>
+               <ns7:description lang="el">Μη συσκευασμένο ούτε περιτυλιγμένο εμπόρευμα, μία μονάδα</ns7:description>
+               <ns7:description lang="en">Unpacked or unpackaged, single unit</ns7:description>
+               <ns7:description lang="es">No embalado ni acond unidad única</ns7:description>
+               <ns7:description lang="et">Pakkimata või pakendamata, üks ühik</ns7:description>
+               <ns7:description lang="fi">Pakkaamaton ja käsittelemätön, yksi yksikkö</ns7:description>
+               <ns7:description lang="fr">Non emballé ni conditionné, une seule unité</ns7:description>
+               <ns7:description lang="hr">Nezapakirano, jedna jedinica</ns7:description>
+               <ns7:description lang="hu">Kicsomagolt vagy csomagolatlan, egy egység</ns7:description>
+               <ns7:description lang="lt">Nesupakuota, vienas vienetas</ns7:description>
+               <ns7:description lang="lv">Neiepakots vai nefasēts, viena vienība</ns7:description>
+               <ns7:description lang="me">Bez pakovanja, pojedinačna jedinica</ns7:description>
+               <ns7:description lang="mk">Неспакувано или распакувано, единечни единици</ns7:description>
+               <ns7:description lang="nl">Niet verpakt, 1 item</ns7:description>
+               <ns7:description lang="no">Uemballert eller uinnpakket, en enhet</ns7:description>
+               <ns7:description lang="pt">Não embalado, nem condicionado, unidade única</ns7:description>
+               <ns7:description lang="ro">marfa neambalata si neconditionata,</ns7:description>
+               <ns7:description lang="sk">Nezabalené, neupravené, jediná jednotka</ns7:description>
+               <ns7:description lang="sl">Nepakirano ali razpakirano, ena enota</ns7:description>
+               <ns7:description lang="sr">Neupakovano, jedna jedinica</ns7:description>
+               <ns7:description lang="tr">Kapsız veya ambalajlanmamış, tek birim</ns7:description>
+               <ns7:description lang="uk">Не пакований чи не розфасований одиничний вантаж</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="KindOfPackages">NG</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Неопаковано или непакетирано, нееднородни</ns7:description>
+               <ns7:description lang="cs">Bez jakéhokoli obalu, více jednotek</ns7:description>
+               <ns7:description lang="da">upakket, flere enheder</ns7:description>
+               <ns7:description lang="de">Nicht verpackt oder nicht abgepackt, mehrere Einheiten</ns7:description>
+               <ns7:description lang="el">Μη συσκευασμένο ούτε περιτυλιγμένο εμπόρευμα, πολλές μονάδες</ns7:description>
+               <ns7:description lang="en">Unpacked or unpackaged, multiple units</ns7:description>
+               <ns7:description lang="es">No emb ni acond varias unidades</ns7:description>
+               <ns7:description lang="et">Pakkimata või pakendamata, mitu ühikut</ns7:description>
+               <ns7:description lang="fi">Pakkaamaton ja käsittelemätön, useita yksikköjä</ns7:description>
+               <ns7:description lang="fr">Non emballé ni conditionné, plusieurs unités</ns7:description>
+               <ns7:description lang="hr">Nezapakirano, više jedinica</ns7:description>
+               <ns7:description lang="hu">Kicsomagolt vagy csomagolatlan, többszörös egység</ns7:description>
+               <ns7:description lang="lt">Nesupakuota, daug vienetų</ns7:description>
+               <ns7:description lang="lv">Neiepakots vai nefasēts, vairākas vienības</ns7:description>
+               <ns7:description lang="me">Bez pakovanja, više jedinica</ns7:description>
+               <ns7:description lang="mk">Неспакувано или распакувано, повеќекратни единици</ns7:description>
+               <ns7:description lang="nl">Niet verpakt, diverse items</ns7:description>
+               <ns7:description lang="no">Uemballert eller uinnpakket, flere enheter</ns7:description>
+               <ns7:description lang="pt">Não embalado, nem condicionado, diversas unidades</ns7:description>
+               <ns7:description lang="ro">marfuri neambalate si neconditionat</ns7:description>
+               <ns7:description lang="sk">Nezabalené, neupravené, viacero jednotiek</ns7:description>
+               <ns7:description lang="sl">Nepakirano ali razpakirano, več enot</ns7:description>
+               <ns7:description lang="sr">Neupakovano, više jedinica</ns7:description>
+               <ns7:description lang="tr">Kapsız veya ambalajlanmamış, çoklu birim</ns7:description>
+               <ns7:description lang="uk">Не пакований чи не розфасований багатомісний вантаж</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

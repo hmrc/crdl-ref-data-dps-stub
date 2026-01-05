@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>edc0ebc1-a4a6-4a07-b35f-484dccbada5f</ns1:messageID>
+         <ns1:relatesTo>73e50a70-1521-424f-9963-6089dc6839a5</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>73e50a70-1521-424f-9963-6089dc6839a5</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="CountryWithoutZip"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="CountryWithoutZip">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">AE</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">AG</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">AO</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2023-06-15</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">AQ</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">AW</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">BF</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">BI</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">BJ</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">BO</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">BQ</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">BS</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2023-06-15</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">BV</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">BW</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">BZ</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">CF</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">CG</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">CI</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">CK</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">CM</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">CW</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">DM</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">ER</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">FJ</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2023-06-15</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">GA</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">GD</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">GM</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">GQ</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">GY</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-12-12</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">HK</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2023-06-07</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">IR</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">JM</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">KM</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2023-06-07</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">KR</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">LY</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">ML</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">MR</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">QA</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2023-06-15</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">RW</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SB</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SC</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SL</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2023-06-15</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SO</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SR</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SS</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">ST</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SX</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SY</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">TD</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">TG</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">TK</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">TO</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">TV</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">VU</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">YE</ns4:dataItem>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2015-01-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">ZW</ns4:dataItem>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

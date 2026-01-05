@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>d7063127-e5d6-441e-8ad3-eef037835233</ns1:messageID>
+         <ns1:relatesTo>f3c76984-22fa-4fc4-b380-3325ad742081</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>f3c76984-22fa-4fc4-b380-3325ad742081</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="DocumentTypeExcise"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="DocumentTypeExcise">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-12-04</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="PreviousDocumentTypeCode">C651</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Електронен административен документ (e-АД) в съответствие с член 3 от Регламент (ЕC) 2022/1636</ns7:description>
+               <ns7:description lang="cs">Elektronický správní doklad (e-AD) podle čl. 3 nařízení (EU) 2022/1636</ns7:description>
+               <ns7:description lang="da">Det elektroniske administrative dokument (e-AD), som er nævnt i artikel 3, i forordning (EU) 2022/1636</ns7:description>
+               <ns7:description lang="de">Elektronisches Verwaltungsdokument (e-VD) gemäß Artikel 3 der Verordnung (EU) 2022/1636</ns7:description>
+               <ns7:description lang="el">Ηλεκτρονικό διοικητικό έγγραφο (e-AD), όπως αναφέρεται στο άρθρο 3 του κανονισμού (EE) 2022/1636</ns7:description>
+               <ns7:description lang="en">Electronic administrative document (e-AD), as referred to in Article 3 of Reg. (EU) 2022/1636</ns7:description>
+               <ns7:description lang="es">Documento administrativo electrónico (e-AD), según lo dispuesto en el artículo 3, del Reglamento (EU) 2022/1636</ns7:description>
+               <ns7:description lang="et">Elektrooniline haldusdokument, millele on osutatud määruse (EL) 2022/1636 artikli 3</ns7:description>
+               <ns7:description lang="fi">Asetuksen (EU) 2022/1636 3 artiklan tarkoitettu sähköinen hallinnollinen asiakirja (e-AD)</ns7:description>
+               <ns7:description lang="fr">Document administratif électronique (e-AD), tel que visé à l’Article 3.du règlement (UE) 2022/1636</ns7:description>
+               <ns7:description lang="hr">Elektronički trošarinski dokument (e-TD) iz članka 3. stavka 1. Uredbe (EU) 2022/1636</ns7:description>
+               <ns7:description lang="hu">a (EU) 2022/1636 rendelet 3. bekezdése szerinti elektronikus adminisztratív okmány (EAO)</ns7:description>
+               <ns7:description lang="it">Documento amministrativo elettronico (e-AD) di cui all'articolo 3, del regolamento (UE) 2022/1636</ns7:description>
+               <ns7:description lang="lt">Elektroninis administracinis dokumentas (e-AD), nurodytas Komisijos Deleguotojo Reglamento (ES) 2022/1636 3 straipsnio</ns7:description>
+               <ns7:description lang="lv">Regulas (ES) 2022/1636 3. panta minētais elektroniskais administratīvais dokuments (e-AD)</ns7:description>
+               <ns7:description lang="nl">Elektronisch administratief document (e-AD), als bedoeld in artikel 3, van Verordening (EU) 2022/1636</ns7:description>
+               <ns7:description lang="pl">Elektroniczny dokument administracyjny (e-AD), o którym mowa w art. 3 rozporządzenia (UE) 2022/1636</ns7:description>
+               <ns7:description lang="pt">Documento Administrativo eletrónico (e-AD), como referido no artigo 3.º, do Regulamento (UE) 2022/1636</ns7:description>
+               <ns7:description lang="ro">Document administrativ electronic (e-AD), menționat la articolul 3 din Regulamentul (UE) 2022/1636</ns7:description>
+               <ns7:description lang="sk">Elektronický administratívny dokument (e-AD) uvedený v článku 3 nariadenia (EÚ) 2022/1636</ns7:description>
+               <ns7:description lang="sl">Elektronski administrativni dokument (e-AD) iz člena 3 Uredbe (EU) 2022/1636</ns7:description>
+               <ns7:description lang="sv">Elektroniskt administrativt dokument (e-AD), enligt artikel 3. i förordning (EU) 2022/1636</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-12-04</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="PreviousDocumentTypeCode">C658</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Документ при аварийна процедура за движението на акцизни стоки под режим отложено плащане на акциз в съответствие с член 9, параграф 1 от Регламент (ЕC) 2022/1636</ns7:description>
+               <ns7:description lang="cs">Průvodní doklad pro přepravu zboží podléhajícího spotřební dani v režimu s podmíněným osvobozením od daně podle čl. 9 odst. 1 nařízení (EU) 2022/1636</ns7:description>
+               <ns7:description lang="da">Reservedokument for punktafgiftspligtige varers bevægelser under punktafgiftssuspension, som er nævnt i artikel 9, stk. 1, i forordning (EU) 2022/1636</ns7:description>
+               <ns7:description lang="de">Dokument für Beförderungen verbrauchsteuerpflichtiger Waren unter Steueraussetzung im Ausfallverfahren gemäß Artikel 9 Absatz 1 der Verordnung (EU) 2022/1636</ns7:description>
+               <ns7:description lang="el">Εναλλακτικό έγγραφο για διακινήσεις προϊόντων που υπόκεινται σε ειδικούς φόρος κατανάλωσης και τα οποία τελούν υπό καθεστώς αναστολής, όπως αναφέρεται στο άρθρο 9 παράγραφος 1 του κανονισμού (EE) 2022/1636</ns7:description>
+               <ns7:description lang="en">Fallback Document for movements of excise goods under suspension of excise duty, as referred to in Article 9(1) of Commission Delegated Regulation (EU) 2022/1636</ns7:description>
+               <ns7:description lang="es">Documento de emergencia para la circulación de productos sujetos a impuestos especiales en régimen suspensivo, según lo dispuesto en el artículo 9, apartado 1), del Reglamento (UE) 2022/1636</ns7:description>
+               <ns7:description lang="et">Aktsiisi peatamise korra alusel toimuva aktsiisikaupade liikumise asendustoimingu dokument, millele on osutatud määruse (EL) 2022/1636 artikli 9 lõikes 1</ns7:description>
+               <ns7:description lang="fi">Asetuksen (EU) 2022/1636 9 artiklan 1 kohdassa tarkoitettu valmisteveron alaisten tuotteiden väliaikaisesti verottomien siirtojen korvaava asiakirja</ns7:description>
+               <ns7:description lang="fr">Document de secours pour les produits soumis à accise circulant en régime de suspension, tel que visé à l’Article 9.1) du règlement (UE) 2022/1636</ns7:description>
+               <ns7:description lang="hr">Rezervni postupak - Dokument za kretanje trošarinskih proizvoda u sustavu odgode plaćanja trošarine iz članka 9. stavka 1. Uredbe (EU) 2022/1636</ns7:description>
+               <ns7:description lang="hu">A (EU) 2022/1636 rendelet 9. cikkének (1) bekezdése szerinti Tartalékokmány jövedéki termékek jövedékiadó-felfüggesztéssel történő szállításához</ns7:description>
+               <ns7:description lang="it">Documento di riserva per la circolazione di prodotti sottoposti ad accisa in regime di sospensione dall’accisa di cui all'articolo 9, paragrafo 1, del regolamento (UE) 2022/1636</ns7:description>
+               <ns7:description lang="lt">Atsarginis lydraštis gabenant akcizais apmokestinamas prekes, kurioms pritaikytas akcizų mokėjimo laikino atidėjimo režimas, nurodytas Komisijos Deleguotojo Reglamento (ES) 2022/1636 9 straipsnio 1 dalyje</ns7:description>
+               <ns7:description lang="lv">Regulas (ES) 2022/1636 9. panta 1. punktā minētais alternatīvais dokuments akcīzes preču pārvietošanai atliktās nodokļa maksāšanas režīmā</ns7:description>
+               <ns7:description lang="nl">Nooddocument voor overbrengingen van accijnsgoederen onder schorsing van accijns, als bedoeld in artikel 9, lid 1, van Verordening (EU) 2022/1636</ns7:description>
+               <ns7:description lang="pl">Awaryjny dokument stosowany przy przemieszczaniu wyrobów akcyzowych w procedurze zawieszenia poboru akcyzy, o którym mowa w art. 9 ust. 1 rozporządzenia (UE) 2022/1636</ns7:description>
+               <ns7:description lang="pt">Documento de contingência para a circulação de produtos sujeitos a impostos especiais de consumo em regime de suspensão do imposto, como referido no artigo 9.º, n.º 1, do Regulamento (CE) 2022/1636</ns7:description>
+               <ns7:description lang="ro">Document de rezervă pentru deplasări ale produselor accizabile în regim suspensiv de accize (FAD), menționat la articolul 9 alineatul (1) din Regulamentul (UE) 2022/1636</ns7:description>
+               <ns7:description lang="sk">Záložný dokument na prepravu tovaru podliehajúceho spotrebnej dani v režime pozastavenia dane uvedený v článku 9 ods. 1 nariadenia (EÚ) 2022/1636</ns7:description>
+               <ns7:description lang="sl">Nadomestni dokument za gibanja trošarinskega blaga pod režimom odloga plačila trošarine iz člena 9(1) Uredbe (ES) 2022/1636</ns7:description>
+               <ns7:description lang="sv">Ersättningsdokumentför flyttning av punktskattepliktiga varor under punktskatteuppskov, enligt artikel 9.1 i förordning (EU) 2022/1636</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

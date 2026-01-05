@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>b45686d4-911b-479b-a5cd-227de761aeeb</ns1:messageID>
+         <ns1:relatesTo>a948b15d-9d17-4b3c-9cb5-ca97010ac255</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>a948b15d-9d17-4b3c-9cb5-ca97010ac255</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-23"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="CountryCodesOptout"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="CountryCodesOptout">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">AT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Австрия</ns7:description>
+               <ns7:description lang="cs">Rakousko</ns7:description>
+               <ns7:description lang="da">Østrig</ns7:description>
+               <ns7:description lang="de">Österreich</ns7:description>
+               <ns7:description lang="el">Αυστρία</ns7:description>
+               <ns7:description lang="en">Austria</ns7:description>
+               <ns7:description lang="es">Austria</ns7:description>
+               <ns7:description lang="et">Austria</ns7:description>
+               <ns7:description lang="fi">Itävalta</ns7:description>
+               <ns7:description lang="fr">Autriche</ns7:description>
+               <ns7:description lang="hr">Austrija</ns7:description>
+               <ns7:description lang="hu">Ausztria</ns7:description>
+               <ns7:description lang="is">Austurriki</ns7:description>
+               <ns7:description lang="it">Austria</ns7:description>
+               <ns7:description lang="lt">Austrija</ns7:description>
+               <ns7:description lang="lv">Austrija</ns7:description>
+               <ns7:description lang="me">Austrija</ns7:description>
+               <ns7:description lang="mk">Австрија</ns7:description>
+               <ns7:description lang="mt">l-Awstrija</ns7:description>
+               <ns7:description lang="nl">Oostenrijk</ns7:description>
+               <ns7:description lang="no">Østerrike</ns7:description>
+               <ns7:description lang="pl">Austria</ns7:description>
+               <ns7:description lang="pt">Áustria</ns7:description>
+               <ns7:description lang="ro">Austria</ns7:description>
+               <ns7:description lang="sk">Rakúsko</ns7:description>
+               <ns7:description lang="sl">Avstrija</ns7:description>
+               <ns7:description lang="sr">Austrija</ns7:description>
+               <ns7:description lang="sv">Österrike</ns7:description>
+               <ns7:description lang="tr">Avusturya</ns7:description>
+               <ns7:description lang="uk">Австрія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">CY</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Кипър</ns7:description>
+               <ns7:description lang="cs">Kypr</ns7:description>
+               <ns7:description lang="da">Cypern</ns7:description>
+               <ns7:description lang="de">Zypern</ns7:description>
+               <ns7:description lang="el">Κύπρος</ns7:description>
+               <ns7:description lang="en">Cyprus</ns7:description>
+               <ns7:description lang="es">Chipre</ns7:description>
+               <ns7:description lang="et">Küpros</ns7:description>
+               <ns7:description lang="fi">Kypros</ns7:description>
+               <ns7:description lang="fr">Chypre</ns7:description>
+               <ns7:description lang="hr">Cipar</ns7:description>
+               <ns7:description lang="hu">Ciprus</ns7:description>
+               <ns7:description lang="is">Kypur</ns7:description>
+               <ns7:description lang="it">Cipro</ns7:description>
+               <ns7:description lang="lt">Kipras</ns7:description>
+               <ns7:description lang="lv">Kipra</ns7:description>
+               <ns7:description lang="me">Kipar</ns7:description>
+               <ns7:description lang="mk">Кипар</ns7:description>
+               <ns7:description lang="mt">Ċipru</ns7:description>
+               <ns7:description lang="nl">Cyprus</ns7:description>
+               <ns7:description lang="no">Kypros</ns7:description>
+               <ns7:description lang="pl">Cypr</ns7:description>
+               <ns7:description lang="pt">Chipre</ns7:description>
+               <ns7:description lang="ro">Cipru</ns7:description>
+               <ns7:description lang="sk">Cyprus</ns7:description>
+               <ns7:description lang="sl">Ciper</ns7:description>
+               <ns7:description lang="sr">Kipar</ns7:description>
+               <ns7:description lang="sv">Cypern</ns7:description>
+               <ns7:description lang="tr">Kıbrıs</ns7:description>
+               <ns7:description lang="uk">Кіпр</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">CZ</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Чехия</ns7:description>
+               <ns7:description lang="cs">Česko</ns7:description>
+               <ns7:description lang="da">Tjekkiet</ns7:description>
+               <ns7:description lang="de">Tschechien</ns7:description>
+               <ns7:description lang="el">Τσεχία</ns7:description>
+               <ns7:description lang="en">Czechia</ns7:description>
+               <ns7:description lang="es">Chequia</ns7:description>
+               <ns7:description lang="et">Tšehhi</ns7:description>
+               <ns7:description lang="fi">Tšekki</ns7:description>
+               <ns7:description lang="fr">Tchéquie</ns7:description>
+               <ns7:description lang="hr">Češka</ns7:description>
+               <ns7:description lang="hu">Csehország</ns7:description>
+               <ns7:description lang="is">Tekkneska lydveldid</ns7:description>
+               <ns7:description lang="it">Cechia</ns7:description>
+               <ns7:description lang="lt">Čekija</ns7:description>
+               <ns7:description lang="lv">Čehija</ns7:description>
+               <ns7:description lang="me">Češka</ns7:description>
+               <ns7:description lang="mk">Чешка Република</ns7:description>
+               <ns7:description lang="mt">iċ-Ċekja</ns7:description>
+               <ns7:description lang="nl">Tsjechië</ns7:description>
+               <ns7:description lang="no">Tsjekkia</ns7:description>
+               <ns7:description lang="pl">Czechy</ns7:description>
+               <ns7:description lang="pt">Chéquia</ns7:description>
+               <ns7:description lang="ro">Cehia</ns7:description>
+               <ns7:description lang="sk">Česko</ns7:description>
+               <ns7:description lang="sl">Češka</ns7:description>
+               <ns7:description lang="sr">Češka Republika</ns7:description>
+               <ns7:description lang="sv">Tjeckien</ns7:description>
+               <ns7:description lang="tr">Çekya</ns7:description>
+               <ns7:description lang="uk">Чехія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">DE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Германия</ns7:description>
+               <ns7:description lang="cs">Německo</ns7:description>
+               <ns7:description lang="da">Tyskland</ns7:description>
+               <ns7:description lang="de">Deutschland</ns7:description>
+               <ns7:description lang="el">Γερμανία</ns7:description>
+               <ns7:description lang="en">Germany</ns7:description>
+               <ns7:description lang="es">Alemania</ns7:description>
+               <ns7:description lang="et">Saksamaa</ns7:description>
+               <ns7:description lang="fi">Saksa</ns7:description>
+               <ns7:description lang="fr">Allemagne</ns7:description>
+               <ns7:description lang="hr">Njemačka</ns7:description>
+               <ns7:description lang="hu">Németország</ns7:description>
+               <ns7:description lang="is">Sambandslydveldid Thyskaland</ns7:description>
+               <ns7:description lang="it">Germania</ns7:description>
+               <ns7:description lang="lt">Vokietija</ns7:description>
+               <ns7:description lang="lv">Vācija</ns7:description>
+               <ns7:description lang="me">Njemačka</ns7:description>
+               <ns7:description lang="mk">Германија</ns7:description>
+               <ns7:description lang="mt">il-Ġermanja</ns7:description>
+               <ns7:description lang="nl">Duitsland</ns7:description>
+               <ns7:description lang="no">Tyskland</ns7:description>
+               <ns7:description lang="pl">Niemcy</ns7:description>
+               <ns7:description lang="pt">Alemanha</ns7:description>
+               <ns7:description lang="ro">Germania</ns7:description>
+               <ns7:description lang="sk">Nemecko</ns7:description>
+               <ns7:description lang="sl">Nemčija</ns7:description>
+               <ns7:description lang="sr">Nemačka</ns7:description>
+               <ns7:description lang="sv">Tyskland</ns7:description>
+               <ns7:description lang="tr">Almanya</ns7:description>
+               <ns7:description lang="uk">Німеччина</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">ES</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Испания</ns7:description>
+               <ns7:description lang="cs">Španělsko</ns7:description>
+               <ns7:description lang="da">Spanien</ns7:description>
+               <ns7:description lang="de">Spanien</ns7:description>
+               <ns7:description lang="el">Ισπανία</ns7:description>
+               <ns7:description lang="en">Spain</ns7:description>
+               <ns7:description lang="es">España</ns7:description>
+               <ns7:description lang="et">Hispaania</ns7:description>
+               <ns7:description lang="fi">Espanja</ns7:description>
+               <ns7:description lang="fr">Espagne</ns7:description>
+               <ns7:description lang="hr">Španjolska</ns7:description>
+               <ns7:description lang="hu">Spanyolország</ns7:description>
+               <ns7:description lang="is">Spann</ns7:description>
+               <ns7:description lang="it">Spagna</ns7:description>
+               <ns7:description lang="lt">Ispanija</ns7:description>
+               <ns7:description lang="lv">Spānija</ns7:description>
+               <ns7:description lang="me">Španija</ns7:description>
+               <ns7:description lang="mk">Шпанија</ns7:description>
+               <ns7:description lang="mt">Spanja</ns7:description>
+               <ns7:description lang="nl">Spanje</ns7:description>
+               <ns7:description lang="no">Spania (unntatt XC, XL)</ns7:description>
+               <ns7:description lang="pl">Hiszpania</ns7:description>
+               <ns7:description lang="pt">Espanha</ns7:description>
+               <ns7:description lang="ro">Spania</ns7:description>
+               <ns7:description lang="sk">Španielsko</ns7:description>
+               <ns7:description lang="sl">Španija</ns7:description>
+               <ns7:description lang="sr">Španija</ns7:description>
+               <ns7:description lang="sv">Spanien</ns7:description>
+               <ns7:description lang="tr">İspanya</ns7:description>
+               <ns7:description lang="uk">Іспанія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">FI</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Финландия</ns7:description>
+               <ns7:description lang="cs">Finsko</ns7:description>
+               <ns7:description lang="da">Finland</ns7:description>
+               <ns7:description lang="de">Finnland</ns7:description>
+               <ns7:description lang="el">Φινλανδία</ns7:description>
+               <ns7:description lang="en">Finland</ns7:description>
+               <ns7:description lang="es">Finlandia</ns7:description>
+               <ns7:description lang="et">Soome</ns7:description>
+               <ns7:description lang="fi">Suomi</ns7:description>
+               <ns7:description lang="fr">Finlande</ns7:description>
+               <ns7:description lang="hr">Finska</ns7:description>
+               <ns7:description lang="hu">Finnország</ns7:description>
+               <ns7:description lang="is">Finnland</ns7:description>
+               <ns7:description lang="it">Finlandia</ns7:description>
+               <ns7:description lang="lt">Suomija</ns7:description>
+               <ns7:description lang="lv">Somija</ns7:description>
+               <ns7:description lang="me">Finska</ns7:description>
+               <ns7:description lang="mk">Финска</ns7:description>
+               <ns7:description lang="mt">il-Finlandja</ns7:description>
+               <ns7:description lang="nl">Finland</ns7:description>
+               <ns7:description lang="no">Finland</ns7:description>
+               <ns7:description lang="pl">Finlandia</ns7:description>
+               <ns7:description lang="pt">Finlândia</ns7:description>
+               <ns7:description lang="ro">Finlanda</ns7:description>
+               <ns7:description lang="sk">Fínsko</ns7:description>
+               <ns7:description lang="sl">Finska</ns7:description>
+               <ns7:description lang="sr">Finska</ns7:description>
+               <ns7:description lang="sv">Finland</ns7:description>
+               <ns7:description lang="tr">Finlandiya</ns7:description>
+               <ns7:description lang="uk">Фінляндія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">GE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Грузия</ns7:description>
+               <ns7:description lang="cs">Gruzie</ns7:description>
+               <ns7:description lang="da">Georgien</ns7:description>
+               <ns7:description lang="de">Georgien</ns7:description>
+               <ns7:description lang="el">Γεωργία</ns7:description>
+               <ns7:description lang="en">Georgia</ns7:description>
+               <ns7:description lang="es">Georgia</ns7:description>
+               <ns7:description lang="et">Gruusia</ns7:description>
+               <ns7:description lang="fi">Georgia</ns7:description>
+               <ns7:description lang="fr">Géorgie</ns7:description>
+               <ns7:description lang="hr">Gruzija</ns7:description>
+               <ns7:description lang="hu">Grúzia</ns7:description>
+               <ns7:description lang="is">Georgia</ns7:description>
+               <ns7:description lang="it">Georgia</ns7:description>
+               <ns7:description lang="lt">Sakartvelas</ns7:description>
+               <ns7:description lang="lv">Gruzija</ns7:description>
+               <ns7:description lang="me">Gruzija</ns7:description>
+               <ns7:description lang="mk">Грузија</ns7:description>
+               <ns7:description lang="mt">il-Ġeorġja</ns7:description>
+               <ns7:description lang="nl">Georgië</ns7:description>
+               <ns7:description lang="no">Georgia</ns7:description>
+               <ns7:description lang="pl">Gruzja</ns7:description>
+               <ns7:description lang="pt">Geórgia</ns7:description>
+               <ns7:description lang="ro">Georgia</ns7:description>
+               <ns7:description lang="sk">Gruzínsko</ns7:description>
+               <ns7:description lang="sl">Gruzija</ns7:description>
+               <ns7:description lang="sr">Gruzija</ns7:description>
+               <ns7:description lang="sv">Georgien</ns7:description>
+               <ns7:description lang="tr">Gürcistan</ns7:description>
+               <ns7:description lang="uk">Грузія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">IE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Ирландия</ns7:description>
+               <ns7:description lang="cs">Irsko</ns7:description>
+               <ns7:description lang="da">Irland</ns7:description>
+               <ns7:description lang="de">Irland</ns7:description>
+               <ns7:description lang="el">Ιρλανδία</ns7:description>
+               <ns7:description lang="en">Ireland</ns7:description>
+               <ns7:description lang="es">Irlanda</ns7:description>
+               <ns7:description lang="et">Iirimaa</ns7:description>
+               <ns7:description lang="fi">Irlanti</ns7:description>
+               <ns7:description lang="fr">Irlande</ns7:description>
+               <ns7:description lang="hr">Irska</ns7:description>
+               <ns7:description lang="hu">Írország</ns7:description>
+               <ns7:description lang="is">Irland</ns7:description>
+               <ns7:description lang="it">Irlanda</ns7:description>
+               <ns7:description lang="lt">Airija</ns7:description>
+               <ns7:description lang="lv">Īrija</ns7:description>
+               <ns7:description lang="me">Irska</ns7:description>
+               <ns7:description lang="mk">Ирска</ns7:description>
+               <ns7:description lang="mt">l-Irlanda</ns7:description>
+               <ns7:description lang="nl">Ierland</ns7:description>
+               <ns7:description lang="no">Irland</ns7:description>
+               <ns7:description lang="pl">Irlandia</ns7:description>
+               <ns7:description lang="pt">Irlanda</ns7:description>
+               <ns7:description lang="ro">Irlanda</ns7:description>
+               <ns7:description lang="sk">Írsko</ns7:description>
+               <ns7:description lang="sl">Irska</ns7:description>
+               <ns7:description lang="sr">Irska</ns7:description>
+               <ns7:description lang="sv">Irland</ns7:description>
+               <ns7:description lang="tr">İrlanda</ns7:description>
+               <ns7:description lang="uk">Ірландія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">IT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Италия</ns7:description>
+               <ns7:description lang="cs">Itálie</ns7:description>
+               <ns7:description lang="da">Italien</ns7:description>
+               <ns7:description lang="de">Italien</ns7:description>
+               <ns7:description lang="el">Ιταλία</ns7:description>
+               <ns7:description lang="en">Italy</ns7:description>
+               <ns7:description lang="es">Italia</ns7:description>
+               <ns7:description lang="et">Itaalia</ns7:description>
+               <ns7:description lang="fi">Italia</ns7:description>
+               <ns7:description lang="fr">Italie</ns7:description>
+               <ns7:description lang="hr">Italija</ns7:description>
+               <ns7:description lang="hu">Olaszország</ns7:description>
+               <ns7:description lang="is">Italia</ns7:description>
+               <ns7:description lang="it">Italia</ns7:description>
+               <ns7:description lang="lt">Italija</ns7:description>
+               <ns7:description lang="lv">Itālija</ns7:description>
+               <ns7:description lang="me">Italija</ns7:description>
+               <ns7:description lang="mk">Италија</ns7:description>
+               <ns7:description lang="mt">l-Italja</ns7:description>
+               <ns7:description lang="nl">Italië</ns7:description>
+               <ns7:description lang="no">Italia</ns7:description>
+               <ns7:description lang="pl">Włochy</ns7:description>
+               <ns7:description lang="pt">Itália</ns7:description>
+               <ns7:description lang="ro">Italia</ns7:description>
+               <ns7:description lang="sk">Taliansko</ns7:description>
+               <ns7:description lang="sl">Italija</ns7:description>
+               <ns7:description lang="sr">Italija</ns7:description>
+               <ns7:description lang="sv">Italien</ns7:description>
+               <ns7:description lang="tr">İtalya</ns7:description>
+               <ns7:description lang="uk">Італія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">LT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Литва</ns7:description>
+               <ns7:description lang="cs">Litva</ns7:description>
+               <ns7:description lang="da">Litauen</ns7:description>
+               <ns7:description lang="de">Litauen</ns7:description>
+               <ns7:description lang="el">Λιθουανία</ns7:description>
+               <ns7:description lang="en">Lithuania</ns7:description>
+               <ns7:description lang="es">Lituania</ns7:description>
+               <ns7:description lang="et">Leedu</ns7:description>
+               <ns7:description lang="fi">Liettua</ns7:description>
+               <ns7:description lang="fr">Lituanie</ns7:description>
+               <ns7:description lang="hr">Litva</ns7:description>
+               <ns7:description lang="hu">Litvánia</ns7:description>
+               <ns7:description lang="is">Lithaen</ns7:description>
+               <ns7:description lang="it">Lituania</ns7:description>
+               <ns7:description lang="lt">Lietuva</ns7:description>
+               <ns7:description lang="lv">Lietuva</ns7:description>
+               <ns7:description lang="me">Litvanija</ns7:description>
+               <ns7:description lang="mk">Литванија</ns7:description>
+               <ns7:description lang="mt">il-Litwanja</ns7:description>
+               <ns7:description lang="nl">Litouwen</ns7:description>
+               <ns7:description lang="no">Litauen</ns7:description>
+               <ns7:description lang="pl">Litwa</ns7:description>
+               <ns7:description lang="pt">Lituânia</ns7:description>
+               <ns7:description lang="ro">Lituania</ns7:description>
+               <ns7:description lang="sk">Litva</ns7:description>
+               <ns7:description lang="sl">Litva</ns7:description>
+               <ns7:description lang="sr">Litvanija</ns7:description>
+               <ns7:description lang="sv">Litauen</ns7:description>
+               <ns7:description lang="tr">Litvanya</ns7:description>
+               <ns7:description lang="uk">Литва</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">LU</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Люксембург</ns7:description>
+               <ns7:description lang="cs">Lucembursko</ns7:description>
+               <ns7:description lang="da">Luxembourg</ns7:description>
+               <ns7:description lang="de">Luxemburg</ns7:description>
+               <ns7:description lang="el">Λουξεμβούργο</ns7:description>
+               <ns7:description lang="en">Luxembourg</ns7:description>
+               <ns7:description lang="es">Luxemburgo</ns7:description>
+               <ns7:description lang="et">Luksemburg</ns7:description>
+               <ns7:description lang="fi">Luxemburg</ns7:description>
+               <ns7:description lang="fr">Luxembourg</ns7:description>
+               <ns7:description lang="hr">Luksemburg</ns7:description>
+               <ns7:description lang="hu">Luxemburg</ns7:description>
+               <ns7:description lang="is">Luxembourg</ns7:description>
+               <ns7:description lang="it">Lussemburgo</ns7:description>
+               <ns7:description lang="lt">Liuksemburgas</ns7:description>
+               <ns7:description lang="lv">Luksemburga</ns7:description>
+               <ns7:description lang="me">Luksemburg</ns7:description>
+               <ns7:description lang="mk">Луксенбург</ns7:description>
+               <ns7:description lang="mt">il-Lussemburgu</ns7:description>
+               <ns7:description lang="nl">Luxemburg</ns7:description>
+               <ns7:description lang="no">Luxembourg</ns7:description>
+               <ns7:description lang="pl">Luksemburg</ns7:description>
+               <ns7:description lang="pt">Luxemburgo</ns7:description>
+               <ns7:description lang="ro">Luxemburg</ns7:description>
+               <ns7:description lang="sk">Luxembursko</ns7:description>
+               <ns7:description lang="sl">Luksemburg</ns7:description>
+               <ns7:description lang="sr">Luksemburg</ns7:description>
+               <ns7:description lang="sv">Luxemburg</ns7:description>
+               <ns7:description lang="tr">Lüksemburg</ns7:description>
+               <ns7:description lang="uk">Люксембург</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">MD</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Молдова, Република Молдова</ns7:description>
+               <ns7:description lang="cs">Moldavská republika</ns7:description>
+               <ns7:description lang="da">Republikken Moldova</ns7:description>
+               <ns7:description lang="de">Republik Moldau</ns7:description>
+               <ns7:description lang="el">Δημοκρατία της Μολδαβίας</ns7:description>
+               <ns7:description lang="en">Moldova, Republic of</ns7:description>
+               <ns7:description lang="es">República de Moldavia</ns7:description>
+               <ns7:description lang="et">Moldova Vabariik</ns7:description>
+               <ns7:description lang="fi">Moldovan tasavalta</ns7:description>
+               <ns7:description lang="fr">Moldavie, République de</ns7:description>
+               <ns7:description lang="hr">Moldavija</ns7:description>
+               <ns7:description lang="hu">Moldova</ns7:description>
+               <ns7:description lang="is">Moldova</ns7:description>
+               <ns7:description lang="it">Repubblica moldova</ns7:description>
+               <ns7:description lang="lt">Moldovos Respublika</ns7:description>
+               <ns7:description lang="lv">Moldova</ns7:description>
+               <ns7:description lang="me">Moldavija</ns7:description>
+               <ns7:description lang="mk">Молдавија</ns7:description>
+               <ns7:description lang="mt">ir-Repubblika tal-Moldova</ns7:description>
+               <ns7:description lang="nl">Moldavië</ns7:description>
+               <ns7:description lang="no">Moldova</ns7:description>
+               <ns7:description lang="pl">Mołdawia</ns7:description>
+               <ns7:description lang="pt">Moldávia, República da</ns7:description>
+               <ns7:description lang="ro">Republica Moldova</ns7:description>
+               <ns7:description lang="sk">Moldavská republika</ns7:description>
+               <ns7:description lang="sl">Republika Moldavija</ns7:description>
+               <ns7:description lang="sr">Moldavija</ns7:description>
+               <ns7:description lang="sv">Moldavien</ns7:description>
+               <ns7:description lang="tr">Moldova (Cumhuriyeti)</ns7:description>
+               <ns7:description lang="uk">Молдова, Республіка</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">ME</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Черна гора</ns7:description>
+               <ns7:description lang="cs">Černá Hora</ns7:description>
+               <ns7:description lang="da">Montenegro</ns7:description>
+               <ns7:description lang="de">Montenegro</ns7:description>
+               <ns7:description lang="el">Μαυροβούνιο</ns7:description>
+               <ns7:description lang="en">Montenegro</ns7:description>
+               <ns7:description lang="es">Montenegro</ns7:description>
+               <ns7:description lang="et">Montenegro</ns7:description>
+               <ns7:description lang="fi">Montenegro</ns7:description>
+               <ns7:description lang="fr">Monténégro</ns7:description>
+               <ns7:description lang="hr">Crna Gora</ns7:description>
+               <ns7:description lang="hu">Montenegró</ns7:description>
+               <ns7:description lang="is">Svartfjallaland</ns7:description>
+               <ns7:description lang="it">Montenegro</ns7:description>
+               <ns7:description lang="lt">Juodkalnija</ns7:description>
+               <ns7:description lang="lv">Melnkalne</ns7:description>
+               <ns7:description lang="me">Crna Gora</ns7:description>
+               <ns7:description lang="mk">Црна Гора</ns7:description>
+               <ns7:description lang="mt">il-Montenegro</ns7:description>
+               <ns7:description lang="nl">Montenegro</ns7:description>
+               <ns7:description lang="no">Montenegro</ns7:description>
+               <ns7:description lang="pl">Czarnogóra</ns7:description>
+               <ns7:description lang="pt">Montenegro</ns7:description>
+               <ns7:description lang="ro">Muntenegru</ns7:description>
+               <ns7:description lang="sk">Čierna Hora</ns7:description>
+               <ns7:description lang="sl">Črna gora</ns7:description>
+               <ns7:description lang="sr">Crna Gora</ns7:description>
+               <ns7:description lang="sv">Montenegro</ns7:description>
+               <ns7:description lang="tr">Karadağ</ns7:description>
+               <ns7:description lang="uk">Чорногорія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2024-02-21</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">MT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Малта</ns7:description>
+               <ns7:description lang="cs">Malta</ns7:description>
+               <ns7:description lang="da">Malta</ns7:description>
+               <ns7:description lang="de">Malta</ns7:description>
+               <ns7:description lang="el">Μάλτα</ns7:description>
+               <ns7:description lang="en">Malta</ns7:description>
+               <ns7:description lang="es">Malta</ns7:description>
+               <ns7:description lang="et">Malta</ns7:description>
+               <ns7:description lang="fi">Malta</ns7:description>
+               <ns7:description lang="fr">Malte</ns7:description>
+               <ns7:description lang="hr">Malta</ns7:description>
+               <ns7:description lang="hu">Málta</ns7:description>
+               <ns7:description lang="is">Malta</ns7:description>
+               <ns7:description lang="it">Malta</ns7:description>
+               <ns7:description lang="lt">Malta</ns7:description>
+               <ns7:description lang="lv">Malta</ns7:description>
+               <ns7:description lang="mk">Малта</ns7:description>
+               <ns7:description lang="mt">Malta</ns7:description>
+               <ns7:description lang="nl">Malta</ns7:description>
+               <ns7:description lang="no">Malta</ns7:description>
+               <ns7:description lang="pl">Malta</ns7:description>
+               <ns7:description lang="pt">Malta</ns7:description>
+               <ns7:description lang="ro">Malta</ns7:description>
+               <ns7:description lang="sk">Malta</ns7:description>
+               <ns7:description lang="sl">Malta</ns7:description>
+               <ns7:description lang="sr">Malta</ns7:description>
+               <ns7:description lang="sv">Malta</ns7:description>
+               <ns7:description lang="tr">Malta</ns7:description>
+               <ns7:description lang="uk">Мальта</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">NO</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Норвегия</ns7:description>
+               <ns7:description lang="cs">Norsko</ns7:description>
+               <ns7:description lang="da">Norge</ns7:description>
+               <ns7:description lang="de">Norwegen</ns7:description>
+               <ns7:description lang="el">Νορβηγία</ns7:description>
+               <ns7:description lang="en">Norway</ns7:description>
+               <ns7:description lang="es">Noruega</ns7:description>
+               <ns7:description lang="et">Norra</ns7:description>
+               <ns7:description lang="fi">Norja</ns7:description>
+               <ns7:description lang="fr">Norvège</ns7:description>
+               <ns7:description lang="hr">Norveška</ns7:description>
+               <ns7:description lang="hu">Norvégia</ns7:description>
+               <ns7:description lang="is">Noregur</ns7:description>
+               <ns7:description lang="it">Norvegia</ns7:description>
+               <ns7:description lang="lt">Norvegija</ns7:description>
+               <ns7:description lang="lv">Norvēģija</ns7:description>
+               <ns7:description lang="me">Norveška</ns7:description>
+               <ns7:description lang="mk">Норвешка</ns7:description>
+               <ns7:description lang="mt">in-Norveġja</ns7:description>
+               <ns7:description lang="nl">Noorwegen</ns7:description>
+               <ns7:description lang="no">Norge</ns7:description>
+               <ns7:description lang="pl">Norwegia</ns7:description>
+               <ns7:description lang="pt">Noruega</ns7:description>
+               <ns7:description lang="ro">Norvegia</ns7:description>
+               <ns7:description lang="sk">Nórsko</ns7:description>
+               <ns7:description lang="sl">Norveška</ns7:description>
+               <ns7:description lang="sr">Norveška</ns7:description>
+               <ns7:description lang="sv">Norge</ns7:description>
+               <ns7:description lang="tr">Norveç</ns7:description>
+               <ns7:description lang="uk">Норвегія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">PT</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Португалия</ns7:description>
+               <ns7:description lang="cs">Portugalsko</ns7:description>
+               <ns7:description lang="da">Portugal</ns7:description>
+               <ns7:description lang="de">Portugal</ns7:description>
+               <ns7:description lang="el">Πορτογαλία</ns7:description>
+               <ns7:description lang="en">Portugal</ns7:description>
+               <ns7:description lang="es">Portugal</ns7:description>
+               <ns7:description lang="et">Portugal</ns7:description>
+               <ns7:description lang="fi">Portugali</ns7:description>
+               <ns7:description lang="fr">Portugal</ns7:description>
+               <ns7:description lang="hr">Portugal</ns7:description>
+               <ns7:description lang="hu">Portugália</ns7:description>
+               <ns7:description lang="is">Portugal</ns7:description>
+               <ns7:description lang="it">Portogallo</ns7:description>
+               <ns7:description lang="lt">Portugalija</ns7:description>
+               <ns7:description lang="lv">Portugāle</ns7:description>
+               <ns7:description lang="me">Portugalija</ns7:description>
+               <ns7:description lang="mk">Португалија</ns7:description>
+               <ns7:description lang="mt">il-Portugall</ns7:description>
+               <ns7:description lang="nl">Portugal</ns7:description>
+               <ns7:description lang="no">Portugal</ns7:description>
+               <ns7:description lang="pl">Portugalia</ns7:description>
+               <ns7:description lang="pt">Portugal</ns7:description>
+               <ns7:description lang="ro">Portugalia</ns7:description>
+               <ns7:description lang="sk">Portugalsko</ns7:description>
+               <ns7:description lang="sl">Portugalska</ns7:description>
+               <ns7:description lang="sr">Portugal</ns7:description>
+               <ns7:description lang="sv">Portugal</ns7:description>
+               <ns7:description lang="tr">Portekiz</ns7:description>
+               <ns7:description lang="uk">Португалія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SI</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Словения</ns7:description>
+               <ns7:description lang="cs">Slovinsko</ns7:description>
+               <ns7:description lang="da">Slovenien</ns7:description>
+               <ns7:description lang="de">Slowenien</ns7:description>
+               <ns7:description lang="el">Σλοβενία</ns7:description>
+               <ns7:description lang="en">Slovenia</ns7:description>
+               <ns7:description lang="es">Eslovenia</ns7:description>
+               <ns7:description lang="et">Sloveenia</ns7:description>
+               <ns7:description lang="fi">Slovenia</ns7:description>
+               <ns7:description lang="fr">Slovénie</ns7:description>
+               <ns7:description lang="hr">Slovenija</ns7:description>
+               <ns7:description lang="hu">Szlovénia</ns7:description>
+               <ns7:description lang="is">Slovenia</ns7:description>
+               <ns7:description lang="it">Slovenia</ns7:description>
+               <ns7:description lang="lt">Slovėnija</ns7:description>
+               <ns7:description lang="lv">Slovēnija</ns7:description>
+               <ns7:description lang="me">Slovenija</ns7:description>
+               <ns7:description lang="mk">Словенија</ns7:description>
+               <ns7:description lang="mt">is-Slovenja</ns7:description>
+               <ns7:description lang="nl">Slovenië</ns7:description>
+               <ns7:description lang="no">Slovenia</ns7:description>
+               <ns7:description lang="pl">Słowenia</ns7:description>
+               <ns7:description lang="pt">Eslovénia</ns7:description>
+               <ns7:description lang="ro">Slovenia</ns7:description>
+               <ns7:description lang="sk">Slovinsko</ns7:description>
+               <ns7:description lang="sl">Slovenija</ns7:description>
+               <ns7:description lang="sr">Slovenija</ns7:description>
+               <ns7:description lang="sv">Slovenien</ns7:description>
+               <ns7:description lang="tr">Slovenya</ns7:description>
+               <ns7:description lang="uk">Словенія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">SM</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Сан Марино</ns7:description>
+               <ns7:description lang="cs">San Marino</ns7:description>
+               <ns7:description lang="da">San Marino</ns7:description>
+               <ns7:description lang="de">San Marino</ns7:description>
+               <ns7:description lang="el">Άγιος Μαρίνος</ns7:description>
+               <ns7:description lang="en">San Marino</ns7:description>
+               <ns7:description lang="es">San Marino</ns7:description>
+               <ns7:description lang="et">San Marino</ns7:description>
+               <ns7:description lang="fi">San Marino</ns7:description>
+               <ns7:description lang="fr">Saint-Marin</ns7:description>
+               <ns7:description lang="hr">San Marino</ns7:description>
+               <ns7:description lang="hu">San Marino</ns7:description>
+               <ns7:description lang="is">San Marino</ns7:description>
+               <ns7:description lang="it">San Marino</ns7:description>
+               <ns7:description lang="lt">San Marinas</ns7:description>
+               <ns7:description lang="lv">Sanmarīno</ns7:description>
+               <ns7:description lang="me">San Marino</ns7:description>
+               <ns7:description lang="mk">Сан Марино</ns7:description>
+               <ns7:description lang="mt">San Marino</ns7:description>
+               <ns7:description lang="nl">San Marino</ns7:description>
+               <ns7:description lang="no">San Marino</ns7:description>
+               <ns7:description lang="pl">San Marino</ns7:description>
+               <ns7:description lang="pt">São Marinho</ns7:description>
+               <ns7:description lang="ro">San Marino</ns7:description>
+               <ns7:description lang="sk">San Maríno</ns7:description>
+               <ns7:description lang="sl">San Marino</ns7:description>
+               <ns7:description lang="sr">San Marino</ns7:description>
+               <ns7:description lang="sv">San Marino</ns7:description>
+               <ns7:description lang="tr">San Marino</ns7:description>
+               <ns7:description lang="uk">Сан-Марино</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>02d51ba2-a397-4510-beab-6ab61105e319</ns1:messageID>
+         <ns1:relatesTo>ba6a4a7d-6629-487d-b46f-c3de7c79f337</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>ba6a4a7d-6629-487d-b46f-c3de7c79f337</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="DeclarationTypeAdditional"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="DeclarationTypeAdditional">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">A</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">за стандартна митническа декларация (по член 162 от Кодекса)</ns7:description>
+               <ns7:description lang="cs">Pro běžné celní prohlášení (podle článku 162 kodexu).</ns7:description>
+               <ns7:description lang="da">i forbindelse med en standardtoldangivelse (kodeksens artikel 162)</ns7:description>
+               <ns7:description lang="de">für eine Standard-Zollanmeldung (gemäß Artikel 162 des Zollkodex)</ns7:description>
+               <ns7:description lang="el">για συνήθη τελωνειακή διασάφηση (δυνάμει του άρθρου 162 του κώδικα)</ns7:description>
+               <ns7:description lang="en">for a standard customs declaration (under Article 162 of the Code)</ns7:description>
+               <ns7:description lang="es">Para una declaración en aduana normal ( según el artículo 162 del CAU).</ns7:description>
+               <ns7:description lang="et">Standardtollideklaratsioon</ns7:description>
+               <ns7:description lang="fi">vakiomuotoinen tulli-ilmoitus (koodeksin 162 artikla)</ns7:description>
+               <ns7:description lang="fr">Pour une déclaration en douane standard (au titre de l’article 162 du code).</ns7:description>
+               <ns7:description lang="hr">za standardnu carinsku deklaraciju (iz članka 162. Zakonika)</ns7:description>
+               <ns7:description lang="hu">normál vám-árunyilatkozat (a Vámkódex 162. cikke)</ns7:description>
+               <ns7:description lang="it">per una dichiarazione doganale normale (ai sensi dell’articolo 162 del codice)</ns7:description>
+               <ns7:description lang="lt">Standartinė muitinės deklaracija (pagal Kodekso 162 straipsnį)</ns7:description>
+               <ns7:description lang="lv">standarta muitas deklarācija (saskaņā ar Kodeksa 162. pantu)</ns7:description>
+               <ns7:description lang="me">za standardnu carinsku deklaraciju (u skladu sa članom 162. Zakonika)</ns7:description>
+               <ns7:description lang="mt">għal dikjarazzjoni doganali standard (skont l-Artikolu 162 tal-Kodiċi)</ns7:description>
+               <ns7:description lang="nl">standaard douaneaangifte (overeenkomstig artikel 162 van het wetboek)</ns7:description>
+               <ns7:description lang="pl">Dla standardowego zgłoszenia celnego (na mocy art. 162 UKC)</ns7:description>
+               <ns7:description lang="pt">para uma declaração aduaneira normalizada (nos termos do artigo 162.o do Código).</ns7:description>
+               <ns7:description lang="ro">pentru o declarație vamală standard (în temeiul articolului 162 din cod)</ns7:description>
+               <ns7:description lang="sk">pre štandardné colné vyhlásenie (podľa článku 162 kódexu)</ns7:description>
+               <ns7:description lang="sl">Za standardno carinsko deklaracijo (iz člena 162 zakonika)</ns7:description>
+               <ns7:description lang="sr">Za redovnu carinsku deklaraciju (u skladu sa članom 162. UCC, članom 142. CZ)</ns7:description>
+               <ns7:description lang="sv">För en standardtulldeklaration (enligt artikel 162 i kodexen).</ns7:description>
+               <ns7:description lang="uk">для оформлення митної декларації встановленого зразка (згідно зі статтею 162 Кодексу)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">D</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">за подаване на стандартна митническа декларация (като посочената под код А) в съответствие с член 171 от Кодекса</ns7:description>
+               <ns7:description lang="cs">Pro podání standardního celního prohlášení (uvedeného pod kódem A) v souladu s článkem 171 kodexu.</ns7:description>
+               <ns7:description lang="da">i forbindelse med indgivelse af en standardtoldangivelse (som nævnt under kode A) i overensstemmelse med toldkodeksens artikel 171</ns7:description>
+               <ns7:description lang="de">für die vorzeitige Übermittlung einer Standard-Zollanmeldung (wie in Code A genannt) im Einklang mit Art. 171 des Zollkodex</ns7:description>
+               <ns7:description lang="el">Για την κατάθεση συνήθους τελωνειακής διασάφησης (όπως η αναφερόμενη υπό τον κωδικό A) σύμφωνα με το άρθρο 171 του κώδικα.</ns7:description>
+               <ns7:description lang="en">For lodging a standard customs declaration (such as referred to under code A) in accordance with Article 171 of the Code.</ns7:description>
+               <ns7:description lang="es">Para la presentación de una declaración normal en aduana (tal como se contempla en el código A) de conformidad con el artículo 171 del Código.</ns7:description>
+               <ns7:description lang="et">Standardtollideklaratsiooni etteesitamine</ns7:description>
+               <ns7:description lang="fi">Vakiomuotoisen (jota tarkoitetaan koodissa A) tulli-ilmoituksen jättäminen koodeksin 171 artiklan mukaisesti.</ns7:description>
+               <ns7:description lang="fr">Pour le dépôt d’une déclaration en douane standard (telle que visée sous le code A) conformément à l’article 171 du code.</ns7:description>
+               <ns7:description lang="hr">za podnošenje standardne carinske deklaracije (kako je navedeno pod oznakom A) u skladu s člankom 171. Zakonika</ns7:description>
+               <ns7:description lang="hu">normál vám-árunyilatkozatnak (az „A” kód alatt említettnek) a Vámkódex 171. cikkével összhangban történő benyújtása</ns7:description>
+               <ns7:description lang="it">per la presentazione di una dichiarazione normale in dogana (del tipo classificabile come A) conformemente all’articolo 171 del codice</ns7:description>
+               <ns7:description lang="lt">Standartinės muitinės deklaracijos (nurodytos A kodo aprašyme) pateikimas pagal Kodekso 171 straipsnį</ns7:description>
+               <ns7:description lang="lv">standarta muitas deklarācijas iesniegšana (kā norādīts pie A koda) saskaņā ar Kodeksa 171. pantu</ns7:description>
+               <ns7:description lang="me">Za podnošenje standardne carinske deklaracije (kao što je navedeno pod kodom A) u skladu sa članom 171. Zakonika.</ns7:description>
+               <ns7:description lang="mt">Għall-preżentazzjoni ta’ dikjarazzjoni doganali standard (kif msemmija fil-kodiċi A) skont l-Artikolu 171 tal-Kodiċi.</ns7:description>
+               <ns7:description lang="nl">indiening van een standaard douaneaangifte (als bedoeld onder code A) in overeenstemming met artikel 171 van het wetboek</ns7:description>
+               <ns7:description lang="pl">Dla złożenia standardowego zgłoszenia celnego (jak w kodzie A) zgodnie z art. 171 UKC</ns7:description>
+               <ns7:description lang="pt">Para a apresentação de uma declaração aduaneira normalizada (tal como referida no âmbito do código A), em conformidade com o artigo 171.o do Código.</ns7:description>
+               <ns7:description lang="ro">pentru depunerea unei declarații vamale standard (așa cum este menționată la codul A) în conformitate cu articolul 171 din cod</ns7:description>
+               <ns7:description lang="sk">na podanie štandardného colného vyhlásenia (uvedeného v rámci kódu A) v súlade s článkom 171 kódexu</ns7:description>
+               <ns7:description lang="sl">Za vložitev standardne carinske deklaracije (kakor je navedeno pod oznako A) v skladu s členom 171 zakonika</ns7:description>
+               <ns7:description lang="sr">Za podnošenje standardne carinske deklaracije (kao što je navedeno pod šifrom A) u skladu sa članom 171. UCC, članom 149. CZ</ns7:description>
+               <ns7:description lang="sv">För ingivande av en standardtulldeklaration (enligt kod A), i enlighet med artikel 171 i kodexen.</ns7:description>
+               <ns7:description lang="uk">Для подання стандартної митної декларації (такої, як зазначена під кодом А) відповідно до статті 171 Кодексу.</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

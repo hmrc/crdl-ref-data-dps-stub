@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>0ffa27b3-98d7-401c-84dc-373500c12d35</ns1:messageID>
+         <ns1:relatesTo>2f098990-0d68-4a0c-bd4b-d5020d600f0c</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>2f098990-0d68-4a0c-bd4b-d5020d600f0c</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-23"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="CountryAddressPostcodeBased"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="CountryAddressPostcodeBased">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">IE</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Ирландия</ns7:description>
+               <ns7:description lang="cs">Irsko</ns7:description>
+               <ns7:description lang="da">Irland</ns7:description>
+               <ns7:description lang="de">Irland</ns7:description>
+               <ns7:description lang="el">Ιρλανδία</ns7:description>
+               <ns7:description lang="en">Ireland</ns7:description>
+               <ns7:description lang="es">Irlanda</ns7:description>
+               <ns7:description lang="et">Iirimaa</ns7:description>
+               <ns7:description lang="fi">Irlanti</ns7:description>
+               <ns7:description lang="fr">Irlande</ns7:description>
+               <ns7:description lang="hr">Irska</ns7:description>
+               <ns7:description lang="hu">Írország</ns7:description>
+               <ns7:description lang="is">Irland</ns7:description>
+               <ns7:description lang="it">Irlanda</ns7:description>
+               <ns7:description lang="lt">Airija</ns7:description>
+               <ns7:description lang="lv">Īrija</ns7:description>
+               <ns7:description lang="me">Irska</ns7:description>
+               <ns7:description lang="mk">Ирска</ns7:description>
+               <ns7:description lang="mt">l-Irlanda</ns7:description>
+               <ns7:description lang="nl">Ierland</ns7:description>
+               <ns7:description lang="no">Irland</ns7:description>
+               <ns7:description lang="pl">Irlandia</ns7:description>
+               <ns7:description lang="pt">Irlanda</ns7:description>
+               <ns7:description lang="ro">Irlanda</ns7:description>
+               <ns7:description lang="sk">Írsko</ns7:description>
+               <ns7:description lang="sl">Irska</ns7:description>
+               <ns7:description lang="sr">Irska</ns7:description>
+               <ns7:description lang="sv">Irland</ns7:description>
+               <ns7:description lang="tr">İrlanda</ns7:description>
+               <ns7:description lang="uk">Ірландія</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">LU</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Люксембург</ns7:description>
+               <ns7:description lang="cs">Lucembursko</ns7:description>
+               <ns7:description lang="da">Luxembourg</ns7:description>
+               <ns7:description lang="de">Luxemburg</ns7:description>
+               <ns7:description lang="el">Λουξεμβούργο</ns7:description>
+               <ns7:description lang="en">Luxembourg</ns7:description>
+               <ns7:description lang="es">Luxemburgo</ns7:description>
+               <ns7:description lang="et">Luksemburg</ns7:description>
+               <ns7:description lang="fi">Luxemburg</ns7:description>
+               <ns7:description lang="fr">Luxembourg</ns7:description>
+               <ns7:description lang="hr">Luksemburg</ns7:description>
+               <ns7:description lang="hu">Luxemburg</ns7:description>
+               <ns7:description lang="is">Luxembourg</ns7:description>
+               <ns7:description lang="it">Lussemburgo</ns7:description>
+               <ns7:description lang="lt">Liuksemburgas</ns7:description>
+               <ns7:description lang="lv">Luksemburga</ns7:description>
+               <ns7:description lang="me">Luksemburg</ns7:description>
+               <ns7:description lang="mk">Луксенбург</ns7:description>
+               <ns7:description lang="mt">il-Lussemburgu</ns7:description>
+               <ns7:description lang="nl">Luxemburg</ns7:description>
+               <ns7:description lang="no">Luxembourg</ns7:description>
+               <ns7:description lang="pl">Luksemburg</ns7:description>
+               <ns7:description lang="pt">Luxemburgo</ns7:description>
+               <ns7:description lang="ro">Luxemburg</ns7:description>
+               <ns7:description lang="sk">Luxembursko</ns7:description>
+               <ns7:description lang="sl">Luksemburg</ns7:description>
+               <ns7:description lang="sr">Luksemburg</ns7:description>
+               <ns7:description lang="sv">Luxemburg</ns7:description>
+               <ns7:description lang="tr">Lüksemburg</ns7:description>
+               <ns7:description lang="uk">Люксембург</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="CountryCode">NL</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Нидерландия</ns7:description>
+               <ns7:description lang="cs">Nizozemsko</ns7:description>
+               <ns7:description lang="da">Nederlandene</ns7:description>
+               <ns7:description lang="de">Niederlande</ns7:description>
+               <ns7:description lang="el">Κάτω Χώρες</ns7:description>
+               <ns7:description lang="en">Netherlands</ns7:description>
+               <ns7:description lang="es">Países Bajos</ns7:description>
+               <ns7:description lang="et">Holland</ns7:description>
+               <ns7:description lang="fi">Alankomaat</ns7:description>
+               <ns7:description lang="fr">Pays-Bas</ns7:description>
+               <ns7:description lang="hr">Nizozemska</ns7:description>
+               <ns7:description lang="hu">Hollandia</ns7:description>
+               <ns7:description lang="is">Holland</ns7:description>
+               <ns7:description lang="it">Paesi Bassi</ns7:description>
+               <ns7:description lang="lt">Nyderlandai</ns7:description>
+               <ns7:description lang="lv">Nīderlande</ns7:description>
+               <ns7:description lang="me">Holandija</ns7:description>
+               <ns7:description lang="mk">Холандија</ns7:description>
+               <ns7:description lang="mt">il-Pajjiżi l-Baxxi</ns7:description>
+               <ns7:description lang="nl">Nederland</ns7:description>
+               <ns7:description lang="no">Nederland</ns7:description>
+               <ns7:description lang="pl">Niderlandy (Holandia)</ns7:description>
+               <ns7:description lang="pt">Países Baixos</ns7:description>
+               <ns7:description lang="ro">Ţările de Jos</ns7:description>
+               <ns7:description lang="sk">Holandsko</ns7:description>
+               <ns7:description lang="sl">Nizozemska</ns7:description>
+               <ns7:description lang="sr">Holandija</ns7:description>
+               <ns7:description lang="sv">Nederländerna</ns7:description>
+               <ns7:description lang="tr">Hollanda</ns7:description>
+               <ns7:description lang="uk">Нідерланди</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>a50abe6d-0198-49b7-a40b-c642b6152f2a</ns1:messageID>
+         <ns1:relatesTo>1f506556-6e79-4a39-9f37-9443c27a13b1</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>1f506556-6e79-4a39-9f37-9443c27a13b1</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="CurrencyCodes"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="CurrencyCodes">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">BGN</ns4:dataItem>
+            <ns4:dataItem name="RateValue">1.9558</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Български лев</ns7:description>
+               <ns7:description lang="cs">Lev bulharský</ns7:description>
+               <ns7:description lang="da">Bulgarske lev</ns7:description>
+               <ns7:description lang="de">Bulgarische Lew</ns7:description>
+               <ns7:description lang="el">Λεβ Βουλγαρίας</ns7:description>
+               <ns7:description lang="en">Bulgarian lev</ns7:description>
+               <ns7:description lang="es">Lev búlgaro.</ns7:description>
+               <ns7:description lang="et">Bulgaaria lev</ns7:description>
+               <ns7:description lang="fi">Bulgarian leva</ns7:description>
+               <ns7:description lang="fr">Lev Bulgare</ns7:description>
+               <ns7:description lang="hr">Bugarski lev</ns7:description>
+               <ns7:description lang="hu">Bolgár leva</ns7:description>
+               <ns7:description lang="is">Bulgarian lev .{en}.</ns7:description>
+               <ns7:description lang="it">Lev Bulgaro</ns7:description>
+               <ns7:description lang="lt">Bulgarijos levas</ns7:description>
+               <ns7:description lang="lv">Bulgārijas leva</ns7:description>
+               <ns7:description lang="me">Bugarski lev</ns7:description>
+               <ns7:description lang="mk">Bulgarian lev .{en}.</ns7:description>
+               <ns7:description lang="mt">Bulgarian lev .{en}.</ns7:description>
+               <ns7:description lang="nl">Bulgaarse lev</ns7:description>
+               <ns7:description lang="no">Bulgarian lev .{en}.</ns7:description>
+               <ns7:description lang="pl">lew bułgarski</ns7:description>
+               <ns7:description lang="pt">Bulgarian lev .{en}.</ns7:description>
+               <ns7:description lang="ro">Leva bulgară</ns7:description>
+               <ns7:description lang="sk">Bulharský leva</ns7:description>
+               <ns7:description lang="sl">Bolgarski lev</ns7:description>
+               <ns7:description lang="sr">Bulgarian lev .{en}.</ns7:description>
+               <ns7:description lang="sv">Bulgarisk lev</ns7:description>
+               <ns7:description lang="tr">Bulgar Levası</ns7:description>
+               <ns7:description lang="uk">Болгарський лев</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">CHF</ns4:dataItem>
+            <ns4:dataItem name="RateValue">0.9634</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Швейцарски франк</ns7:description>
+               <ns7:description lang="cs">Frank švýcarský</ns7:description>
+               <ns7:description lang="da">Schweizerfranc</ns7:description>
+               <ns7:description lang="de">Schweizer Franken</ns7:description>
+               <ns7:description lang="el">Ελβετικό Φράγκο</ns7:description>
+               <ns7:description lang="en">Swiss Franc</ns7:description>
+               <ns7:description lang="es">Swiss Franc</ns7:description>
+               <ns7:description lang="et">Šveitsi frank</ns7:description>
+               <ns7:description lang="fi">Sveitsin frangi</ns7:description>
+               <ns7:description lang="fr">Franc suisse</ns7:description>
+               <ns7:description lang="hr">Švicarski frank</ns7:description>
+               <ns7:description lang="hu">Svájci frank</ns7:description>
+               <ns7:description lang="is">Svissneskur franki</ns7:description>
+               <ns7:description lang="it">Franco Svizzero</ns7:description>
+               <ns7:description lang="lt">Šveicarijos frankas</ns7:description>
+               <ns7:description lang="lv">Šveices franks</ns7:description>
+               <ns7:description lang="me">Švajcarski franak</ns7:description>
+               <ns7:description lang="mk">Швајцарски Франк</ns7:description>
+               <ns7:description lang="mt">Swiss Franc .{en}.</ns7:description>
+               <ns7:description lang="nl">Zwiterse Frank</ns7:description>
+               <ns7:description lang="no">Sveitsisk Franc</ns7:description>
+               <ns7:description lang="pl">frank szwajcarski</ns7:description>
+               <ns7:description lang="pt">Franco suíço</ns7:description>
+               <ns7:description lang="ro">Franc Elvetian</ns7:description>
+               <ns7:description lang="sk">Švajčiarsky frank</ns7:description>
+               <ns7:description lang="sl">Švicarski frank</ns7:description>
+               <ns7:description lang="sr">Švajcarski franak</ns7:description>
+               <ns7:description lang="sv">Franc</ns7:description>
+               <ns7:description lang="tr">İsviçre Frangı</ns7:description>
+               <ns7:description lang="uk">Швейцарський франк</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">CZK</ns4:dataItem>
+            <ns4:dataItem name="RateValue">25.272</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Чешка крона</ns7:description>
+               <ns7:description lang="cs">Koruna česká</ns7:description>
+               <ns7:description lang="da">Tjekkiske koruna</ns7:description>
+               <ns7:description lang="de">Tschechische Krone</ns7:description>
+               <ns7:description lang="el">Τσεχική Κορώνα</ns7:description>
+               <ns7:description lang="en">Czech Koruna</ns7:description>
+               <ns7:description lang="es">Czech Koruna</ns7:description>
+               <ns7:description lang="et">Tšehhi kroon</ns7:description>
+               <ns7:description lang="fi">Tsekin koruna</ns7:description>
+               <ns7:description lang="fr">Couronne tchéque</ns7:description>
+               <ns7:description lang="hr">Češka kruna</ns7:description>
+               <ns7:description lang="hu">Cseh korona</ns7:description>
+               <ns7:description lang="is">Tékknesk króna</ns7:description>
+               <ns7:description lang="it">Corona Ceca</ns7:description>
+               <ns7:description lang="lt">Čekijos krona</ns7:description>
+               <ns7:description lang="lv">Čehijas krona</ns7:description>
+               <ns7:description lang="me">Češka kruna</ns7:description>
+               <ns7:description lang="mk">Чешка Круна</ns7:description>
+               <ns7:description lang="mt">Czech Koruna .{en}.</ns7:description>
+               <ns7:description lang="nl">Tsjechische Koruna</ns7:description>
+               <ns7:description lang="no">Tsjekkisk Koruna</ns7:description>
+               <ns7:description lang="pl">korona czeska</ns7:description>
+               <ns7:description lang="pt">Coroa checa</ns7:description>
+               <ns7:description lang="ro">Coroana Ceha</ns7:description>
+               <ns7:description lang="sk">Česká koruna</ns7:description>
+               <ns7:description lang="sl">Češka krona</ns7:description>
+               <ns7:description lang="sr">Češka kruna</ns7:description>
+               <ns7:description lang="sv">Korun</ns7:description>
+               <ns7:description lang="tr">Çek Korunası</ns7:description>
+               <ns7:description lang="uk">Чеська крона</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">DKK</ns4:dataItem>
+            <ns4:dataItem name="RateValue">7.4578</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Датска крона</ns7:description>
+               <ns7:description lang="cs">Koruna dánská</ns7:description>
+               <ns7:description lang="da">Danske kroner</ns7:description>
+               <ns7:description lang="de">Dänische Krone</ns7:description>
+               <ns7:description lang="el">Δανική Κορώνα</ns7:description>
+               <ns7:description lang="en">Danish Krone</ns7:description>
+               <ns7:description lang="es">Corona danesa.</ns7:description>
+               <ns7:description lang="et">Taani kroon</ns7:description>
+               <ns7:description lang="fi">Tanskan kruunu</ns7:description>
+               <ns7:description lang="fr">Couronne Danoise</ns7:description>
+               <ns7:description lang="hr">Danska kruna</ns7:description>
+               <ns7:description lang="hu">Dán korona</ns7:description>
+               <ns7:description lang="is">Dönsk króna</ns7:description>
+               <ns7:description lang="it">Corona Danese</ns7:description>
+               <ns7:description lang="lt">Danijos krona</ns7:description>
+               <ns7:description lang="lv">Dānijas krona</ns7:description>
+               <ns7:description lang="me">Danska kruna</ns7:description>
+               <ns7:description lang="mk">Данска Круна</ns7:description>
+               <ns7:description lang="mt">Danish Krone .{en}.</ns7:description>
+               <ns7:description lang="nl">Deense Kroon</ns7:description>
+               <ns7:description lang="no">Dansk Krone</ns7:description>
+               <ns7:description lang="pl">korona duńska</ns7:description>
+               <ns7:description lang="pt">Coroa dinamarquesa</ns7:description>
+               <ns7:description lang="ro">Coroana Daneza</ns7:description>
+               <ns7:description lang="sk">Dánska koruna</ns7:description>
+               <ns7:description lang="sl">Danska krona</ns7:description>
+               <ns7:description lang="sr">Danska kruna</ns7:description>
+               <ns7:description lang="sv">Krone</ns7:description>
+               <ns7:description lang="tr">Danimarka Kronu</ns7:description>
+               <ns7:description lang="uk">Данська крона</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">EUR</ns4:dataItem>
+            <ns4:dataItem name="RateValue">1</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Евро</ns7:description>
+               <ns7:description lang="cs">Euro</ns7:description>
+               <ns7:description lang="da">Euro (EUR)</ns7:description>
+               <ns7:description lang="de">Euro</ns7:description>
+               <ns7:description lang="el">Ευρώ</ns7:description>
+               <ns7:description lang="en">Euro</ns7:description>
+               <ns7:description lang="es">Euro.</ns7:description>
+               <ns7:description lang="et">EURO</ns7:description>
+               <ns7:description lang="fi">Euro</ns7:description>
+               <ns7:description lang="fr">Euro</ns7:description>
+               <ns7:description lang="hr">Euro</ns7:description>
+               <ns7:description lang="hu">Euro</ns7:description>
+               <ns7:description lang="is">Evra</ns7:description>
+               <ns7:description lang="it">Euro</ns7:description>
+               <ns7:description lang="lt">Euras</ns7:description>
+               <ns7:description lang="lv">Euro</ns7:description>
+               <ns7:description lang="me">Euro</ns7:description>
+               <ns7:description lang="mk">Euro</ns7:description>
+               <ns7:description lang="mt">Euro .{en}.</ns7:description>
+               <ns7:description lang="nl">Euro</ns7:description>
+               <ns7:description lang="no">Euro</ns7:description>
+               <ns7:description lang="pl">Euro</ns7:description>
+               <ns7:description lang="pt">Euro</ns7:description>
+               <ns7:description lang="ro">Euro</ns7:description>
+               <ns7:description lang="sk">Euro</ns7:description>
+               <ns7:description lang="sl">Evro</ns7:description>
+               <ns7:description lang="sr">Euro</ns7:description>
+               <ns7:description lang="sv">Euro</ns7:description>
+               <ns7:description lang="tr">Avro</ns7:description>
+               <ns7:description lang="uk">Євро</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">GBP</ns4:dataItem>
+            <ns4:dataItem name="RateValue">0.8420</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Британска лира</ns7:description>
+               <ns7:description lang="cs">Libra šterlinků</ns7:description>
+               <ns7:description lang="da">Pund Sterling</ns7:description>
+               <ns7:description lang="de">Pfund Sterling</ns7:description>
+               <ns7:description lang="el">Λίρα Στερλίνα</ns7:description>
+               <ns7:description lang="en">Pound Sterling</ns7:description>
+               <ns7:description lang="es">Libra Esterlina</ns7:description>
+               <ns7:description lang="et">Suurbritannia naelsterling</ns7:description>
+               <ns7:description lang="fi">Iso-Britannian punta</ns7:description>
+               <ns7:description lang="fr">Livre sterling</ns7:description>
+               <ns7:description lang="hr">Britanska funta</ns7:description>
+               <ns7:description lang="hu">Angol font</ns7:description>
+               <ns7:description lang="is">Ensk sterlingpund</ns7:description>
+               <ns7:description lang="it">Sterlina Inglese</ns7:description>
+               <ns7:description lang="lt">Svaras sterlingų</ns7:description>
+               <ns7:description lang="lv">Sterliņu mārciņa</ns7:description>
+               <ns7:description lang="me">Britanska funta</ns7:description>
+               <ns7:description lang="mk">Фунта Стерлинг</ns7:description>
+               <ns7:description lang="mt">Pound Sterling .{en}.</ns7:description>
+               <ns7:description lang="nl">Britse Pond</ns7:description>
+               <ns7:description lang="no">Pund Sterling</ns7:description>
+               <ns7:description lang="pl">funt szterling</ns7:description>
+               <ns7:description lang="pt">Libra esterlina</ns7:description>
+               <ns7:description lang="ro">Lira Sterlina</ns7:description>
+               <ns7:description lang="sk">Anglická libra</ns7:description>
+               <ns7:description lang="sl">Angleški funt</ns7:description>
+               <ns7:description lang="sr">Funta sterling</ns7:description>
+               <ns7:description lang="sv">Pund</ns7:description>
+               <ns7:description lang="tr">İngiliz Sterlini</ns7:description>
+               <ns7:description lang="uk">Фунт стерлінгів</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">GEL</ns4:dataItem>
+            <ns4:dataItem name="RateValue">3.0532</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="cs">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="da">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="de">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="el">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="en">Georgian Lari</ns7:description>
+               <ns7:description lang="es">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="et">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="fi">Georgian Lari</ns7:description>
+               <ns7:description lang="fr">Lari géorgien</ns7:description>
+               <ns7:description lang="hr">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="hu">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="is">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="it">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="lt">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="lv">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="me">Gruzijski lari</ns7:description>
+               <ns7:description lang="mk">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="mt">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="nl">Georgische Lari</ns7:description>
+               <ns7:description lang="no">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="pl">lari gruzińskie</ns7:description>
+               <ns7:description lang="pt">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="ro">Lari ( GEL)</ns7:description>
+               <ns7:description lang="sk">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="sl">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="sr">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="sv">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="tr">Georgian Lari .{en}.</ns7:description>
+               <ns7:description lang="uk">Georgian Lari .{en}.</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">HUF</ns4:dataItem>
+            <ns4:dataItem name="RateValue">397.83</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Унгарски форинт</ns7:description>
+               <ns7:description lang="cs">Forint maďarský</ns7:description>
+               <ns7:description lang="da">Ungarske forint</ns7:description>
+               <ns7:description lang="de">Ungarischer Forint</ns7:description>
+               <ns7:description lang="el">Ουγγρικό Φλορίνι</ns7:description>
+               <ns7:description lang="en">Forint</ns7:description>
+               <ns7:description lang="es">Florín.</ns7:description>
+               <ns7:description lang="et">Ungari forint</ns7:description>
+               <ns7:description lang="fi">Unkarin forintti</ns7:description>
+               <ns7:description lang="fr">Florint</ns7:description>
+               <ns7:description lang="hr">Forinta</ns7:description>
+               <ns7:description lang="hu">Forint</ns7:description>
+               <ns7:description lang="is">Fórinta</ns7:description>
+               <ns7:description lang="it">Fiorino</ns7:description>
+               <ns7:description lang="lt">Forintas</ns7:description>
+               <ns7:description lang="lv">Forints</ns7:description>
+               <ns7:description lang="me">Forint</ns7:description>
+               <ns7:description lang="mk">Унгарски Форинт</ns7:description>
+               <ns7:description lang="mt">Forint .{en}.</ns7:description>
+               <ns7:description lang="nl">Hongaarse Forint</ns7:description>
+               <ns7:description lang="no">Forint</ns7:description>
+               <ns7:description lang="pl">forint</ns7:description>
+               <ns7:description lang="pt">Florim húngaro</ns7:description>
+               <ns7:description lang="ro">Forint Maghiar</ns7:description>
+               <ns7:description lang="sk">Maďarský forint</ns7:description>
+               <ns7:description lang="sl">Forint</ns7:description>
+               <ns7:description lang="sr">Forinta</ns7:description>
+               <ns7:description lang="sv">Floriner</ns7:description>
+               <ns7:description lang="tr">Macar Forinti</ns7:description>
+               <ns7:description lang="uk">Форинт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">ISK</ns4:dataItem>
+            <ns4:dataItem name="RateValue">149.90</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Исландска крона</ns7:description>
+               <ns7:description lang="cs">Koruna islandská</ns7:description>
+               <ns7:description lang="da">Islandske kroner</ns7:description>
+               <ns7:description lang="de">Isländische Krone</ns7:description>
+               <ns7:description lang="el">Ισλανδική Κορώνα</ns7:description>
+               <ns7:description lang="en">Icelandic Krona</ns7:description>
+               <ns7:description lang="es">Corona islandesa.</ns7:description>
+               <ns7:description lang="et">Islandi kroon</ns7:description>
+               <ns7:description lang="fi">Islannin kruunu</ns7:description>
+               <ns7:description lang="fr">Couronne Islandaise</ns7:description>
+               <ns7:description lang="hr">Islandska kruna</ns7:description>
+               <ns7:description lang="hu">Izlandi korona</ns7:description>
+               <ns7:description lang="is">Íslensk króna</ns7:description>
+               <ns7:description lang="it">Corona Islandese</ns7:description>
+               <ns7:description lang="lt">Islandijos krona</ns7:description>
+               <ns7:description lang="lv">Islandes krona</ns7:description>
+               <ns7:description lang="me">Islandska kruna</ns7:description>
+               <ns7:description lang="mk">Исландска Круна</ns7:description>
+               <ns7:description lang="mt">Icelandic Krona .{en}.</ns7:description>
+               <ns7:description lang="nl">IJslandse Kroon</ns7:description>
+               <ns7:description lang="no">Islandsk Krone</ns7:description>
+               <ns7:description lang="pl">korona islandzka</ns7:description>
+               <ns7:description lang="pt">Coroa islandesa</ns7:description>
+               <ns7:description lang="ro">Coroana Islandeza</ns7:description>
+               <ns7:description lang="sk">Islandská koruna</ns7:description>
+               <ns7:description lang="sl">Islandska krona</ns7:description>
+               <ns7:description lang="sr">Islandska kruna</ns7:description>
+               <ns7:description lang="sv">Króna</ns7:description>
+               <ns7:description lang="tr">İzlanda Kronu</ns7:description>
+               <ns7:description lang="uk">Ісландська крона</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">MDL</ns4:dataItem>
+            <ns4:dataItem name="RateValue">19.5126</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Moldovan Leu</ns7:description>
+               <ns7:description lang="me">Moldavski lej</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">MKD</ns4:dataItem>
+            <ns4:dataItem name="RateValue">61.495</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Македонски денар</ns7:description>
+               <ns7:description lang="cs">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="da">Makedonske denarer</ns7:description>
+               <ns7:description lang="de">Mazedonischer Denar</ns7:description>
+               <ns7:description lang="el">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="en">Macedonian Denar</ns7:description>
+               <ns7:description lang="es">Denar macedonio.</ns7:description>
+               <ns7:description lang="et">Makedoonia denaar</ns7:description>
+               <ns7:description lang="fi">Makedonian denaari</ns7:description>
+               <ns7:description lang="fr">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="hr">Makedonski denar</ns7:description>
+               <ns7:description lang="hu">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="is">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="it">Dinaro Macedone</ns7:description>
+               <ns7:description lang="lt">Denaras</ns7:description>
+               <ns7:description lang="lv">Maķedonijas dinārs</ns7:description>
+               <ns7:description lang="me">Makedonski denar</ns7:description>
+               <ns7:description lang="mk">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="mt">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="nl">Macedonische denar</ns7:description>
+               <ns7:description lang="no">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="pl">denar macedoński</ns7:description>
+               <ns7:description lang="pt">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="ro">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="sk">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="sl">Makedonski DENAR</ns7:description>
+               <ns7:description lang="sr">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="sv">Makedonsk denar</ns7:description>
+               <ns7:description lang="tr">Macedonian Denar .{en}.</ns7:description>
+               <ns7:description lang="uk">Македонський денар</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">NOK</ns4:dataItem>
+            <ns4:dataItem name="RateValue">11.731</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Нервежка крона</ns7:description>
+               <ns7:description lang="cs">Koruna norská</ns7:description>
+               <ns7:description lang="da">Norske kroner</ns7:description>
+               <ns7:description lang="de">Norwegische Krone</ns7:description>
+               <ns7:description lang="el">Νορβηγική Κορώνα</ns7:description>
+               <ns7:description lang="en">Norwegian Krone</ns7:description>
+               <ns7:description lang="es">Corona noruega.</ns7:description>
+               <ns7:description lang="et">Norra kroon</ns7:description>
+               <ns7:description lang="fi">Norjan kruunu</ns7:description>
+               <ns7:description lang="fr">Couronne Norvegienne</ns7:description>
+               <ns7:description lang="hr">Norveška kruna</ns7:description>
+               <ns7:description lang="hu">Norvég korona</ns7:description>
+               <ns7:description lang="is">Norsk króna</ns7:description>
+               <ns7:description lang="it">Corona Norvegese</ns7:description>
+               <ns7:description lang="lt">Norvegijos krona</ns7:description>
+               <ns7:description lang="lv">Norvēģijas krona</ns7:description>
+               <ns7:description lang="me">Norveška kruna</ns7:description>
+               <ns7:description lang="mk">Норвешка Круна</ns7:description>
+               <ns7:description lang="mt">Norwegian Krone .{en}.</ns7:description>
+               <ns7:description lang="nl">Noorse Kroon</ns7:description>
+               <ns7:description lang="no">Norsk Krone</ns7:description>
+               <ns7:description lang="pl">korona norweska</ns7:description>
+               <ns7:description lang="pt">Coroa norueguesa</ns7:description>
+               <ns7:description lang="ro">Coroana Norvegiana</ns7:description>
+               <ns7:description lang="sk">Nórska koruna</ns7:description>
+               <ns7:description lang="sl">Norveška krona</ns7:description>
+               <ns7:description lang="sr">Norveška kruna</ns7:description>
+               <ns7:description lang="sv">Krone</ns7:description>
+               <ns7:description lang="tr">Norveç Kronu</ns7:description>
+               <ns7:description lang="uk">Норвезька крона</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">PLN</ns4:dataItem>
+            <ns4:dataItem name="RateValue">4.2853</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Полска злота</ns7:description>
+               <ns7:description lang="cs">Zlotý polský</ns7:description>
+               <ns7:description lang="da">Polske zloty</ns7:description>
+               <ns7:description lang="de">Polnischer Zloty</ns7:description>
+               <ns7:description lang="el">Πολωνικό Ζλότυ</ns7:description>
+               <ns7:description lang="en">Polish zloty</ns7:description>
+               <ns7:description lang="es">Zloty</ns7:description>
+               <ns7:description lang="et">Poola zlott</ns7:description>
+               <ns7:description lang="fi">Puolan zloty</ns7:description>
+               <ns7:description lang="fr">Zloty</ns7:description>
+               <ns7:description lang="hr">Poljski zlot</ns7:description>
+               <ns7:description lang="hu">Lengyel zloty</ns7:description>
+               <ns7:description lang="is">Slot</ns7:description>
+               <ns7:description lang="it">Zloty Polacco</ns7:description>
+               <ns7:description lang="lt">Zlotas</ns7:description>
+               <ns7:description lang="lv">Zlots</ns7:description>
+               <ns7:description lang="me">Poljski zlot</ns7:description>
+               <ns7:description lang="mk">Полски Злот</ns7:description>
+               <ns7:description lang="mt">Polish zloty .{en}.</ns7:description>
+               <ns7:description lang="nl">Poolse Zloty</ns7:description>
+               <ns7:description lang="no">Zloty</ns7:description>
+               <ns7:description lang="pl">złoty polski</ns7:description>
+               <ns7:description lang="pt">Novo Zloty</ns7:description>
+               <ns7:description lang="ro">Zlot Polonez</ns7:description>
+               <ns7:description lang="sk">Polský zloty</ns7:description>
+               <ns7:description lang="sl">Poljski zlot</ns7:description>
+               <ns7:description lang="sr">Poljska zlota</ns7:description>
+               <ns7:description lang="sv">Zloty</ns7:description>
+               <ns7:description lang="tr">Polonya Zlotisi</ns7:description>
+               <ns7:description lang="uk">Польський злотий</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">RON</ns4:dataItem>
+            <ns4:dataItem name="RateValue">4.9759</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Румънска нова лея</ns7:description>
+               <ns7:description lang="cs">Leu rumunské</ns7:description>
+               <ns7:description lang="da">Rumænske leu</ns7:description>
+               <ns7:description lang="de">Rumänischer Leu</ns7:description>
+               <ns7:description lang="el">Ρουμανικό Λέου</ns7:description>
+               <ns7:description lang="en">Romanian leu</ns7:description>
+               <ns7:description lang="es">Leu rumano.</ns7:description>
+               <ns7:description lang="et">Rumeenia leu</ns7:description>
+               <ns7:description lang="fi">Romanian leu</ns7:description>
+               <ns7:description lang="fr">leu roumain</ns7:description>
+               <ns7:description lang="hr">Rumunjski lev</ns7:description>
+               <ns7:description lang="hu">Román lej</ns7:description>
+               <ns7:description lang="is">Romanian leu .{en}.</ns7:description>
+               <ns7:description lang="it">Leu Rumeno</ns7:description>
+               <ns7:description lang="lt">Rumunijos lėja</ns7:description>
+               <ns7:description lang="lv">Rumānijas leja</ns7:description>
+               <ns7:description lang="me">Rumunski lej</ns7:description>
+               <ns7:description lang="mk">Романски Лев</ns7:description>
+               <ns7:description lang="mt">Romanian leu .{en}.</ns7:description>
+               <ns7:description lang="nl">Roemeense leu</ns7:description>
+               <ns7:description lang="no">Romanian leu .{en}.</ns7:description>
+               <ns7:description lang="pl">lej rumuński</ns7:description>
+               <ns7:description lang="pt">Leu</ns7:description>
+               <ns7:description lang="ro">Leu Romanesc</ns7:description>
+               <ns7:description lang="sk">Rumunský lei</ns7:description>
+               <ns7:description lang="sl">Romunski lev</ns7:description>
+               <ns7:description lang="sr">Rumunski lev</ns7:description>
+               <ns7:description lang="sv">Rumänska lev</ns7:description>
+               <ns7:description lang="tr">Romen Leyi</ns7:description>
+               <ns7:description lang="uk">Румунський лей</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">RSD</ns4:dataItem>
+            <ns4:dataItem name="RateValue">117.04</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Сръбски динар</ns7:description>
+               <ns7:description lang="cs">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="da">Serbiske dinarer</ns7:description>
+               <ns7:description lang="de">Serbischer Dinar</ns7:description>
+               <ns7:description lang="el">Σερβικό Δηνάριο</ns7:description>
+               <ns7:description lang="en">Serbian dinar</ns7:description>
+               <ns7:description lang="es">Dinar serbio.</ns7:description>
+               <ns7:description lang="et">Serbia dinaar</ns7:description>
+               <ns7:description lang="fi">Serbian dinaari</ns7:description>
+               <ns7:description lang="fr">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="hr">Srpski dinar</ns7:description>
+               <ns7:description lang="hu">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="is">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="it">Dinaro Serbo</ns7:description>
+               <ns7:description lang="lt">Serbijos dinaras</ns7:description>
+               <ns7:description lang="lv">Serbijas dinārs</ns7:description>
+               <ns7:description lang="me">Srpski dinar</ns7:description>
+               <ns7:description lang="mk">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="mt">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="nl">Servische dinar</ns7:description>
+               <ns7:description lang="no">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="pl">dinar serbski</ns7:description>
+               <ns7:description lang="pt">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="ro">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="sk">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="sl">Srbski dinar</ns7:description>
+               <ns7:description lang="sr">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="sv">Serbisk dinar</ns7:description>
+               <ns7:description lang="tr">Serbian dinar .{en}.</ns7:description>
+               <ns7:description lang="uk">Сербський динар</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">SEK</ns4:dataItem>
+            <ns4:dataItem name="RateValue">11.315</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Шведска крона</ns7:description>
+               <ns7:description lang="cs">Koruna švédská</ns7:description>
+               <ns7:description lang="da">Svenske kroner</ns7:description>
+               <ns7:description lang="de">Schwedische Krone</ns7:description>
+               <ns7:description lang="el">Σουηδική Κορώνα</ns7:description>
+               <ns7:description lang="en">Swedish Krona</ns7:description>
+               <ns7:description lang="es">Corona sueca.</ns7:description>
+               <ns7:description lang="et">Rootsi kroon</ns7:description>
+               <ns7:description lang="fi">Ruotsin kruunu</ns7:description>
+               <ns7:description lang="fr">Couronne Suedoise</ns7:description>
+               <ns7:description lang="hr">Švedska kruna</ns7:description>
+               <ns7:description lang="hu">Svéd korona</ns7:description>
+               <ns7:description lang="is">Sænsk króna</ns7:description>
+               <ns7:description lang="it">Corona Svedese</ns7:description>
+               <ns7:description lang="lt">Švedijos krona</ns7:description>
+               <ns7:description lang="lv">Zviedrijas krona</ns7:description>
+               <ns7:description lang="me">Švedska kruna</ns7:description>
+               <ns7:description lang="mk">Шведска Круна</ns7:description>
+               <ns7:description lang="mt">Swedish Krona .{en}.</ns7:description>
+               <ns7:description lang="nl">Zweedse Kroon</ns7:description>
+               <ns7:description lang="no">Svensk Krone</ns7:description>
+               <ns7:description lang="pl">korona szwedzka</ns7:description>
+               <ns7:description lang="pt">Coroa sueca</ns7:description>
+               <ns7:description lang="ro">Coroana Suedeza</ns7:description>
+               <ns7:description lang="sk">Švédska koruna</ns7:description>
+               <ns7:description lang="sl">Švedska krona</ns7:description>
+               <ns7:description lang="sr">Švedska kruna</ns7:description>
+               <ns7:description lang="sv">Krona</ns7:description>
+               <ns7:description lang="tr">İsveç Kronu</ns7:description>
+               <ns7:description lang="uk">Шведська крона</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">TRY</ns4:dataItem>
+            <ns4:dataItem name="RateValue">37.957</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Турска лира</ns7:description>
+               <ns7:description lang="cs">Lira turecká</ns7:description>
+               <ns7:description lang="da">Tyrkiske lira</ns7:description>
+               <ns7:description lang="de">Türkische Lire</ns7:description>
+               <ns7:description lang="el">Τουρκική Λίρα</ns7:description>
+               <ns7:description lang="en">Turkish lira</ns7:description>
+               <ns7:description lang="es">Lira turca.</ns7:description>
+               <ns7:description lang="et">Türgi liir</ns7:description>
+               <ns7:description lang="fi">Turkin liira</ns7:description>
+               <ns7:description lang="fr">Turkish lira .{en}.</ns7:description>
+               <ns7:description lang="hr">Turska lira</ns7:description>
+               <ns7:description lang="hu">Turkish lira .{en}.</ns7:description>
+               <ns7:description lang="is">Turkish lira .{en}.</ns7:description>
+               <ns7:description lang="it">Lira Turca</ns7:description>
+               <ns7:description lang="lt">Turkijos lira</ns7:description>
+               <ns7:description lang="lv">Turcijas lira</ns7:description>
+               <ns7:description lang="me">Turska lira</ns7:description>
+               <ns7:description lang="mk">Турска Лира</ns7:description>
+               <ns7:description lang="mt">Turkish lira .{en}.</ns7:description>
+               <ns7:description lang="nl">Turkse lira</ns7:description>
+               <ns7:description lang="no">Turkish lira .{en}.</ns7:description>
+               <ns7:description lang="pl">lira turecka</ns7:description>
+               <ns7:description lang="pt">Turkish lira .{en}.</ns7:description>
+               <ns7:description lang="ro">Lira turcească</ns7:description>
+               <ns7:description lang="sk">Turkish lira .{en}.</ns7:description>
+               <ns7:description lang="sl">Turška lira</ns7:description>
+               <ns7:description lang="sr">Turska lira</ns7:description>
+               <ns7:description lang="sv">turkisk lira</ns7:description>
+               <ns7:description lang="tr">Türk lirası</ns7:description>
+               <ns7:description lang="uk">Турецька ліра</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Currency">UAH</ns4:dataItem>
+            <ns4:dataItem name="RateValue">46.154</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="bg">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="cs">Hřivna ukrajinská</ns7:description>
+               <ns7:description lang="da">Ukrainske hryvnia</ns7:description>
+               <ns7:description lang="de">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="el">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="en">Ukrainian hryvnia</ns7:description>
+               <ns7:description lang="es">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="et">Ukraina grivna</ns7:description>
+               <ns7:description lang="fi">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="fr">Hryvnia ukrainienne</ns7:description>
+               <ns7:description lang="hr">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="hu">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="is">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="it">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="lt">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="lv">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="me">Ukrajinska hrivnja</ns7:description>
+               <ns7:description lang="mk">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="mt">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="nl">Oekraïense hryvnia</ns7:description>
+               <ns7:description lang="no">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="pl">hrywna ukraińska</ns7:description>
+               <ns7:description lang="pt">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="ro">Grivnă ucraeniană</ns7:description>
+               <ns7:description lang="sk">Ukrajinská hrivna</ns7:description>
+               <ns7:description lang="sl">Ukrajinska grivna</ns7:description>
+               <ns7:description lang="sr">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="sv">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="tr">Ukrainian hryvnia .{en}.</ns7:description>
+               <ns7:description lang="uk">Українська гривня</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

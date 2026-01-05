@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>a4b9ee43-d206-4d6e-ab7c-8bc9bb4fcf47</ns1:messageID>
+         <ns1:relatesTo>a18d51cc-a586-4e34-9c3e-ca6ace29f67e</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>a18d51cc-a586-4e34-9c3e-ca6ace29f67e</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="TransportModeCode"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="TransportModeCode">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="TransportModeCode">1</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Námořní doprava</ns7:description>
+               <ns7:description lang="da">Søtransport</ns7:description>
+               <ns7:description lang="de">Seeverkehr</ns7:description>
+               <ns7:description lang="en">Maritime Transport</ns7:description>
+               <ns7:description lang="et">Meretransport</ns7:description>
+               <ns7:description lang="fr">Transport maritime</ns7:description>
+               <ns7:description lang="hu">Tengeri szállítás</ns7:description>
+               <ns7:description lang="lt">Jūrų transportas</ns7:description>
+               <ns7:description lang="lv">Jūras transports</ns7:description>
+               <ns7:description lang="me">Pomorski transport</ns7:description>
+               <ns7:description lang="nl">Maritiem vervoer</ns7:description>
+               <ns7:description lang="pl">Transport morski</ns7:description>
+               <ns7:description lang="ro">Transport maritim</ns7:description>
+               <ns7:description lang="sk">Námorná doprava</ns7:description>
+               <ns7:description lang="sl">Pomorski promet</ns7:description>
+               <ns7:description lang="sr">Pomorski saobraćaj</ns7:description>
+               <ns7:description lang="uk">Морський транспорт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="TransportModeCode">2</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Železniční doprava</ns7:description>
+               <ns7:description lang="da">Jernbanetransport</ns7:description>
+               <ns7:description lang="de">Schienenverkehr</ns7:description>
+               <ns7:description lang="en">Rail Transport</ns7:description>
+               <ns7:description lang="et">Raudteetransport</ns7:description>
+               <ns7:description lang="fr">Transport ferroviaire</ns7:description>
+               <ns7:description lang="hu">Vasúti szállítás</ns7:description>
+               <ns7:description lang="lt">Geležinkelių transportas</ns7:description>
+               <ns7:description lang="lv">Dzelzceļa transports</ns7:description>
+               <ns7:description lang="me">Željeznički prevoz</ns7:description>
+               <ns7:description lang="nl">Vervoer per spoor</ns7:description>
+               <ns7:description lang="pl">Transport kolejowy</ns7:description>
+               <ns7:description lang="ro">Transport pe calea ferată</ns7:description>
+               <ns7:description lang="sk">Železničná doprava</ns7:description>
+               <ns7:description lang="sl">Železniški promet</ns7:description>
+               <ns7:description lang="sr">Železnički saobraćaj</ns7:description>
+               <ns7:description lang="uk">Залізничний транспорт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="TransportModeCode">3</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Silniční doprava</ns7:description>
+               <ns7:description lang="da">Vejtransport</ns7:description>
+               <ns7:description lang="de">Beförderung auf der Straße</ns7:description>
+               <ns7:description lang="en">Road transport</ns7:description>
+               <ns7:description lang="et">Maanteetransport</ns7:description>
+               <ns7:description lang="fr">Transport routier</ns7:description>
+               <ns7:description lang="hu">Közúti szállítás</ns7:description>
+               <ns7:description lang="lt">Kelių transportas</ns7:description>
+               <ns7:description lang="lv">Autotransports</ns7:description>
+               <ns7:description lang="me">Drumski prevoz</ns7:description>
+               <ns7:description lang="nl">Vervoer over de weg</ns7:description>
+               <ns7:description lang="pl">Transport drogowy</ns7:description>
+               <ns7:description lang="ro">Transport rutier</ns7:description>
+               <ns7:description lang="sk">Cestná doprava</ns7:description>
+               <ns7:description lang="sl">Cestni promet</ns7:description>
+               <ns7:description lang="sr">Drumski saobraćaj</ns7:description>
+               <ns7:description lang="uk">Автомобільний транспорт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="TransportModeCode">4</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Letecká doprava</ns7:description>
+               <ns7:description lang="da">Lufttransport</ns7:description>
+               <ns7:description lang="de">Beförderung auf dem Luftweg</ns7:description>
+               <ns7:description lang="en">Air transport</ns7:description>
+               <ns7:description lang="et">Õhutransport</ns7:description>
+               <ns7:description lang="fr">Transport aérien</ns7:description>
+               <ns7:description lang="hu">Légi szállítás</ns7:description>
+               <ns7:description lang="lt">Oro transportas</ns7:description>
+               <ns7:description lang="lv">Gaisa transports</ns7:description>
+               <ns7:description lang="me">Vazdušni prevoz</ns7:description>
+               <ns7:description lang="nl">Luchtvervoer</ns7:description>
+               <ns7:description lang="pl">Transport lotniczy</ns7:description>
+               <ns7:description lang="ro">Transport aerian</ns7:description>
+               <ns7:description lang="sk">Letecká doprava</ns7:description>
+               <ns7:description lang="sl">Zračni promet</ns7:description>
+               <ns7:description lang="sr">Vazdušni saobraćaj</ns7:description>
+               <ns7:description lang="uk">Повітряний транспорт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="TransportModeCode">5</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Pošta (Aktivní druh dopravy neznámý)</ns7:description>
+               <ns7:description lang="da">Postforsendelser</ns7:description>
+               <ns7:description lang="de">Postverkehr (aktiver Verkehrszweig unbekannt)</ns7:description>
+               <ns7:description lang="en">Mail (Active mode of transport unknown)</ns7:description>
+               <ns7:description lang="et">Post (aktiivne transpordivahend teadmata)</ns7:description>
+               <ns7:description lang="fr">Postal (mode de transport actif inconnu)</ns7:description>
+               <ns7:description lang="hu">Postai küldemények (aktív fuvarozási mód nem ismert)</ns7:description>
+               <ns7:description lang="lt">Paštas (aktyvioji transporto rūšis nežinoma)</ns7:description>
+               <ns7:description lang="lv">Pasts (aktīvais transporta veids nav zināms)</ns7:description>
+               <ns7:description lang="me">Pošta (Aktivni način transporta nepoznat)</ns7:description>
+               <ns7:description lang="nl">Post (werkelijke vervoerswijze onbekend)</ns7:description>
+               <ns7:description lang="pl">Poczta (aktywny srodek transportu nieznany)</ns7:description>
+               <ns7:description lang="ro">Poștă (mod activ de transport necunoscut)</ns7:description>
+               <ns7:description lang="sk">Pošta (aktívny spôsob dopravy neznámy)</ns7:description>
+               <ns7:description lang="sl">Pošta (aktiven način prevoza neznan)</ns7:description>
+               <ns7:description lang="sr">Poštanski saobraćaj (nepoznato aktivno prevozno sredstvo)</ns7:description>
+               <ns7:description lang="uk">Пошта (активний вид транспорту невідомий)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="TransportModeCode">7</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Pevná přepravní zařízení</ns7:description>
+               <ns7:description lang="da">Transport i faste installationer</ns7:description>
+               <ns7:description lang="de">Feste Transporteinrichtung</ns7:description>
+               <ns7:description lang="en">Fixed transport installations</ns7:description>
+               <ns7:description lang="et">Kinnistranspordiseade</ns7:description>
+               <ns7:description lang="fr">Installations de transport fixes</ns7:description>
+               <ns7:description lang="hu">Helyhez kötött szállítóberendezések</ns7:description>
+               <ns7:description lang="lt">Stacionarūs transportavimo įrenginiai</ns7:description>
+               <ns7:description lang="lv">Stacionāras transporta iekārtas</ns7:description>
+               <ns7:description lang="me">Fiksne transportne instalacije</ns7:description>
+               <ns7:description lang="nl">Vaste transportinstallaties</ns7:description>
+               <ns7:description lang="pl">Stałe urządzenia przesyłowe</ns7:description>
+               <ns7:description lang="ro">Instalații fixe de transport</ns7:description>
+               <ns7:description lang="sk">Pevné prepravné zariadenia</ns7:description>
+               <ns7:description lang="sl">Fiksne transportne instalacije</ns7:description>
+               <ns7:description lang="sr">Transport fiksnim transportnim instalacijama</ns7:description>
+               <ns7:description lang="uk">Стаціонарні транспортні установки</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="TransportModeCode">8</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Vnitrozemská vodní doprava</ns7:description>
+               <ns7:description lang="da">Transport ad indre vandveje</ns7:description>
+               <ns7:description lang="de">Binnenschifffahrt</ns7:description>
+               <ns7:description lang="en">Inland waterway transport</ns7:description>
+               <ns7:description lang="et">Siseveetransport</ns7:description>
+               <ns7:description lang="fr">Transport fluvial</ns7:description>
+               <ns7:description lang="hu">Belvízi szállítás</ns7:description>
+               <ns7:description lang="lt">Vidaus vandenų transportas</ns7:description>
+               <ns7:description lang="lv">Iekšzemes ūdeņu transports</ns7:description>
+               <ns7:description lang="me">prevoz unutrašnjim plovnim putevima</ns7:description>
+               <ns7:description lang="nl">Vervoer over de binnenwateren</ns7:description>
+               <ns7:description lang="pl">Transport śródlądowy</ns7:description>
+               <ns7:description lang="ro">Transport pe căi navigabile interioare</ns7:description>
+               <ns7:description lang="sk">Vnútrozemská vodná doprava</ns7:description>
+               <ns7:description lang="sl">Promet na notranjih vodnih poteh</ns7:description>
+               <ns7:description lang="sr">Rečni saobraćaj</ns7:description>
+               <ns7:description lang="uk">Внутрішній водний транспорт</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="TransportModeCode">9</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Druh dopravy neznámý (tj. vlastní pohon)</ns7:description>
+               <ns7:description lang="da">Egen fremdrift</ns7:description>
+               <ns7:description lang="de">Verkehrszweig unbekannt (d.h. Eigenantrieb)</ns7:description>
+               <ns7:description lang="en">Mode unknown (Own propulsion)</ns7:description>
+               <ns7:description lang="et">Transpordiliik teadmata (oma jõuallikaga)</ns7:description>
+               <ns7:description lang="fr">Mode inconnu (propulsion propre)</ns7:description>
+               <ns7:description lang="hu">Ismeretlen szállítás típus (saját meghajtás)</ns7:description>
+               <ns7:description lang="lt">Kita transporto rūšis (sava eiga)</ns7:description>
+               <ns7:description lang="lv">Transporta veids nav zināms (proti, pārvieto pats)</ns7:description>
+               <ns7:description lang="me">Način rada nepoznat (vlastiti pogon)</ns7:description>
+               <ns7:description lang="nl">Modus onbekend (eigen voortstuwing)</ns7:description>
+               <ns7:description lang="pl">Środek transportu nieznany (własny napęd)</ns7:description>
+               <ns7:description lang="ro">Mod necunoscut (propulsie proprie)</ns7:description>
+               <ns7:description lang="sk">Doprava neznáma (vlastný pohon)</ns7:description>
+               <ns7:description lang="sl">Način neznan (lastni pogon)</ns7:description>
+               <ns7:description lang="sr">Drugi način transporta (sopstveni pogon)</ns7:description>
+               <ns7:description lang="uk">Невідомий вид (своїм ходом)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

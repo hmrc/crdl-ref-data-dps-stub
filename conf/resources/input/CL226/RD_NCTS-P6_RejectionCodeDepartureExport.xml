@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>06fe1e43-7ac1-476a-adbd-3ee855f19d78</ns1:messageID>
+         <ns1:relatesTo>783d47a8-3b31-4e65-8aae-5b1bbef902b4</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>783d47a8-3b31-4e65-8aae-5b1bbef902b4</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="RejectionCodeDepartureExport"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="RejectionCodeDepartureExport">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionDepartureExportCode">12</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Zpráva s funkční chybou (chybami) - Porušení pravidel a podmínek</ns7:description>
+               <ns7:description lang="da">Meddelelse med funktionsfejl - Overtrædelse af regler og betingelser</ns7:description>
+               <ns7:description lang="en">Message with functional error(s) - Violation of Rules &amp; Conditions</ns7:description>
+               <ns7:description lang="es">Mensaje con error/es funcional/es- Vulneración de reglas y condiciones.</ns7:description>
+               <ns7:description lang="fr">Message avec erreur(s) fonctionnelle(s) - Violation des règles et conditions</ns7:description>
+               <ns7:description lang="hr">Poruka s funkcionalnim greškama - Narušavanje pravila i uvjeta</ns7:description>
+               <ns7:description lang="lt">Pranešimas su funkcine (-ėmis) klaida (-omis) - Taisyklių ir sąlygų pažeidimas</ns7:description>
+               <ns7:description lang="me">Poruka s funkcionalnom greškom/greškama - Kršenje pravila i uslova</ns7:description>
+               <ns7:description lang="nl">Bericht met functionele fout(en) - Overtreding van bedrijfsregels en condities</ns7:description>
+               <ns7:description lang="pl">Komunikat z błędami funkcjonalnymi - naruszenie reguł i warunków</ns7:description>
+               <ns7:description lang="sk">Správa s funkčnou chybou (chybami) – Porušenie pravidiel a podmienok</ns7:description>
+               <ns7:description lang="sl">Sporočilo s funkcionalnimi napakami – Kršitev pravil in pogojev</ns7:description>
+               <ns7:description lang="sr">Poruka sa funkcionalnim greškama - Povreda pravila i uslova</ns7:description>
+               <ns7:description lang="uk">Повідомлення з функціональними помилкою (-ами) - Порушення правил і умов</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionDepartureExportCode">4</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Jiné důvody</ns7:description>
+               <ns7:description lang="da">Andre grunde</ns7:description>
+               <ns7:description lang="de">Andere Gründe</ns7:description>
+               <ns7:description lang="en">Other reasons</ns7:description>
+               <ns7:description lang="es">Otros motivos.</ns7:description>
+               <ns7:description lang="fr">Autres raisons</ns7:description>
+               <ns7:description lang="hr">Drugi razlozi</ns7:description>
+               <ns7:description lang="lt">Kitos priežastys</ns7:description>
+               <ns7:description lang="lv">Citi iemesli</ns7:description>
+               <ns7:description lang="me">Drugi razlozi</ns7:description>
+               <ns7:description lang="nl">Andere redenen</ns7:description>
+               <ns7:description lang="pl">Inne przyczyny</ns7:description>
+               <ns7:description lang="ro">Alte motive</ns7:description>
+               <ns7:description lang="sk">Iné dôvody</ns7:description>
+               <ns7:description lang="sl">Drugi razlogi</ns7:description>
+               <ns7:description lang="sr">Ostali razlozi</ns7:description>
+               <ns7:description lang="uk">Інші причини</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="RejectionDepartureExportCode">7</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="cs">Jistota není platná pro toto celní území</ns7:description>
+               <ns7:description lang="da">Sikkerhedsstillelse ikke gyldig for dette toldområde</ns7:description>
+               <ns7:description lang="de">Sicherheit nicht gültig für dieses Zollgebiet</ns7:description>
+               <ns7:description lang="en">Guarantee not valid for this customs territory</ns7:description>
+               <ns7:description lang="fr">Garantie non valable pour ce territoire douanier</ns7:description>
+               <ns7:description lang="hr">Jamstvo ne vrijedi za ovo carinsko područje</ns7:description>
+               <ns7:description lang="lv">Galvojums nav derīgs šajā muitas teritorijā</ns7:description>
+               <ns7:description lang="me">Garancija ne važi za ovo carinsko područje</ns7:description>
+               <ns7:description lang="nl">Zekerheid niet geldig voor dit Douanegebied</ns7:description>
+               <ns7:description lang="pl">Zabezpieczenie nieważne na ten obszar celny</ns7:description>
+               <ns7:description lang="sk">Záruka neplatí pre toto colné územie</ns7:description>
+               <ns7:description lang="sl">Zavarovanje ni veljavno za to carinsko območje</ns7:description>
+               <ns7:description lang="sr">Garancija ne važi za ovu carinsku teritoriju</ns7:description>
+               <ns7:description lang="uk">Гарантія не діє на цій митній території</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>

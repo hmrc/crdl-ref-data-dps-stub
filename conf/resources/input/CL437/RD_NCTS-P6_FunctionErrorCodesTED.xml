@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns8:ExtractValidReferenceDataRespMsg xsi:schemaLocation="" xmlns:ns0="http://xmlns.ec.eu/BusinessObjects/CSRD2/ReferenceDataExportBASServiceType/V2" xmlns:ns1="http://xmlns.ec.eu/BusinessObjects/CSRD2/MessageHeaderType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityEntryListType/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntryType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDStatusType/V2" xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDValidityPeriodType/V2" xmlns:ns7="http://xmlns.ec.eu/BusinessObjects/CSRD2/LsdListType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ns0:MessageHeader>
+      <ns1:AddressingInformation>
+         <ns1:messageID>12cd549b-f077-44d8-9ffb-78ada79d1e4c</ns1:messageID>
+         <ns1:relatesTo>f533379d-4b9e-4db6-ae5e-8a863cd705da</ns1:relatesTo>
+      </ns1:AddressingInformation>
+      <ns1:RequestInformation>
+         <ns4:ExtractValidReferenceDataReqMsg xmlns:ns6="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExtractType/V2" xmlns:ns5="http://xmlns.ec.eu/BusinessObjects/CSRD2/OperationType/V2" xmlns:ns8="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportingEntitiesType/V2" xmlns:ns12="http://xmlns.ec.eu/BusinessObjects/CSRD2/FilterRefType/V2" xmlns:ns10="http://xmlns.ec.eu/BusinessObjects/CSRD2/RDEntityFilterPairType/V2" xmlns:ns16="http://xmlns.ec.eu/BusinessObjects/CSRD2/LanguageDescriptionsType/V2" xmlns:ns15="http://xmlns.ec.eu/BusinessObjects/CSRD2/SynchronisationExtractType/V2" xmlns:ns14="http://xmlns.ec.eu/BusinessObjects/CSRD2/RetrieveType/V2" xmlns:ns2="http://xmlns.ec.eu/BusinessObjects/CSRD2/ExportType/V2" xmlns:ns4="http://xmlns.ec.eu/BusinessActivityService/CSRD2/IReferenceDataExportBAS/V2" xmlns:ns3="http://xmlns.ec.eu/BusinessObjects/CSRD2/StatementsType/V2">
+            <ns0:MessageHeader>
+               <ns1:AddressingInformation>
+                  <ns1:messageID>f533379d-4b9e-4db6-ae5e-8a863cd705da</ns1:messageID>
+               </ns1:AddressingInformation>
+            </ns0:MessageHeader>
+            <ns0:ExportType>
+               <ns2:Operation>
+                  <ns5:Extract>
+                     <ns6:SnapshotDate value="2025-12-24"/>
+                     <ns6:ExportingEntities>
+                        <ns8:RDView name="NCTS-P6"/>
+                        <ns8:RDEntityList>
+                           <ns8:RDEntity>
+                              <ns10:RDEntityName name="FunctionErrorCodesTED"/>
+                           </ns8:RDEntity>
+                        </ns8:RDEntityList>
+                     </ns6:ExportingEntities>
+                  </ns5:Extract>
+               </ns2:Operation>
+            </ns0:ExportType>
+         </ns4:ExtractValidReferenceDataReqMsg>
+      </ns1:RequestInformation>
+   </ns0:MessageHeader>
+   <ns0:RDEntityList>
+      <ns2:RDEntity name="FunctionErrorCodesTED">
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">12</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Codelist violation</ns7:description>
+               <ns7:description lang="fr">Violation de la liste de codes</ns7:description>
+               <ns7:description lang="me">Povreda liste kodova (Codelist violation)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">13</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Condition violation (Missing)</ns7:description>
+               <ns7:description lang="fr">Violation des conditions (manquant)</ns7:description>
+               <ns7:description lang="me">Povreda uslova (nedostaje podatak)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">14</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Rule violation</ns7:description>
+               <ns7:description lang="fr">Violation des règles</ns7:description>
+               <ns7:description lang="me">Povreda pravila</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">15</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Condition violation (Not allowed)</ns7:description>
+               <ns7:description lang="fr">Violation des conditions (non autorisé)</ns7:description>
+               <ns7:description lang="me">Povreda uslova (nije dozvoljeno)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">19</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Invalid decimal notation</ns7:description>
+               <ns7:description lang="fr">Notation décimale invalide</ns7:description>
+               <ns7:description lang="me">Neispravna decimalna notacija</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">26</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Duplicate Message ID</ns7:description>
+               <ns7:description lang="fr">ID de message en double</ns7:description>
+               <ns7:description lang="me">Duplirani ID poruke</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">35</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Too many repetitions</ns7:description>
+               <ns7:description lang="fr">Trop de répétitions</ns7:description>
+               <ns7:description lang="me">Previše ponavljanja</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">37</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Invalid type characters</ns7:description>
+               <ns7:description lang="fr">Caractères de type invalides</ns7:description>
+               <ns7:description lang="me">Neispravni tipovi karaktera</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">38</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Missing digit in front of decimal sign</ns7:description>
+               <ns7:description lang="fr">Chiffre manquant devant le signe décimal</ns7:description>
+               <ns7:description lang="me">Nedostaje cifra ispred decimalnog znaka</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">39</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Element too long (length constraint)</ns7:description>
+               <ns7:description lang="fr">Élément trop long (contrainte de longueur)</ns7:description>
+               <ns7:description lang="me">Element predugačak (ograničenje dužine)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">40</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Element too short (length constraint)</ns7:description>
+               <ns7:description lang="fr">Élément trop court (contrainte de longueur)</ns7:description>
+               <ns7:description lang="me">Element prekratak (ograničenje dužine)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">50</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Transitional constraint violation</ns7:description>
+               <ns7:description lang="fr">Violation de contrainte de transition</ns7:description>
+               <ns7:description lang="me">Povreda prelaznog ograničenja</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">51</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">EDI violation post downgrade</ns7:description>
+               <ns7:description lang="fr">Violation EDI après rétrogradation</ns7:description>
+               <ns7:description lang="me">Povreda EDI pravila nakon degradacije</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">52</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Functional violation post downgrade</ns7:description>
+               <ns7:description lang="fr">Violation fonctionnelle après rétrogradation</ns7:description>
+               <ns7:description lang="me">Funkcionalna povreda nakon degradacije</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-06-13</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">60</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Not satisfactory data quality</ns7:description>
+               <ns7:description lang="fr">Qualité des données non satisfaisante</ns7:description>
+               <ns7:description lang="me">Nedovoljan kvalitet podataka</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-06-13</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">61</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">It is not possible to add new goods items or house consignments via an ENS filing amendment</ns7:description>
+               <ns7:description lang="fr">Il n'est pas possible d'ajouter de nouveaux articles de marchandises ou envois au niveau fille lors de la modification de l'ENS</ns7:description>
+               <ns7:description lang="me">Nije moguće dodati nove stavke robe ili pojedinačne pošiljke putem izmjene ENS prijave</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-06-13</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">62</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Not allowed Unicode character</ns7:description>
+               <ns7:description lang="fr">Caractère Unicode non autorisé</ns7:description>
+               <ns7:description lang="me">Nedozvoljen Unicode karakter</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-06-13</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">63</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">The date and time of arrival cannot be earlier than the date and time of departure</ns7:description>
+               <ns7:description lang="fr">La date et l'heure d'arrivée ne peuvent être antérieures à la date et l'heure de départ</ns7:description>
+               <ns7:description lang="me">Datum i vrijeme dolaska ne mogu biti raniji od datuma i vremena odlaska</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-06-13</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">64</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Element cannot be amended</ns7:description>
+               <ns7:description lang="fr">L'élément ne peut pas être modifié</ns7:description>
+               <ns7:description lang="me">Element se ne može izmijeniti</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">70</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Invalid Means of Transport Identification Number</ns7:description>
+               <ns7:description lang="fr">Numéro d’identification du moyen de transport invalide</ns7:description>
+               <ns7:description lang="me">Neispravan identifikacioni broj prevoznog sredstva</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">71</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">House consignment in a wrong state</ns7:description>
+               <ns7:description lang="fr">Envoi filles dans un mauvais état</ns7:description>
+               <ns7:description lang="me">Pojedinačna pošiljka u pogrešnom statusu</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">72</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">ENS filing in a wrong state</ns7:description>
+               <ns7:description lang="fr">Dépôt ENS dans un mauvais état</ns7:description>
+               <ns7:description lang="me">ENS prijava u pogrešnom statusu</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">80</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Unknown Transport Document Reference</ns7:description>
+               <ns7:description lang="fr">Référence inconnue du document de transport</ns7:description>
+               <ns7:description lang="me">Nepoznata referenca transportnog dokumenta</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">81</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Duplicate Transport Document Reference</ns7:description>
+               <ns7:description lang="fr">Référence du document de transport en double</ns7:description>
+               <ns7:description lang="me">Duplirana referenca transportnog dokumenta</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">90</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Unknown MRN</ns7:description>
+               <ns7:description lang="fr">MRN inconnu</ns7:description>
+               <ns7:description lang="me">Nepoznat MRN broj</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">91</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Duplicate MRN</ns7:description>
+               <ns7:description lang="fr">MRN en double</ns7:description>
+               <ns7:description lang="me">Dupliran MRN broj</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">92</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Message out of sequence</ns7:description>
+               <ns7:description lang="fr">Message hors séquence</ns7:description>
+               <ns7:description lang="me">Poruka nije u ispravnom redosledu</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">93</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Invalid MRN (The structure of the MRN is not conform specifications.)</ns7:description>
+               <ns7:description lang="fr">MRN invalide (La structure du MRN n'est pas conforme aux spécifications.)</ns7:description>
+               <ns7:description lang="me">Neispravan MRN (struktura MRN broja nije u skladu sa specifikacijama)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">94</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Duplicate LRN</ns7:description>
+               <ns7:description lang="fr">LRN en double</ns7:description>
+               <ns7:description lang="me">Dupliran LRN broj</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">95</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Uniqueness Error</ns7:description>
+               <ns7:description lang="fr">Erreur d'unicité</ns7:description>
+               <ns7:description lang="me">Greška jedinstvenosti (Uniqueness Error)</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">96</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Incorrect entity reference</ns7:description>
+               <ns7:description lang="fr">Référence d'entité incorrecte</ns7:description>
+               <ns7:description lang="me">Neispravna referenca entiteta</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">97</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Not found</ns7:description>
+               <ns7:description lang="fr">Pas trouvé</ns7:description>
+               <ns7:description lang="me">Nije pronađeno</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">98</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Unknown reference</ns7:description>
+               <ns7:description lang="fr">Référence inconnue</ns7:description>
+               <ns7:description lang="me">Nepoznata referenca</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+         <ns3:RDEntry>
+            <ns4:RDEntryStatus>
+               <ns5:state>valid</ns5:state>
+               <ns5:activeFrom>2025-11-01</ns5:activeFrom>
+            </ns4:RDEntryStatus>
+            <ns4:dataItem name="Code">99</ns4:dataItem>
+            <ns4:LsdList>
+               <ns7:description lang="en">Update not allowed</ns7:description>
+               <ns7:description lang="fr">Mise à jour non autorisée</ns7:description>
+               <ns7:description lang="me">Ažuriranje nije dozvoljeno</ns7:description>
+            </ns4:LsdList>
+         </ns3:RDEntry>
+      </ns2:RDEntity>
+   </ns0:RDEntityList>
+</ns8:ExtractValidReferenceDataRespMsg>
