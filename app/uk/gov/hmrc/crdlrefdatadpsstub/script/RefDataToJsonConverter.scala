@@ -43,7 +43,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
   private val rdEntriesXPath   = xpath"//ns3:RDEntry"
   private val entriesPerPage   = 10
   private val recordMultiplier = 1
-  private val maxPages = 50
+  private val maxPages         = 50
 
   private val basePath: String = environment.rootPath.getAbsolutePath
 
@@ -105,7 +105,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
 
   def convertXmlToJson(): Future[String] = {
     val io = for {
-      files <- IO.pure(Files.forIO)
+      files     <- IO.pure(Files.forIO)
       inputPath <- IO.pure(Path(s"$basePath/conf/resources/input"))
 
       inputExists <- files.exists(inputPath)
@@ -142,15 +142,15 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
       }
     }
 
-    val header = "RefData Conversion Summary:"
+    val header    = "RefData Conversion Summary:"
     val separator = "=" * 50
 
     (header :: separator :: summaryLines ::: List(separator)).mkString("\n")
   }
 
   private def processFolder(codeListCode: String): IO[Int] = {
-    val files = Files.forIO
-    val inputPath = Path(s"$basePath/conf/resources/input/$codeListCode")
+    val files      = Files.forIO
+    val inputPath  = Path(s"$basePath/conf/resources/input/$codeListCode")
     val outputPath = Path(s"$basePath/conf/resources/codeList/$codeListCode")
 
     for {
@@ -170,7 +170,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
       fileCount <- xmlFiles.headOption match {
         case Some(xmlFile) =>
           val xmlFileName = xmlFile.fileName.toString
-          val metadata = extractFileMetadata(xmlFileName)
+          val metadata    = extractFileMetadata(xmlFileName)
 
           for {
             entries <- readAndParseXml(xmlFile, metadata)
@@ -190,14 +190,14 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
   }
 
   private def writePagedJsonFiles(
-                                   codeListCode: String,
-                                   codeListName: String,
-                                   entries: List[RDEntry],
-                                   outputPath: Path
-                                 ): IO[Int] = {
+    codeListCode: String,
+    codeListName: String,
+    entries: List[RDEntry],
+    outputPath: Path
+  ): IO[Int] = {
     val files = Files.forIO
 
-    val maxEntries = maxPages * entriesPerPage
+    val maxEntries     = maxPages * entriesPerPage
     val limitedEntries = entries.take(maxEntries)
 
     val totalPages = Math.min(
@@ -208,35 +208,40 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
     if (limitedEntries.isEmpty) {
       IO.pure(0)
     } else {
-      limitedEntries.grouped(entriesPerPage).toList.zipWithIndex.traverse { case (pageEntries, idx) =>
-        val pageNum = idx + 1
+      limitedEntries
+        .grouped(entriesPerPage)
+        .toList
+        .zipWithIndex
+        .traverse { case (pageEntries, idx) =>
+          val pageNum = idx + 1
 
-        val links = buildLinks(codeListCode, pageNum, totalPages)
+          val links = buildLinks(codeListCode, pageNum, totalPages)
 
-        val json = RootJson(
-          name = "iv_crdl_reference_data",
-          elements = List(
-            CodeListElement(
-              code_list_code = codeListCode,
-              code_list_name = codeListName,
-              rdentry = pageEntries,
-              languagecode = "EN",
-              snapshotversion = 2
-            )
-          ),
-          links = links
-        )
+          val json = RootJson(
+            name = "iv_crdl_reference_data",
+            elements = List(
+              CodeListElement(
+                code_list_code = codeListCode,
+                code_list_name = codeListName,
+                rdentry = pageEntries,
+                languagecode = "EN",
+                snapshotversion = 2
+              )
+            ),
+            links = links
+          )
 
-        val jsonString = json.asJson.spaces2
-        val outputFile = outputPath / s"${codeListCode}_page$pageNum.json"
+          val jsonString = json.asJson.spaces2
+          val outputFile = outputPath / s"${codeListCode}_page$pageNum.json"
 
-        fs2.Stream
-          .emit(jsonString)
-          .through(fs2.text.utf8.encode)
-          .through(files.writeAll(outputFile))
-          .compile
-          .drain
-      }.map(_ => totalPages)
+          fs2.Stream
+            .emit(jsonString)
+            .through(fs2.text.utf8.encode)
+            .through(files.writeAll(outputFile))
+            .compile
+            .drain
+        }
+        .map(_ => totalPages)
     }
   }
 
@@ -293,9 +298,9 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
     if (dataItemsFromXml.isEmpty) {
       None
     } else {
-      val state = (elem \ "RDEntryStatus" \ "state").headOption.map(_.text)
+      val state         = (elem \ "RDEntryStatus" \ "state").headOption.map(_.text)
       val activeFromRaw = (elem \ "RDEntryStatus" \ "activeFrom").headOption.map(_.text)
-      val activeFrom = activeFromRaw.map(parseDate)
+      val activeFrom    = activeFromRaw.map(parseDate)
 
       val statusItems = List(
         state.map(s => DataItem("RDEntryStatus_state", s)),
