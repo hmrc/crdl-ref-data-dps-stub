@@ -42,7 +42,8 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
   private val outputDateFormat = DateTimeFormatter.ofPattern("dd-MM-yyyy")
   private val rdEntriesXPath   = xpath"//ns3:RDEntry"
   private val entriesPerPage   = 10
-  private val recordMultiplier = 1 // Change this to generate multiple set of test files
+  private val recordMultiplier = 1
+  private val maxPages         = 50
 
   private val basePath: String = environment.rootPath.getAbsolutePath
 
@@ -81,7 +82,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
     links: List[Link]
   )
 
-  case class FileMetadata(
+  private case class FileMetadata(
     phase: String,
     domain: String,
     codeListName: String
@@ -122,8 +123,8 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
                 IO.pure("No input files to process")
               } else {
                 folderNames
-                  .traverse_(processFolder)
-                  .map(_ => "RefData is converted to stubs successfully")
+                  .traverse(codeList => processFolder(codeList).map(count => (codeList, count)))
+                  .map(results => buildSummary(results))
               }
           } yield result
         }
@@ -132,7 +133,22 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
     io.unsafeToFuture()
   }
 
-  private def processFolder(codeListCode: String): IO[Unit] = {
+  private def buildSummary(results: List[(String, Int)]): String = {
+    val summaryLines = results.map { case (codeList, count) =>
+      if (count == 0) {
+        s"$codeList -> ERROR (0 files generated)"
+      } else {
+        s"$codeList -> $count files generated"
+      }
+    }
+
+    val header    = "RefData Conversion Summary:"
+    val separator = "=" * 50
+
+    (header :: separator :: summaryLines ::: List(separator)).mkString("\n")
+  }
+
+  private def processFolder(codeListCode: String): IO[Int] = {
     val files      = Files.forIO
     val inputPath  = Path(s"$basePath/conf/resources/input/$codeListCode")
     val outputPath = Path(s"$basePath/conf/resources/codeList/$codeListCode")
@@ -151,7 +167,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
         .compile
         .toList
 
-      _ <- xmlFiles.headOption match {
+      fileCount <- xmlFiles.headOption match {
         case Some(xmlFile) =>
           val xmlFileName = xmlFile.fileName.toString
           val metadata    = extractFileMetadata(xmlFileName)
@@ -159,23 +175,77 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
           for {
             entries <- readAndParseXml(xmlFile, metadata)
             multipliedEntries = multiplyEntries(entries, recordMultiplier)
-            _ <- writePagedJsonFiles(
+            count <- writePagedJsonFiles(
               codeListCode,
               metadata.codeListName,
               multipliedEntries,
               outputPath
             )
-          } yield ()
+          } yield count
 
         case None =>
-          IO.unit
+          IO.pure(0)
       }
-    } yield ()
+    } yield fileCount
+  }
+
+  private def writePagedJsonFiles(
+    codeListCode: String,
+    codeListName: String,
+    entries: List[RDEntry],
+    outputPath: Path
+  ): IO[Int] = {
+    val files = Files.forIO
+
+    val maxEntries     = maxPages * entriesPerPage
+    val limitedEntries = entries.take(maxEntries)
+
+    val totalPages = Math.min(
+      Math.ceil(entries.size.toDouble / entriesPerPage).toInt,
+      maxPages
+    )
+
+    if (limitedEntries.isEmpty) {
+      IO.pure(0)
+    } else {
+      limitedEntries
+        .grouped(entriesPerPage)
+        .toList
+        .zipWithIndex
+        .traverse { case (pageEntries, idx) =>
+          val pageNum = idx + 1
+
+          val links = buildLinks(codeListCode, pageNum, totalPages)
+
+          val json = RootJson(
+            name = "iv_crdl_reference_data",
+            elements = List(
+              CodeListElement(
+                code_list_code = codeListCode,
+                code_list_name = codeListName,
+                rdentry = pageEntries,
+                languagecode = "EN",
+                snapshotversion = 2
+              )
+            ),
+            links = links
+          )
+
+          val jsonString = json.asJson.spaces2
+          val outputFile = outputPath / s"${codeListCode}_page$pageNum.json"
+
+          fs2.Stream
+            .emit(jsonString)
+            .through(fs2.text.utf8.encode)
+            .through(files.writeAll(outputFile))
+            .compile
+            .drain
+        }
+        .map(_ => totalPages)
+    }
   }
 
   private def extractFileMetadata(xmlFileName: String): FileMetadata = {
-    // Pattern: RD_<Phase>-P<Domain>_<CodeListName>.xml
-    // Example: RD_NCTS-P6_DeclarationType.xml
     val pattern = """RD_([^-]+)-P(\d+)_(.+)\.xml""".r
 
     xmlFileName match {
@@ -205,9 +275,6 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
     else entries.flatMap(entry => List.fill(times)(entry))
   }
 
-  private def parseString(nodeSeq: NodeSeq): Option[String] =
-    nodeSeq.headOption.map(_.text.trim)
-
   private def parseDate(dateStr: String): String = {
     try {
       val date = LocalDate.parse(dateStr, inputDateFormat)
@@ -218,66 +285,42 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
   }
 
   private def parseRDEntry(elem: Elem, metadata: FileMetadata): Option[RDEntry] = {
-    for {
-      code          <- parseString(elem \\ "dataItem")
-      state         <- parseString(elem \ "RDEntryStatus" \ "state")
-      activeFromRaw <- parseString(elem \ "RDEntryStatus" \ "activeFrom")
-      activeFrom = parseDate(activeFromRaw)
-      enDesc <- (elem \ "LsdList" \ "description")
-        .find(node => (node \ "@lang").text == "en")
-        .flatMap(n => Some(n.text.trim))
-    } yield {
-      val dataItems = List(
-        DataItem("AdditionalInformationCode", code),
-        DataItem("RDEntryStatus_state", state),
-        DataItem("RDEntryStatus_activeFrom", activeFrom),
+    val dataItemElems = elem \\ "dataItem"
+
+    val dataItemsFromXml = dataItemElems.flatMap { dataItemElem =>
+      for {
+        name <- dataItemElem.attribute("name").map(_.text)
+        value = dataItemElem.text.trim
+        if value.nonEmpty
+      } yield DataItem(name, value)
+    }.toList
+
+    if (dataItemsFromXml.isEmpty) {
+      None
+    } else {
+      val state         = (elem \ "RDEntryStatus" \ "state").headOption.map(_.text)
+      val activeFromRaw = (elem \ "RDEntryStatus" \ "activeFrom").headOption.map(_.text)
+      val activeFrom    = activeFromRaw.map(parseDate)
+
+      val statusItems = List(
+        state.map(s => DataItem("RDEntryStatus_state", s)),
+        activeFrom.map(af => DataItem("RDEntryStatus_activeFrom", af))
+      ).flatten
+
+      val metadataItems = List(
         DataItem("Phase", metadata.phase),
         DataItem("Domain", metadata.domain)
       )
 
-      val languages = List(Language("en", enDesc))
+      val allDataItems = dataItemsFromXml ++ statusItems ++ metadataItems
 
-      RDEntry(dataItems, languages)
-    }
-  }
+      val enDesc = (elem \ "LsdList" \ "description")
+        .find(node => node.attribute("lang").exists(_.text == "en"))
+        .map(_.text.trim)
 
-  private def writePagedJsonFiles(
-    codeListCode: String,
-    codeListName: String,
-    entries: List[RDEntry],
-    outputPath: Path
-  ): IO[Unit] = {
-    val files      = Files.forIO
-    val totalPages = Math.ceil(entries.size.toDouble / entriesPerPage).toInt
+      val languages = enDesc.map(desc => List(Language("en", desc))).getOrElse(List.empty)
 
-    entries.grouped(entriesPerPage).toList.zipWithIndex.traverse_ { case (pageEntries, idx) =>
-      val pageNum = idx + 1
-
-      val links = buildLinks(codeListCode, pageNum, totalPages)
-
-      val json = RootJson(
-        name = "iv_crdl_reference_data",
-        elements = List(
-          CodeListElement(
-            code_list_code = codeListCode,
-            code_list_name = codeListName,
-            rdentry = pageEntries,
-            languagecode = "EN",
-            snapshotversion = 2
-          )
-        ),
-        links = links
-      )
-
-      val jsonString = json.asJson.spaces2
-      val outputFile = outputPath / s"${codeListCode}_page$pageNum.json"
-
-      fs2.Stream
-        .emit(jsonString)
-        .through(fs2.text.utf8.encode)
-        .through(files.writeAll(outputFile))
-        .compile
-        .drain
+      Some(RDEntry(allDataItems, languages))
     }
   }
 

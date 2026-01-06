@@ -8,8 +8,12 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "12"
+            },
+            {
+              "dataitem_name" : "Remark",
+              "dataitem_value" : "Value of an element in a message is outside the predefined set of values or not part of the applicable business/technical code list. This type of error is applicable to all elements with code values, so it is also applicable to those elements that identify a message type."
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -38,8 +42,12 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "13"
+            },
+            {
+              "dataitem_name" : "Remark",
+              "dataitem_value" : "A mandatory/required element is missing in the received data following the validation of Rule or Condition , e.g. a required element is not present."
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -68,7 +76,7 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "14"
             },
             {
@@ -98,8 +106,12 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "15"
+            },
+            {
+              "dataitem_name" : "Remark",
+              "dataitem_value" : "An element is not allowed to have a value due to the following two reasons: The element is not allowed to be present according to some additional condition, e.g. if type of packages has the value 'UNPACKED' then number of package can not have a value (condition C0060 )."
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -128,8 +140,12 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "26"
+            },
+            {
+              "dataitem_name" : "Remark",
+              "dataitem_value" : "The same interchange is received again. Duplication is detected by reception of a message identifier that has already been received."
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -158,8 +174,12 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "50"
+            },
+            {
+              "dataitem_name" : "Remark",
+              "dataitem_value" : "An element is not valid (value, format or repetitions) according to a Transitional Constraint [Downgrade & Upgrade Conversion]."
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -188,8 +208,12 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "51"
+            },
+            {
+              "dataitem_name" : "Remark",
+              "dataitem_value" : "An error reported by Convertor in the Technical Message Structure (EDIFACT level) validation on the downgraded message (ECS-P2/NCTS-P4 message) [Downgrade Conversion from NCTS-P5/AES to NCTS-P4/ECS-P2]."
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -218,8 +242,12 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "52"
+            },
+            {
+              "dataitem_name" : "Remark",
+              "dataitem_value" : "An error reported by Convertor in the Functional Message Structure (ECS-P2/NCTS-P4 XML or Rules/Conditions) validation on the downgraded message (ECS-P2/NCTS-P4 message) [Downgrade Conversion from NCTS-P5/AES to NCTS-P4/ECS-P2]."
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -248,7 +276,7 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "90"
             },
             {
@@ -278,7 +306,7 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "92"
             },
             {

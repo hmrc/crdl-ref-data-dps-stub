@@ -8,8 +8,12 @@
         {
           "dataitem" : [
             {
-              "dataitem_name" : "AdditionalInformationCode",
+              "dataitem_name" : "Code",
               "dataitem_value" : "93"
+            },
+            {
+              "dataitem_name" : "Remark",
+              "dataitem_value" : "The structure of the MRN is not conform specifications."
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
