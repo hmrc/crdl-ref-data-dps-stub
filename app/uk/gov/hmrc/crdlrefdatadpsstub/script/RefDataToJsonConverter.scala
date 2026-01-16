@@ -249,8 +249,8 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
     val pattern = """RD_([^-]+)-P(\d+)_(.+)\.xml""".r
 
     xmlFileName match {
-      case pattern(phase, domain, codeListName) =>
-        FileMetadata(phase, domain, codeListName)
+      case pattern(domain, phase, codeListName) =>
+        FileMetadata("P" + phase, domain, codeListName)
       case _ => FileMetadata("UNKNOWN", "0", xmlFileName.replace(".xml", ""))
     }
   }
