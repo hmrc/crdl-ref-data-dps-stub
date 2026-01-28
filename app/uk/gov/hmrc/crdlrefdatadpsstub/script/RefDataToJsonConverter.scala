@@ -41,9 +41,10 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
   private val inputDateFormat  = DateTimeFormatter.ISO_LOCAL_DATE
   private val outputDateFormat = DateTimeFormatter.ofPattern("dd-MM-yyyy")
   private val rdEntriesXPath   = xpath"//ns3:RDEntry"
-  private val entriesPerPage   = 10
+  private val entriesPerPage   = 100
   private val recordMultiplier = 1
   private val maxPages         = 50
+  private val applyPageLimit   = false
 
   private val basePath: String = environment.rootPath.getAbsolutePath
 
@@ -197,18 +198,26 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
   ): IO[Int] = {
     val files = Files.forIO
 
-    val maxEntries     = maxPages * entriesPerPage
-    val limitedEntries = entries.take(maxEntries)
+    val processedEntries = if (applyPageLimit) {
+      val maxEntries = maxPages * entriesPerPage
+      entries.take(maxEntries)
+    } else {
+      entries
+    }
 
-    val totalPages = Math.min(
-      Math.ceil(entries.size.toDouble / entriesPerPage).toInt,
-      maxPages
-    )
+    val totalPages = if (applyPageLimit) {
+      Math.min(
+        Math.ceil(entries.size.toDouble / entriesPerPage).toInt,
+        maxPages
+      )
+    } else {
+      Math.ceil(entries.size.toDouble / entriesPerPage).toInt
+    }
 
-    if (limitedEntries.isEmpty) {
+    if (processedEntries.isEmpty) {
       IO.pure(0)
     } else {
-      limitedEntries
+      processedEntries
         .grouped(entriesPerPage)
         .toList
         .zipWithIndex
@@ -318,7 +327,9 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
         .find(node => node.attribute("lang").exists(_.text == "en"))
         .map(_.text.trim)
 
-      val languages = enDesc.map(desc => List(Language("en", desc))).getOrElse(List.empty)
+      val languages = enDesc
+        .map(desc => List(Language("en", desc)))
+        .getOrElse(List(Language("en", "English")))
 
       Some(RDEntry(allDataItems, languages))
     }
