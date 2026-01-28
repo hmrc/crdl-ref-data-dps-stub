@@ -9,7 +9,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0092"
+              "dataitem_value" : "1161"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -31,7 +31,7 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "FLARES, SURFACE"
+              "lang_desc" : "DIMETHYL CARBONATE"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0093"
+              "dataitem_value" : "1162"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -61,7 +61,7 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "FLARES, AERIAL"
+              "lang_desc" : "DIMETHYLDICHLOROSILANE"
             }
           ]
         },
@@ -69,7 +69,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0094"
+              "dataitem_value" : "1163"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -91,7 +91,7 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "FLASH POWDER"
+              "lang_desc" : "DIMETHYLHYDRAZINE, UNSYMMETRICAL"
             }
           ]
         },
@@ -99,7 +99,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0099"
+              "dataitem_value" : "1164"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -121,7 +121,7 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "FRACTURING DEVICES, EXPLOSIVE without detonator, for oil wells"
+              "lang_desc" : "DIMETHYL SULPHIDE"
             }
           ]
         },
@@ -129,7 +129,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0101"
+              "dataitem_value" : "1165"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -151,7 +151,7 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "FUSE, NON-DETONATING"
+              "lang_desc" : "DIOXANE"
             }
           ]
         },
@@ -159,7 +159,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0102"
+              "dataitem_value" : "1166"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -181,7 +181,7 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "CORD (FUSE), DETONATING, metal clad"
+              "lang_desc" : "DIOXOLANE"
             }
           ]
         },
@@ -189,7 +189,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0103"
+              "dataitem_value" : "1167"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -211,7 +211,7 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "FUSE, IGNITER, tubular, metal clad"
+              "lang_desc" : "DIVINYL ETHER, STABILIZED"
             }
           ]
         },
@@ -219,7 +219,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0104"
+              "dataitem_value" : "1170"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -241,7 +241,7 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "CORD (FUSE), DETONATING, MILD EFFECT, metal clad"
+              "lang_desc" : "ETHANOL (ETHYL ALCOHOL) or ETHANOL SOLUTION (ETHYL ALCOHOL SOLUTION)"
             }
           ]
         },
@@ -249,7 +249,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0105"
+              "dataitem_value" : "1171"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -271,7 +271,7 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "FUSE, SAFETY"
+              "lang_desc" : "ETHYLENE GLYCOL MONOETHYL ETHER"
             }
           ]
         },
@@ -279,7 +279,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnDangerousGoodsCode",
-              "dataitem_value" : "0106"
+              "dataitem_value" : "1172"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -301,7 +301,2707 @@
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "FUZES, DETONATING"
+              "lang_desc" : "ETHYLENE GLYCOL MONOETHYL ETHER ACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1173"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL ACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1175"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYLBENZENE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1176"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL BORATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1177"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "2-ETHYLBUTYL ACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1178"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "2-ETHYLBUTYRALDEHYDE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1179"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL BUTYL ETHER"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1180"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL BUTYRATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1181"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL CHLOROACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1182"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL CHLOROFORMATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1183"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYLDICHLOROSILANE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1184"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYLENE DICHLORIDE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1185"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYLENEIMINE, STABILIZED"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1188"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYLENE GLYCOL MONOMETHYL ETHER"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1189"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYLENE GLYCOL MONOMETHYL ETHER ACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1190"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL FORMATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1191"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "OCTYL ALDEHYDES"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1192"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL LACTATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1193"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL METHYL KETONE (METHYL ETHYL KETONE)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1194"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL NITRITE SOLUTION"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1195"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYL PROPIONATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1196"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ETHYLTRICHLOROSILANE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1197"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "EXTRACTS, FLAVOURING, LIQUID"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1198"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "FORMALDEHYDE SOLUTION, FLAMMABLE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1199"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "FURALDEHYDES"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "FUSEL OIL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1202"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "GAS OIL or DIESEL FUEL or HEATING OIL, LIGHT"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1203"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "MOTOR SPIRIT or GASOLINE or PETROL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1204"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "NITROGLYCERIN SOLUTION IN ALCOHOL with not more than 1% nitroglycerin"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1206"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "HEPTANES"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "HEXALDEHYDE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1208"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "HEXANES"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1210"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PRINTING INK, flammable or PRINTING INK RELATED MATERIAL (including printing ink thinning or reducing compound), flammable"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1212"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ISOBUTANOL (ISOBUTYL ALCOHOL)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1213"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ISOBUTYL ACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1214"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ISOBUTYLAMINE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1216"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ISOOCTENES"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1218"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ISOPRENE, STABILIZED"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1219"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ISOPROPANOL (ISOPROPYL ALCOHOL)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1220"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ISOPROPYL ACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1221"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ISOPROPYLAMINE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1222"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ISOPROPYL NITRATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1223"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "KEROSENE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1224"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "KETONES, LIQUID, N.O.S."
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1228"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "MERCAPTANS, LIQUID, FLAMMABLE, TOXIC, N.O.S. or MERCAPTAN MIXTURE, LIQUID, FLAMMABLE, TOXIC, N.O.S."
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1229"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "MESITYL OXIDE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1230"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHANOL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1231"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL ACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1233"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYLAMYL ACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1234"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYLAL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1235"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYLAMINE, AQUEOUS SOLUTION"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1237"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL BUTYRATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1238"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL CHLOROFORMATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1239"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL CHLOROMETHYL ETHER"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1242"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYLDICHLOROSILANE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1243"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL FORMATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1244"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYLHYDRAZINE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1245"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL ISOBUTYL KETONE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1246"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL ISOPROPENYL KETONE, STABILIZED"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1247"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL METHACRYLATE MONOMER, STABILIZED"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1248"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL PROPIONATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1249"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL PROPYL KETONE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1250"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYLTRICHLOROSILANE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1251"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "METHYL VINYL KETONE, STABILIZED"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1259"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "NICKEL CARBONYL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1261"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "NITROMETHANE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1262"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "OCTANES"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1263"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PAINT (including paint, lacquer, enamel, stain, shellac, varnish, polish, liquid filler and liquid lacquer base) or PAINT RELATED MATERIAL ("
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1264"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PARALDEHYDE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1265"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PENTANES, liquid"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1266"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PERFUMERY PRODUCTS with flammable solvents"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1267"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PETROLEUM CRUDE OIL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1268"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PETROLEUM DISTILLATES, N.O.S. or PETROLEUM PRODUCTS, N.O.S."
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1272"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PINE OIL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1274"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "n-PROPANOL (PROPYL ALCOHOL, NORMAL)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1275"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PROPIONALDEHYDE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1276"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "n-PROPYL ACETATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1277"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PROPYLAMINE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1278"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "1-CHLOROPROPANE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1279"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "1,2-DICHLOROPROPANE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1280"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PROPYLENE OXIDE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1281"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PROPYL FORMATES"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1282"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "PYRIDINE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1286"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ROSIN OIL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1287"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "RUBBER SOLUTION"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1288"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "SHALE OIL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1289"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "SODIUM METHYLATE SOLUTION in alcohol"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1292"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "TETRAETHYL SILICATE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1293"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "TINCTURES, MEDICINAL"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1294"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "TOLUENE"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnDangerousGoodsCode",
+              "dataitem_value" : "1295"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "TRICHLOROSILANE"
             }
           ]
         }
@@ -313,17 +3013,17 @@
   "links" : [
     {
       "rel" : "self",
-      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL101&%24count=10"
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL101&%24count=100"
     },
     {
       "title" : "Previous interval",
       "rel" : "prev",
-      "href" : "?%24start_index=40&%24orderby=snapshotversion+ASC&code_list_code=CL101&%24count=10"
+      "href" : "?%24start_index=400&%24orderby=snapshotversion+ASC&code_list_code=CL101&%24count=100"
     },
     {
       "title" : "Next interval",
       "rel" : "next",
-      "href" : "?%24start_index=60&%24orderby=snapshotversion+ASC&code_list_code=CL101&%24count=10"
+      "href" : "?%24start_index=600&%24orderby=snapshotversion+ASC&code_list_code=CL101&%24count=100"
     }
   ]
 }

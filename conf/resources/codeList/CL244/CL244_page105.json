@@ -1,0 +1,5145 @@
+{
+  "name" : "iv_crdl_reference_data",
+  "elements" : [
+    {
+      "code_list_code" : "CL244",
+      "code_list_name" : "UnLocodeExtended",
+      "rdentry" : [
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Russas"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0442S 04033W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Redencao"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1249S 04104W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Rosalandia"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1034S 04854W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Resende"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MG"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2107S 04625W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nortelandia"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--34----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1427S 05648W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Roma"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1344S 04653W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nacip Raydan"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1827S 04215W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novo Repartimento"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0414S 04956W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novo Oriente do Piaui"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0626S 04155W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Aurora"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1803S 04815W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Roma do Sul"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "RS"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2859S 05124W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Santa Rita"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0804S 04202W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nina Rodrigues"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0327S 04354W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNRZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Senador Cortes"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2148S 04256W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Serrana"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1952S 04459W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Santa Barbara"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2335S 05045W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nossa Senhora das Dores"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1029S 03711W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Soure"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "BA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1114S 03829W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nossa Senhora da Gloria"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1012S 03725W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Santa Helena"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1051S 05511W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novo Santo Antonio"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1217S 05058W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novo Sao Joaquim"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1453S 05300W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nossa Senhora do Livramento"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1547S 05620W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nossa Senhora de Nazare"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0437S 04210W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novo Santo Antonio"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0517S 04156W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Santa Rita"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2950S 05116W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNSS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nossa Senhora do Socorro"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1050S 03707W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNST"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Esperanca do Sudoeste"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2553S 05315W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Tebas"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2426S 05157W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Natividade"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1142S 04743W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ponte Serrada"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2652S 05200W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Natercia"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2207S 04531W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Santo Antonio dos Milagres"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0602S 04242W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Paranatama"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0855S 03639W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "USE BR MTS"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Centenario"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0857S 04720W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novo Triunfo"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1020S 03824W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Sub@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Santo Antonio do Palma"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2829S 05201W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTQ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nao-Me-Toque"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2827S 05249W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Niteroi"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "RJ"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2253S 04304W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Natividade da Serra"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2322S 04526W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novo Tiradentes"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2733S 05311W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNTU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Timboteua"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0112S 04723W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNUA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Natuba"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0738S 03533W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNUB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Ubirata"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1302S 05516W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNUO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Uniao"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1054S 06233W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNUR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Aurora"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2431S 05315W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Olinda"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0737S 04825W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Venecia"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1842S 04024W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Olinda"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0728S 03802W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Veneza"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2838S 04930W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nicolau Vergueiro"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2832S 05227W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Navirai"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--34----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2303S 05411W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Fun@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Laranjeiras"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PR"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2518S 05232W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Ramada"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2804S 05342W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Vicosa"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1753S 03922W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novo Aripuana"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0507S 06022W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "26-08-2023"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Santa Rosa"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2427S 05357W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novais"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2059S 04855W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Navegantes"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-34----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2653S 04838W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Uniao"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MG"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1941S 04334W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVW"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Santa Rita do Novo Destino"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1508S 04907W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNVZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Veneza"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1621S 04918W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Fun@Sta"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNWS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Serranos"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2153S 04430W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNXA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nova Xavantina"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1440S 05221W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNXU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novo Xingu"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2744S 05303W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNYA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Pratania"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2248S 04839W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNZA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nazare"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1302S 03900W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNZE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novorizonte"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1601S 04225W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNZI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nazaria"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0520S 04248W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNZN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nazareno"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MG"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1801"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2113S 04437W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNZO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nazario"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1634S 04952W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRNZR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nazare"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0622S 04740W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROAA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Orizania"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2030S 04212W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROAB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Olho-d'Agua do Borges"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0557S 03742W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROAG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Olhos-d'Agua"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1724S 04334W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROAI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Olaria"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2151S 04355W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROAO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sao Joao"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2549S 05243W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROAS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Oratorios"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2025S 04248W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROAU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Olho d'Agua"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0713S 03745W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROBA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Pindoba"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0928S 03617W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROBC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ouro Branco"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0641S 03656W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROBE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Oscar Bressane"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2219S 05017W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROBI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Obidos"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-34----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0154S 05530W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "26-08-2023"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROBO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ouro Branco"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0909S 03721W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROBR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ouro Branco"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MG"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2031S 04341W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROCA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Otacilio Costa"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2730S 05006W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROCI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ouricuri"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0752S 04004W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROCO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Poco das Antas"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2927S 05140W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROCR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ocara"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CE"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1707"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0429S 03835W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROCU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ocaucu"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SP"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2226S 04955W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROCZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Osvaldo Cruz"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2147S 05052W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "@Sta@Coo"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRODA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Orindiuva"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2010S 04921W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRODB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Oliveira dos Brejinhos"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1219S 04253W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRODF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Oliveira de Fatima"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1042S 04854W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRODO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bodo"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0559S 03624W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BRODP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Oeiras do Para"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0200S 04951W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROEA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Olivenca"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0931S 03711W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROED"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Moeda"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2019S 04402W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROEI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Oeiras"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0700S 04207W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "BROEM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Moema"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1950S 04525W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        }
+      ],
+      "languagecode" : "EN",
+      "snapshotversion" : 2
+    }
+  ],
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    },
+    {
+      "title" : "Previous interval",
+      "rel" : "prev",
+      "href" : "?%24start_index=10300&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    },
+    {
+      "title" : "Next interval",
+      "rel" : "next",
+      "href" : "?%24start_index=10500&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    }
+  ]
+}

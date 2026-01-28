@@ -9,103 +9,15 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQDAV"
+              "dataitem_value" : "AUCTB"
             },
             {
               "dataitem_name" : "Name",
-              "dataitem_value" : "Davis Station"
+              "dataitem_value" : "Cataby"
             },
             {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "1-------"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "RL"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0907"
-            },
-            {
-              "dataitem_name" : "Coordinates",
-              "dataitem_value" : "6834S 07758E"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQDDU"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Dumont d'Urville Station"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "1-------"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "RL"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0907"
-            },
-            {
-              "dataitem_name" : "Coordinates",
-              "dataitem_value" : "6639S 14000E"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQDMF"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Dome Fuji"
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
             },
             {
               "dataitem_name" : "Function",
@@ -117,11 +29,11 @@
             },
             {
               "dataitem_name" : "Date",
-              "dataitem_value" : "0507"
+              "dataitem_value" : "0607"
             },
             {
               "dataitem_name" : "Coordinates",
-              "dataitem_value" : "7719S 03942E"
+              "dataitem_value" : "3043S 11530E"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -141,297 +53,29 @@
             }
           ],
           "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
           ]
         },
         {
           "dataitem" : [
             {
               "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQDRZ"
+              "dataitem_value" : "AUCTC"
             },
             {
               "dataitem_name" : "Name",
-              "dataitem_value" : "Druzhnaya 4"
+              "dataitem_value" : "Castle Cove"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
             },
             {
               "dataitem_name" : "Function",
               "dataitem_value" : "--3-----"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "RL"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0507"
-            },
-            {
-              "dataitem_name" : "Coordinates",
-              "dataitem_value" : "6944S 07342E"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQESC"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Escudero"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "1-------"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "RL"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0507"
-            },
-            {
-              "dataitem_name" : "Coordinates",
-              "dataitem_value" : "6212S 05857W"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQESP"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Esperanza"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "1-------"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "RL"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0507"
-            },
-            {
-              "dataitem_name" : "Coordinates",
-              "dataitem_value" : "6323S 05659W"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQGDC"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Gabriel de Castilla"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "--3-----"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "RL"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0507"
-            },
-            {
-              "dataitem_name" : "Coordinates",
-              "dataitem_value" : "6259S 06041W"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQGWL"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Great Wall"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "1-------"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "RL"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0507"
-            },
-            {
-              "dataitem_name" : "Coordinates",
-              "dataitem_value" : "6213S 05858W"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQHLY"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Halley"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "1-------"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "RL"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0507"
-            },
-            {
-              "dataitem_name" : "Coordinates",
-              "dataitem_value" : "7534S 02632W"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AQJBS"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Jang Bogo Station"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "1-------"
             },
             {
               "dataitem_name" : "Status",
@@ -443,7 +87,7 @@
             },
             {
               "dataitem_name" : "Coordinates",
-              "dataitem_value" : "7436S 16412E"
+              "dataitem_value" : "3347S 15112E"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -463,6 +107,5142 @@
             }
           ],
           "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCTE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cottesloe"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3200S 11546E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCTF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Clontarf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3348S 15115E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCTH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thevenard Island"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2127S 11459E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCTL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Charleville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCTN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cooktown"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1--4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AC"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9511"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCTR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cattle Creek"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCTT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cottles Bridge"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3738S 14513E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCUD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Caloundra"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCUG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cudal"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCUI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Curtis Island"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1801"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2331S 15113E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCUL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Columboola"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2641S 15020E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCUQ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Coen"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCUR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Currumbin Waters"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2809S 15327E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCUY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cue"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCVA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Craigieburn"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3736S 14456E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCVC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cleve"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCVL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Clovelly"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3354S 15115E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCVN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cleveland"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2732S 15316E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCVP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Connells Point"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3359S 15105E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCVQ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Carnarvon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1--4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AC"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9511"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCVS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Caversham"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3153S 11558E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCWI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Chatsworth Island"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2923S 15314E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCWK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Chadwick"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3350S 12153E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCWN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Crows Nest"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3349S 15112E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCWR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cowarie"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCWT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cowra"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCWW"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Corowa"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCXE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Coogee"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3355S 15116E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCXQ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Christmas Creek"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCXT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Charters Towers"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCYD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Clyde"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3350S 15101E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCYG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Corryong"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCZA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Casuarina"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2818S 15334E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUCZY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cluny"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUD8N"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dural"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3340S 15101E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDA5"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Twowells"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3436S 13830E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDAA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Darra"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AC"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9511"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDAG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "D'Aguilar"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2659S 15248E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDAJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dauan Island"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDAL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dalton"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-----7-"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3443S 14911E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDAM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dampier"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AC"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9511"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDAR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dardanup"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3324S 11545E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDBO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dubbo"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDBP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dobroyd Point"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3352S 15108E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDBY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dalby"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDCH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Murdoch"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3204S 11549E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDCK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dry Creek"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3450S 13835E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDCN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "RAAF Curtin"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1734S 12349E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDCR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Doncaster"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3747S 14508E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDCV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Daceyville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3355S 15113E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDDI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Daydream Is"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AC"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "8203"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDDK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Doodlakine"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3135S 11751E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDDN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Delta Downs"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDDO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dunedoo"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3201S 14924E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDDP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dudley Park"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3452S 13834E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDEB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Deception Bay"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2712S 15302E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDEN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Denman"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3223S 15041E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDEV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Deviot"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TAS"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4114S 14656E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDFE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Longwood"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDFP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Drumduff"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDGA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tea Gardens"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3240S 15209E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDGE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mudgee"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDGO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dungog"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3225S 15145E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDGQ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Codrington"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3815S 14157E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDGY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dingley Village"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3759S 14508E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDHD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Durham Downs"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDHI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dhipirrinjura"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1215S 13505E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDIA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Diamond Creek"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3740S 14509E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDIC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dickson"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "ACT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3515S 14908E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDIL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cowandilla"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3455S 13833E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDIR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Direk"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3443S 13836E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDIT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dalrymple Islet"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "0936S 14318E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDJR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dajarra"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2141S 13931E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDKI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dunk Island"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDKV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Docker River"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDLH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Chandlers Hill"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3505S 13836E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDLK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dulkaninna"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDLP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Arndell Park"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3347S 15052E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDLT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Darlington"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3155S 11605E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDLV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Delissaville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDLY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dolans Bay"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3403S 15107E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDMA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Denmark"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3458S 11721E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDMD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Doomadgee"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDMO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dalmore"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3811S 14525E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDNA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dromana"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3820S 14458E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDNB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dunbar"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "QLD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDND"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dandenong"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VIC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9805"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDNM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Denham"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDNQ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Deniliquin"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDNS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Doonside"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3346S 15052E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDOC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cradoc"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TAS"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4305S 14701E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDOI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Darling Point"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3352S 15114E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDON"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cape Don"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "1119S 13145E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDOW"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Darling Downs"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3211S 11558E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDOX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Dongara"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDPO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Devonport"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TAS"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1--4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AC"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9511"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDPP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Chippendale"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3353S 15112E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "AUDPW"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Deepwater"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NSW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2926S 15151E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
           ]
         }
       ],
@@ -473,17 +5253,17 @@
   "links" : [
     {
       "rel" : "self",
-      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=10"
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
     },
     {
       "title" : "Previous interval",
       "rel" : "prev",
-      "href" : "?%24start_index=240&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=10"
+      "href" : "?%24start_index=2400&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
     },
     {
       "title" : "Next interval",
       "rel" : "next",
-      "href" : "?%24start_index=260&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=10"
+      "href" : "?%24start_index=2600&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
     }
   ]
 }

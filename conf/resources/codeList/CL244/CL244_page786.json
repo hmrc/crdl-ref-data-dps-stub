@@ -1,0 +1,5153 @@
+{
+  "name" : "iv_crdl_reference_data",
+  "elements" : [
+    {
+      "code_list_code" : "CL244",
+      "code_list_name" : "UnLocodeExtended",
+      "rdentry" : [
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSIR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sirogojno"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "08"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4341N 01953E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSKA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sremski Karlovci"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4512N 01956E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSMO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Smederevo"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4439N 02055E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSNC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Svilajnac"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4414N 02110E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSOM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sombor"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4546N 01906E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSOT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Subotiste"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "07"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4450N 01957E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSPA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Stara Pazova"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4459N 02009E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSRG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sirig"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4526N 01948E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSRM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sremska Mitrovica"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4458N 01936E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSSP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Pojate"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "19"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4344N 02127E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSTZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Strezimirovci"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4247N 02226E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSUB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Subotica"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "01"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4606N 01940E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSUR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Surdulica"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2001"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4241N 02210E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSVR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Svrljig"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "20"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4325N 02207E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSZA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Orahovac"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "25"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4223N 02039E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSZB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Banatski Karlovac"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4502N 02100E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSZC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mali Zvornik"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "08"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4423N 01906E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSZD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Urosevac"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "25"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4222N 02109E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSZE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Smederevska Palanka"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "10"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4421N 02057E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSZF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Crvenka"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4539N 01927E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSZH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Paracin"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "13"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4351N 02124E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSSZI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Zitiste"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4529N 02032E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSTEM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Temerin"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1807"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4524N 01953E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSTJV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tresnjevac"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4405N 01854E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSTPP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Topola"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "12"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4450N 02039E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSUBS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ub"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "09"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4427N 02004E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSUZC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Uzice"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-234----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4351N 01950E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSUZO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Uzovnica"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "08"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1807"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4414N 01921E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVDR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vladimirovac"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4501N 02053E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVGS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Veliko Gradiste"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4445N 02130E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVH8"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vladicin Han"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "24"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1807"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4242N 02203E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVJB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vrnjacka Banja"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "18"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4337N 02054E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVLA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vlasotince"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4257N 02207E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVLJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Valjevo"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4416N 01953E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVOG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Voganj"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "07"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4500N 01945E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVRA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vranje"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4233N 02154E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVRB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vrbas"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4534N 01939E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVRS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vrsac"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4507N 02118E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVS4"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Veternik"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "06"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4515N 01945E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSVTA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vitina"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "25"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4219N 02121E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSXXX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "RIS Inland waterways"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSZAJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Zajecar"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4354N 02217E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSZAT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Zatonje"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "11"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4437N 02111E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSZEM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Zemun"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4450N 02024E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSZMA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Zmajevo"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4545N 01968E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSZRN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Zrenjanin"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4523N 02022E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSZVE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Zvecan"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "28"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0907"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4254N 02050E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RSZZP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Pozarevac"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-234----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4436N 02110E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RU7RS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Shemakha"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CHE"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5614N 05915E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAAQ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Anapa"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9811"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUABA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Abakan"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5342N 09125E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUABD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Abdulino"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "ORE"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5342N 05340E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUABK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Abinsk"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "KDA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4452N 03809E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUABS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Akhtubinsk"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "0-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0003"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUACS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Achinsk"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUADH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Aldan"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUADT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ardatov"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NIZ"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5514N 04306E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAER"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sochi"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "KDA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1234----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4336N 03943E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAGI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Aginskoye"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "QQ"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0212"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAGK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Angarsk"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IRK"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1001"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5232N 10353E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAHK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Arkhangel'skoye"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "STA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4436N 04406E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAKH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Akhtirski"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "KDA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1707"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4450N 03817E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUALA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nartkala"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "KB"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4333N 04351E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUALE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Aleysk"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "AL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5229N 08246E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUALV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Aleksandrov"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5624N 03844E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUALX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Alekseyevka"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "BEL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5038N 03842E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAMV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Amderma"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NEN"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1--4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1001"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "6946N 06140E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAPS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Apsheronsk"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "KDA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4427N 03943E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUARH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Arkhangelsk"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1--4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUARM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Arman (Magadan)"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "QQ"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "8012"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUARS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Arsenyev"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PRI"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4417N 13317E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUASB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Asbest"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5701N 06128E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUASF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Astrakhan"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1--4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUATM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Artem"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PRI"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1807"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4322N 13211E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAVD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Avtoremzavod"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AM"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5445N 03141E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAVR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Armavir"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "KDA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4458N 04108E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAXZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Novaya Igirma"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IRK"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5708N 10354E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUAZO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Azov"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "QQ"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9207"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUB2L"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Shebekino"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "BEL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5024N 03654E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBA5"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sterlitamak"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "BA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5337N 05556E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBAL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Balobanovo"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MOW"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5551N 03814E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBAT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bataysk"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "ROS"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4710N 03944E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBAX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Barnaul"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBBR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Buturlinovka"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VOR"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5049N 04036E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBCX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Beloreck"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBDN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Budennovsk"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "STA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4447N 04409E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBEK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Belorechensk"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4446N 03952E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBEL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Belushye"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "QQ"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9207"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBEM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Belomorsk"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "QQ"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9207"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBER"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Beringovskiy, Port"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "QQ"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9207"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBEZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sebez"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PSK"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5617N 02829E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBGD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bogdanovich"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SVE"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5646N 06202E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBGK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Boksitogorsk"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5928N 03351E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBGR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bagrationovsk"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-2------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "QQ"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9207"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBGV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bagaevskaya"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "ROS"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1007"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4719N 04023E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBIY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Biysk"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-2------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "QQ"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9207"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBKA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Moscow Bykovo Airport"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MOS"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5537N 03803E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBKH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bektyashka"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "QQ"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "8012"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBKT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Belaya Kalitva"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "ROS"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4810N 04047E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "RUBKV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Balakirevo"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5630N 03850E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        }
+      ],
+      "languagecode" : "EN",
+      "snapshotversion" : 2
+    }
+  ],
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    },
+    {
+      "title" : "Previous interval",
+      "rel" : "prev",
+      "href" : "?%24start_index=78400&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    },
+    {
+      "title" : "Next interval",
+      "rel" : "next",
+      "href" : "?%24start_index=78600&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    }
+  ]
+}

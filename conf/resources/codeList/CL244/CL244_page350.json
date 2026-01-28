@@ -1,0 +1,5393 @@
+{
+  "name" : "iv_crdl_reference_data",
+  "elements" : [
+    {
+      "code_list_code" : "CL244",
+      "code_list_name" : "UnLocodeExtended",
+      "rdentry" : [
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2SS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Symphorien"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4804N 00007W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2SV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Savin"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "33"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4508N 00026W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2TH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thelus"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5021N 00248E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2TJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Jean-Saint-Germain"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "37"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4705N 00102E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2TO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tours-sur-Meymont"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4540N 00335E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2TT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tartaras"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "42"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4533N 00440E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2UB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Chauchigny"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "10"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4826N 00358E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2UL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Le Pin"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "77"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4855N 00237E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2UO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Leran"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "09"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4259N 00155E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2VA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vaux-Andigny"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5001N 00331E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2VE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Villars-et-Villenotte"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "21"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4731N 00423E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2VG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vaugrigneuse"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "91"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4836N 00207E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2VL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Olizy-et-Violaine"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "51"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4909N 00345E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2VP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Villepreux"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "78"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4850N 00201E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2VV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vinon-sur-Verdon"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4344N 00549E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "29-08-2023"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2XV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Chevrieres"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "42"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4535N 00424E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2YT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Lavoute-Chilhac"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "43"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4509N 00324E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2YY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mayran"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "12"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4423N 00222E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2ZC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Bonnet-l'Enfantier"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "19"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4518N 00131E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2ZM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Jeannet"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "04"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4357N 00607E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR2ZT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Michel-l'Ecluse-et-Leparon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "24"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4508N 00004E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR323"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "La Chapelle-Saint-Laud"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "49"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4737N 00018W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR32G"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mansencome"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "32"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4352N 00020E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR335"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Lecousse"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "35"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4822N 00113W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR33G"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Plassac"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "33"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4506N 00039W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR33S"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Lye"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "10"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4822N 00400E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR34H"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Magalas"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "34"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4328N 00313E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR34P"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Puimisson"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "34"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4326N 00312E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR35L"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Jean-sur-Couesnon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "35"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4817N 00122W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR35P"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Parigne"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "35"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4826N 00112W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR35R"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Montreuil-sur-Ille"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "35"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4818N 00140W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR35V"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Plerguer"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "35"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4832N 00151W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR37L"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Les Cerqueux-de-Maulevrier"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "49"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4700N 00039W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR398"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Sulpice-le-Verdon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "85"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4654N 00125W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR399"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Phyton"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "59"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5011N 00329E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR39R"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Rothonay"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "39"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4631N 00532E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3AC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Criquetot-sur-Longueville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "76"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4947N 00105E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3AH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Vallier-sur-Marne"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "52"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4750N 00524E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3AJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mantry"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "39"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4648N 00534E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3AM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Autreville-sur-Moselle"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "54"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4849N 00607E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3AR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Launois-sur-Vence"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "08"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4939N 00432E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3AU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Brienne-le-Chateau"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "10"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4824N 00432E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3BC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Baugy"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "18"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4705N 00244E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3BR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Antonin-sur-Bayon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "13"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4331N 00535E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3BV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Brevans"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "39"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1801"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4706N 00531E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3BY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Buchy"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4935N 00121E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "29-08-2023"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3CC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Courcais"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "03"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4628N 00226E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3CE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vicquemare"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "76"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4944N 00051E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3CG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bessan"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "34"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4322N 00325E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3CH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Champeix"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4535N 00308E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3CL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Castillon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "06"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4350N 00728E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3CM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Cumont"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "82"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1801"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4352N 00054E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3CR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Chirens"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "38"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4525N 00533E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3CS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Chouze-sur-Loire"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "37"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4715N 00007E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3EG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Fresnes"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "41"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4726N 00125E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3EJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Baroville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "10"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4812N 00443E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3EO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Marigny-les-Usages"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "45"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4757N 00201E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3EV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Valeilles"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "82"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4422N 00055E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3EY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Essoyes"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "10"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4804N 00432E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3FA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Apremont"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "85"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4645N 00145W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3FC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Flines-lez-Raches"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2007"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "5026N 00311E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3FO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Fouzilhon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "34"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4330N 00315E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3G3"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Lagorce"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "33"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4504N 00008W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3GH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Coulonges-sur-Sarthe"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "61"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4832N 00024E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3GR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Grane"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "26"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4444N 00455E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3GV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Fontenoy-le-Chateau"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "88"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4758N 00612E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3GX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bretteville-du-Grand-Caux"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "76"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4940N 00024E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3IX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ourville-en-Caux"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "76"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4944N 00036E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3KR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Lerne"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "37"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4709N 00008E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3LC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "La Couture"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "85"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4631N 00116W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3LD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Charmes"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "03"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4605N 00315E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3LO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Louey"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AA"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4311N 00001E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3LP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thoree-les-Pins"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "72"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4741N 00003E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3LR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "La Romagne"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "49"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4704N 00101W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3LT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "La Trinite-Porhoet"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "56"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4806N 00233W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3LY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Luynes"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "13"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4329N 00525E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3MD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mondonville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "31"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4340N 00117E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3ME"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bapeaume"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "76"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4927N 00102E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3MF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Monfort"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "32"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1801"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4348N 00050E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3MJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Montrejeau"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "31"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1801"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4305N 00035E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3MN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Magne"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "79"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1801"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4619N 00033W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3MO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Montaut"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "40"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4344N 00039W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3MS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Massignieu-de-Rives"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "01"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4545N 00546E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3MT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mettray"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "37"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4727N 00037E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3MU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Maurens"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "32"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1707"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4336N 00054E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3NY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Nomeny"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "54"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1501"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4854N 00614E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3PA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Souraide"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "64"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4321N 00128W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3PZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Panazol"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "87"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4550N 00118E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3QT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Quentin-du-Dropt"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "47"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4441N 00035E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3RO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "La Roche-en-Brenil"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "21"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4722N 00410E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3RR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "May-sur-Orne"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "14"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4906N 00022W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3SA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Auzat"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "09"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4246N 00129E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3SB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Steinbach"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "68"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4749N 00709E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3SC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Christophe-du-Luat"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "53"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4808N 00028W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3SH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Theus"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "05"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4428N 00612E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3SJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Jean-de-Serres"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "30"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4359N 00404E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3SL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Leon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "31"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1801"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4324N 00134E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3SM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Martin-de-Laye"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "33"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4502N 00013W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3SN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sinceny"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "02"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4936N 00315E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "FR3SR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Saint-Clar-de-Riviere"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "31"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4328N 00113E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        }
+      ],
+      "languagecode" : "EN",
+      "snapshotversion" : 2
+    }
+  ],
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    },
+    {
+      "title" : "Previous interval",
+      "rel" : "prev",
+      "href" : "?%24start_index=34800&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    },
+    {
+      "title" : "Next interval",
+      "rel" : "next",
+      "href" : "?%24start_index=35000&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    }
+  ]
+}

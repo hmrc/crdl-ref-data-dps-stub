@@ -1,0 +1,5277 @@
+{
+  "name" : "iv_crdl_reference_data",
+  "elements" : [
+    {
+      "code_list_code" : "CL244",
+      "code_list_name" : "UnLocodeExtended",
+      "rdentry" : [
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMRT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Morristown"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NY"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RN"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0105"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMRU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Meeker"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4002N 10754W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMRX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "McNary"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "OR"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RN"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0105"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMRY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Carmel-Monterey Apt"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--34----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "29-08-2023"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMRZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Martinez"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RN"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0105"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMS2"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Millis"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4210N 07121W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMS3"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Maidens"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3740N 07753W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMS4"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Madison"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3823N 07815W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMS5"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Murphys"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3808N 12028W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMS6"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mims"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "FL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2840N 08051W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMS7"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Millstadt"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3828N 09006W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMS8"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Manitou Springs"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3852N 10455W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMS9"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mills River"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3523N 08234W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mesa"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "AZ"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--34----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Pleasant"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "UT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mission"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "KS"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3902N 09439W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mascoutah"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3829N 08947W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Florence-Muscle Shoals Apt"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "29-08-2023"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Madison"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WI"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Missoula"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Minneapolis/St Paul Apt"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MN"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---45---"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4453N 09312W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Massena"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NY"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--34----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMST"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Muenster"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TX"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3339N 09722W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Monticello"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NY"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMSY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "New Orleans"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "LA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "12345---"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9811"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMT3"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Middleton"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3818N 08840W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMT4"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Millerton"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NY"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4157N 07331W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMT5"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Milton"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4438N 07307W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMT6"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mentone"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "AL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3434N 08535W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMT7"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mannington"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NJ"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3934N 07527W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMT8"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Montreal"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3758N 09235W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMT9"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mantua"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "OH"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4117N 08113W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Clemens"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MI"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Metairie"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "LA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2959N 09009W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Metaline Falls"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3----B"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RN"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0105"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4851N 11721W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mont Belvieu"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TX"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2951N 09453W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Marathon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "FL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTJ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Montrose"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--34----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Carmel"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4047N 07624W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Metlakatla"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "AK"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1--4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9506"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Martin Mariet/Baltimore"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mattoon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--34----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Montauk"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NY"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Pleasant"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0907"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3955N 07606W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMTW"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Manitowoc"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WI"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1--4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0207"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMU2"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Moodus"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4130N 07227W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMU4"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mountain"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WI"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4511N 08828W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMU5"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mountain Rest"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "SC"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3452N 08309W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMU6"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Marcellus"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MI"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4201N 08548W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMU8"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Murphy"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TX"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3300N 09636W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMU9"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Muldoon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TX"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "2948N 09704W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMUE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Kamuela"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "HI"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMUG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Millersburg"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4032N 07657W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMUI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Fort Indiantown"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMUO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mountain Home"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "ID"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMUR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Maroa"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4002N 08857W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMUT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Muscatine"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMUU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Union"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMV2"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Millville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4107N 07631W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMV3"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Vernon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TX"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3311N 09513W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "Franklin"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMV4"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Moreno Valley"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3357N 11714W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMV5"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Myersville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MD"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3930N 07734W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMV6"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Malvern"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "AR"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3422N 09248W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMV7"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Maple Valley"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4724N 12202W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMV8"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Martinsville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NJ"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4036N 07433W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMV9"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Morrisville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NJ"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3958N 07503W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Monroeville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "AL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Montevideo"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MN"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Marionville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3700N 09338W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Millville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "RI"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RN"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0105"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Stowe"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VT"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Kayenta"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "AZ"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Vernon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-234-6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3819N 08854W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "McVeytown"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "PA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RN"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0105"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVW"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Vernon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-234----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4825N 12219W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Vernon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TX"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3124N 09505W"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "County Houston"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Martha's Vineyard"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0001"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMVZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "McConnelsville"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "OH"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3938N 08151W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMW2"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Maplewood"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3837N 09019W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMW3"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Moscow"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4133N 09106W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMW4"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Millwood"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WV"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3853N 08152W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMW5"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mineralwells"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WV"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3911N 08132W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMW6"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Morrow"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "OH"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3921N 08408W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMW7"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Millwood"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "NY"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4112N 07348W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMW8"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Morristown"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MN"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4413N 09326W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMW9"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Matthews"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3645N 08935W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Marion"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mabank"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TX"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3222N 09606W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Moses Lake"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "WA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "McGaw Park"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RN"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4219N 08753W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mineral Wells"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "TX"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Windom"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "MN"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Middletown"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "OH"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9601"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWQ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Maywood/Chicago"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "IL"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4152N 08750W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Crawford"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "VA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3821N 07856W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Wilson"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CA"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Mount Vernon"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "OH"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RN"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "Comment",
+              "dataitem_value" : "Stark"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Maxwell"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "OK"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3454N 09651W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMWZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Marrowbone"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "KY"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3721N 08224W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "USMX2"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Marble"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "CO"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "3904N 10711W"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        }
+      ],
+      "languagecode" : "EN",
+      "snapshotversion" : 2
+    }
+  ],
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    },
+    {
+      "title" : "Previous interval",
+      "rel" : "prev",
+      "href" : "?%24start_index=91300&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    },
+    {
+      "title" : "Next interval",
+      "rel" : "next",
+      "href" : "?%24start_index=91500&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
+    }
+  ]
+}

@@ -9,15 +9,19 @@
           "dataitem" : [
             {
               "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOBDD"
+              "dataitem_value" : "ATSVM"
             },
             {
               "dataitem_name" : "Name",
-              "dataitem_value" : "Barra do Dande"
+              "dataitem_value" : "Sankt Veit im Muhlkreis"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
             },
             {
               "dataitem_name" : "Function",
-              "dataitem_value" : "1-------"
+              "dataitem_value" : "1-3-----"
             },
             {
               "dataitem_name" : "Status",
@@ -25,53 +29,11 @@
             },
             {
               "dataitem_name" : "Date",
-              "dataitem_value" : "0103"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOBDT"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Baia dos Tigres"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "1-------"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "RL"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0212"
+              "dataitem_value" : "1401"
             },
             {
               "dataitem_name" : "Coordinates",
-              "dataitem_value" : "1636S 01144E"
+              "dataitem_value" : "4828N 01409E"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -91,21 +53,3217 @@
             }
           ],
           "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
           ]
         },
         {
           "dataitem" : [
             {
               "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOBEL"
+              "dataitem_value" : "ATSVO"
             },
             {
               "dataitem_name" : "Name",
-              "dataitem_value" : "Belas"
+              "dataitem_value" : "Sankt Veit an der Golsen"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4802N 01540E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSVV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Sankt Veit am Vogau"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4644N 01537E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSWA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Seewalchen am Attersee"
             },
             {
               "dataitem_name" : "Subdivision",
-              "dataitem_value" : "LUA"
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4757N 01335E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSWB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Schwanberg"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "6"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4645N 01512E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSWH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Gross-Schweinbarth"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4824N 01637E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSWN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Strasswalchen"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "5"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4759N 01315E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSWO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Schwoich"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "7"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4733N 01208E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSWT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Schwendt"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "7"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4731N 01219E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSXA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bernhardsthal"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4841N 01652E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSYG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Steyregg"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4817N 01422E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSYM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Steyrermuhl"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0212"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4759N 01348E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSZ5"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Stuhlfelden"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "5"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1801"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4717N 01231E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSZA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Selzthal"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "6"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4733N 01419E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSZG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Salzburg"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "5"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-2-45---"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4748N 01302E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATSZI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Stratzing"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4827N 01536E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTAM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tamsweg"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "5"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4708N 01348E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTAT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tattendorf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-5---"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4757N 01618E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTBE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Trieben"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4729N 01428E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTBG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Traberg"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2001"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4830N 01412E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTBW"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thalheim bei Wels"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4809N 01402E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTDF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tresdorf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4823N 01621E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTDW"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Trausdorf an der Wulka"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4749N 01634E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTEF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Teesdorf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0507"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4757N 01617E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTEL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Telfs"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9805"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTEN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Hausmannstatten"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "6"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4659N 01530E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTEU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Teufenbach"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "6"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0507"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4654N 01513E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTEX"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Texing"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4802N 01519E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTFS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Terfens"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "7"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4719N 01139E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTGU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thalgau"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "5"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4750N 01315E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTHF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Theresienfeld"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4751N 01614E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTHG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thening"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4815N 01410E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTHN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thuringen"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "8"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4712N 00946E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTHR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thaur"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "7"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4718N 01128E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTHS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Theiss"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0507"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4823N 01541E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTHY"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thaya"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4851N 01517E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTIS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Traisen"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4802N 01536E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTK2"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Treffelsdorf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "2"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4642N 01424E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTKI"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Taiskirchen im Innskreis"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4816N 01334E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTKP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Taufkirchen an der Pram"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4825N 01332E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTLH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tumeltsham"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4814N 01330E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTLL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tillmitsch"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "6"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4648N 01528E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTLN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Tulln"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4820N 01603E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTMA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Timelkam"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4800N 01336E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTMH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ostermiething"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4803N 01250E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTMR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Traismauer"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4820N 01544E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTNG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ternberg"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4756N 01422E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTNQ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Traun"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1101"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4813N 01414E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTNU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Antau"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "1"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4746N 01629E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTPV"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Treibach Althofen"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "2"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4652N 01428E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTR7"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Neustift im Stubaital"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "7"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4707N 01119E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTRU"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Trumau"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4800N 01620E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTSN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Thomasberg"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1807"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4734N 01608E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTTL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Schrattenthal"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "1-------"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1107"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4842N 01554E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTUE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Turnitz"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4755N 01529E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTWG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Twimberg"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "2"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4654N 01450E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTWR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Weer"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "7"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4718N 01138E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATTYN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Theyern"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4821N 01540E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUBA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ubelbach"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "6"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4712N 01513E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUBE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unterbergen"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "2"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4631N 01417E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUBG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unternberg"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4707N 01344E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUBL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Giesshubl"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
             },
             {
               "dataitem_name" : "Function",
@@ -121,7 +3279,7 @@
             },
             {
               "dataitem_name" : "Coordinates",
-              "dataitem_value" : "0855S 01310E"
+              "dataitem_value" : "4806N 01614E"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -129,7 +3287,7 @@
             },
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
+              "dataitem_value" : "05-08-2022"
             },
             {
               "dataitem_name" : "Phase",
@@ -141,277 +3299,25 @@
             }
           ],
           "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
             {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOBUG"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Benguela"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "1--4----"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "AI"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "9601"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
+              "lang_code" : "en",
+              "lang_desc" : "English"
             }
-          ],
-          "language" : [
           ]
         },
         {
           "dataitem" : [
             {
               "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOCAB"
+              "dataitem_value" : "ATUDE"
             },
             {
               "dataitem_name" : "Name",
-              "dataitem_value" : "Cabinda"
+              "dataitem_value" : "Uderns"
             },
             {
               "dataitem_name" : "Function",
-              "dataitem_value" : "1--4----"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "AI"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "9601"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOCAV"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Cazombo"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "---4----"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "AI"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "9601"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOCBT"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Catumbela"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "---4----"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "AI"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "9912"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOCEO"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Waku Kungo"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "---4----"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "AI"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "0212"
-            },
-            {
-              "dataitem_name" : "Coordinates",
-              "dataitem_value" : "1121S 01507E"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOCFF"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "Cafunfo"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "---4----"
-            },
-            {
-              "dataitem_name" : "Status",
-              "dataitem_value" : "AI"
-            },
-            {
-              "dataitem_name" : "Date",
-              "dataitem_value" : "9912"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_state",
-              "dataitem_value" : "valid"
-            },
-            {
-              "dataitem_name" : "RDEntryStatus_activeFrom",
-              "dataitem_value" : "15-02-2021"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
-            }
-          ],
-          "language" : [
-          ]
-        },
-        {
-          "dataitem" : [
-            {
-              "dataitem_name" : "UnLocodeExtendedCode",
-              "dataitem_value" : "AOCLV"
-            },
-            {
-              "dataitem_name" : "Name",
-              "dataitem_value" : "CLOV FPSO"
-            },
-            {
-              "dataitem_name" : "Function",
-              "dataitem_value" : "------7-"
+              "dataitem_value" : "-23-----"
             },
             {
               "dataitem_name" : "Status",
@@ -419,11 +3325,11 @@
             },
             {
               "dataitem_name" : "Date",
-              "dataitem_value" : "1407"
+              "dataitem_value" : "0701"
             },
             {
               "dataitem_name" : "Coordinates",
-              "dataitem_value" : "0727S 01134E"
+              "dataitem_value" : "4719N 01152E"
             },
             {
               "dataitem_name" : "RDEntryStatus_state",
@@ -443,6 +3349,1956 @@
             }
           ],
           "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUER"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Auersthal"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4822N 01638E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUFN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unterfladnitz"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "6"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4711N 01540E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUGN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Ungenach"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4803N 01337E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATULB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unterloiben"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4823N 01532E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUNA"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unterach"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4748N 01328E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUNK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unken"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2001"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4739N 01243E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "02-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUNN"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Untersiebenbrunn"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4815N 01643E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUNZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unzmarkt"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4711N 01426E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUPS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unterpremstatten"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "6"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0401"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4657N 01524E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATURB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unterradlberg"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4815N 01541E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATURF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Urfahr"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1607"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4819N 01416E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATURS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Burs"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "8"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1307"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4708N 00948E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUTB"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unterretzbach"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4846N 01600E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUTK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Untermarkersdorf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4842N 01606E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUTZ"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Utzenaich"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4817N 01328E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATUWF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Unterweitersdorf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4822N 01428E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVAS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vasoldsberg"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "1"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4700N 01533E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVCO"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vorchdorf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4800N 01355E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVDD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vienna Danubepier Hov"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "---4----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "9912"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVDS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vosendorf Sud"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4806N 01619E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVEH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Viehdorf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4809N 01453E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVEL"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Velden"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "2"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "123-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0701"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4637N 01403E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVIC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vichtenstein"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1001"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4832N 01340E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVIE"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Wien"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-2-45---"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "AI"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "2407"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4812N 01622E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "24-02-2025"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVLM"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Velm"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4828N 01646E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVMP"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vomp"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-23-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4720N 01140E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVNG"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Meiningen"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "8"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4717N 00934E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVOC"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vocklabruck"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4800N 01339E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVOF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vosendorf"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4807N 01619E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVOK"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vocklamarkt"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "4"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0507"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4800N 01329E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVOR"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Bezau"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "8"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3--6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4723N 00954E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVOT"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Volkermarkt"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "2"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0212"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4639N 01437E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "05-08-2022"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVTD"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Obertrum am See"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "5"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1301"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4756N 01304E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVTH"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Veitsch"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "6"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "-----6--"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0901"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4734N 01529E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATVTS"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Vitis"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "3"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1207"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4845N 01510E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATW8B"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Welgersdorf"
+            },
+            {
+              "dataitem_name" : "Subdivision",
+              "dataitem_value" : "1"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "1601"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4714N 01621E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "UnLocodeExtendedCode",
+              "dataitem_value" : "ATWAF"
+            },
+            {
+              "dataitem_name" : "Name",
+              "dataitem_value" : "Waidhofen an der Ybbs"
+            },
+            {
+              "dataitem_name" : "Function",
+              "dataitem_value" : "--3-----"
+            },
+            {
+              "dataitem_name" : "Status",
+              "dataitem_value" : "RL"
+            },
+            {
+              "dataitem_name" : "Date",
+              "dataitem_value" : "0201"
+            },
+            {
+              "dataitem_name" : "Coordinates",
+              "dataitem_value" : "4757N 01446E"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "15-02-2021"
+            },
+            {
+              "dataitem_name" : "Phase",
+              "dataitem_value" : "P6"
+            },
+            {
+              "dataitem_name" : "Domain",
+              "dataitem_value" : "NCTS"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "English"
+            }
           ]
         }
       ],
@@ -453,17 +5309,17 @@
   "links" : [
     {
       "rel" : "self",
-      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=10"
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
     },
     {
       "title" : "Previous interval",
       "rel" : "prev",
-      "href" : "?%24start_index=170&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=10"
+      "href" : "?%24start_index=1700&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
     },
     {
       "title" : "Next interval",
       "rel" : "next",
-      "href" : "?%24start_index=190&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=10"
+      "href" : "?%24start_index=1900&%24orderby=snapshotversion+ASC&code_list_code=CL244&%24count=100"
     }
   ]
 }
