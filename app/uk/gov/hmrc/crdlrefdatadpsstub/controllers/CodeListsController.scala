@@ -37,7 +37,9 @@ class CodeListsController @Inject() (
     lastUpdatedDate: Option[String],
     startIndex: Option[Int],
     count: Option[Int],
-    orderBy: Option[String]
+    orderBy: Option[String],
+    businessDomainPhase: Option[String],
+    businessDomain: Option[String]
   ): Action[AnyContent] = Action { implicit request =>
     codeListCode
       .map { code =>
