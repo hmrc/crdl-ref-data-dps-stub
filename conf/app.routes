@@ -1,4 +1,4 @@
 # microservice specific routes
 
-GET        /iv_crdl_reference_data           uk.gov.hmrc.crdlrefdatadpsstub.controllers.CodeListsController.getCodeListData(code_list_code: Option[CodeListCode], last_updated_date: Option[String], $start_index: Option[Int], $count: Option[Int], $orderby: Option[String])
+GET        /iv_crdl_reference_data           uk.gov.hmrc.crdlrefdatadpsstub.controllers.CodeListsController.getCodeListData(code_list_code: Option[CodeListCode], last_updated_date: Option[String], $start_index: Option[Int], $count: Option[Int], $orderby: Option[String], business_domain_phase: Option[String], business_domain: Option[String])
 GET        /iv_crdl_customs_office           uk.gov.hmrc.crdlrefdatadpsstub.controllers.CustomsOfficeListController.getCustomsOfficeList($start_index: Option[Int])

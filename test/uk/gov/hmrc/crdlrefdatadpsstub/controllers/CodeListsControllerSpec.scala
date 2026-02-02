@@ -38,7 +38,8 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
 
   "GET /" should {
     "return 200 for a valid codeListCode" in {
-      val result = controller.getCodeListData(Some(BC08), None, None, None, None)(fakeRequest)
+      val result =
+        controller.getCodeListData(Some(BC08), None, None, None, None, None, None)(fakeRequest)
       status(result) shouldBe Status.OK
     }
 
@@ -51,13 +52,15 @@ class CodeListsControllerSpec extends AnyWordSpec with Matchers {
         Some("2025-05-28T00:00:00Z"),
         Some(0),
         None,
+        None,
+        None,
         None
       )(fakeRequest)
       status(result) shouldBe Status.OK
     }
 
     "return 400 on missing codeListCode parameter" in {
-      val result = controller.getCodeListData(None, None, None, None, None)(fakeRequest)
+      val result = controller.getCodeListData(None, None, None, None, None, None, None)(fakeRequest)
       status(result) shouldBe Status.BAD_REQUEST
     }
   }
