@@ -84,8 +84,6 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
   )
 
   private case class FileMetadata(
-    phase: String,
-    domain: String,
     codeListName: String
   )
 
@@ -174,7 +172,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
           val metadata    = extractFileMetadata(xmlFileName)
 
           for {
-            entries <- readAndParseXml(xmlFile, metadata)
+            entries <- readAndParseXml(xmlFile)
             multipliedEntries = multiplyEntries(entries, recordMultiplier)
             count <- writePagedJsonFiles(
               codeListCode,
@@ -255,16 +253,16 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
   }
 
   private def extractFileMetadata(xmlFileName: String): FileMetadata = {
-    val pattern = """RD_([^-]+)-P(\d+)_(.+)\.xml""".r
+    val pattern = """RD_[^-]+-P\d+_(.+)\.xml""".r
 
     xmlFileName match {
-      case pattern(domain, phase, codeListName) =>
-        FileMetadata("P" + phase, domain, codeListName)
-      case _ => FileMetadata("UNKNOWN", "0", xmlFileName.replace(".xml", ""))
+      case pattern(codeListName) =>
+        FileMetadata(codeListName)
+      case _ => FileMetadata(xmlFileName.replace(".xml", ""))
     }
   }
 
-  private def readAndParseXml(xmlPath: Path, metadata: FileMetadata): IO[List[RDEntry]] = {
+  private def readAndParseXml(xmlPath: Path): IO[List[RDEntry]] = {
     val files = Files.forIO
 
     val xmlEvents = files
@@ -274,7 +272,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
 
     xmlEvents
       .through(filter.dom[Elem](rdEntriesXPath))
-      .mapFilter(elem => parseRDEntry(elem, metadata))
+      .mapFilter(elem => parseRDEntry(elem))
       .compile
       .toList
   }
@@ -293,7 +291,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
     }
   }
 
-  private def parseRDEntry(elem: Elem, metadata: FileMetadata): Option[RDEntry] = {
+  private def parseRDEntry(elem: Elem): Option[RDEntry] = {
     val dataItemElems = elem \\ "dataItem"
 
     val dataItemsFromXml = dataItemElems.flatMap { dataItemElem =>
@@ -316,12 +314,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
         activeFrom.map(af => DataItem("RDEntryStatus_activeFrom", af))
       ).flatten
 
-      val metadataItems = List(
-        DataItem("Phase", metadata.phase),
-        DataItem("Domain", metadata.domain)
-      )
-
-      val allDataItems = dataItemsFromXml ++ statusItems ++ metadataItems
+      val allDataItems = dataItemsFromXml ++ statusItems
 
       val enDesc = (elem \ "LsdList" \ "description")
         .find(node => node.attribute("lang").exists(_.text == "en"))
