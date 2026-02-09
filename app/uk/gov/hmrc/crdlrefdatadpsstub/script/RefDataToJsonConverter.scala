@@ -316,12 +316,7 @@ class RefDataToJsonConverter @Inject() (environment: Environment) {
         activeFrom.map(af => DataItem("RDEntryStatus_activeFrom", af))
       ).flatten
 
-      val metadataItems = List(
-        DataItem("Phase", metadata.phase),
-        DataItem("Domain", metadata.domain)
-      )
-
-      val allDataItems = dataItemsFromXml ++ statusItems ++ metadataItems
+      val allDataItems = dataItemsFromXml ++ statusItems
 
       val enDesc = (elem \ "LsdList" \ "description")
         .find(node => node.attribute("lang").exists(_.text == "en"))
