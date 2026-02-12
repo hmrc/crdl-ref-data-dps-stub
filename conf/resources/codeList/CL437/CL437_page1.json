@@ -18,14 +18,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -48,14 +40,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -78,14 +62,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -108,14 +84,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -138,14 +106,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -168,14 +128,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -198,14 +150,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -228,14 +172,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -258,14 +194,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -288,20 +216,540 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
               "lang_desc" : "Element too long (length constraint)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "40"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Element too short (length constraint)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "50"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Transitional constraint violation"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "51"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "EDI violation post downgrade"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "52"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Functional violation post downgrade"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "60"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "13-06-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Not satisfactory data quality"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "61"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "13-06-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "It is not possible to add new goods items or house consignments via an ENS filing amendment"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "62"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "13-06-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Not allowed Unicode character"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "63"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "13-06-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "The date and time of arrival cannot be earlier than the date and time of departure"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "64"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "13-06-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Element cannot be amended"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "70"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Invalid Means of Transport Identification Number"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "71"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "House consignment in a wrong state"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "72"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "ENS filing in a wrong state"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "80"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Unknown Transport Document Reference"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "81"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Duplicate Transport Document Reference"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "90"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Unknown MRN"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "91"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Duplicate MRN"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "92"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Message out of sequence"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "93"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Invalid MRN (The structure of the MRN is not conform specifications.)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "94"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Duplicate LRN"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "95"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Uniqueness Error"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "96"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Incorrect entity reference"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "97"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Not found"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "98"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Unknown reference"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "99"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Update not allowed"
             }
           ]
         }
@@ -313,12 +761,7 @@
   "links" : [
     {
       "rel" : "self",
-      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL437&%24count=10"
-    },
-    {
-      "title" : "Next interval",
-      "rel" : "next",
-      "href" : "?%24start_index=10&%24orderby=snapshotversion+ASC&code_list_code=CL437&%24count=10"
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL437&%24count=100"
     }
   ]
 }

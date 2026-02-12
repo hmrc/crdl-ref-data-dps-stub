@@ -22,14 +22,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -56,14 +48,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -86,14 +70,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -120,14 +96,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -154,14 +122,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -188,14 +148,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -222,14 +174,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -256,14 +200,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -286,14 +222,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -316,20 +244,38 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
               "lang_desc" : "Message out of sequence"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Code",
+              "dataitem_value" : "93"
+            },
+            {
+              "dataitem_name" : "Remark",
+              "dataitem_value" : "The structure of the MRN is not conform specifications."
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Invalid MRN"
             }
           ]
         }
@@ -341,12 +287,7 @@
   "links" : [
     {
       "rel" : "self",
-      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL180&%24count=10"
-    },
-    {
-      "title" : "Next interval",
-      "rel" : "next",
-      "href" : "?%24start_index=10&%24orderby=snapshotversion+ASC&code_list_code=CL180&%24count=10"
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL180&%24count=100"
     }
   ]
 }

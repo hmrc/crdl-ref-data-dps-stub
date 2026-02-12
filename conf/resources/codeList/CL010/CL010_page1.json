@@ -34,14 +34,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -80,14 +72,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -126,14 +110,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -172,14 +148,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -218,14 +186,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -264,14 +224,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -310,14 +262,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -356,14 +300,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -402,14 +338,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -448,20 +376,1000 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
               "lang_desc" : "Spain"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "FI"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "032"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Finland"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "FR"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "001"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "France"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "GF"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "001"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "French Guyana"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "GP"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "001"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Guadeloupe"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "GR"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "009"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Greece"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "HR"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "092"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Croatia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "HU"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "064"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Hungary"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "IE"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "007"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Ireland"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "IT"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "005"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Italy"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "LT"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "055"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Lithuania"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "LU"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "018"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Luxembourg"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "LV"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "054"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Latvia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "MC"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "001"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Monaco"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "MF"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "001"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Saint Martin (French part)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "MQ"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "001"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Martinique"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "MT"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "046"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "21-02-2024"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Malta"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "NL"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "003"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Netherlands"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "PL"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "060"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Poland"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "PT"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "010"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Portugal"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "RE"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "001"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Réunion"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "RO"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "066"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Romania"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SE"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "030"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Sweden"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SI"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "091"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Slovenia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SK"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "063"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Slovakia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "XI"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "006"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "United Kingdom (Northern Ireland)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "YT"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "377"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Mayotte"
             }
           ]
         }
@@ -473,12 +1381,7 @@
   "links" : [
     {
       "rel" : "self",
-      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL010&%24count=10"
-    },
-    {
-      "title" : "Next interval",
-      "rel" : "next",
-      "href" : "?%24start_index=10&%24orderby=snapshotversion+ASC&code_list_code=CL010&%24count=10"
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL010&%24count=100"
     }
   ]
 }

@@ -22,14 +22,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -56,14 +48,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -90,14 +74,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -124,14 +100,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -158,14 +126,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -192,14 +152,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -226,14 +178,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -260,14 +204,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -294,14 +230,6 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
@@ -328,20 +256,220 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
               "lang_desc" : "Moldovan Leu"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Currency",
+              "dataitem_value" : "MKD"
+            },
+            {
+              "dataitem_name" : "RateValue",
+              "dataitem_value" : "61.495"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Macedonian Denar"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Currency",
+              "dataitem_value" : "NOK"
+            },
+            {
+              "dataitem_name" : "RateValue",
+              "dataitem_value" : "11.731"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Norwegian Krone"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Currency",
+              "dataitem_value" : "PLN"
+            },
+            {
+              "dataitem_name" : "RateValue",
+              "dataitem_value" : "4.2853"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Polish zloty"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Currency",
+              "dataitem_value" : "RON"
+            },
+            {
+              "dataitem_name" : "RateValue",
+              "dataitem_value" : "4.9759"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Romanian leu"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Currency",
+              "dataitem_value" : "RSD"
+            },
+            {
+              "dataitem_name" : "RateValue",
+              "dataitem_value" : "117.04"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Serbian dinar"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Currency",
+              "dataitem_value" : "SEK"
+            },
+            {
+              "dataitem_name" : "RateValue",
+              "dataitem_value" : "11.315"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Swedish Krona"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Currency",
+              "dataitem_value" : "TRY"
+            },
+            {
+              "dataitem_name" : "RateValue",
+              "dataitem_value" : "37.957"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Turkish lira"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "Currency",
+              "dataitem_value" : "UAH"
+            },
+            {
+              "dataitem_name" : "RateValue",
+              "dataitem_value" : "46.154"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Ukrainian hryvnia"
             }
           ]
         }
@@ -353,12 +481,7 @@
   "links" : [
     {
       "rel" : "self",
-      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL048&%24count=10"
-    },
-    {
-      "title" : "Next interval",
-      "rel" : "next",
-      "href" : "?%24start_index=10&%24orderby=snapshotversion+ASC&code_list_code=CL048&%24count=10"
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL048&%24count=100"
     }
   ]
 }

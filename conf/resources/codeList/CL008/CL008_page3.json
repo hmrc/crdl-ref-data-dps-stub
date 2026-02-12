@@ -9,7 +9,45 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BF"
+              "dataitem_value" : "RS"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "20160201"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "20160201"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "094"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "TOC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Serbia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "RU"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -21,7 +59,7 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "236"
+              "dataitem_value" : "075"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -34,20 +72,12 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Burkina Faso"
+              "lang_desc" : "Russian Federation"
             }
           ]
         },
@@ -55,7 +85,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BG"
+              "dataitem_value" : "RW"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -67,7 +97,197 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "068"
+              "dataitem_value" : "324"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Rwanda"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SA"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "632"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Saudi Arabia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SB"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "806"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Solomon Islands"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SC"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "355"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Seychelles"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SD"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "224"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Sudan"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SE"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "030"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -80,20 +300,12 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Bulgaria"
+              "lang_desc" : "Sweden"
             }
           ]
         },
@@ -101,7 +313,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BH"
+              "dataitem_value" : "SG"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -113,7 +325,7 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "640"
+              "dataitem_value" : "706"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -126,20 +338,12 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Bahrain"
+              "lang_desc" : "Singapore"
             }
           ]
         },
@@ -147,7 +351,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BI"
+              "dataitem_value" : "SH"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -159,7 +363,7 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "328"
+              "dataitem_value" : "329"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -172,20 +376,12 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Burundi"
+              "lang_desc" : "Saint Helena, Ascension and Tristan"
             }
           ]
         },
@@ -193,7 +389,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BJ"
+              "dataitem_value" : "SI"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -205,7 +401,121 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "284"
+              "dataitem_value" : "091"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Slovenia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SJ"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "028"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "TOC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Svalbard and Jan Mayen Islands"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SK"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "063"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Slovakia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SL"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "264"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -218,20 +528,12 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Benin"
+              "lang_desc" : "Sierra Leone"
             }
           ]
         },
@@ -239,7 +541,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BL"
+              "dataitem_value" : "SM"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -251,7 +553,45 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "466"
+              "dataitem_value" : "047"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "TOC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "San Marino"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SN"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "248"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -264,20 +604,12 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Saint Barthélemy"
+              "lang_desc" : "Senegal"
             }
           ]
         },
@@ -285,7 +617,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BM"
+              "dataitem_value" : "SO"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -297,7 +629,7 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "413"
+              "dataitem_value" : "342"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -310,20 +642,12 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Bermuda"
+              "lang_desc" : "Somalia"
             }
           ]
         },
@@ -331,7 +655,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BN"
+              "dataitem_value" : "SR"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -343,7 +667,7 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "703"
+              "dataitem_value" : "492"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -356,20 +680,12 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Brunei Darussalam"
+              "lang_desc" : "Suriname"
             }
           ]
         },
@@ -377,7 +693,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BO"
+              "dataitem_value" : "SS"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -389,7 +705,7 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "516"
+              "dataitem_value" : "225"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -402,20 +718,12 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Bolivia, Plurinational State of"
+              "lang_desc" : "South Sudan"
             }
           ]
         },
@@ -423,7 +731,7 @@
           "dataitem" : [
             {
               "dataitem_name" : "CountryCode",
-              "dataitem_value" : "BQ"
+              "dataitem_value" : "ST"
             },
             {
               "dataitem_name" : "TccEntryDate",
@@ -435,7 +743,7 @@
             },
             {
               "dataitem_name" : "GeoNomenclatureCode",
-              "dataitem_value" : "477"
+              "dataitem_value" : "311"
             },
             {
               "dataitem_name" : "CountryRegimeCode",
@@ -448,20 +756,1722 @@
             {
               "dataitem_name" : "RDEntryStatus_activeFrom",
               "dataitem_value" : "01-11-2025"
-            },
-            {
-              "dataitem_name" : "Phase",
-              "dataitem_value" : "P6"
-            },
-            {
-              "dataitem_name" : "Domain",
-              "dataitem_value" : "NCTS"
             }
           ],
           "language" : [
             {
               "lang_code" : "en",
-              "lang_desc" : "Bonaire, Sint Eustatius and Saba"
+              "lang_desc" : "Sao Tome and Principe"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SV"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "428"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "El Salvador"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SX"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "479"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Sint Maarten (Dutch part)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SY"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "608"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Syrian Arab Republic"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "SZ"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "393"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Eswatini"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TC"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "454"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Turks and Caicos Islands"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TD"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "244"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Chad"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TF"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "894"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "French Southern Territories"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TG"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "280"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Togo"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TH"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "680"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Thailand"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TJ"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "082"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Tajikistan"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TK"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "839"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Tokelau"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TL"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "626"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Timor-Leste"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TM"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "080"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Turkmenistan"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TN"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "212"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Tunisia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TO"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "817"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Tonga"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TR"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "052"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "TOC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Türkiye"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TT"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "472"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Trinidad and Tobago"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TV"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "807"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Tuvalu"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TW"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "736"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Taiwan"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "TZ"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "352"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Tanzania, United Republic of"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "UA"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "20221001"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "20221001"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "072"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "TOC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Ukraine"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "UG"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "350"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Uganda"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "UM"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "832"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "United States Minor Outlying Island"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "US"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "400"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "United States"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "UY"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "524"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Uruguay"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "UZ"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "081"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Uzbekistan"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "VA"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "045"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Holy See (the)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "VC"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "467"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Saint Vincent and the Grenadines"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "VE"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "484"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Venezuela (Bolivarian Republic of)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "VG"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "468"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Virgin Islands (British)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "VI"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "457"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Virgin Islands, United States"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "VN"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "690"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Viet Nam"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "VU"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "816"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Vanuatu"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "WF"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "811"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Wallis and Futuna"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "WS"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "819"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Samoa"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "XC"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "021"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Ceuta"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "XI"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "006"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "United Kingdom (Northern Ireland)"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "XK"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "094"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Kosovo"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "XL"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "023"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Melilla"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "XS"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "20160201"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "20160201"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "094"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "TOC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Serbia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "YE"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "653"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Yemen"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "YT"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "377"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "EEC"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Mayotte"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "ZA"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "388"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "South Africa"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "ZM"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "378"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Zambia"
+            }
+          ]
+        },
+        {
+          "dataitem" : [
+            {
+              "dataitem_name" : "CountryCode",
+              "dataitem_value" : "ZW"
+            },
+            {
+              "dataitem_name" : "TccEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "NctsEntryDate",
+              "dataitem_value" : "19000101"
+            },
+            {
+              "dataitem_name" : "GeoNomenclatureCode",
+              "dataitem_value" : "382"
+            },
+            {
+              "dataitem_name" : "CountryRegimeCode",
+              "dataitem_value" : "OTH"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_state",
+              "dataitem_value" : "valid"
+            },
+            {
+              "dataitem_name" : "RDEntryStatus_activeFrom",
+              "dataitem_value" : "01-11-2025"
+            }
+          ],
+          "language" : [
+            {
+              "lang_code" : "en",
+              "lang_desc" : "Zimbabwe"
             }
           ]
         }
@@ -473,17 +2483,12 @@
   "links" : [
     {
       "rel" : "self",
-      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL008&%24count=10"
+      "href" : "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?%24orderby=snapshotversion+ASC&code_list_code=CL008&%24count=100"
     },
     {
       "title" : "Previous interval",
       "rel" : "prev",
-      "href" : "?%24start_index=10&%24orderby=snapshotversion+ASC&code_list_code=CL008&%24count=10"
-    },
-    {
-      "title" : "Next interval",
-      "rel" : "next",
-      "href" : "?%24start_index=30&%24orderby=snapshotversion+ASC&code_list_code=CL008&%24count=10"
+      "href" : "?%24start_index=100&%24orderby=snapshotversion+ASC&code_list_code=CL008&%24count=100"
     }
   ]
 }
