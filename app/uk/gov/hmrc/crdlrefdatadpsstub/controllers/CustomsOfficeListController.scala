@@ -31,8 +31,11 @@ class CustomsOfficeListController @Inject() (
   cc: ControllerComponents
 ) extends BackendController(cc) {
 
-  def getCustomsOfficeList(startIndex: Option[Int]): Action[AnyContent] = Action {
-    implicit request =>
-      Ok(jsonFileReaderService.fetchCustomsOfficeJson(startIndex.getOrElse(0)))
+  def getCustomsOfficeList(
+    startIndex: Option[Int],
+    business_domain_phase: Option[String],
+    business_domain: Option[String]
+  ): Action[AnyContent] = Action { implicit request =>
+    Ok(jsonFileReaderService.fetchCustomsOfficeJson(startIndex.getOrElse(0)))
   }
 }

@@ -38,7 +38,7 @@ class CustomsOfficeListControllerSpec extends AnyWordSpec with Matchers {
 
   "GET /" should {
     "return 200 for a valid request" in {
-      val result = controller.getCustomsOfficeList(None)(fakeRequest)
+      val result = controller.getCustomsOfficeList(None, None, None)(fakeRequest)
       status(result) shouldBe Status.OK
     }
 
@@ -47,7 +47,9 @@ class CustomsOfficeListControllerSpec extends AnyWordSpec with Matchers {
       val controller =
         new CustomsOfficeListController(jsonFileReaderService, Helpers.stubControllerComponents())
       val result = controller.getCustomsOfficeList(
-        Some(0)
+        Some(0),
+        None,
+        None
       )(fakeRequest)
       status(result) shouldBe Status.OK
     }
