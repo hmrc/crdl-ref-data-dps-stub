@@ -1,0 +1,1029 @@
+{
+  "name": "iv_crdl_customs_office",
+  "elements": [
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T01",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T01",
+      "referencenumbercompetentauthorityofrecovery": "GB000T01",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE1 1ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Single Valid Timetable Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "1 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "ALL YEAR",
+          "seasonstartdate": "20250101",
+          "seasonenddate": "20261231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "TRA",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "DES",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "GUA",
+                  "traffictype": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T02",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T02",
+      "referencenumbercompetentauthorityofrecovery": "GB000T02",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE1 2ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Single Past Timetable Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "2 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "PAST SEASON",
+          "seasonstartdate": "20240101",
+          "seasonenddate": "20251231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "INC",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "ENT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "REC",
+                  "traffictype": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T03",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T03",
+      "referencenumbercompetentauthorityofrecovery": "GB000T03",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE1 3ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Single Future Timetable Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "3 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "FUTURE SEASON",
+          "seasonstartdate": "20260201",
+          "seasonenddate": "20271231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EIN",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXC",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "REG",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "ENQ",
+                  "traffictype": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T04",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T04",
+      "referencenumbercompetentauthorityofrecovery": "GB000T04",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE1 4ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Single No Role Timetable Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "4 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "ALL YEAR",
+          "seasonstartdate": "20250101",
+          "seasonenddate": "20261231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "EXP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "SCO",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "ENQ",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "IPR",
+                  "traffictype": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T05",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T05",
+      "referencenumbercompetentauthorityofrecovery": "GB000T05",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE1 5ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Multi Both Valid Timetables Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "5 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "WINTER",
+          "seasonstartdate": "20250101",
+          "seasonenddate": "20260331",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "TRA",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "INC",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "GUA",
+                  "traffictype": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasoncode": "2",
+          "seasonname": "SUMMER",
+          "seasonstartdate": "20260401",
+          "seasonenddate": "20261231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0700",
+              "openinghourstimefirstperiodto": "1800",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "DES",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "ENT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "REC",
+                  "traffictype": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T06",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T06",
+      "referencenumbercompetentauthorityofrecovery": "GB000T06",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE1 6ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Multi Valid And Past Timetables Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "6 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "CURRENT SEASON",
+          "seasonstartdate": "20250101",
+          "seasonenddate": "20261231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EIN",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "PLA",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "ENQ",
+                  "traffictype": "N/A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasoncode": "2",
+          "seasonname": "PAST SEASON",
+          "seasonstartdate": "20240101",
+          "seasonenddate": "20251231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "TRA",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "DES",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "GUA",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "IPR",
+                  "traffictype": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T07",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T07",
+      "referencenumbercompetentauthorityofrecovery": "GB000T07",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE1 7ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Multi Valid And Future Timetables Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "7 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "CURRENT SEASON",
+          "seasonstartdate": "20250101",
+          "seasonenddate": "20261231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "INC",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "ENT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXC",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "RFC",
+                  "traffictype": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasoncode": "2",
+          "seasonname": "FUTURE SEASON",
+          "seasonstartdate": "20260201",
+          "seasonenddate": "20271231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "REG",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "REC",
+                  "traffictype": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T08",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T08",
+      "referencenumbercompetentauthorityofrecovery": "GB000T08",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE1 8ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Multi Valid And No Role Timetables Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "8 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "VALID SEASON WITH ROLE",
+          "seasonstartdate": "20250101",
+          "seasonenddate": "20261231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "TRA",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "GUA",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EIN",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "DES",
+                  "traffictype": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasoncode": "2",
+          "seasonname": "VALID SEASON NO ROLE",
+          "seasonstartdate": "20250101",
+          "seasonenddate": "20261231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "SCO",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "ENQ",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "PLA",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "RFC",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "REG",
+                  "traffictype": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T09",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T09",
+      "referencenumbercompetentauthorityofrecovery": "GB000T09",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE1 9ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Multi Both Invalid Past Future Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "9 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "PAST SEASON",
+          "seasonstartdate": "20240101",
+          "seasonenddate": "20251231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "INC",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "ENT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "PLA",
+                  "traffictype": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasoncode": "2",
+          "seasonname": "FUTURE SEASON",
+          "seasonstartdate": "20260201",
+          "seasonenddate": "20271231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "DEP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "TRA",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXC",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "REC",
+                  "traffictype": "R"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rdentrystatus": {
+        "state": "valid",
+        "activefrom": "01-01-2025"
+      },
+      "referencenumber": "GB000T10",
+      "referencenumbermainoffice": null,
+      "referencenumberhigherauthority": null,
+      "referencenumbercompetentauthorityofenquiry": "GB000T10",
+      "referencenumbercompetentauthorityofrecovery": "GB000T10",
+      "referencenumbertakeover": null,
+      "countrycode": "GB",
+      "emailaddress": "test@gb.test",
+      "unlocodeid": null,
+      "nctsentrydate": null,
+      "nearestoffice": null,
+      "postalcode": "TE2 0ST",
+      "phonenumber": "+44 1234 567890",
+      "faxnumber": null,
+      "telexnumber": null,
+      "geoinfocode": null,
+      "regioncode": null,
+      "traderdedicated": "0",
+      "dedicatedtraderlanguagecode": null,
+      "dedicatedtradername": null,
+      "customsofficespecificnotes": [],
+      "customsofficelsd": [
+        {
+          "customsofficeusualname": "Multi Both Invalid No Roles Office",
+          "languagecode": "EN",
+          "city": "TESTINGTON",
+          "prefixsuffixflag": "0",
+          "prefixsuffixlevel": null,
+          "spacetoadd": "0",
+          "streetandnumber": "10 Test Street"
+        }
+      ],
+      "customsofficetimetable": [
+        {
+          "seasoncode": "1",
+          "seasonname": "FIRST SEASON NO ROLE",
+          "seasonstartdate": "20250101",
+          "seasonenddate": "20261231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "EXP",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "INC",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "SCO",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "ENQ",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "PLA",
+                  "traffictype": "N/A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasoncode": "2",
+          "seasonname": "SECOND SEASON NO ROLE",
+          "seasonstartdate": "20250101",
+          "seasonenddate": "20261231",
+          "customsofficetimetableline": [
+            {
+              "dayintheweekbeginday": "1",
+              "openinghourstimefirstperiodfrom": "0800",
+              "openinghourstimefirstperiodto": "1700",
+              "dayintheweekendday": "5",
+              "openinghourstimesecondperiodfrom": null,
+              "openinghourstimesecondperiodto": null,
+              "customsofficeroletrafficcompetence": [
+                {
+                  "rolename": "TRA",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "EXT",
+                  "traffictype": "R"
+                },
+                {
+                  "rolename": "RFC",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "IPR",
+                  "traffictype": "N/A"
+                },
+                {
+                  "rolename": "DIS",
+                  "traffictype": "N/A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_customs_office/views/iv_crdl_customs_office?%24start_index=20"
+    },
+    {
+      "rel": "prev",
+      "title": "Previous interval",
+      "href": "?%24start_index=10&%24count=10"
+    },
+    {
+      "rel": "next",
+      "title": "Next interval",
+      "href": "?%24start_index=30&%24count=10"
+    }
+  ]
+}
