@@ -1,0 +1,16 @@
+meta {
+  name: Get-InvalidCodelist-Data
+  type: http
+  seq: 9
+}
+
+get {
+  url: http://localhost:7253/crdl-ref-data-dps-stub/iv_crdl_reference_data?code_list_code=GC37&$start_index=20
+  body: none
+  auth: inherit
+}
+
+params:query {
+  code_list_code: GC37
+  $start_index: 20
+}
