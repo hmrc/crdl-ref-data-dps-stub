@@ -77,23 +77,48 @@ This allows the tests to simulate the response of DPS, without having to call on
 
 * Make a new file in `conf/resources/codeList` called `BC03_page1.json`, paste the results here, and you are done!
 
-* In a similar way, if you need to add any additional stub data to the customs office, you can do so following the above mentioned steps. The [***DPS*** API for customs office](https://admin.tax.service.gov.uk/integration-hub/apis/view-specification/312528d6-5c8b-45b4-b8a7-f9b12381f063) can be invoked via:
+* In a similar way, if you need to add any additional stub data to the customs office, you can do so following the above-mentioned steps. The [***DPS*** API for customs office](https://admin.tax.service.gov.uk/integration-hub/apis/view-specification/312528d6-5c8b-45b4-b8a7-f9b12381f063) can be invoked via:
 
   ```shell
   curl -H "Authorization: Basic $(echo -n "$CLIENT_ID:$CLIENT_SECRET" | base64 )" https://admin.qa.tax.service.gov.uk/hip/crdl/views/iv_crdl_customs_office
   ```
 ---
 
+### Scalafmt
+
+Check all project files are formatted as expected as follows:
+
+> `sbt scalafmtCheckAll`
+
+Format `*.sbt` and `project/*.scala` files as follows:
+
+> `sbt scalafmtSbt`
+
+Format all project files as follows:
+
+> `sbt scalafmtAll`
+
+### Tests
+
+Run all unit tests with command:
+
+> `sbt test`
+
+Run all integration tests command:
+
+> `sbt it/test`
+
 ### All tests and checks
 This is an sbt command alias specific to this project. It will run a scala format
 check, run unit tests, run integration tests and produce a coverage report:
+
 > `sbt runAllChecks`
 
 ## Steps to generate code list json files based on EU RD files
 
 ### input/output folder structure
 
-please input files in following structure.
+Please input files in the following structure:
 
 ```
 crdl-ref-data-dps-stub/
