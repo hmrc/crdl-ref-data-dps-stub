@@ -84,9 +84,34 @@ This allows the tests to simulate the response of DPS, without having to call on
   ```
 ---
 
+### Scalafmt
+
+Check all project files are formatted as expected as follows:
+
+> `sbt scalafmtCheckAll`
+
+Format `*.sbt` and `project/*.scala` files as follows:
+
+> `sbt scalafmtSbt`
+
+Format all project files as follows:
+
+> `sbt scalafmtAll`
+
+### Tests
+
+Run all unit tests with command:
+
+> `sbt test`
+
+Run all integration tests command:
+
+> `sbt it/test`
+
 ### All tests and checks
 This is an sbt command alias specific to this project. It will run a scala format
 check, run unit tests, run integration tests and produce a coverage report:
+
 > `sbt runAllChecks`
 
 ## Steps to generate code list json files based on EU RD files
