@@ -17,15 +17,15 @@ lazy val microservice = Project("crdl-ref-data-dps-stub", file("."))
   )
 
 libraryDependencies ++= Seq(
-  "co.fs2" %% "fs2-io" % "3.12.2",
-  "org.gnieh" %% "fs2-data-xml" % "1.12.0",
-  "org.gnieh" %% "fs2-data-xml-scala" % "1.12.0",
-  "org.typelevel" %% "cats-core" % "2.13.0",
-  "org.typelevel" %% "cats-effect" % "3.6.3",
-  "io.circe" %% "circe-core" % "0.14.15",
-  "io.circe" %% "circe-generic" % "0.14.15",
-  "io.circe" %% "circe-parser" % "0.14.15",
-  "org.scala-lang.modules" %% "scala-xml" % "2.4.0"
+  "co.fs2"                 %% "fs2-io"             % "3.12.2",
+  "org.gnieh"              %% "fs2-data-xml"       % "1.12.0",
+  "org.gnieh"              %% "fs2-data-xml-scala" % "1.12.0",
+  "org.typelevel"          %% "cats-core"          % "2.13.0",
+  "org.typelevel"          %% "cats-effect"        % "3.6.3",
+  "io.circe"               %% "circe-core"         % "0.14.15",
+  "io.circe"               %% "circe-generic"      % "0.14.15",
+  "io.circe"               %% "circe-parser"       % "0.14.15",
+  "org.scala-lang.modules" %% "scala-xml"          % "2.4.0"
 )
 
 lazy val it = project
