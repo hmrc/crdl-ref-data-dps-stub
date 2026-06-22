@@ -25,7 +25,7 @@ import javax.inject.Inject
 import scala.util.control.NonFatal
 
 class JsonFileReaderService @Inject() (fileReader: FileReader) {
-  def pageIndexFor(startIndex: Int) = (startIndex / 10) + 1
+  def pageIndexFor(startIndex: Int) = (startIndex / 50) + 1
 
   def fetchCodeListJson(
     codeListCode: CodeListCode,
