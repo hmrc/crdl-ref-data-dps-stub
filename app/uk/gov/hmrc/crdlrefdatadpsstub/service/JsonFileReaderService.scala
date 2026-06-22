@@ -25,20 +25,21 @@ import javax.inject.Inject
 import scala.util.control.NonFatal
 
 class JsonFileReaderService @Inject() (fileReader: FileReader) {
-  def pageIndexFor(startIndex: Int) = (startIndex / 10) + 1
+  def pageIndexForCL(startIndex: Int)  = (startIndex / 10) + 1
+  def pageIndexForCOL(startIndex: Int) = (startIndex / 50) + 1
 
   def fetchCodeListJson(
     codeListCode: CodeListCode,
     startIndex: Int
   ) = fetchResponseJson(
-    s"resources/codeList/${codeListCode.codeListCode}/${codeListCode.codeListCode}_page${pageIndexFor(startIndex)}.json",
+    s"resources/codeList/${codeListCode.codeListCode}/${codeListCode.codeListCode}_page${pageIndexForCL(startIndex)}.json",
     "resources/codeList/EmptyPage.json"
   )
 
   def fetchCustomsOfficeJson(
     startIndex: Int
   ) = fetchResponseJson(
-    s"resources/col/COL_page${pageIndexFor(startIndex)}.json",
+    s"resources/col/COL_page${pageIndexForCOL(startIndex)}.json",
     "resources/col/EmptyPage.json"
   )
 

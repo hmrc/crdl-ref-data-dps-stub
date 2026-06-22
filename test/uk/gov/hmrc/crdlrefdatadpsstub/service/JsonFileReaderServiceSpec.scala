@@ -102,7 +102,7 @@ class JsonFileReaderServiceSpec extends AnyWordSpec with Matchers with BeforeAnd
       val page3Path = "resources/col/COL_page3.json"
       when(mockFileReader.read(page3Path)).thenReturn(validJson)
       val service = new JsonFileReaderService(mockFileReader)
-      val result  = service.fetchCustomsOfficeJson(startIndex = 20)
+      val result  = service.fetchCustomsOfficeJson(startIndex = 100)
       result shouldBe Json.parse(validJson)
     }
 
