@@ -1,0 +1,53 @@
+{
+  "name": "iv_crdl_reference_data",
+  "elements": [
+    {
+      "code_list_code": "HMRCBC66",
+      "code_list_name": "HMRCExciseProductsCategory",
+      "rdentry": [
+        {
+          "dataitem": [
+            {
+              "dataitem_name": "ExciseProductsCategoryCode",
+              "dataitem_value": "V"
+            },
+            {
+              "dataitem_name": "Action_Operation",
+              "dataitem_value": "U"
+            },
+            {
+              "dataitem_name": "Action_ActivationDate",
+              "dataitem_value": "05-06-2026"
+            },
+            {
+              "dataitem_name": "Action_ActionIdentification",
+              "dataitem_value": "1081"
+            },
+            {
+              "dataitem_name": "Action_ResponsibleDataManager",
+              "dataitem_value": null
+            },
+            {
+              "dataitem_name": "Action_ModificationDateAndTime",
+              "dataitem_value": "05-06-2026 14:07:35"
+            }
+          ],
+          "language": [
+            {
+              "lang_code": "en",
+              "lang_desc": "Vaping Products"
+            }
+          ]
+        }
+      ],
+      "languagecode": "EN",
+      "snapshotversion": 1
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://vdp.nonprod.denodo.hip.ns2n.corp.hmrc.gov.uk:9443/server/central_reference_data_library/ws_iv_crdl_reference_data/views/iv_crdl_reference_data?code_list_code=HMRCBC66"
+    }
+  ]
+}
