@@ -113,6 +113,9 @@ enum CodeListCode(val codeListCode: String) {
   case CL752 extends CodeListCode("CL752")
   case CL754 extends CodeListCode("CL754")
   case E200  extends CodeListCode("E200")
+  case HMRCBC36 extends CodeListCode("HMRCBC36")
+  case HMRCBC37 extends CodeListCode("HMRCBC37")
+  case HMRCE200 extends CodeListCode("HMRCE200")
 }
 
 object CodeListCode {
