@@ -1,0 +1,16 @@
+meta {
+  name: Get-ValidCodelist-Data-With-Invalid-Start-Index
+  type: http
+  seq: 10
+}
+
+get {
+  url: http://localhost:7253/crdl-ref-data-dps-stub/iv_crdl_reference_data?code_list_code=CL239&$start_index=invalid string
+  body: none
+  auth: inherit
+}
+
+params:query {
+  code_list_code: CL239
+  $start_index: invalid string
+}
